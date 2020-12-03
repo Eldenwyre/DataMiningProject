@@ -1,0 +1,101 @@
+There are 3 rows without missing values.
+This means there is a ratio of 0.00298804780876494 complete rows.
+
+
+location has 386 unique values
+It has 1002 nonmissing entries. (99.800796812749%)
+
+state has 47 unique values
+It has 1003 nonmissing entries. (99.9003984063745%)
+   These values are: ['Pennsylvania', 'Rhodes Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Virginia', 'Vermont', 'Washington', 'Wisconsin', 'West Virginia', 'Wyoming', 'Alaska', 'Arkansas', 'Arizona', 'California', 'Colorado', 'Connecticut', 'District of Columbia', 'Delaware', 'Georgia', 'Hawaii', 'Illinois', 'Indiana', 'Kentucky', 'Louisiana', 'Massachusetts', 'Maryland', 'Michigan', 'Missouri', 'Mississippi', 'North Carolina', 'New Hampshire', 'New Jersey', 'New Mexico', 'Nevada', '?', 'New York', 'Ohio', 'Oregon', 'Alabama', 'Florida', 'Iowa', 'Idaho', 'Kansas', 'Maine']
+
+checking_amt has 556 unique values
+It has 1000 nonmissing entries. (99.60159362549801%)
+
+duration has 34 unique values
+It has 911 nonmissing entries. (90.73705179282868%)
+   These values are: ['6', '48', '12', '42', '24', '36', '30', '15', '?', '10', '7', '60', '18', '45', '9', '11', '27', '8', '54', '20', '33', '21', '16', '4', '14', '13', '22', '39', '28', '5', '26', '72', '40', nan]
+
+credit_history has 7 unique values
+It has 913 nonmissing entries. (90.93625498007968%)
+   These values are: ["'critical/other existing credit'", "'existing paid'", "'delayed previously'", '?', "'no credits/all paid'", "'all paid'", nan]
+
+purpose has 11 unique values
+It has 899 nonmissing entries. (89.5418326693227%)
+   These values are: ['radio/tv', 'education', 'furniture/equipment', '?', "'used car'", "'new car'", 'business', "'domestic appliance'", 'repairs', 'other', 'retraining']
+
+credit_amount has 829 unique values
+It has 889 nonmissing entries. (88.54581673306772%)
+
+savings has 424 unique values
+It has 1000 nonmissing entries. (99.60159362549801%)
+
+employment has 6 unique values
+It has 893 nonmissing entries. (88.94422310756973%)
+   These values are: ['>=7', '1<=X<4', '4<=X<7', '?', 'unemployed', '<1']
+
+installment_commitment has 5 unique values
+It has 891 nonmissing entries. (88.74501992031873%)
+   These values are: ['?', '2', '3', '4', '1']
+
+personal_status has 5 unique values
+It has 906 nonmissing entries. (90.2390438247012%)
+   These values are: ["'male single'", "'female div/dep/mar'", "'male div/sep'", "'male mar/wid'", '?']
+
+other_parties has 4 unique values
+It has 883 nonmissing entries. (87.94820717131473%)
+   These values are: ['none', '?', 'guarantor', "'co applicant'"]
+
+residence_since has 5 unique values
+It has 887 nonmissing entries. (88.34661354581674%)
+   These values are: ['4', '2', '?', '1', '3']
+
+property_magnitude has 5 unique values
+It has 907 nonmissing entries. (90.33864541832669%)
+   These values are: ["'real estate'", '?', "'life insurance'", "'no known property'", 'car']
+
+age has 60 unique values
+It has 895 nonmissing entries. (89.14342629482071%)
+
+other_payment_plans has 4 unique values
+It has 913 nonmissing entries. (90.93625498007968%)
+   These values are: ['none', '?', 'bank', 'stores']
+
+housing has 4 unique values
+It has 883 nonmissing entries. (87.94820717131473%)
+   These values are: ['own', '?', "'for free'", 'rent']
+
+existing_credits has 5 unique values
+It has 922 nonmissing entries. (91.83266932270917%)
+   These values are: ['2', '1', '?', '3', '4']
+
+job has 5 unique values
+It has 913 nonmissing entries. (90.93625498007968%)
+   These values are: ['skilled', "'unskilled resident'", "'high qualif/self emp/mgmt'", '?', "'unemp/unskilled non res'"]
+
+num_dependents has 7 unique values
+It has 908 nonmissing entries. (90.43824701195219%)
+   These values are: ['1', '2', '?', '2000000000', '1234556', '-1234533', '-98988855']
+
+own_telephone has 3 unique values
+It has 883 nonmissing entries. (87.94820717131473%)
+   These values are: ['yes', 'none', '?']
+
+foreign_worker has 12 unique values
+It has 1000 nonmissing entries. (99.60159362549801%)
+   These values are: ['n', 'N', 'no', 'NO', 'yes', 'No', 'Yes', 'YES', '1', 'Y', 'y', '?']
+
+class has 8 unique values
+It has 1000 nonmissing entries. (99.60159362549801%)
+   These values are: ['bad', 'B', 'Bad', 'Good', 'good', 'G', 'GOOD', '?']
+
+verified has 3 unique values
+It has 5 nonmissing entries. (0.49800796812749004%)
+   These values are: ['?', 'yes', 'no']
+
+application_date has 1004 unique values
+It has 1004 nonmissing entries. (100.0%)
+
+works_outside_US has 10 unique values
+It has 1000 nonmissing entries. (99.60159362549801%)
+   These values are: ['N', 'n', 'no', 'NO', 'yes', 'YES', '1', 'Y', 'y', '?']
