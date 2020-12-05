@@ -4,6 +4,7 @@ This means there is a ratio of 0.00298804780876494 complete rows.
 
 location has 386 unique values
 It has 1002 nonmissing entries. (99.800796812749%)
+Nominal Data suspected, but with high counts.
 
 state has 47 unique values
 It has 1003 nonmissing entries. (99.9003984063745%)
@@ -11,6 +12,8 @@ It has 1003 nonmissing entries. (99.9003984063745%)
 
 checking_amt has 556 unique values
 It has 1000 nonmissing entries. (99.60159362549801%)
+Suspected numerical data. Lowest 5 numbers [-9972.01, -9963.11, -9898.01, -9881.63, -9858.79]. Highest 5 numbers [9099.65, 9351.05, 9437.28, 9492.3, 9712.82]
+It also contains the following strings (possibly erroneous?): ['?']
 
 duration has 34 unique values
 It has 911 nonmissing entries. (90.73705179282868%)
@@ -26,9 +29,13 @@ It has 899 nonmissing entries. (89.5418326693227%)
 
 credit_amount has 829 unique values
 It has 889 nonmissing entries. (88.54581673306772%)
+Suspected numerical data. Lowest 5 numbers [250.0, 276.0, 338.0, 339.0, 343.0]. Highest 5 numbers [14896.0, 15653.0, 15672.0, 15857.0, 18424.0]
+It also contains the following strings (possibly erroneous?): ['?']
 
 savings has 424 unique values
 It has 1000 nonmissing entries. (99.60159362549801%)
+Suspected numerical data. Lowest 5 numbers [0.0, 0.75, 1.11, 1.28, 1.47]. Highest 5 numbers [7709.45, 7895.35, 8297.56, 8629.45, 9298.08]
+It also contains the following strings (possibly erroneous?): ['?']
 
 employment has 6 unique values
 It has 893 nonmissing entries. (88.94422310756973%)
@@ -56,6 +63,8 @@ It has 907 nonmissing entries. (90.33864541832669%)
 
 age has 60 unique values
 It has 895 nonmissing entries. (89.14342629482071%)
+Suspected numerical data. Lowest 5 numbers [-3435.0, -32.0, 19.0, 20.0, 21.0]. Highest 5 numbers [75.0, 2309.0, 534534.0, 5445631.0, 12334539.0]
+It also contains the following strings (possibly erroneous?): ['?']
 
 other_payment_plans has 4 unique values
 It has 913 nonmissing entries. (90.93625498007968%)
@@ -95,6 +104,7 @@ It has 5 nonmissing entries. (0.49800796812749004%)
 
 application_date has 1004 unique values
 It has 1004 nonmissing entries. (100.0%)
+Nominal Data suspected, but with high counts.
 
 works_outside_US has 10 unique values
 It has 1000 nonmissing entries. (99.60159362549801%)
