@@ -8,7 +8,7 @@ from datamining import cleandata
 def first_clean() -> None:
     """Initial cleaning, very basic"""
     INFILE = "credit.csv"
-    OUTFILE = "output/clean2.csv"
+    OUTFILE = "output/clean.csv"
 
     # Build Dataframe
     df: pd.DataFrame = pd.read_csv(INFILE)
@@ -47,6 +47,9 @@ def first_clean() -> None:
     # [0,1000] since nobody will have negative dependents and 1000 is ~10% higher than the highest number of recorded children had by a single person
     df["num_dependents"] = cleandata.bounding(df['num_dependents'],lower_bound=0,upper_bound=1000,replace_with="?",missing_values='?',ignore_missing=True)
 
+    for h in df.columns:
+        df[h] = np.where(df[h] == "?",np.nan,df[h])
+
     # Output from dataframe into outfile
     df.to_csv(OUTFILE, index=False)
 
@@ -62,10 +65,14 @@ def binned_clean() -> None:
     df: pd.DataFrame = pd.read_csv(INFILE)
 
     # Bin all of the numerical data
-
+    df['checking_amt'] = pd.cut(x=df['checking_amt'],bins=pd.IntervalIndex.from_tuples([(-10000, -1000), (-1000, -0.01), (-0.01, 0.01),(0.01,1000),(1000,10000)]),labels=True)
+    df['duration'] = pd.cut(x=df['duration'],bins=pd.IntervalIndex.from_tuples([(0, 12), (12, 24), (24, 36),(36,48),(48,60),(60,72)]),labels=True)
+    df['credit_amount'] = pd.cut(x=df['credit_amount'],bins=pd.IntervalIndex.from_tuples([(200,500),(500,1000), (1000, 2500), (2500, 5000),(5000,7500),(7500,10000),(10000,12500),(12500,15000),(15000,20000)]),labels=True)
+    df['savings'] = pd.cut(x=df['savings'],bins=pd.IntervalIndex.from_tuples([(0, 0.01), (0.01, 100), (100, 500),(500,1000),(1000,2500),(2500,5000),(5000,7500),(7500,10000)],closed="left"),labels=True)
+    df['age'] = pd.cut(x=df['age'],bins=pd.IntervalIndex.from_tuples([(0, 10), (10, 20), (20, 30),(30,40),(40,50),(50,60),(60,70),(70,80),(80,90),(100,140)]),labels=True)
 
     # Output from dataframe into outfile
-    df.to_csv(OUTFILE)
+    df.to_csv(OUTFILE,index=False)
 
     return
 
@@ -83,7 +90,7 @@ def normalized_clean() -> None:
         df[h] = cleandata.normalize(df[h])
 
     # Output from dataframe into outfile
-    df.to_csv(OUTFILE)
+    df.to_csv(OUTFILE,index=False)
 
     return 
 
