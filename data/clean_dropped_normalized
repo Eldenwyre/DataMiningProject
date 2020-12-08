@@ -1,0 +1,1001 @@
+state,checking_amt,credit_history,purpose,credit_amount,savings,employment,personal_status,other_parties,property_magnitude,other_payment_plans,housing,own_telephone,foreign_worker,class,works_outside_US
+Pennsylvania,0.3750512450450422,'critical/other existing credit',radio/tv,,0.0,>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Pennsylvania,0.5093018329342951,'existing paid',radio/tv,0.31368988665126,0.0002710236952144959,1<=X<4,'female div/dep/mar',none,,none,own,none,no,bad,no
+Pennsylvania,0.5065834960220637,'critical/other existing credit',education,0.10157367668097282,0.0,4<=X<7,'male single',,'real estate',none,,none,no,bad,no
+Pennsylvania,0.2680338108076117,'existing paid',furniture/equipment,0.4199405744470122,0.00991064821984754,4<=X<7,'male single',guarantor,'life insurance',none,'for free',,no,bad,no
+Pennsylvania,0.021936181313224418,'delayed previously',,0.25420931000330144,0.00428152908987662,1<=X<4,'male single',none,'no known property',none,'for free',none,no,good,no
+Pennsylvania,0.5065834960220637,'existing paid',education,0.4844833278309673,0.0,1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Pennsylvania,0.5065834960220637,'existing paid',,0.14223616154946628,0.0,>=7,'male single',none,'life insurance',none,,none,no,good,no
+Pennsylvania,0.5085200126188543,,'used car',0.3685484758446132,0.0022251905769793334,1<=X<4,'male single',none,car,none,,yes,yes,bad,yes
+Pennsylvania,0.5065834960220637,'existing paid',radio/tv,0.15456146142841426,0.0,,'male div/sep',none,'real estate',none,own,none,yes,good,yes
+Rhodes Island,0.5117554990314876,'critical/other existing credit','new car',0.27423792230659183,0.009210503673876758,unemployed,'male mar/wid',none,car,none,own,none,no,bad,no
+South Carolina,0.5132256666681907,'existing paid','new car',0.057499724881699125,0.010729096759761155,<1,'female div/dep/mar',none,car,,rent,none,yes,bad,yes
+South Carolina,0.4074802779602363,'existing paid',business,0.2232860129855838,0.00747573692633318,<1,'female div/dep/mar',none,'life insurance',none,rent,none,yes,good,yes
+South Carolina,0.5073516001916196,'existing paid',radio/tv,0.07246616044899308,0.009593378417909934,,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+South Carolina,0.5065834960220637,'critical/other existing credit','new car',0.05221745350500715,0.0,>=7,'male single',none,car,none,own,none,no,good,no
+South Carolina,0.2016420766651274,'existing paid','new car',0.06344228018047761,0.004528891986302549,1<=X<4,,none,car,none,rent,none,yes,good,yes
+South Carolina,0.4665719744595202,'existing paid',radio/tv,0.05678441729943876,0.0265646240944367,,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+South Carolina,0.5065834960220637,'critical/other existing credit',radio/tv,0.11962143721800375,0.0,,'male single',none,'life insurance',none,own,none,yes,good,yes
+South Carolina,0.026982706988071502,'no credits/all paid',business,0.4303950698800485,0.0,<1,'male single',none,car,bank,own,none,yes,bad,yes
+South Carolina,0.5098799430830746,'existing paid','used car',,0.00028608056717085686,>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,bad,yes
+South Carolina,0.5065834960220637,,radio/tv,0.17497523935292175,0.0,>=7,'male single',,car,none,own,yes,yes,bad,yes
+South Carolina,0.5065834960220637,'critical/other existing credit','new car',0.10366457576758006,0.0,1<=X<4,'male single',none,car,none,own,yes,yes,good,yes
+South Carolina,0.4626659209147348,'existing paid',radio/tv,0.1318917134367778,0.07983476158518747,1<=X<4,'male single',none,'real estate',none,rent,none,yes,good,yes
+South Carolina,0.21547099974955333,'critical/other existing credit','new car',0.10955210740618468,0.004429946827732178,,'male single',,'real estate',none,rent,none,yes,bad,yes
+South Carolina,0.5119002805713841,'critical/other existing credit','used car',0.08550676791020137,0.0472086710374615,<1,'male single',none,,none,own,,yes,good,yes
+South Carolina,0.5065834960220637,'critical/other existing credit',,0.1000880378562782,0.0,1<=X<4,'male mar/wid',none,car,none,own,none,yes,bad,yes
+South Carolina,0.5065834960220637,'existing paid',furniture/equipment,,0.0,1<=X<4,'male single',none,'real estate',bank,own,yes,no,good,no
+South Carolina,0.5065834960220637,'no credits/all paid',radio/tv,0.009684164190601958,0.0,,'male mar/wid',none,car,none,own,none,no,good,no
+South Carolina,0.6375020764720853,'all paid',radio/tv,0.008748761967646087,0.2795878288851032,1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,no,good,no
+South Carolina,0.515957719726307,'existing paid',radio/tv,0.11912622427643887,0.007231600502469327,1<=X<4,'male single',guarantor,'real estate',none,own,none,no,good,no
+South Carolina,0.3298484162677554,'delayed previously',business,0.3623858259051392,0.002887692943059213,>=7,'male single',none,'no known property',,own,yes,yes,good,yes
+South Carolina,0.5065834960220637,'existing paid',business,0.09150434686915374,0.0,,'male mar/wid',,'real estate',bank,own,yes,no,good,no
+South Carolina,0.24892061551966665,'existing paid',furniture/equipment,0.20743919885550788,0.0013486655309483248,,'male single',none,car,stores,own,none,yes,good,yes
+South Carolina,0.5099348076666143,'existing paid','new car',0.3090128755364807,0.028513413521931413,1<=X<4,'male single',none,car,none,own,yes,no,bad,no
+South Dakota,0.5065834960220637,'critical/other existing credit',business,0.055793991416309016,0.0,,'male single',none,,none,rent,,yes,bad,yes
+South Dakota,0.5563014768225075,'existing paid',furniture/equipment,,0.004446079190542564,<1,'female div/dep/mar',none,'life insurance',bank,,,yes,good,yes
+Tennessee,0.5148639840933348,'critical/other existing credit',radio/tv,0.2473863761417409,0.0,<1,'male single',none,'life insurance',none,own,none,no,good,no
+Tennessee,0.5065834960220637,'critical/other existing credit',education,0.3224386486189061,0.0,1<=X<4,'male single',none,'no known property',bank,'for free',,yes,good,yes
+Tennessee,0.8609721292995671,'existing paid',radio/tv,0.10179377132166832,0.0005044052105380897,,'male single','co applicant','real estate',stores,own,none,yes,bad,yes
+Tennessee,0.7904924756779712,'existing paid','domestic appliance',0.0536480686695279,0.0,1<=X<4,'male single',none,car,none,own,yes,yes,good,yes
+Tennessee,0.5090097298274864,'existing paid',radio/tv,0.011444921316165951,0.0,1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Tennessee,0.5065834960220637,'existing paid',radio/tv,0.11461428414218115,0.0,,'male single',none,car,bank,own,none,no,good,no
+Tennessee,0.5142198332421463,'existing paid',radio/tv,0.04996148343787829,0.0,1<=X<4,'male div/sep',none,car,none,own,yes,no,bad,no
+Tennessee,0.5146577338996577,'delayed previously',repairs,0.32761087267525035,0.002625273174676923,1<=X<4,'male single',none,'real estate',none,own,,yes,good,yes
+Tennessee,0.4601990466770605,,'used car',0.3266754704522945,0.02410175003871767,4<=X<7,'male mar/wid',none,car,none,rent,none,yes,bad,yes
+Tennessee,0.06974253778163188,'critical/other existing credit','used car',0.324254429404644,0.0015250460310085525,>=7,'female div/dep/mar',none,'no known property',stores,'for free',none,yes,bad,yes
+Tennessee,0.5065834960220637,,'new car',0.06289204357873886,0.0,<1,'female div/dep/mar',none,car,none,own,none,no,good,no
+Tennessee,0.5065834960220637,,radio/tv,,0.0,>=7,'male single',none,car,none,own,none,yes,good,yes
+Tennessee,0.4236983504556554,'existing paid','used car',,0.0,unemployed,'female div/dep/mar',none,,none,rent,yes,yes,bad,yes
+Texas,0.5065834960220637,'critical/other existing credit','new car',0.3839551006932981,0.0,1<=X<4,'male single',none,'life insurance',none,,none,no,good,no
+Texas,0.5065834960220637,,radio/tv,0.10030813249697368,0.0,,'female div/dep/mar','co applicant','real estate',none,own,none,no,good,no
+Texas,0.5150179097304879,'delayed previously',furniture/equipment,0.11461428414218115,0.0,<1,'male single',none,,bank,own,none,yes,good,yes
+Texas,0.5157575655974677,,'used car',0.3144602178936943,0.00459234594669007,>=7,'male single',none,car,none,own,yes,no,bad,no
+Texas,0.5065834960220637,'existing paid',radio/tv,0.05568394409596127,0.0,1<=X<4,'male single',none,car,none,own,none,no,good,no
+Texas,0.5065834960220637,'existing paid','used car',0.17211400902388027,0.0,1<=X<4,'male single',none,,none,own,yes,no,good,no
+Texas,0.5130534528365244,'delayed previously','new car',0.10867172884340266,0.004474041952747234,>=7,'male single',none,'no known property',bank,'for free',,yes,good,yes
+Texas,0.5065834960220637,'all paid','new car',0.02932761087267525,0.0,,'male single',guarantor,'real estate',,own,none,yes,good,yes
+Texas,0.5123828857043723,'existing paid',radio/tv,0.3421371189611533,0.0,unemployed,,none,'no known property',none,own,yes,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',radio/tv,0.5126004181798173,0.0,1<=X<4,'female div/dep/mar',,car,,own,none,no,bad,no
+Texas,0.670946104182764,,'new car',0.09414548255749973,0.0070294082219124815,,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Texas,0.0,'critical/other existing credit',furniture/equipment,0.3289864641795972,0.0038502572574122826,<1,'female div/dep/mar','co applicant','no known property',none,rent,,yes,good,yes
+Texas,0.5104158887833931,'existing paid',business,0.0627819962583911,0.0070046719322698885,1<=X<4,'male mar/wid',,'real estate',bank,own,yes,yes,good,yes
+Texas,0.5146404617159508,'critical/other existing credit',radio/tv,0.07081545064377683,0.0,>=7,'male single',guarantor,'real estate',none,own,yes,yes,bad,yes
+Texas,0.5149041165201833,'no credits/all paid',business,0.09370529327610873,0.008424319859583914,>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,0.5136869355742467,'no credits/all paid',business,0.7797402883239793,0.0027521810954519643,1<=X<4,'male single',none,car,none,own,yes,no,good,no
+Texas,0.5065834960220637,'existing paid',radio/tv,0.16127434796962695,0.0,<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+Texas,0.5065834960220637,'existing paid',repairs,0.2718168812589413,0.0,>=7,'male single',none,'life insurance',none,own,yes,yes,bad,yes
+Texas,0.5065834960220637,'existing paid',radio/tv,0.10570045119401343,0.0,,'female div/dep/mar',,car,bank,own,none,no,bad,no
+Texas,0.5096046041545698,'existing paid','new car',0.0416529107516232,0.0,1<=X<4,'male mar/wid',,'real estate',none,own,none,yes,bad,yes
+Texas,0.5065834960220637,'existing paid',,0.08633212281280951,0.0,1<=X<4,'male single',none,'no known property',stores,'for free',yes,yes,good,yes
+Texas,0.5065834960220637,'existing paid',radio/tv,0.1179707274127875,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Texas,0.5065834960220637,'existing paid','used car',0.4337515131506548,0.0,,'female div/dep/mar',none,'life insurance',,own,,no,bad,no
+Texas,0.5065834960220637,'critical/other existing credit',radio/tv,0.02641135688345989,0.0,>=7,'male single',none,'life insurance',none,rent,yes,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',other,0.050291625398921534,0.0,>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+Texas,0.5065834960220637,,business,0.3138549576317817,0.0,4<=X<7,'female div/dep/mar',none,'real estate',bank,own,none,yes,bad,yes
+Texas,0.4953647046989991,'existing paid',education,0.09502586112028172,0.0,>=7,'male single',none,'no known property',none,,yes,yes,bad,yes
+Texas,0.19509541103479172,'critical/other existing credit','used car',0.0702101903818642,0.005758178032454012,>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Texas,0.5065834960220637,'existing paid',,,0.0,<1,'male single',none,car,none,,none,yes,bad,yes
+Texas,0.5147222505858572,'delayed previously',radio/tv,0.24876196764608785,0.0,4<=X<7,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Texas,0.5065834960220637,'no credits/all paid',,0.5054473423572136,0.0,1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+Texas,0.5147725431207686,'existing paid',furniture/equipment,0.1970947507428194,0.0009346015521484004,<1,'male mar/wid',,'life insurance',none,own,,yes,good,yes
+Texas,0.5065834960220637,'existing paid',radio/tv,,0.0,<1,'female div/dep/mar',none,car,,own,yes,no,good,no
+Texas,0.5065834960220637,'existing paid',radio/tv,0.0529877847474414,0.0,,'male single',none,'life insurance',stores,,yes,yes,good,yes
+Texas,0.5065834960220637,'existing paid',business,,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',none,rent,none,no,bad,no
+Texas,0.20795302778840355,'existing paid',other,0.08281060856168153,0.01055701822311703,>=7,'female div/dep/mar',guarantor,'real estate',none,own,,yes,good,yes
+Texas,0.4156703410697476,'existing paid',radio/tv,0.1136238582590514,0.0035243835286424725,>=7,'male single',,'real estate',none,own,none,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',business,0.06393749312204247,0.0,1<=X<4,'female div/dep/mar',guarantor,'real estate',none,own,,yes,good,yes
+Texas,0.5109391343486329,'critical/other existing credit',,0.057499724881699125,0.0,,'female div/dep/mar',none,,none,own,none,yes,good,yes
+Texas,0.5136056547097434,'existing paid',education,0.6802024870694399,0.04713231118682567,,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,0.5065834960220637,'existing paid','new car',0.10999229668757564,0.0,4<=X<7,'male single',none,,none,own,yes,no,good,no
+Texas,0.036974157257136576,'no credits/all paid',repairs,0.04721030042918455,0.0006173317502107963,4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',radio/tv,0.020248706943985915,0.0,>=7,'male single',none,,none,own,none,no,bad,no
+Texas,0.4721707020075866,,'used car',0.06377242214152086,0.00017853148176827903,>=7,'male single',none,'real estate',none,own,none,no,good,no
+Utah,0.5065834960220637,'critical/other existing credit',radio/tv,0.030097942115109494,0.0,>=7,'female div/dep/mar',none,'life insurance',bank,own,none,yes,good,yes
+Utah,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.18526466380543632,0.0,>=7,'male single',,'no known property',none,rent,none,yes,bad,yes
+Virginia,0.5088969526279882,'existing paid','new car',0.05876526906569825,0.6439512243387883,>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Virginia,0.5148807482716385,'no credits/all paid',business,,0.009636398052070965,<1,'male single',none,'no known property',none,,yes,yes,good,yes
+Virginia,0.5065834960220637,'critical/other existing credit',education,0.09695168922636734,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,none,no,good,no
+Virginia,0.5068049863778351,'existing paid',business,0.13051612193243095,0.017978980606748917,1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+Virginia,0.5066256604705247,'critical/other existing credit',radio/tv,,0.003952428888544732,>=7,'male single',none,'real estate',none,own,none,no,good,no
+Virginia,0.5097539577430945,'delayed previously','used car',0.3745460548035655,0.0,4<=X<7,'male single',none,'life insurance',bank,rent,yes,yes,good,yes
+Virginia,0.5065834960220637,'existing paid','new car',0.06707384175195334,0.0,>=7,'male mar/wid',none,'real estate',none,rent,none,yes,bad,yes
+Virginia,0.5164509929727612,'existing paid',radio/tv,0.1140640475404424,0.0,4<=X<7,'male single',none,car,none,rent,none,yes,bad,yes
+Virginia,0.5065834960220637,,radio/tv,0.037526136238582586,0.0,1<=X<4,'female div/dep/mar',none,,none,,none,yes,good,yes
+Virginia,0.5102721232543029,'critical/other existing credit',furniture/equipment,0.091834488830197,0.0,4<=X<7,'male single',,car,none,,yes,yes,good,yes
+Virginia,0.5065834960220637,'existing paid','used car',0.12077693408165513,0.0,<1,'male mar/wid',none,car,none,rent,yes,no,good,no
+Virginia,0.5142157691989212,'critical/other existing credit',other,0.6431165401122483,0.002167114070861941,1<=X<4,'male single','co applicant',car,,own,yes,yes,bad,yes
+Virginia,0.5065834960220637,'all paid','new car',0.3415868823594145,0.0,>=7,'male single',none,'no known property',bank,own,yes,no,good,no
+Virginia,0.5131865502521484,'existing paid','new car',0.3206778914933421,0.0054140209591657645,4<=X<7,'male single',none,car,none,,none,no,good,no
+Virginia,0.4680909106149253,'existing paid',furniture/equipment,0.4110817651590184,0.0,<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+Virginia,0.5094227382202436,'existing paid',business,0.06382744580169472,0.05912510970006711,>=7,'male mar/wid',,'real estate',none,own,yes,yes,good,yes
+Virginia,0.5106653194363375,'delayed previously',,0.06597336854847584,0.028582244936589063,>=7,,none,car,bank,own,none,no,good,no
+Virginia,0.5065834960220637,'existing paid',education,0.007813359744690216,0.0,<1,'female div/dep/mar',none,'life insurance',none,,yes,yes,good,yes
+Virginia,0.5106836076308506,'existing paid','new car',0.33069219764498736,0.0073369986061638534,4<=X<7,'male single',none,,none,rent,none,no,bad,no
+Virginia,0.5065834960220637,'critical/other existing credit','new car',0.4184549356223176,0.0,1<=X<4,'female div/dep/mar',none,'real estate',stores,own,yes,yes,good,yes
+Virginia,0.5065834960220637,'existing paid',radio/tv,,0.0,>=7,'male mar/wid',none,'real estate',none,own,none,no,bad,no
+Virginia,0.5065834960220637,,radio/tv,,0.0,>=7,'male single',none,'real estate',none,own,yes,no,good,no
+Vermont,0.10576012086464552,'existing paid',radio/tv,0.3809838230439089,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Vermont,0.4909308335403455,'critical/other existing credit',furniture/equipment,0.10355452844723233,0.0,,'female div/dep/mar','co applicant','real estate',none,rent,,no,good,no
+Washington,0.1912330459546768,'critical/other existing credit',furniture/equipment,0.2218003741608892,0.08357424328463511,,'female div/dep/mar',none,car,none,own,,no,good,no
+Washington,0.5157697577271432,,'new car',0.116430064927919,0.08657271178565898,4<=X<7,'male div/sep',none,car,none,own,yes,yes,good,yes
+Washington,0.28727705547876203,'existing paid',radio/tv,0.0872125013755915,0.0006700308020580594,1<=X<4,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Washington,0.5065834960220637,'critical/other existing credit','used car',,0.0,,,none,car,none,rent,yes,no,good,no
+Washington,0.5065834960220637,,furniture/equipment,0.08352591614394189,0.0,1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+Washington,0.7156485476379526,'critical/other existing credit','new car',0.0292175635523275,0.007366036859222548,,'male single',,'no known property',none,'for free',yes,yes,good,yes
+Washington,0.5101268337090032,'existing paid',furniture/equipment,0.09210960713106636,0.0,,'female div/dep/mar',none,'real estate',,rent,none,no,good,no
+Washington,0.06800769932989004,'critical/other existing credit','new car',0.10294926818531967,0.0030414881351848986,1<=X<4,'male single',,'life insurance',none,own,none,yes,bad,yes
+Washington,0.14533170974806486,,radio/tv,,0.0001193794847968613,1<=X<4,'male mar/wid',none,'real estate',none,own,none,yes,good,yes
+Washington,0.5142320253718218,'existing paid',repairs,,0.0035996678884242773,1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Washington,0.5148970044445392,'critical/other existing credit','used car',0.08858809287993838,0.002351023006900349,unemployed,'male single',,car,none,own,yes,yes,bad,yes
+Washington,0.014422273395299813,'critical/other existing credit','new car',,0.0,1<=X<4,'female div/dep/mar','co applicant','real estate',none,own,none,yes,good,yes
+Washington,0.5147720351153655,'existing paid','new car',0.4532298888522064,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,none,no,bad,no
+Washington,0.29916488991776913,'delayed previously',education,0.3651920325740069,0.001221757610173283,1<=X<4,'male single',none,'life insurance',stores,own,yes,yes,bad,yes
+Washington,0.5065834960220637,'existing paid',furniture/equipment,,0.0,<1,'male single',none,'life insurance',bank,own,none,no,good,no
+Washington,0.5065834960220637,'existing paid',furniture/equipment,0.09541102674149883,0.0,1<=X<4,'male single',none,'no known property',bank,'for free',none,yes,bad,yes
+Washington,0.5065834960220637,'existing paid',radio/tv,,0.0,4<=X<7,'female div/dep/mar',none,'real estate',none,own,,yes,bad,yes
+Wisconsin,0.5065834960220637,'critical/other existing credit',,0.05447342357213602,0.0,>=7,'female div/dep/mar',none,,none,own,yes,yes,bad,yes
+Wisconsin,0.5065834960220637,'delayed previously','used car',0.4601628700341146,0.0,1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Wisconsin,0.5065834960220637,,radio/tv,0.028392208649719374,0.0,1<=X<4,'male single',,'real estate',none,own,none,no,good,no
+Wisconsin,0.5092068359239068,'critical/other existing credit',radio/tv,0.13634862991086166,0.0,4<=X<7,'male single',guarantor,'real estate',bank,own,yes,yes,good,yes
+Wisconsin,0.5065834960220637,'existing paid',radio/tv,0.08974358974358974,0.0,,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Wisconsin,0.9396936625817952,'existing paid','new car',0.025255860019808517,0.781412936864385,<1,'male mar/wid',none,'real estate',none,own,none,yes,good,yes
+West Virginia,0.5067607899077614,'existing paid',radio/tv,,0.006148581212465368,<1,'female div/dep/mar',none,'no known property',none,own,yes,no,bad,no
+West Virginia,0.2743818463253175,'existing paid',,0.1742049081104875,0.001682067695696316,1<=X<4,'male single',,car,none,own,,yes,bad,yes
+West Virginia,0.18141888957130944,'existing paid',furniture/equipment,0.12171233630461098,0.008032841188718531,1<=X<4,'male single',none,,none,own,none,no,good,no
+West Virginia,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.11213821943435676,0.0,<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+West Virginia,0.5089233689089516,'all paid',,0.18245845713656872,0.02587738543871423,4<=X<7,'male single',none,car,none,,none,yes,bad,yes
+Wyoming,0.005751637174412953,'critical/other existing credit','new car',0.033564432706063616,0.0006560494209557242,>=7,'female div/dep/mar',,'no known property',none,own,yes,yes,good,yes
+Alaska,0.5065834960220637,'critical/other existing credit','new car',0.0237702211951139,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Arkansas,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.2817761637504127,0.0,1<=X<4,'male single',,'life insurance',none,own,,no,good,no
+Arizona,0.5065834960220637,,radio/tv,0.0732915153516012,0.0,>=7,,none,car,none,own,,yes,bad,yes
+Arizona,0.5065834960220637,'existing paid',,0.06030593155056675,0.0,>=7,'male single',,'no known property',bank,,yes,no,good,no
+Arizona,0.5065834960220637,'existing paid',radio/tv,0.09210960713106636,0.0,1<=X<4,'male single',none,'life insurance',none,own,yes,no,bad,no
+California,0.5065834960220637,'existing paid',radio/tv,0.30802244965335096,0.0,1<=X<4,'male single',none,car,none,own,,no,bad,no
+California,0.5136686473797335,'critical/other existing credit','used car',0.41311764058545175,0.7925335122950115,>=7,'female div/dep/mar',,'no known property',none,rent,none,yes,bad,yes
+California,0.5162853832113358,'delayed previously',business,0.3695939253879168,0.04716350042159241,4<=X<7,'male single',none,car,none,rent,,yes,bad,yes
+California,0.212871536101658,'existing paid',furniture/equipment,0.05678441729943876,0.006420680398533891,1<=X<4,'female div/dep/mar',none,,none,rent,none,no,good,no
+California,0.36007118171708874,'critical/other existing credit',repairs,,0.010804381119542959,>=7,'male single',guarantor,'real estate',none,own,none,yes,bad,yes
+California,0.10368644280900573,'all paid',retraining,0.004897105755474854,0.0024263073666821533,,'male mar/wid',none,car,bank,own,none,no,good,no
+California,0.5139251901083219,'existing paid','new car',0.1794871794871795,0.03711518937242958,4<=X<7,,none,car,bank,own,yes,no,good,no
+California,0.5065834960220637,'critical/other existing credit',radio/tv,0.0906789919665456,0.0,1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+California,0.5065834960220637,,radio/tv,0.14427203697589966,0.0,>=7,,,'real estate',none,own,,no,good,no
+California,0.5065834960220637,'critical/other existing credit','new car',0.04429404643996919,0.0,<1,'female div/dep/mar',none,'life insurance',none,own,,no,good,no
+California,0.5065834960220637,'existing paid','domestic appliance',0.05568394409596127,0.0,4<=X<7,'male single',none,'life insurance',none,own,yes,no,good,no
+California,0.5081628848204429,'existing paid','new car',0.3883569935072081,0.005623741675700789,unemployed,'male single',none,'no known property',bank,'for free',yes,no,bad,no
+California,0.5065834960220637,'existing paid','new car',0.03626059205458347,0.0,>=7,,none,'life insurance',none,own,,no,good,no
+California,0.5065834960220637,'existing paid',furniture/equipment,0.15010454495433034,0.0,1<=X<4,'male single',none,car,none,own,yes,no,bad,no
+California,0.33757111440637283,'existing paid',furniture/equipment,0.04847584461318367,0.0035953659250081743,unemployed,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,0.5090183659193399,'existing paid',furniture/equipment,0.07301639705073182,0.8491376714332421,<1,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+California,0.5065834960220637,'existing paid',furniture/equipment,0.20479806316716187,0.0,4<=X<7,,none,'life insurance',none,rent,yes,no,good,no
+California,0.509574123830381,'critical/other existing credit',business,0.09271486739297898,0.006452945124154664,>=7,'male div/sep',none,'real estate',none,,yes,yes,good,yes
+California,0.21945884216424524,'no credits/all paid','new car',0.03851656212171234,0.0067121384199748755,>=7,'male single',none,car,none,rent,none,yes,bad,yes
+California,0.5065834960220637,'existing paid',furniture/equipment,0.028227137669197763,0.0,1<=X<4,'female div/dep/mar',none,'real estate',,own,yes,yes,bad,yes
+California,0.5098347306021946,'delayed previously',furniture/equipment,0.09981291955540884,0.00591412420628775,unemployed,'female div/dep/mar',none,'life insurance',none,own,yes,yes,good,yes
+California,0.5108847777704963,'existing paid',radio/tv,0.06404754044239022,0.006300225422883003,1<=X<4,'male single',guarantor,'real estate',none,own,,yes,good,yes
+California,0.2932506910143496,'delayed previously',education,0.17409486079013975,0.0061012596148882344,<1,'male single',none,'life insurance',none,own,none,yes,good,yes
+California,0.5065834960220637,'all paid','used car',,0.0,,'female div/dep/mar',none,'real estate',bank,own,yes,yes,bad,yes
+California,0.14320164309267594,'existing paid',furniture/equipment,0.12804005722460654,0.0028640321442706448,1<=X<4,,none,car,none,own,none,yes,good,yes
+California,0.3243573858651561,'critical/other existing credit',radio/tv,0.004842082095300979,0.0904208180613632,>=7,'male single',none,,none,own,,yes,bad,yes
+California,0.5065834960220637,'existing paid',radio/tv,0.09425552987784748,0.0,4<=X<7,'male single',,,none,,yes,yes,bad,yes
+Colorado,0.5065834960220637,'critical/other existing credit',,0.0176625949158138,0.0,>=7,'male single',none,'real estate',none,own,none,yes,good,yes
+Colorado,0.5065834960220637,'delayed previously',,0.5129305601408606,0.0,<1,'male div/sep',none,car,none,own,none,no,good,no
+Connecticut,0.5094237542310499,'delayed previously',,0.23137449103114335,0.0023273622081117825,1<=X<4,'male div/sep',,'real estate',stores,own,yes,yes,good,yes
+District of Columbia,0.2668714944452149,'all paid',,0.07686805326290305,0.0,1<=X<4,'male single',none,'life insurance',none,,none,no,bad,no
+Delaware,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.1940684494332563,0.0,1<=X<4,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Georgia,0.5162706510546446,'critical/other existing credit','new car',0.0348850005502366,0.009736418701495362,>=7,'male single',none,car,bank,own,yes,yes,good,yes
+Georgia,0.5065834960220637,,radio/tv,0.06107626279300099,0.0,1<=X<4,,none,'life insurance',none,own,none,yes,bad,yes
+Georgia,0.5065834960220637,'all paid',,0.26846043798833497,0.0,>=7,'female div/dep/mar',none,,bank,'for free',yes,no,good,no
+Georgia,0.5075288940773174,'critical/other existing credit','new car',0.05089688566083416,0.010311806308399151,unemployed,'male single',,car,none,'for free',yes,no,bad,no
+Georgia,0.0712543618613928,'existing paid',radio/tv,0.0233300319137229,0.034369461222101765,4<=X<7,'male mar/wid',none,,none,own,,yes,good,yes
+Georgia,0.5127994501349517,'no credits/all paid',furniture/equipment,0.16474083856058105,0.009290089997074664,1<=X<4,'female div/dep/mar',none,car,bank,own,yes,yes,bad,yes
+Georgia,0.5065834960220637,'existing paid',business,0.23885770881479035,0.0,1<=X<4,'male single',none,,none,own,yes,yes,bad,yes
+Georgia,0.5068405467560553,'no credits/all paid',business,0.1977550346649059,0.0,4<=X<7,'male single',none,'no known property',none,,none,yes,good,yes
+Georgia,0.5067186254593004,'existing paid',business,0.20166171453725099,0.00974717361003562,1<=X<4,'male single',none,,none,own,yes,yes,good,yes
+Georgia,0.5065834960220637,'existing paid',radio/tv,0.10223396060305932,0.0,4<=X<7,'male mar/wid',none,'real estate',none,,none,yes,bad,yes
+Hawaii,0.5065834960220637,'existing paid',radio/tv,0.15302079894354573,0.0,1<=X<4,'male single',guarantor,'life insurance',none,rent,none,yes,bad,yes
+Illinois,0.5065834960220637,'critical/other existing credit',education,0.06883459887751732,0.0,>=7,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Indiana,0.5065834960220637,'critical/other existing credit',radio/tv,0.06228678331682624,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Indiana,0.508694258472133,'existing paid',furniture/equipment,0.03857158578188621,0.015611825237038184,<1,'female div/dep/mar',none,car,bank,rent,,yes,good,yes
+Kentucky,0.5103153037135703,'existing paid','used car',0.13810938703642567,0.0,>=7,'male single',none,'no known property',bank,'for free',yes,no,bad,no
+Kentucky,0.506860358966778,'delayed previously',,0.2226807527236712,0.004152470187393526,>=7,'male div/sep',none,,none,own,yes,no,good,no
+Kentucky,0.5065834960220637,'critical/other existing credit',,0.037746230879278087,0.0,>=7,'male single',none,car,none,own,yes,yes,bad,yes
+Louisiana,0.42908727177222256,'existing paid',,0.050511720039617035,0.007809139091081169,1<=X<4,'male mar/wid',none,,none,own,none,yes,bad,yes
+Louisiana,0.5065834960220637,'delayed previously',business,0.2678001540662485,0.0,4<=X<7,'male single',none,car,none,own,none,yes,bad,yes
+Louisiana,0.29306476103679835,'existing paid',retraining,0.035875426433366345,0.007805912618519092,4<=X<7,'male mar/wid',,'life insurance',none,rent,none,no,bad,no
+Louisiana,0.5065834960220637,'critical/other existing credit','new car',0.06850445691647407,0.0,>=7,'male single',none,,none,own,none,no,bad,no
+Massachusetts,0.4812954950588854,'critical/other existing credit',,0.570760426983603,0.0011572281589317364,>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Massachusetts,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.09271486739297898,0.0,>=7,'male single',none,'real estate',none,,yes,no,bad,no
+Maryland,0.511333854546877,'critical/other existing credit','domestic appliance',0.06459777704412897,0.007480038889749282,4<=X<7,'male single',none,'life insurance',none,own,none,no,bad,no
+Maryland,0.4296100093320592,'existing paid',business,0.34763948497854075,0.0009690172594772254,1<=X<4,,none,car,stores,own,none,yes,good,yes
+Maryland,0.5065834960220637,'existing paid','used car',0.06399251678221635,0.0,4<=X<7,'male single',,'life insurance',none,own,,no,good,no
+Michigan,0.5065834960220637,'critical/other existing credit',radio/tv,0.15538681633102233,0.0,,,none,'real estate',none,,none,no,bad,no
+Michigan,0.5065834960220637,'existing paid',radio/tv,0.19725982172334106,0.0,>=7,'female div/dep/mar',none,'real estate',none,own,yes,yes,bad,yes
+Michigan,0.3898641745953609,'no credits/all paid',business,0.27748431825685044,0.002767237967408325,unemployed,'male single',none,,stores,,yes,no,good,no
+Michigan,0.8644661904624016,'delayed previously',business,0.09122922856828436,0.0061378263039251115,>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Missouri,0.5065834960220637,,radio/tv,0.17013315725762074,0.0,>=7,,none,car,none,own,yes,yes,good,yes
+Missouri,0.512647048514008,'critical/other existing credit',,0.037526136238582586,0.0,,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Missouri,0.5065834960220637,'no credits/all paid',business,0.1570375261362386,0.0,4<=X<7,'male single',none,'life insurance',bank,own,yes,no,good,no
+Missouri,0.9347035255066972,'existing paid',radio/tv,0.20155166721690326,0.01018274740591606,1<=X<4,'male single',,'real estate',none,own,yes,no,bad,no
+Missouri,0.2457186574636408,'existing paid',furniture/equipment,0.15247056234180698,0.0,1<=X<4,'male div/sep',none,'real estate',none,rent,none,no,good,no
+Missouri,0.5065834960220637,'existing paid','new car',0.061296357433696484,0.0,1<=X<4,'female div/dep/mar',none,,,own,yes,yes,bad,yes
+Missouri,0.5086810503316513,'existing paid',,0.02063387256520304,0.00296727926625712,<1,'male mar/wid',guarantor,'real estate',bank,own,none,yes,bad,yes
+Mississippi,0.3903615118850404,,education,0.05227247716518103,0.0,1<=X<4,'female div/dep/mar',none,,bank,rent,yes,yes,good,yes
+Mississippi,0.5065834960220637,'existing paid',,0.025145812699460767,0.0,1<=X<4,'male single',none,'real estate',bank,own,none,yes,good,yes
+North Carolina,0.5065834960220637,'delayed previously',,0.15010454495433034,0.0,1<=X<4,'male single',none,'real estate',none,own,yes,yes,good,yes
+North Carolina,0.5065834960220637,'existing paid','used car',0.2424892703862661,0.0,1<=X<4,'male single',none,car,,own,,yes,good,yes
+North Carolina,0.5065834960220637,'no credits/all paid',repairs,0.13002090899086607,0.0,1<=X<4,'male single',,car,none,own,none,no,bad,no
+North Carolina,0.5141639526478003,'existing paid',radio/tv,0.5893584241223726,0.28488784781374216,4<=X<7,'male single','co applicant','no known property',bank,own,yes,no,bad,no
+North Carolina,0.2623141779735969,'existing paid',furniture/equipment,0.4190051722240564,0.0,>=7,'male single',none,'no known property',none,,yes,no,good,no
+New Hampshire,0.5065834960220637,'existing paid',radio/tv,0.06756905469351822,0.0,4<=X<7,'male single',none,car,none,own,none,no,bad,no
+New Jersey,0.5065834960220637,'existing paid',furniture/equipment,0.15951359084406294,0.0,<1,'male single',none,'no known property',bank,'for free',none,no,bad,no
+New Jersey,0.8778749930784263,'existing paid',,0.21789369428854408,0.000782957341730766,1<=X<4,'male single',none,car,,own,none,no,good,no
+New Jersey,0.5065834960220637,'existing paid','new car',0.12418840101243535,0.0,,'male single',,'no known property',none,'for free',,no,good,no
+New Jersey,0.5065834960220637,,radio/tv,0.10404974138879718,0.0,4<=X<7,'male single',none,'no known property',none,own,none,no,bad,no
+New Jersey,0.5144149073169542,,radio/tv,0.03389457466710685,0.009279335088534409,1<=X<4,'male mar/wid',guarantor,'real estate',none,own,none,no,good,no
+New Jersey,0.5065834960220637,'critical/other existing credit',radio/tv,0.07120061626499395,0.0,4<=X<7,'male single',none,'real estate',none,own,none,yes,bad,yes
+New Jersey,0.03634372255183306,'existing paid',radio/tv,0.08655221745350501,0.005757102541599986,unemployed,'male single',none,car,stores,,none,yes,good,yes
+New Jersey,0.510125817698197,'existing paid','new car',0.7871134587872786,0.0,unemployed,'male single',none,'life insurance',none,own,yes,no,bad,no
+New Mexico,0.5095085911333752,'existing paid',business,0.1384945526576428,0.0,>=7,,none,car,bank,rent,none,no,bad,no
+New Mexico,0.5065834960220637,'critical/other existing credit',,0.057279630241003625,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+New Mexico,0.27081158435201114,'existing paid',,0.12501375591504346,0.007654268408101458,>=7,'male single',,'life insurance',none,own,none,no,good,no
+Nevada,0.2641531575329835,'existing paid','new car',0.03659073401562672,0.0,>=7,,none,car,bank,own,none,no,good,no
+New York,0.5065834960220637,'existing paid',radio/tv,0.07400682293386156,0.0,4<=X<7,,none,,none,own,none,no,bad,no
+New York,0.1553698965142193,'no credits/all paid','used car',0.2396280400572246,0.008919045652435774,>=7,'male single',none,,none,'for free',none,yes,good,yes
+New York,0.5065834960220637,'critical/other existing credit',business,0.051447122262572906,0.0,1<=X<4,'female div/dep/mar',none,,none,own,none,yes,good,yes
+New York,0.5065834960220637,'all paid',retraining,0.17591064157587766,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+New York,0.5065834960220637,'existing paid',business,0.05546384945526577,0.0,4<=X<7,'male single',none,'real estate',none,own,yes,no,bad,no
+Ohio,0.5065834960220637,'critical/other existing credit',radio/tv,0.025696049301199515,0.0,>=7,'male single',none,'real estate',none,,none,yes,bad,yes
+Ohio,0.5065834960220637,'no credits/all paid','new car',0.052492571805876534,0.0,1<=X<4,'male single',none,'no known property',bank,rent,none,no,good,no
+Ohio,0.7526699493975817,'existing paid',,0.09216463079124024,0.009051331027480942,1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Ohio,0.5065834960220637,'existing paid',radio/tv,0.010069329811819084,0.0,unemployed,'female div/dep/mar','co applicant','real estate',none,rent,none,yes,good,yes
+Ohio,0.4887890827606842,'critical/other existing credit','new car',0.022889842632331903,0.2623036153700549,4<=X<7,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Ohio,0.6246261715239603,'existing paid',furniture/equipment,0.1101023440079234,0.0010034329668060502,1<=X<4,'female div/dep/mar',none,car,none,own,none,no,good,no
+Ohio,0.5108852857758995,'existing paid','new car',0.10454495433036204,0.005118260974308675,1<=X<4,'female div/dep/mar',guarantor,'no known property',bank,own,none,yes,bad,yes
+Ohio,0.5065834960220637,'delayed previously',furniture/equipment,0.21464729833828547,0.0,1<=X<4,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Ohio,0.5086053575265825,'existing paid',furniture/equipment,0.09794211510949707,0.0,4<=X<7,'male single',,car,none,,yes,no,good,no
+Ohio,0.5090742465136859,'delayed previously',radio/tv,0.3944095961263343,0.0,1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Oregon,0.5065834960220637,'critical/other existing credit',,0.13392758886321118,0.0,1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Pennsylvania,0.493590241825812,'all paid',radio/tv,0.10448993067018818,0.0016110852993306145,1<=X<4,,none,'no known property',none,'for free',none,yes,bad,yes
+Pennsylvania,0.5065834960220637,'existing paid','used car',0.19599427753934195,0.0,<1,'female div/dep/mar',,car,none,own,yes,no,good,no
+Pennsylvania,0.5065834960220637,'critical/other existing credit',radio/tv,0.04974138879718279,0.0,unemployed,'female div/dep/mar',none,'real estate',,own,none,no,good,no
+Pennsylvania,0.2253405287218635,,furniture/equipment,0.07741828986464179,0.004902087312649493,1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Rhodes Island,0.4263430265844307,'existing paid',radio/tv,0.07444701221525256,0.008028539225302429,,,none,car,none,own,none,yes,bad,yes
+South Carolina,0.4302719403723578,'critical/other existing credit','new car',0.2779795311984153,0.009007235902465886,>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+South Carolina,0.5065834960220637,'critical/other existing credit',education,,0.0,,'female div/dep/mar',none,'no known property',bank,'for free',none,yes,good,yes
+South Carolina,0.5065834960220637,'critical/other existing credit','new car',0.053978210630571136,0.0,>=7,'male single',none,'real estate',none,own,none,no,bad,no
+South Carolina,0.5134730652995225,'existing paid',radio/tv,0.03037306041597887,0.007932820539294134,,,none,,none,own,none,no,good,no
+South Carolina,0.5065834960220637,'critical/other existing credit',business,0.3331132386926378,0.0,>=7,,none,'real estate',none,own,none,no,good,no
+South Carolina,0.5065834960220637,'existing paid',radio/tv,0.07059535600308132,0.0,<1,'female div/dep/mar',none,car,stores,own,,yes,good,yes
+South Carolina,0.4802957404254952,'existing paid','new car',0.480246505997579,0.009164257567153649,>=7,'male div/sep',none,'life insurance',none,own,yes,no,bad,no
+South Dakota,0.5065834960220637,'existing paid',radio/tv,0.0412127214702322,0.0,>=7,'male single',none,car,none,own,none,yes,good,yes
+South Dakota,0.5065834960220637,'existing paid','new car',0.13271706833938593,0.0,,'male single',none,'life insurance',none,,none,yes,bad,yes
+South Dakota,0.5065834960220637,'critical/other existing credit',furniture/equipment,,0.0,4<=X<7,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Tennessee,0.5152932486589927,'all paid','new car',0.6558270056124134,0.0,unemployed,'male single','co applicant','no known property',none,'for free',yes,no,good,no
+Tennessee,0.5161060573040255,'existing paid',radio/tv,0.15461648508858808,0.007230525011615301,4<=X<7,,none,'real estate',none,,none,yes,good,yes
+Tennessee,0.2258947626166952,,repairs,0.6464179597226808,0.00417720647703612,<1,'male div/sep',none,,none,own,yes,no,good,no
+Tennessee,0.5065834960220637,'existing paid',radio/tv,,0.0,1<=X<4,,none,'real estate',none,own,none,yes,good,yes
+Texas,0.5065834960220637,'critical/other existing credit',,,0.0,,'female div/dep/mar',none,car,none,own,none,no,good,no
+Texas,0.1598611722834284,,furniture/equipment,0.05568394409596127,0.0,>=7,'male div/sep',,'life insurance',none,own,yes,no,good,no
+Texas,0.5065834960220637,'existing paid',furniture/equipment,0.23995818201826785,0.0,<1,'female div/dep/mar',,'life insurance',none,own,none,no,good,no
+Texas,0.5065834960220637,,radio/tv,0.09084406294706723,0.0,1<=X<4,,,car,none,rent,yes,no,bad,no
+Texas,0.5065834960220637,'critical/other existing credit',,,0.0,>=7,,none,'no known property',none,rent,yes,yes,good,yes
+Texas,0.5065834960220637,'existing paid',furniture/equipment,0.07285132607021019,0.0,1<=X<4,'male single',none,'real estate',none,own,,no,bad,no
+Texas,0.5065834960220637,'all paid',radio/tv,0.06575327390778035,0.0,4<=X<7,,none,car,,own,none,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',,0.06988004842082095,0.0,>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Texas,0.5075730905473911,,'new car',0.1996258391108177,0.0413009997762979,<1,'male div/sep',none,car,,,yes,yes,good,yes
+Texas,0.20745467448791785,'existing paid','new car',,0.006304527386299106,<1,'female div/dep/mar',,'real estate',none,own,,no,good,no
+Texas,0.12153927669174693,'existing paid','used car',,0.002647858482611464,4<=X<7,'male single',none,'life insurance',none,own,,yes,bad,yes
+Texas,0.5131946783385988,'delayed previously',other,,0.04049223065407052,unemployed,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,0.5151703113514315,'existing paid',radio/tv,0.04632992186640255,0.002855428217438439,1<=X<4,'female div/dep/mar',,'real estate',none,own,,no,good,no
+Texas,0.10664201824450606,,radio/tv,0.04258831297457906,0.0,<1,'male mar/wid',none,'real estate',stores,own,none,yes,bad,yes
+Texas,0.5065834960220637,'existing paid',business,0.04544954330362056,0.0,1<=X<4,,none,'real estate',,own,yes,no,bad,no
+Texas,0.5144951721706512,'existing paid','used car',0.5033564432706064,0.010095632646739973,<1,'male mar/wid',none,car,none,rent,yes,yes,good,yes
+Utah,0.0191594237796313,'critical/other existing credit','used car',0.33944095961263343,0.001748748128645914,>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+Virginia,0.8987870354989096,'critical/other existing credit','used car',,0.004389078175279198,>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Virginia,0.5065834960220637,'critical/other existing credit',business,0.4060195884230219,0.0,>=7,'male div/sep',none,car,bank,own,none,no,bad,no
+Virginia,0.5097310974999529,'existing paid',furniture/equipment,0.534279740288324,0.006918632663947826,<1,,none,car,none,own,,yes,good,yes
+Virginia,0.5065834960220637,'existing paid','used car',0.24347969626939586,0.0,,'female div/dep/mar',none,car,none,rent,none,no,bad,no
+Virginia,0.5065834960220637,'existing paid',,0.057059535600308124,0.0,,'male single','co applicant','life insurance',none,,,yes,good,yes
+Virginia,0.5065834960220637,,furniture/equipment,0.12462859029382635,0.0,1<=X<4,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Virginia,0.5065992441895611,'critical/other existing credit',furniture/equipment,0.13728403213381754,0.1921988195412386,4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Washington,0.5065834960220637,'existing paid','new car',0.02321998459337515,0.0,unemployed,'female div/dep/mar',none,'real estate',none,own,yes,no,good,no
+Washington,0.5163382157732629,,radio/tv,0.19555408825795093,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Washington,0.7940988060349009,'critical/other existing credit','new car',0.060195884230219,0.0,4<=X<7,'male single',none,'real estate',bank,own,none,no,good,no
+Wisconsin,0.07658537056200128,'critical/other existing credit',,0.04335864421701332,0.004175055495328068,4<=X<7,'male single','co applicant',,none,,yes,yes,bad,yes
+Alaska,0.5065834960220637,'critical/other existing credit','new car',,0.0,1<=X<4,'male single',none,'no known property',bank,,none,yes,bad,yes
+Arizona,0.5065834960220637,,furniture/equipment,0.07114559260482008,0.0,1<=X<4,'male div/sep',none,'real estate',none,own,none,yes,good,yes
+Arizona,0.5065834960220637,'existing paid','used car',0.25096291405304283,0.0,4<=X<7,'female div/dep/mar',none,'life insurance',stores,rent,none,no,good,no
+Arizona,0.09331957654701616,'existing paid',radio/tv,0.026246285902938263,0.050942775282639005,<1,'male mar/wid',none,'no known property',none,own,yes,yes,bad,yes
+California,0.5065834960220637,,furniture/equipment,0.0543083525916144,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+California,0.5065834960220637,'existing paid','new car',0.001430615164520744,0.0,1<=X<4,'male mar/wid',none,'real estate',none,rent,none,no,bad,no
+California,0.5163453278489071,,other,0.28232640035215145,0.0,unemployed,,none,'no known property',bank,'for free',yes,no,good,no
+California,0.5065834960220637,'existing paid',furniture/equipment,0.2894794761747552,0.0,1<=X<4,'male single',none,car,stores,,none,no,good,no
+California,0.5470821947662236,,furniture/equipment,,0.010633378073752862,,,none,car,none,own,none,yes,bad,yes
+California,0.5135639982666855,'existing paid',,0.023935292175635524,0.004189036876430403,4<=X<7,'male mar/wid',none,car,bank,own,none,yes,good,yes
+California,0.7283466506949767,'existing paid','new car',0.06844943325630021,0.0,<1,'male single',none,,none,own,,yes,good,yes
+California,0.2021556701277075,'all paid',furniture/equipment,0.13733905579399142,0.002928561595512192,>=7,'male single',,car,bank,own,none,no,good,no
+California,0.3467700762465309,'existing paid',furniture/equipment,0.025200836359634642,0.0,,'male single',guarantor,'life insurance',,own,,no,good,no
+California,0.5105398421017605,'existing paid',furniture/equipment,,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',none,own,yes,yes,good,yes
+California,0.5065834960220637,,education,0.02481567073841752,0.0,1<=X<4,'male single',none,car,none,own,none,yes,bad,yes
+Colorado,0.3329604573674246,'delayed previously',furniture/equipment,0.18669527896995708,0.0017960697262230485,>=7,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Colorado,0.5127811619404383,'critical/other existing credit',,0.2200396170353252,0.009768683427116136,unemployed,'male mar/wid',none,car,none,,none,yes,good,yes
+Connecticut,0.2748243190314572,'existing paid',radio/tv,0.0928799383735006,0.0018326364152599247,<1,'male div/sep',none,'life insurance',none,,none,yes,bad,yes
+District of Columbia,0.3072924683626935,'existing paid','used car',0.1463629360625069,0.007993048027119577,4<=X<7,,,'no known property',none,'for free',yes,no,good,no
+Georgia,0.1306127611973281,,furniture/equipment,0.1325519973588643,0.6244719339906734,1<=X<4,'male single',none,car,none,,none,yes,good,yes
+Georgia,0.5065834960220637,'critical/other existing credit','new car',0.04280840761527457,0.0,1<=X<4,'female div/dep/mar',,'real estate',none,own,none,no,bad,no
+Georgia,0.3376899876707089,'critical/other existing credit','new car',0.17321448222735775,0.006595985407740092,4<=X<7,,none,'real estate',none,own,none,no,bad,no
+Georgia,0.5065834960220637,'critical/other existing credit',furniture/equipment,,0.0,>=7,'male single',none,'life insurance',none,rent,yes,no,bad,no
+Georgia,0.5065834960220637,'existing paid','new car',0.07015516672169032,0.0,4<=X<7,'female div/dep/mar',,car,none,own,yes,yes,good,yes
+Illinois,0.8266462042090279,'existing paid',radio/tv,0.23236491691427316,0.005011787379760123,>=7,'male single',none,car,none,own,none,yes,good,yes
+Kentucky,0.5113831310709821,'existing paid',radio/tv,0.04500935402222956,0.007871517560614664,>=7,'male single',none,car,none,own,none,yes,good,yes
+Louisiana,0.05402434260290797,'critical/other existing credit','used car',0.3502255970067129,0.006332490148503778,,'male single',none,'no known property',none,,yes,no,bad,no
+Louisiana,0.5065834960220637,'critical/other existing credit',education,0.08880818752063388,0.0,1<=X<4,,none,'real estate',none,own,,yes,good,yes
+Louisiana,0.5119912135385472,'existing paid','new car',0.3938593595245956,0.051524615834666936,<1,,none,,none,own,none,no,good,no
+Louisiana,0.5065834960220637,'critical/other existing credit','used car',0.6239683063717398,0.0,1<=X<4,'female div/dep/mar',none,car,bank,rent,none,yes,good,yes
+Massachusetts,0.4762977379027403,'no credits/all paid',furniture/equipment,0.2123913282711566,0.010218238604098909,,'male single',none,'no known property',bank,,none,no,bad,no
+Maryland,0.4548309535820223,'critical/other existing credit',furniture/equipment,0.17244415098492352,0.010623698656066629,1<=X<4,'male div/sep',none,'real estate',none,rent,,yes,bad,yes
+Maryland,0.5139795466864585,'existing paid',radio/tv,0.1018487949818422,0.007159542615249598,<1,'female div/dep/mar',guarantor,'life insurance',none,own,none,yes,good,yes
+Michigan,0.1972016014362329,'existing paid','domestic appliance',,0.0,1<=X<4,'female div/dep/mar',none,car,,rent,none,no,bad,no
+Michigan,0.2272435169620464,'existing paid',furniture/equipment,0.2156377242214152,0.007364961368368524,1<=X<4,'male single',,'life insurance',,own,none,no,good,no
+Missouri,0.5118357638851846,'existing paid',furniture/equipment,,0.010095632646739973,1<=X<4,'male div/sep',none,car,,own,none,yes,good,yes
+Missouri,0.5149097045796178,'critical/other existing credit',education,0.3022449653350941,0.004908540257773647,<1,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,bad,yes
+Missouri,0.18118317506425,'existing paid',furniture/equipment,,0.006430359816220123,4<=X<7,'female div/dep/mar',none,car,none,rent,none,no,good,no
+Mississippi,0.5164037484702687,'existing paid',radio/tv,0.16303510509519092,0.0,<1,'male mar/wid',none,'real estate',none,rent,none,no,good,no
+Mississippi,0.512514459103787,'existing paid',,0.2304941124683614,0.007081031782905718,>=7,'male single','co applicant','real estate',bank,own,yes,yes,good,yes
+North Carolina,0.6365277221088523,'existing paid','new car',0.2035325189831628,8.06618140519333e-05,<1,'male single',,'life insurance',none,own,none,no,good,no
+North Carolina,0.5065834960220637,'critical/other existing credit',radio/tv,0.06652360515021459,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+North Carolina,0.5134212487484017,'critical/other existing credit',radio/tv,0.03477495322988885,0.0,<1,'male single',,'real estate',none,own,none,yes,bad,yes
+New Hampshire,0.5144738359437191,'existing paid',radio/tv,0.19302299988995267,0.06710310085523033,unemployed,'female div/dep/mar',none,'no known property',none,rent,none,no,bad,no
+New Jersey,0.5065834960220637,'delayed previously',business,0.08215032463959503,0.0,1<=X<4,'male single',none,'real estate',none,,none,yes,good,yes
+New Jersey,0.5100460608499031,'critical/other existing credit',education,0.048750962914053037,0.0,>=7,'male single',none,,none,'for free',,no,good,no
+New Jersey,0.5065834960220637,'existing paid','domestic appliance',0.05425332893144052,0.0,<1,'female div/dep/mar',none,'real estate',none,rent,yes,yes,bad,yes
+New Jersey,0.5070605130956172,'existing paid',furniture/equipment,,0.008939479978662263,1<=X<4,'female div/dep/mar',none,,none,own,none,yes,bad,yes
+New Jersey,0.5065834960220637,'critical/other existing credit','used car',0.16391548365797293,0.0,unemployed,'male single',none,'no known property',none,,yes,yes,good,yes
+New Mexico,0.2505853492257744,'no credits/all paid',radio/tv,,0.009049180045772893,1<=X<4,'male single',none,,none,rent,yes,no,good,no
+Nevada,0.5065834960220637,'existing paid',education,0.026246285902938263,0.0,>=7,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Nevada,0.5065834960220637,'existing paid','new car',0.05480356553317927,0.0,<1,'male single',none,'real estate',stores,own,none,yes,good,yes
+New York,0.5065834960220637,'critical/other existing credit',radio/tv,0.1145042368218334,0.0,>=7,'male single',,'real estate',none,own,yes,no,good,no
+New York,0.5065834960220637,'delayed previously',radio/tv,,0.0,1<=X<4,'male single',none,,none,own,yes,no,good,no
+New York,0.5065834960220637,'existing paid',radio/tv,0.028942445251458126,0.0,1<=X<4,'male mar/wid',none,'real estate',none,,none,no,bad,no
+New York,0.25827959906181563,'existing paid',furniture/equipment,0.11863101133487401,0.003502873711561957,,'female div/dep/mar',none,'real estate',none,,none,no,good,no
+New York,0.5109376103324235,'existing paid',education,0.054418399911962144,0.0,1<=X<4,'male single',none,'no known property',,,,no,bad,no
+New York,0.5065834960220637,'existing paid',radio/tv,0.17326950588753165,0.0,,'male single',none,,none,own,none,yes,good,yes
+Ohio,1.0,,'new car',0.1098822493672279,0.0005398964087209402,1<=X<4,'female div/dep/mar',none,car,stores,own,,no,bad,no
+Ohio,0.5065834960220637,'existing paid',furniture/equipment,0.08341586882359414,0.0,1<=X<4,'male mar/wid',,'life insurance',none,rent,none,yes,good,yes
+Ohio,0.3179961422069685,'existing paid',furniture/equipment,0.1223175965665236,0.0,unemployed,'male single',none,car,none,,none,yes,good,yes
+Ohio,0.5065834960220637,,business,0.0710905689446462,0.0,4<=X<7,'male single',none,car,,own,yes,no,good,no
+Ohio,0.5065834960220637,'critical/other existing credit','used car',0.1980851766259492,0.0,4<=X<7,'male single',none,,none,own,none,yes,good,yes
+Ohio,0.5065834960220637,'existing paid',furniture/equipment,0.1870804445911742,0.0,<1,'female div/dep/mar',none,car,none,rent,none,no,good,no
+Pennsylvania,0.4395694552607261,'existing paid',furniture/equipment,0.17585561791570375,0.0038050866415432006,>=7,'male single',,car,none,own,none,yes,good,yes
+Pennsylvania,0.5113902431466261,'existing paid',furniture/equipment,0.15137008913832947,0.0,4<=X<7,'female div/dep/mar',,'real estate',none,rent,,no,bad,no
+South Carolina,0.5065834960220637,'existing paid','new car',0.1556619346318917,0.0,1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+South Carolina,0.5065834960220637,'critical/other existing credit',radio/tv,0.32023770221195114,0.0,>=7,'male single',none,car,none,own,yes,no,bad,no
+South Carolina,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.10432485968966657,0.0,<1,'female div/dep/mar',none,'real estate',,rent,none,no,good,no
+South Carolina,0.5065834960220637,'critical/other existing credit','new car',0.7431495543083526,0.0,>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+South Carolina,0.5074557412992644,'all paid',other,0.7996038296467481,0.019270645122433882,>=7,'female div/dep/mar',none,'no known property',bank,'for free',yes,yes,good,yes
+Tennessee,0.4414399311551077,'all paid',business,0.4091009133927589,0.0018562972140484923,4<=X<7,'female div/dep/mar',guarantor,car,none,rent,none,no,bad,no
+Tennessee,0.5065834960220637,'delayed previously',radio/tv,,0.0,,'male mar/wid',,'real estate',none,own,,yes,bad,yes
+Texas,0.5065834960220637,'delayed previously',,,0.0,,'male single',none,'no known property',none,'for free',none,yes,bad,yes
+Texas,0.5086363458561745,'existing paid','new car',0.7740728513260702,0.0020660179305835185,>=7,'male single',none,'no known property',,'for free',,yes,bad,yes
+Texas,0.5065834960220637,'critical/other existing credit','new car',0.006162649939473974,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Texas,0.2550654488761142,'existing paid',furniture/equipment,0.10795642126114227,0.0,4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Texas,0.507409004802175,'existing paid','used car',0.7002310993727303,0.0016992755493607282,unemployed,,,,none,'for free',yes,no,bad,no
+Texas,0.5065834960220637,'existing paid',,0.056839440959612623,0.0,4<=X<7,'female div/dep/mar',none,'life insurance',none,rent,none,yes,bad,yes
+Texas,0.8392391501476009,'existing paid','new car',0.05942555298778475,0.004513835114346189,<1,'male single',none,'real estate',none,own,none,no,good,no
+Texas,0.5065834960220637,'delayed previously',business,0.2213051612193243,0.0,,'male single',,'life insurance',none,own,none,no,good,no
+Virginia,0.5065834960220637,'critical/other existing credit',radio/tv,0.10938703642566304,0.0,1<=X<4,'female div/dep/mar',none,car,,own,none,yes,good,yes
+Virginia,0.5065834960220637,'existing paid',,0.048200726312314285,0.0,,,none,'real estate',none,rent,yes,no,bad,no
+Virginia,0.5068588349505685,'critical/other existing credit',furniture/equipment,,0.0037868032970247616,,'male single',none,,stores,own,yes,yes,bad,yes
+Wisconsin,0.5069655160852291,'critical/other existing credit',business,0.114229118520964,0.0,1<=X<4,'male single',none,car,bank,own,none,yes,bad,yes
+Arizona,0.5065834960220637,'existing paid',business,0.06597336854847584,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,0.5065834960220637,'existing paid','new car',0.08638714647298339,0.0,1<=X<4,'male mar/wid',none,,none,own,yes,no,good,no
+California,0.5113912591574323,'existing paid',furniture/equipment,0.040332342907450205,0.8291442964569029,<1,,none,'real estate',none,rent,,yes,bad,yes
+California,0.28728721558682496,'existing paid','new car',0.16501595686145046,0.006284093060072617,4<=X<7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+California,0.026311123845113228,'critical/other existing credit',radio/tv,0.09392538791680424,0.003615800251234664,4<=X<7,'female div/dep/mar',none,car,,own,none,yes,bad,yes
+California,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.11863101133487401,0.0,unemployed,'male single',none,car,none,own,none,yes,good,yes
+California,0.5108324532139723,'delayed previously',education,0.6333223286012986,0.048492807117168274,4<=X<7,,none,'no known property',none,rent,,yes,good,yes
+California,0.18456141099516732,'existing paid',furniture/equipment,0.12809508088478044,0.008971744704283035,unemployed,'female div/dep/mar',none,'no known property',none,'for free',,yes,good,yes
+California,0.19450104471311155,'critical/other existing credit',furniture/equipment,0.11543963904478928,0.003035035190060744,1<=X<4,'male mar/wid',,'life insurance',none,own,yes,no,good,no
+California,0.512458578509441,'existing paid','new car',0.05353802134918015,0.003203887254142791,>=7,'male div/sep',none,'real estate',,rent,none,yes,bad,yes
+District of Columbia,0.5065834960220637,'critical/other existing credit',radio/tv,0.06965995378012545,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Georgia,0.5065834960220637,'existing paid',radio/tv,0.06729393639264884,0.0,<1,'male mar/wid',,'real estate',none,own,,yes,good,yes
+Georgia,0.5077432723574448,'critical/other existing credit',business,,0.0,1<=X<4,'male mar/wid',none,'real estate',,own,none,no,good,no
+Georgia,0.5065834960220637,'delayed previously',business,0.4620886981402002,0.0,<1,'male single',none,car,,,yes,no,good,no
+Georgia,0.5065834960220637,'delayed previously','new car',0.03037306041597887,0.0,,'male single',none,car,none,own,,yes,good,yes
+Georgia,0.5165256697670235,'delayed previously','new car',0.14575767580059426,0.0,,'male single',none,car,none,own,none,yes,good,yes
+Illinois,0.5165358298750865,,radio/tv,0.09843732805106196,0.0,,'male mar/wid',none,'life insurance',none,own,yes,no,good,no
+Indiana,0.5065834960220637,'critical/other existing credit','used car',0.10713106635853416,0.0,4<=X<7,,none,car,,own,yes,no,bad,no
+Kentucky,0.4013984372737788,'existing paid',radio/tv,,0.008242561905253559,<1,'male mar/wid',none,'real estate',,own,none,no,good,no
+Louisiana,0.5065834960220637,'existing paid',radio/tv,0.16424562561901618,0.0,>=7,'male div/sep',none,car,none,own,yes,no,bad,no
+Louisiana,0.7823100326495072,'critical/other existing credit','new car',0.03791130185979971,0.07226760793626212,4<=X<7,'male mar/wid',none,,none,own,yes,yes,bad,yes
+Massachusetts,0.5163407558002786,'existing paid',radio/tv,0.09447562451854297,0.0040535250288231545,>=7,'female div/dep/mar',none,,,own,,yes,good,yes
+Maryland,0.5065834960220637,'critical/other existing credit','used car',0.385330692197645,0.0,4<=X<7,'male single',none,car,,own,yes,no,bad,no
+Michigan,0.5065834960220637,'critical/other existing credit',business,0.11235831407505227,0.0,unemployed,'male single',none,car,stores,own,yes,no,bad,no
+Missouri,0.5065834960220637,'existing paid','new car',0.07411687025420931,0.0,1<=X<4,'male single',none,'no known property',none,,none,yes,bad,yes
+Missouri,0.22142177504199936,,'new car',0.06223175965665236,0.0,,'female div/dep/mar',,'life insurance',none,own,none,no,good,no
+Mississippi,0.5065834960220637,'critical/other existing credit','used car',,0.0,>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+North Carolina,0.4125547439322564,'existing paid','new car',0.12815010454495432,0.00403954364772082,<1,'male single',none,'real estate',,own,none,no,bad,no
+New Jersey,0.2625585285725099,'delayed previously',education,0.4523495102894245,0.0,,'female div/dep/mar',,car,none,rent,,yes,bad,yes
+New Jersey,0.5065834960220637,'existing paid','new car',0.1393199075602509,0.0,4<=X<7,'female div/dep/mar',none,car,bank,own,none,no,good,no
+New Jersey,0.5104417970589535,'existing paid','new car',0.04357873885770881,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',,own,none,no,good,no
+New Jersey,0.5065834960220637,'existing paid','new car',0.16154946627049632,0.0,,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Nevada,0.5137687244441532,'existing paid','used car',0.09783206778914934,0.0,1<=X<4,'male single',none,car,,own,none,yes,good,yes
+New York,0.5078403013894456,'critical/other existing credit','new car',,0.0007603720337962248,4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+New York,0.5065834960220637,'delayed previously',furniture/equipment,0.07378672829316606,0.0,4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+Ohio,0.5081075122315001,'existing paid',furniture/equipment,0.13821943435677342,0.0,,'female div/dep/mar',none,'life insurance',bank,own,yes,yes,bad,yes
+Ohio,0.5158967590779295,'existing paid','used car',0.1391548365797293,0.009398714573331269,1<=X<4,,none,car,,rent,,yes,good,yes
+Oregon,0.5065834960220637,'critical/other existing credit',radio/tv,0.1371739848134698,0.0,>=7,'male single',none,car,none,,none,yes,good,yes
+Pennsylvania,0.5065834960220637,,radio/tv,0.04946627049631341,0.0,,'male single',none,'real estate',,own,none,no,bad,no
+Pennsylvania,0.5065834960220637,'existing paid',,0.05849015076482887,0.0,>=7,'male single',none,car,none,own,none,yes,bad,yes
+South Carolina,0.314145969256529,'critical/other existing credit',repairs,0.05172224056344228,0.0014379312718324642,unemployed,'female div/dep/mar',none,,none,'for free',none,yes,good,yes
+South Carolina,0.5065834960220637,'existing paid',,,0.0,4<=X<7,'male single',none,'real estate',none,own,none,no,bad,no
+Tennessee,0.5151510071461121,'existing paid',other,0.6095521074061847,0.0060539380173111005,1<=X<4,'male single','co applicant',car,bank,own,yes,no,good,no
+Tennessee,0.35713795851932684,'critical/other existing credit',furniture/equipment,0.08924837680202488,0.005140846282243216,unemployed,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',repairs,0.09948277759436558,0.0,1<=X<4,'male div/sep',,'real estate',none,own,yes,no,good,no
+Texas,0.02582394666349672,'existing paid',furniture/equipment,0.1037746230879278,0.0,1<=X<4,'male single',,'real estate',none,own,none,no,good,no
+Texas,0.5066398846218129,'existing paid',radio/tv,0.06789919665456146,0.0,,'male mar/wid',,'real estate',none,own,yes,no,bad,no
+Texas,0.5065834960220637,'existing paid',repairs,0.02255970067128865,0.0,4<=X<7,'male mar/wid',none,'real estate',none,rent,none,yes,bad,yes
+Texas,0.5065834960220637,'critical/other existing credit','new car',0.057059535600308124,0.0,>=7,'female div/dep/mar',none,'real estate',none,own,yes,no,good,no
+Virginia,0.4627685380061702,'critical/other existing credit',repairs,0.17299438758666227,0.010364505360246416,unemployed,'male single','co applicant',car,none,own,none,yes,bad,yes
+Virginia,0.9398795925593464,'all paid',business,0.01975349400242104,0.007028332731058454,<1,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Wisconsin,0.5065834960220637,'existing paid','new car',0.08990866072411137,0.0,>=7,,none,car,none,own,,yes,good,yes
+Arizona,0.32892740247185265,'existing paid',furniture/equipment,,0.0067691394352382426,,'female div/dep/mar','co applicant',,none,own,none,yes,bad,yes
+California,0.511959209198149,'delayed previously',other,0.13090128755364808,0.0055312494622545725,1<=X<4,,none,car,bank,own,yes,no,good,no
+California,0.5065834960220637,'existing paid',education,0.025806096621547262,0.0,>=7,'male single',none,car,bank,own,none,no,bad,no
+California,0.5166079666423332,'critical/other existing credit',furniture/equipment,0.2666446572025971,0.007155240651833497,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+California,0.5065834960220637,'critical/other existing credit',education,0.05469351821283152,0.0,>=7,'female div/dep/mar',none,'life insurance',none,rent,none,no,good,no
+California,0.4752400706533914,'existing paid','new car',0.08759766699680863,0.00423313200144546,<1,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+California,0.5088522481525113,'existing paid',,0.1279850335644327,0.007528435978180442,1<=X<4,,guarantor,'real estate',none,own,none,no,bad,no
+District of Columbia,0.7272193867053969,'existing paid',furniture/equipment,0.06459777704412897,0.0,>=7,'female div/dep/mar',none,'real estate',none,own,,yes,good,yes
+Georgia,0.5097183973648743,'delayed previously',repairs,0.06943985913942996,0.5667815290898766,1<=X<4,,none,'life insurance',stores,,none,no,good,no
+Georgia,0.5065834960220637,'critical/other existing credit','used car',0.594475624518543,0.0,1<=X<4,'male single',none,car,,own,yes,yes,bad,yes
+Georgia,0.5065834960220637,'existing paid',radio/tv,0.014746340926598437,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+Illinois,0.5065834960220637,'no credits/all paid',furniture/equipment,0.1380543633762518,0.0,>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Indiana,0.5065834960220637,'existing paid','used car',0.13315725762077693,0.0,>=7,'male single',none,car,,,yes,no,good,no
+Louisiana,0.054043646808227465,'existing paid','new car',0.2512930560140861,0.0054323043036842026,4<=X<7,'male single','co applicant','life insurance',none,own,yes,no,good,no
+Maryland,0.5065834960220637,,'used car',0.1336524705623418,0.0,<1,,none,'no known property',none,own,yes,yes,bad,yes
+Michigan,0.1594949003877605,'critical/other existing credit','new car',,0.0,1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+Missouri,0.15508439747765154,'existing paid','used car',0.17255419830527127,0.0036459139951473853,>=7,'male single',none,'no known property',none,'for free',yes,no,bad,no
+Missouri,0.2654668595055177,'existing paid',,0.005117200396170353,0.0042073202209488405,<1,,none,'real estate',none,own,,yes,good,yes
+Mississippi,0.5065834960220637,'existing paid',radio/tv,0.239022779795312,0.0,<1,'male single',none,car,none,own,yes,yes,bad,yes
+North Carolina,0.3613914877598638,'existing paid',furniture/equipment,0.18542973478595795,0.0010120368936382565,1<=X<4,'male single',guarantor,'life insurance',none,own,none,yes,bad,yes
+New Jersey,0.05437080228785316,'existing paid','new car',,0.0,<1,'male single',none,'real estate',none,own,none,yes,good,yes
+New Jersey,0.5123325931694609,'existing paid',furniture/equipment,0.15225046770111147,0.0,<1,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Nevada,0.516534305858877,'existing paid',retraining,,0.0,>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+New York,0.5065834960220637,'existing paid',business,0.0935402222955871,0.0,4<=X<7,'male single',none,car,stores,own,yes,no,good,no
+New York,0.3246388208584986,'existing paid','used car',0.1471332673049411,0.002759709531430145,1<=X<4,'male single',,'no known property',bank,,yes,no,bad,no
+Oregon,0.3879098778094604,'delayed previously',radio/tv,0.07752833718498954,0.009900968802161307,<1,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Pennsylvania,0.5065834960220637,'delayed previously',radio/tv,0.3845053372950369,0.0,>=7,'male single',none,car,,own,none,yes,good,yes
+Tennessee,0.5065834960220637,,business,0.13832948167712114,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Tennessee,0.5065834960220637,,,0.2436997909100913,0.0,4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Texas,0.5089360690440303,'existing paid',radio/tv,,0.03495022628327569,<1,'male mar/wid',none,car,none,rent,yes,yes,good,yes
+Texas,0.00045212480879944797,'existing paid',education,0.010894684714427205,0.004007278922100046,<1,,none,'life insurance',,own,,no,good,no
+Texas,0.5065834960220637,'existing paid','new car',0.022229558710245404,0.0,1<=X<4,'male single',,car,none,own,none,no,good,no
+Texas,0.5065834960220637,'existing paid',retraining,0.05436337625178827,0.0,unemployed,,none,'life insurance',none,own,yes,no,bad,no
+Wisconsin,0.5065834960220637,'critical/other existing credit',radio/tv,0.0547485418730054,0.0,1<=X<4,'male mar/wid',none,car,none,,none,no,good,no
+Arizona,0.2557065516948838,'no credits/all paid',furniture/equipment,0.15758776273797734,0.0031017156230103413,<1,'female div/dep/mar',,'life insurance',none,,none,yes,bad,yes
+California,0.5065834960220637,'existing paid','used car',0.1275998679432156,0.0,1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+California,0.5840599080611821,'existing paid',radio/tv,0.2697259821723341,0.0013927606559633815,4<=X<7,'male single',none,car,bank,own,none,yes,bad,yes
+California,0.5135909225530523,'existing paid',business,0.04330362055683944,0.04796904307125772,4<=X<7,'male single',none,'real estate',none,own,none,yes,good,yes
+California,0.44170002992151824,'critical/other existing credit',furniture/equipment,0.06756905469351822,0.0,>=7,'male single',,car,none,own,yes,yes,bad,yes
+California,0.5080363914750597,,radio/tv,0.18284362275778585,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Georgia,0.5083782791113766,'existing paid','new car',0.0523275008253549,0.010572075095073392,<1,'male single',none,'life insurance',none,,none,yes,bad,yes
+Illinois,0.4847661879731753,'existing paid',furniture/equipment,0.1855397821063057,0.3470791819386368,,,,,none,rent,yes,no,good,no
+Indiana,0.5065834960220637,'delayed previously',furniture/equipment,0.03906679872345109,0.0,4<=X<7,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Louisiana,0.5065834960220637,'critical/other existing credit','new car',0.05023660173874766,0.0,1<=X<4,'male single',,'real estate',none,own,,yes,good,yes
+Maryland,0.5069279236853963,,'new car',0.0527676901067459,0.00842862182300002,unemployed,'male single',none,'life insurance',none,own,yes,no,good,no
+Michigan,0.5065834960220637,'existing paid',,0.15555188731154396,0.0,1<=X<4,,none,car,none,own,yes,yes,good,yes
+Missouri,0.5065834960220637,,,0.1929679762297788,0.0,,'female div/dep/mar','co applicant','no known property',none,'for free',yes,no,good,no
+New Jersey,0.5065834960220637,'existing paid',,0.06426763508308572,0.0,1<=X<4,'male single',none,'real estate',none,rent,,yes,bad,yes
+New Jersey,0.5065834960220637,'existing paid',,0.17981732144822274,0.0,1<=X<4,'male single',guarantor,'life insurance',none,rent,none,no,bad,no
+Nevada,0.5065834960220637,'critical/other existing credit',radio/tv,0.0926598437328051,0.0,>=7,'male single',none,'no known property',none,own,none,yes,good,yes
+New York,0.5145505447595939,,business,0.4439308902828216,0.009050255536626915,>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,0.5065834960220637,'critical/other existing credit',radio/tv,0.0543083525916144,0.0,,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Tennessee,0.507597474806742,'existing paid',radio/tv,0.006492791900517223,0.0,,,none,'life insurance',none,own,none,yes,good,yes
+Texas,0.037819986253373766,'critical/other existing credit','new car',0.10300429184549356,0.005929181078244111,1<=X<4,'male single',none,'real estate',none,rent,none,no,good,no
+Texas,0.11856693707794275,'existing paid',furniture/equipment,0.1510949708374601,0.0,1<=X<4,'male mar/wid',,car,none,own,none,no,bad,no
+Texas,0.5157712817433526,'existing paid',furniture/equipment,0.483327830967316,0.02613335226197237,<1,'male single','co applicant','no known property',none,rent,yes,yes,bad,yes
+Texas,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.07345658633212282,0.0,4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Arizona,0.5109355783108109,'existing paid',radio/tv,,0.001598179409082305,>=7,'male mar/wid',guarantor,'real estate',,own,none,yes,bad,yes
+California,0.6748196453817482,'critical/other existing credit',,0.05904038736656762,0.047556054583311816,>=7,'male div/sep',none,car,,own,yes,yes,good,yes
+California,0.2409449306902828,,'new car',0.1580829756795422,0.0018337119061139504,,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+California,0.2404394653141531,'existing paid','used car',0.2884890502916254,0.0,>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Georgia,0.827005872034455,,radio/tv,,0.025690250030113743,,'male div/sep',none,,none,own,none,no,bad,no
+Illinois,0.5095588836682866,'critical/other existing credit',radio/tv,0.05315285572796302,0.03809173506788498,<1,'male single',none,'no known property',bank,own,none,no,bad,no
+Indiana,0.11803403941004315,'existing paid','new car',0.05265764278639815,0.003780350351900607,,,none,'life insurance',none,rent,none,yes,good,yes
+Louisiana,0.5065834960220637,'existing paid','new car',0.05827005612413338,0.0,1<=X<4,'male single',guarantor,'life insurance',none,own,none,no,good,no
+Michigan,0.8127420963249364,'critical/other existing credit','used car',0.11609992296687575,0.07011662622821056,1<=X<4,'male single',none,car,none,own,yes,no,good,no
+Missouri,0.5132759592031021,'all paid','new car',,0.022287396967976183,unemployed,'male single',none,'life insurance',,own,yes,no,bad,no
+New Jersey,0.5065834960220637,'existing paid',radio/tv,,0.0,1<=X<4,,none,'life insurance',,,none,no,bad,no
+New Jersey,0.5065834960220637,'existing paid',,0.4587872785297678,0.0,>=7,'male single',none,car,none,own,yes,no,good,no
+Nevada,0.5008186507071689,'existing paid','new car',0.02800704302850225,0.0,4<=X<7,'male single',none,'real estate',none,own,none,yes,bad,yes
+New York,0.5065834960220637,'existing paid','used car',0.2440849565313085,0.0,1<=X<4,,none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,0.9013265545092336,'existing paid',business,0.1340926598437328,0.005327981690843701,,'male single',none,'life insurance',,rent,,yes,bad,yes
+Tennessee,0.5136605192932832,'delayed previously',radio/tv,0.018432926158248045,0.005971125221551118,1<=X<4,'male mar/wid','co applicant','real estate',none,rent,,yes,good,yes
+Texas,0.5065834960220637,'existing paid','new car',,0.0,<1,'male single',none,'life insurance',none,own,none,yes,good,yes
+Texas,0.413691660024496,'critical/other existing credit','new car',0.01975349400242104,0.0,4<=X<7,'female div/dep/mar',none,'life insurance',none,own,none,no,bad,no
+Texas,0.06291951721198502,'critical/other existing credit','new car',0.06113128645317487,0.003907258272675649,<1,'male single',none,'real estate',none,,none,yes,good,yes
+Arizona,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.3783977110157368,0.0,<1,'female div/dep/mar',none,'life insurance',,rent,yes,no,bad,no
+California,0.3989691554359372,'existing paid','new car',0.05243754814570265,0.046565527506754086,>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+California,0.5065834960220637,'critical/other existing credit',,0.024760647078243644,0.0,>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit',repairs,,0.0,>=7,'male single',,'no known property',none,'for free',none,yes,good,yes
+Georgia,0.0770222552087064,'existing paid',radio/tv,0.16176956091119182,0.004845086297386127,,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Illinois,0.0871960794175007,'no credits/all paid',furniture/equipment,0.37795752173434577,0.010434412265758091,1<=X<4,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Indiana,0.5065834960220637,'existing paid',,0.17816661164300648,0.0,4<=X<7,'female div/dep/mar',none,car,none,own,none,no,bad,no
+Louisiana,0.5066632528703575,'existing paid',radio/tv,0.04748541873005392,0.00509890213893621,1<=X<4,,guarantor,'real estate',none,own,none,yes,bad,yes
+Maryland,0.5162747150978698,'existing paid','used car',0.4245625619016177,0.0007216543630512968,<1,'male single',none,,none,own,none,yes,good,yes
+Michigan,0.5065834960220637,'critical/other existing credit',education,0.07054033234290745,0.0,1<=X<4,'female div/dep/mar',none,car,,own,none,yes,bad,yes
+Missouri,0.5065834960220637,'critical/other existing credit',radio/tv,0.06894464619786507,0.0,4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+New Jersey,0.0037592399832764617,'existing paid',radio/tv,0.11290855067679102,0.0011378693235592724,1<=X<4,'male div/sep',none,car,none,rent,none,no,bad,no
+Nevada,0.4481745587846072,'existing paid','new car',0.0226697479916364,0.003523308037788447,<1,'male single',none,'real estate',none,own,yes,yes,good,yes
+New York,0.5074567573100708,'existing paid',education,0.11131286453174866,0.0006958425825546778,4<=X<7,'male single',none,,none,own,none,no,good,no
+Pennsylvania,0.5115416287567635,'existing paid','new car',0.13101133487399585,0.0197470875707673,,'female div/dep/mar',none,car,none,rent,yes,yes,bad,yes
+Tennessee,0.5065834960220637,'delayed previously','used car',0.06894464619786507,0.0,1<=X<4,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+Texas,0.5065834960220637,'existing paid',radio/tv,0.05838010344448113,0.0,4<=X<7,'male mar/wid',none,'life insurance',none,own,yes,yes,good,yes
+Texas,0.5065834960220637,'existing paid',radio/tv,0.15709254979641246,0.0,<1,'male single',none,car,none,own,none,no,bad,no
+Texas,0.8165394367134489,'critical/other existing credit',education,0.11384395289974687,0.00015809715554178927,<1,'male div/sep',none,,none,rent,none,no,bad,no
+Texas,0.5007597220804041,'existing paid','new car',0.061846594035435236,0.0,unemployed,'female div/dep/mar',none,'life insurance',,own,,no,bad,no
+California,0.5129731879828274,'critical/other existing credit',furniture/equipment,0.18498954550456695,0.00304363911689295,>=7,'female div/dep/mar',none,'life insurance',none,,yes,yes,good,yes
+California,0.06011939142984728,,'new car',0.4133927588863211,0.0033243422297936772,>=7,'male single',none,'no known property',bank,'for free',none,yes,bad,yes
+Georgia,0.6464927560969538,'existing paid',furniture/equipment,0.15401122482667548,0.003332946156625884,<1,'female div/dep/mar',none,'life insurance',stores,own,none,yes,bad,yes
+Illinois,0.5135533301532195,'existing paid',radio/tv,0.0706503796632552,0.0005366699361588629,<1,'male mar/wid',none,'real estate',none,rent,none,no,good,no
+Indiana,0.5065834960220637,'delayed previously','new car',0.09805216242984484,0.0,>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Louisiana,0.3030191269114338,'existing paid',furniture/equipment,0.3356443270606361,0.0,>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Maryland,0.9816218885304062,'existing paid',furniture/equipment,0.14383184769450866,0.001975676698845353,1<=X<4,'male single',none,,none,own,none,no,bad,no
+Michigan,0.5065834960220637,'critical/other existing credit','new car',0.05529877847474414,0.0,>=7,'male single',none,'real estate',none,own,,no,bad,no
+Missouri,0.4738857282486056,'delayed previously','new car',0.059590623968306375,0.0029274861046581662,unemployed,'male single',none,'real estate',none,'for free',none,yes,good,yes
+New Jersey,0.5065834960220637,'critical/other existing credit','new car',0.09750192582810607,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Nevada,0.5065834960220637,'existing paid',radio/tv,0.07164080554638494,0.0,4<=X<7,'male single',,car,bank,own,none,no,bad,no
+New York,0.5065834960220637,'all paid',radio/tv,0.020688896225376917,0.0,1<=X<4,'female div/dep/mar',none,'real estate',bank,own,none,yes,bad,yes
+Pennsylvania,0.5065834960220637,'critical/other existing credit','used car',0.47364366677671393,0.0,4<=X<7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',,0.041047650489710576,0.0,4<=X<7,'female div/dep/mar',none,'real estate',none,,none,no,good,no
+Texas,0.5065834960220637,'all paid',radio/tv,0.08253549026081215,0.0,>=7,'male single',none,'life insurance',bank,own,none,yes,good,yes
+Texas,0.0896649856767877,'existing paid',radio/tv,,0.003911560236091753,4<=X<7,'male mar/wid',guarantor,'real estate',none,own,yes,yes,bad,yes
+California,0.5161096133418475,'critical/other existing credit',,0.09601628700341147,0.0230639013645828,<1,'male single',none,car,,own,none,yes,good,yes
+California,0.511871832268808,'existing paid',education,0.05221745350500715,0.009784815789926522,4<=X<7,'female div/dep/mar',none,'life insurance',none,own,yes,yes,bad,yes
+Illinois,0.5082096213175323,,radio/tv,0.05948057664795864,0.0004162149605079759,<1,'male single',none,car,stores,own,none,yes,bad,yes
+Indiana,0.5068354667020237,'no credits/all paid','new car',0.11158798283261803,0.02640222497547881,,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Louisiana,0.5065834960220637,'no credits/all paid','new car',,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',bank,own,,no,good,no
+Maryland,0.11525118581161227,'all paid',furniture/equipment,0.18168812589413447,0.003685707156746339,4<=X<7,'male single',none,,bank,own,none,yes,good,yes
+Michigan,0.5142147531881148,'critical/other existing credit',furniture/equipment,0.09232970177176186,0.01060326432984014,<1,'male single',none,'real estate',none,own,none,no,good,no
+Missouri,0.19592549186353145,,'used car',0.14933421371189612,0.0,>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+New Jersey,0.4778496944093497,,,0.0713106635853417,0.003707216973826855,4<=X<7,'male single',guarantor,car,bank,rent,none,yes,good,yes
+Nevada,0.6165773339165236,'delayed previously',radio/tv,0.023825244855287774,0.008268373685750176,<1,'female div/dep/mar',none,'life insurance',bank,own,none,no,good,no
+New York,0.5074384691155575,'existing paid','new car',0.6679322108506658,0.0,1<=X<4,'male single',none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,0.5089010166712133,'delayed previously',business,0.2455155716958292,0.0,1<=X<4,'male single',,'life insurance',,own,yes,no,good,no
+Texas,0.5119226328091225,'delayed previously',radio/tv,0.07169582920655881,0.04595034673825134,4<=X<7,'female div/dep/mar',none,'life insurance',none,rent,yes,yes,good,yes
+Texas,0.2661968632698377,'existing paid','new car',0.061736546715087486,0.007914537194775697,,'male div/sep',,,none,own,none,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit',radio/tv,,0.0,>=7,'male single',none,car,none,own,none,no,good,no
+California,0.513785488622457,'existing paid',,0.205183228788379,0.0,4<=X<7,'male single',,car,none,own,yes,yes,good,yes
+Illinois,0.07452439264144012,'existing paid',radio/tv,0.35809398041157703,0.00856305817975324,1<=X<4,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Maryland,0.4519007784166792,'existing paid',furniture/equipment,0.1641906019588423,0.003498571748145854,,,,'real estate',none,rent,yes,no,good,no
+Michigan,0.5065834960220637,,radio/tv,0.3138549576317817,0.0,4<=X<7,'male single','co applicant',car,none,own,,yes,good,yes
+Missouri,0.5065834960220637,'existing paid','used car',0.2851876306811929,0.0,unemployed,'female div/dep/mar',none,'life insurance',none,rent,yes,no,good,no
+Nevada,0.11040278224399194,'existing paid',,0.03059315505667437,0.006036730163646689,1<=X<4,'female div/dep/mar',none,'life insurance',none,,none,no,good,no
+New York,0.5083544028574288,'existing paid',radio/tv,0.045779685264663805,0.008101672603376181,>=7,'male single',none,,none,own,none,no,bad,no
+Pennsylvania,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.13965004952129415,0.0,4<=X<7,'female div/dep/mar','co applicant',,bank,own,none,yes,good,yes
+Texas,0.5155853517658013,'existing paid',radio/tv,0.14746340926598436,0.009178238948255984,4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Texas,0.5065834960220637,'critical/other existing credit',education,0.092274678111588,0.0,1<=X<4,'female div/dep/mar',none,car,none,,yes,yes,good,yes
+Texas,0.5166897555122396,'critical/other existing credit','new car',0.14141080664685815,0.002091829711080137,<1,'male div/sep',none,,none,own,none,yes,good,yes
+California,0.5065834960220637,'existing paid',,0.03780125453945196,0.0,<1,'male mar/wid',none,car,none,own,none,no,bad,no
+Illinois,0.5073770004617769,'critical/other existing credit','new car',0.044349070100143065,0.0015917264639581509,>=7,'male single',guarantor,'real estate',bank,own,,yes,good,yes
+Maryland,0.5071483980303615,'critical/other existing credit','new car',0.1581379993397161,0.0056646103281537685,,'male single',none,'real estate',bank,own,none,no,bad,no
+Michigan,0.5065834960220637,'existing paid',furniture/equipment,0.06261692527786948,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Missouri,0.5146140454349872,'existing paid',repairs,0.11742049081104874,0.006450794142446612,<1,'male single',none,'no known property',none,rent,none,no,good,no
+Nevada,0.5065834960220637,'existing paid','new car',0.1036095521074062,0.0,>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+New York,0.11741122478578682,'existing paid',furniture/equipment,0.09843732805106196,0.007176750468914013,1<=X<4,'female div/dep/mar',none,,bank,rent,none,yes,bad,yes
+Pennsylvania,0.39940299205022345,'critical/other existing credit','new car',0.14025530978320674,0.0056764407275480535,1<=X<4,'male single',none,'real estate',none,rent,none,yes,good,yes
+Texas,0.07510504281723543,'existing paid',furniture/equipment,0.057169582920655874,0.0035641766902414257,1<=X<4,'male single',,'life insurance',none,own,none,no,bad,no
+Texas,0.2820948923612751,'existing paid','domestic appliance',0.0532078793881369,0.0,1<=X<4,'male mar/wid',none,'real estate',none,own,yes,no,bad,no
+California,0.12300741230683727,'critical/other existing credit',furniture/equipment,0.10982722570705404,0.0002882315488789084,>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Illinois,0.1084134330852743,'critical/other existing credit',radio/tv,,0.00782204498132948,4<=X<7,'female div/dep/mar',none,'real estate',none,own,yes,no,bad,no
+Michigan,0.5077955969139688,'delayed previously','new car',0.09436557719819524,0.0,1<=X<4,,none,car,none,,yes,no,good,no
+Missouri,0.5065834960220637,'existing paid',business,,0.0,>=7,'female div/dep/mar',none,'real estate',bank,own,,no,good,no
+New York,0.5091997238482628,'existing paid','new car',0.1357983933091229,0.006888518920035103,1<=X<4,'female div/dep/mar',none,'life insurance',none,,yes,yes,bad,yes
+Pennsylvania,0.1776753977555305,'all paid',other,0.06096621547265324,0.0,>=7,'male single',none,car,stores,own,yes,yes,good,yes
+Texas,0.5135777144125705,,'new car',0.03747111257840872,0.03490828213996868,<1,'female div/dep/mar',none,'life insurance',stores,own,none,yes,good,yes
+California,0.10992373314882577,'existing paid','new car',0.06558820292725873,0.002740350696057681,,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Illinois,0.5116732021561782,'no credits/all paid',business,0.21959942775393415,0.0014551391254968768,1<=X<4,'male single',none,'real estate',none,own,yes,no,good,no
+Maryland,0.5065834960220637,'critical/other existing credit','new car',,0.0,4<=X<7,'male single',none,'life insurance',bank,own,none,no,bad,no
+Michigan,0.5065834960220637,'delayed previously',business,0.19880048420820956,0.0,1<=X<4,'male single',none,'no known property',none,'for free',,no,bad,no
+Missouri,0.5137550082982683,'existing paid',,0.11439418950148565,0.00824471288696161,<1,'female div/dep/mar',guarantor,'real estate',none,,none,yes,good,yes
+New York,0.5090290340328059,'existing paid',,0.03675580499614834,0.00913844578665703,,'female div/dep/mar',none,'life insurance',none,own,none,no,bad,no
+Pennsylvania,0.5071118216413351,'all paid',education,0.08732254869593925,0.005799046684906992,4<=X<7,'female div/dep/mar',none,'no known property',bank,'for free',none,yes,good,yes
+Texas,0.5065834960220637,'existing paid',furniture/equipment,0.1705183228788379,0.0,1<=X<4,'female div/dep/mar',none,car,none,,yes,yes,good,yes
+California,0.5975078270932489,'existing paid',furniture/equipment,0.056399251678221636,0.006310980331423262,<1,,none,'life insurance',none,own,none,yes,good,yes
+Illinois,0.26457022996896595,'all paid',furniture/equipment,,0.08355165797670057,1<=X<4,'male single',none,'real estate',stores,own,yes,yes,good,yes
+Michigan,0.5065834960220637,'critical/other existing credit',business,0.2352811709034885,0.0,1<=X<4,'male single',,'real estate',none,own,yes,yes,good,yes
+Missouri,0.5151571032109498,'existing paid',,0.1332122812809508,0.0,,'female div/dep/mar',,'no known property',,'for free',,yes,good,yes
+New York,0.5065834960220637,'existing paid',radio/tv,,0.0,<1,'male single',none,'real estate',none,own,none,no,bad,no
+Pennsylvania,0.5065834960220637,'existing paid','used car',0.0577748431825685,0.0,>=7,'male single',none,'no known property',bank,'for free',none,no,good,no
+Texas,0.16251753253647605,'existing paid','domestic appliance',0.02701661714537251,0.03017719787310929,unemployed,'female div/dep/mar',none,'life insurance',none,,none,no,good,no
+Texas,0.6694530763029195,'existing paid','new car',0.05447342357213602,0.02063006556192246,,'female div/dep/mar',none,'no known property',,'for free',none,yes,good,yes
+California,0.4536904814519607,'existing paid',radio/tv,0.1709585121602289,0.9280894550272746,<1,'female div/dep/mar',none,car,bank,,none,yes,good,yes
+Illinois,0.3676018538133171,'all paid','used car',0.18609001870804445,0.0062647342247001536,1<=X<4,'female div/dep/mar',guarantor,car,bank,rent,none,no,good,no
+Indiana,0.5065834960220637,'delayed previously',furniture/equipment,0.08572686255089687,0.0,4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Maryland,0.5137712644711688,'no credits/all paid',business,0.6577528337184989,0.0,1<=X<4,'male single',none,car,,own,,no,good,no
+Michigan,0.5148360437961618,'delayed previously',radio/tv,,0.0,1<=X<4,,none,'no known property',none,'for free',none,yes,bad,yes
+Missouri,0.35208686079585144,'critical/other existing credit','new car',0.18851105975569496,0.0031361313303391674,1<=X<4,,none,'real estate',none,rent,none,no,good,no
+New York,0.513314059608338,'existing paid',furniture/equipment,0.17558049961483438,0.0,1<=X<4,'female div/dep/mar','co applicant',car,none,rent,none,no,good,no
+Pennsylvania,0.5065834960220637,'existing paid','new car',0.02145922746781116,0.0,1<=X<4,'male div/sep',none,'real estate',none,own,none,yes,bad,yes
+Texas,0.5075984908175483,'critical/other existing credit',business,0.187190491911522,0.005572118114707553,4<=X<7,'male single',none,'life insurance',,own,none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit','new car',0.0704302850225597,0.0,1<=X<4,'male single',none,'life insurance',bank,own,none,no,good,no
+Illinois,0.5065834960220637,'existing paid',business,0.20160669087707714,0.0,1<=X<4,'male div/sep',none,'real estate',bank,own,none,yes,bad,yes
+Michigan,0.2378466057364986,'existing paid',furniture/equipment,,0.006520701047958289,<1,'female div/dep/mar',none,car,none,,none,no,good,no
+Missouri,0.4728981657448908,'existing paid',radio/tv,0.1293056014086057,0.0021585101440297354,1<=X<4,'male single',none,'no known property',none,'for free',none,no,good,no
+New York,0.5065834960220637,'existing paid',radio/tv,0.09513590844062947,0.0,>=7,'male single',,car,none,own,none,yes,bad,yes
+Pennsylvania,0.8860935044905136,,furniture/equipment,,0.0030135253729802287,1<=X<4,,none,'real estate',none,,,yes,bad,yes
+Texas,0.5065834960220637,'all paid','new car',0.06531308462638935,0.0,4<=X<7,'male single',none,'no known property',none,own,none,yes,bad,yes
+Alabama,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.2086497193793331,0.0,1<=X<4,'male single',none,'real estate',none,own,yes,no,bad,no
+California,0.5065834960220637,'existing paid',education,0.1970947507428194,0.0,>=7,'male single',none,'real estate',none,own,,no,bad,no
+Illinois,0.4211491793426714,'existing paid',radio/tv,0.18763068119291296,0.009650379433173302,1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Michigan,0.21035386132366907,'all paid',furniture/equipment,,0.008387753170547038,1<=X<4,'male single',,car,,own,none,yes,good,yes
+Missouri,0.508676478283023,'existing paid',radio/tv,,0.0,<1,'male single',none,'life insurance',none,own,none,yes,bad,yes
+New York,0.5065834960220637,'existing paid',furniture/equipment,0.09519093210080334,0.0,<1,'female div/dep/mar','co applicant',car,none,rent,none,no,good,no
+Texas,0.515961275764129,'existing paid','new car',0.060801144492131615,0.0032522843425739512,<1,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+California,0.5065834960220637,'existing paid',education,0.06289204357873886,0.0,>=7,'male single',none,'life insurance',bank,,yes,yes,bad,yes
+Florida,0.5065834960220637,'existing paid',radio/tv,0.061956641355782986,0.0,4<=X<7,'female div/dep/mar',none,,none,own,none,yes,bad,yes
+Illinois,0.5065834960220637,'delayed previously',radio/tv,0.847529437658193,0.0,4<=X<7,,none,,none,own,yes,no,bad,no
+Michigan,0.5065834960220637,'existing paid',radio/tv,0.06839440959612632,0.0,<1,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+New York,0.4769459527971539,'delayed previously',radio/tv,0.22669747991636405,0.01034837299743603,4<=X<7,'male single',none,'life insurance',bank,own,yes,yes,bad,yes
+Texas,0.3902395905882855,'existing paid',education,0.027511830086937385,0.007005747423123914,unemployed,'female div/dep/mar',none,'real estate',none,own,,yes,good,yes
+California,0.5102705992380935,'existing paid',repairs,0.0582150324639595,0.008188787362552269,>=7,,none,car,none,own,none,yes,good,yes
+Illinois,0.5065834960220637,'existing paid',education,0.24061846594035435,0.0,1<=X<4,'male single',none,'life insurance',none,own,yes,yes,good,yes
+Michigan,0.5065834960220637,'critical/other existing credit',radio/tv,0.0880928799383735,0.0,4<=X<7,'male mar/wid',guarantor,car,none,own,yes,no,good,no
+New York,0.2900660051420307,'critical/other existing credit',radio/tv,0.08968856608341587,0.009342789048921928,,'male mar/wid',none,'life insurance',none,own,yes,yes,bad,yes
+Texas,0.5065834960220637,'delayed previously',,0.4253328931440519,0.0,<1,'male single',none,car,none,rent,yes,yes,good,yes
+California,0.01845177225304965,,,0.23841751953339935,0.009615963725844476,1<=X<4,'male div/sep',guarantor,'real estate',none,,none,yes,good,yes
+Illinois,0.5065834960220637,'existing paid','new car',0.06250687795752173,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',none,own,,yes,good,yes
+Michigan,0.7716764635508663,'existing paid','new car',,0.0106516614182713,4<=X<7,'male single',none,'no known property',bank,'for free',none,no,good,no
+New York,0.043654428308499485,'existing paid',education,0.02388026851546165,0.010569924113365341,1<=X<4,'male single',none,,none,rent,none,no,bad,no
+New York,0.3976026209014759,'existing paid',education,0.3976009684164191,0.00343834426032041,4<=X<7,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Ohio,0.5100125324932956,'existing paid',furniture/equipment,0.0919995598107186,0.010122519918090616,1<=X<4,'male single',none,'life insurance',none,own,none,no,bad,no
+Texas,0.23859946974396015,'existing paid',,0.1129635743369649,0.008075860822879562,>=7,'male single','co applicant','real estate',none,own,none,yes,good,yes
+California,0.511655421967068,'delayed previously','new car',0.4311654011224827,0.013502787672293634,>=7,'male single',none,car,none,own,yes,yes,bad,yes
+Illinois,0.5065834960220637,'critical/other existing credit','used car',0.11532959172444153,0.0,4<=X<7,'male single',,car,none,,yes,no,good,no
+Michigan,0.5065834960220637,'existing paid',,0.20485308682733572,0.0,unemployed,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Michigan,0.5106262030202953,'existing paid','new car',0.0351050951909321,0.001077641835733829,>=7,'male single',none,car,bank,own,none,yes,good,yes
+New York,0.5065834960220637,'existing paid',,0.5486959392538792,0.0,4<=X<7,'male single',none,car,stores,own,yes,yes,good,yes
+New York,0.5088171957796942,,business,0.2184989545504567,0.008635116066972967,,'female div/dep/mar',,car,none,own,none,yes,bad,yes
+Ohio,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.3362495873225487,0.0,>=7,'male single',none,'no known property',none,own,yes,no,good,no
+Texas,0.7902806374248597,'existing paid',radio/tv,0.057609772202046876,0.0016530294426376198,1<=X<4,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+California,0.1993682444806483,'existing paid','new car',0.0357653791130186,0.0,1<=X<4,'male mar/wid',none,car,none,own,,no,good,no
+Illinois,0.5065834960220637,'existing paid',furniture/equipment,0.10955210740618468,0.0,>=7,'male single',none,,none,own,none,no,bad,no
+Michigan,0.5160334125313757,'delayed previously',furniture/equipment,0.04401892813909981,0.009763305972846009,unemployed,'male single',none,'life insurance',stores,own,yes,no,bad,no
+Texas,0.6391444579404546,'critical/other existing credit',education,,0.000957186860082942,1<=X<4,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+Illinois,0.5065834960220637,'critical/other existing credit',other,,0.0,unemployed,'male single','co applicant','no known property',bank,own,yes,yes,bad,yes
+Michigan,0.5143300704146289,'all paid',furniture/equipment,0.17860680092439749,0.8923949890730128,1<=X<4,'male single',none,,stores,own,yes,no,good,no
+Texas,0.5065834960220637,'all paid',business,0.18482447452404532,0.0,1<=X<4,'female div/dep/mar',none,'real estate',stores,own,none,yes,good,yes
+Alabama,0.4686812128933803,'critical/other existing credit','new car',0.2527236711786068,0.0015669901743155575,>=7,'male single','co applicant','life insurance',none,rent,yes,yes,bad,yes
+Illinois,0.8055934442918735,'critical/other existing credit',radio/tv,0.15225046770111147,0.00040868652452979537,>=7,'male single',,'life insurance',none,own,none,no,bad,no
+Michigan,0.5065834960220637,'critical/other existing credit',business,0.21398701441619894,0.0,1<=X<4,'male single',none,'life insurance',none,own,yes,no,bad,no
+Texas,0.5065834960220637,'existing paid',business,0.3021899416749202,0.0,4<=X<7,'male single',,car,none,own,,yes,bad,yes
+Illinois,0.5065834960220637,'existing paid','new car',0.5566193463189172,0.0,>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+Texas,0.5065834960220637,'critical/other existing credit','new car',0.10069329811819082,0.0,1<=X<4,'male mar/wid',none,car,,own,none,no,bad,no
+Illinois,0.5065834960220637,'delayed previously',business,0.1282051282051282,0.0,<1,'male single',none,,bank,own,,no,bad,no
+Texas,0.5065834960220637,'critical/other existing credit',radio/tv,0.235501265544184,0.0,,'female div/dep/mar',none,car,none,,yes,yes,bad,yes
+Alabama,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.2696159348519864,0.0,>=7,,none,car,none,own,yes,yes,good,yes
+Alabama,0.5081740609393121,'existing paid',radio/tv,0.2941014636293606,0.03326385662416327,1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Alabama,0.2473554508725755,'existing paid',radio/tv,0.11742049081104874,0.010068745375389328,,'male single',none,'real estate',bank,rent,none,yes,good,yes
+Alabama,0.5065834960220637,'existing paid',radio/tv,0.06619346318917134,0.0,<1,'female div/dep/mar',none,,none,own,,yes,good,yes
+Alabama,0.5065834960220637,'existing paid',education,0.0708704743039507,0.0,<1,'female div/dep/mar',none,'no known property',none,own,none,yes,good,yes
+Alabama,0.5065834960220637,'existing paid',radio/tv,0.1116430064927919,0.0,1<=X<4,'male single',,'no known property',none,'for free',,yes,good,yes
+Alabama,0.5065834960220637,'delayed previously',radio/tv,0.06756905469351822,0.0,,'male mar/wid',none,'real estate',bank,own,none,no,bad,no
+Alabama,0.5065834960220637,'critical/other existing credit',radio/tv,0.2670298228238143,0.0,<1,'male mar/wid',,,none,'for free',yes,no,bad,no
+Alabama,0.5126013280277248,,business,0.5286123032904149,0.01714655068573297,4<=X<7,'male single',none,'life insurance',,own,yes,no,good,no
+Alabama,0.5065834960220637,'existing paid','new car',0.3453835149114119,0.0,1<=X<4,'male single',,'no known property',none,'for free',yes,yes,bad,yes
+Alabama,0.7369984907159473,'critical/other existing credit',radio/tv,0.06036095521074063,0.0,4<=X<7,'male single',none,'life insurance',none,,yes,yes,bad,yes
+Alabama,0.5149772692982362,'delayed previously','new car',0.14372180037416088,0.02041389190026328,>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Alabama,0.5065834960220637,'existing paid',radio/tv,0.13772422141520854,0.0,>=7,,'co applicant',,none,own,,no,good,no
+Arkansas,0.4595818201122387,'existing paid','new car',0.18713546825134808,0.3672672207595547,1<=X<4,'male single',none,'life insurance',none,own,none,no,good,no
+Arkansas,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.0398921536260592,0.0,1<=X<4,'male div/sep',none,'life insurance',none,,none,yes,good,yes
+Arkansas,0.5116422138265863,'existing paid',repairs,0.13101133487399585,0.029167311961179082,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+Arkansas,0.5105830225610279,'existing paid',radio/tv,0.14559260482007266,0.019790107204928332,<1,'male single',none,car,none,own,none,no,good,no
+Arkansas,0.4372880029951998,'critical/other existing credit','new car',0.2457356663365247,0.0,<1,'male single',,'real estate',none,own,none,no,good,no
+Arkansas,0.5065834960220637,'existing paid',radio/tv,0.11191812479366127,0.0,4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Arkansas,0.5065834960220637,'existing paid','used car',,0.0,1<=X<4,'male single',none,'life insurance',none,rent,none,yes,good,yes
+Arkansas,0.5078169331409009,'existing paid',radio/tv,0.046935182128315184,0.0,4<=X<7,'male single',guarantor,'real estate',none,own,,no,bad,no
+Arkansas,0.5065834960220637,'critical/other existing credit','new car',0.037195994277539335,0.0,,'female div/dep/mar',none,'life insurance',,,,no,good,no
+Arkansas,0.5065834960220637,'critical/other existing credit',radio/tv,,0.0,,,none,car,none,own,none,yes,good,yes
+Arkansas,0.6409026646407411,,education,0.09106415758776272,0.010199955259580474,,'male single',none,car,none,rent,,yes,good,yes
+Arkansas,0.5065834960220637,'existing paid',furniture/equipment,0.048035655331792666,0.0,1<=X<4,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Arizona,0.5065834960220637,'critical/other existing credit','used car',0.3345988775173325,0.0,>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Arizona,0.6281156606381665,'existing paid',radio/tv,0.06201166501595686,0.030970910123380317,>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,good,yes
+Arizona,0.5129112113236436,'delayed previously',business,0.12396830637173985,0.046217068470049735,>=7,'male single',none,'life insurance',stores,own,none,no,bad,no
+Arizona,0.5154796866419471,'existing paid',business,0.1253438978760867,0.010412902448677576,<1,'female div/dep/mar',none,'life insurance',,own,yes,yes,bad,yes
+Arizona,0.5065834960220637,'existing paid','new car',0.2791900517222405,0.0,>=7,'female div/dep/mar',none,,none,'for free',none,yes,good,yes
+Arizona,0.5087694432717986,'existing paid','new car',,0.027351883399583568,4<=X<7,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Arizona,0.5161172334228946,'no credits/all paid',,0.1496093320127655,0.0009776211863094316,<1,'female div/dep/mar',none,'life insurance',none,rent,none,no,good,no
+Arizona,0.5096117162302138,'existing paid',radio/tv,0.052602619126224284,0.002465025037427082,>=7,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Arizona,0.5065834960220637,'existing paid',radio/tv,0.10278419720479806,0.0,1<=X<4,'male single',none,'real estate',,,none,no,good,no
+Arizona,0.5065834960220637,'critical/other existing credit',radio/tv,0.020853967205898532,0.0,>=7,'male single',none,'life insurance',bank,own,yes,no,good,no
+California,0.5065834960220637,'all paid',education,0.05216242984483328,0.0,>=7,'female div/dep/mar',none,'no known property',none,'for free',none,yes,bad,yes
+California,0.5065834960220637,'existing paid','used car',0.12248266754704525,0.0,>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+California,0.1027430767753646,'critical/other existing credit',,0.0488610102344008,0.006997143496291708,,'male single',none,'real estate',none,own,,no,good,no
+California,0.5162259465791678,'existing paid','new car',0.7580609662154727,0.00017100304579009858,4<=X<7,'male single',none,'no known property',none,own,,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit','used car',0.404203807637284,0.0,>=7,'male single',none,car,none,own,none,no,bad,no
+California,0.5065834960220637,'critical/other existing credit',radio/tv,0.15555188731154396,0.0,>=7,'male single',,car,none,,yes,no,good,no
+California,0.5065834960220637,'existing paid',radio/tv,0.06905469351821282,0.0,1<=X<4,,,,none,'for free',yes,no,good,no
+California,0.9154709489490128,'critical/other existing credit',radio/tv,0.15945856718388907,0.0,1<=X<4,'male single',none,,none,own,yes,no,bad,no
+California,0.5148721121797851,'no credits/all paid','used car',0.3245295477055133,0.0392317553731523,>=7,'male mar/wid',none,car,bank,own,,yes,bad,yes
+California,0.9069247740518968,'no credits/all paid',radio/tv,0.059810718609001876,0.007110070035964414,,'male single',none,car,none,,yes,no,bad,no
+California,0.5065834960220637,'all paid',,0.010069329811819084,0.0,<1,'female div/dep/mar',none,'life insurance',bank,rent,none,no,bad,no
+California,0.1471630692264043,,'new car',0.05381313965004952,0.0011185104881868083,,'female div/dep/mar',none,,none,own,none,yes,good,yes
+California,0.5120155977978982,'existing paid',radio/tv,0.029712776493892375,0.09611016467915956,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+California,0.5065834960220637,'existing paid','new car',0.12765489160338947,0.0,,'female div/dep/mar',none,'real estate',none,,,no,bad,no
+California,0.5065834960220637,,'new car',0.0,0.0,1<=X<4,'female div/dep/mar',none,'real estate',bank,own,none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit',radio/tv,0.0586552217453505,0.0,1<=X<4,'male mar/wid',none,'life insurance',none,own,none,yes,good,yes
+California,0.4188849992608521,'existing paid',radio/tv,0.08979861340376362,0.004242811419131692,1<=X<4,'female div/dep/mar',none,car,bank,rent,none,yes,bad,yes
+California,0.5102218307193915,'all paid',business,0.33927588863211183,0.01073770068659336,>=7,'female div/dep/mar',none,'no known property',none,rent,none,yes,good,yes
+California,0.6622109512756778,'critical/other existing credit',,0.056399251678221636,0.3608433138884587,,'male div/sep',none,'real estate',none,own,yes,no,good,no
+California,0.5090082058112769,'delayed previously',radio/tv,0.33856058104985143,0.0,<1,'male single',none,car,none,own,none,yes,good,yes
+California,0.43249243198950665,,radio/tv,0.09557609772202047,0.005101053120644261,1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+California,0.5082736299983287,'existing paid',radio/tv,,0.004704196995508751,4<=X<7,'female div/dep/mar',guarantor,'real estate',none,own,none,yes,good,yes
+California,0.5065834960220637,'existing paid','used car',,0.0,1<=X<4,,none,car,none,,yes,no,bad,no
+California,0.5065834960220637,'critical/other existing credit','new car',0.17222405634422802,0.0,4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+California,0.5101903343843964,'all paid','domestic appliance',0.2057884890502916,0.0,<1,'female div/dep/mar',,'no known property',,own,none,yes,bad,yes
+California,0.5085037564459535,'existing paid','used car',0.6223175965665236,0.009882685457642868,1<=X<4,'female div/dep/mar',none,car,none,,none,yes,good,yes
+California,0.3021616137909243,'existing paid','new car',0.2272477165181028,0.044220957444977886,,'male single',none,car,none,,yes,yes,bad,yes
+California,0.5065834960220637,'critical/other existing credit','new car',,0.0,4<=X<7,'male single',,'no known property',none,own,yes,no,good,no
+California,0.5130163684420946,'no credits/all paid',business,0.2217453505007153,0.04031800113571834,1<=X<4,'female div/dep/mar',none,car,none,rent,,no,good,no
+California,0.4958823622048044,'all paid','new car',0.11417409486079015,0.03821111455268185,4<=X<7,'male single',none,,bank,own,,no,good,no
+California,0.5135949865962774,'all paid',radio/tv,,0.006535757919914649,1<=X<4,'male single',none,,stores,,,yes,good,yes
+California,0.5065834960220637,'existing paid',radio/tv,0.16011885110597554,0.0,>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+California,0.2436571715376765,'all paid',furniture/equipment,0.12286783316826234,0.0967748180269475,1<=X<4,'male single',none,'real estate',stores,own,yes,no,bad,no
+California,0.043570099411577336,'critical/other existing credit',furniture/equipment,0.7664245625619016,0.0,4<=X<7,'male single',none,'life insurance',,own,yes,yes,bad,yes
+California,0.42684442791733535,'critical/other existing credit',business,0.08512160228898426,0.005489305318947568,<1,'male single',none,'life insurance',bank,own,none,no,good,no
+California,0.496118584717267,'existing paid','new car',0.12440849565313085,0.0,unemployed,'female div/dep/mar',none,car,none,,none,yes,good,yes
+California,0.44923883010419696,'existing paid','new car',0.05634422801804776,0.0034028530621375602,<1,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+California,0.5065834960220637,'existing paid','used car',0.2750082535490261,0.0,1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+California,0.5065834960220637,'existing paid','used car',0.15291075162319798,0.0,,'male single',none,car,none,own,none,yes,good,yes
+California,0.4096667332153745,'existing paid',furniture/equipment,,0.0,>=7,'female div/dep/mar',none,'life insurance',,,yes,yes,bad,yes
+California,0.2546626005914199,'existing paid','new car',0.03994717728623308,0.004433173300294254,<1,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,0.5152114597890863,'existing paid',business,0.03251898316275999,0.043745590487498494,4<=X<7,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit',radio/tv,0.3037856278199626,0.0,4<=X<7,'female div/dep/mar',none,car,none,,none,yes,bad,yes
+California,0.5065834960220637,'delayed previously',repairs,0.07180587652690656,0.0,>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+California,0.11541069950819995,'existing paid',,0.056949488279960374,0.0,4<=X<7,'female div/dep/mar',none,,none,rent,none,yes,good,yes
+California,0.9688506326953292,'critical/other existing credit','new car',0.057719819522394626,0.0106183212017965,1<=X<4,'male single',none,'real estate',none,,none,yes,good,yes
+California,0.9860024191217296,'critical/other existing credit',radio/tv,0.056179157037526135,0.0,1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+California,0.5065834960220637,'existing paid','new car',0.06289204357873886,0.0,1<=X<4,'male single',guarantor,'real estate',none,,yes,no,good,no
+California,0.5007581980641945,'critical/other existing credit','new car',0.024265434136678768,0.0016293686438490528,>=7,'male single',none,'life insurance',none,,none,no,bad,no
+California,0.5065834960220637,'critical/other existing credit','new car',,0.0,>=7,,,car,none,own,yes,yes,bad,yes
+California,0.2749086479283794,'critical/other existing credit',furniture/equipment,0.10311433916584133,0.003699688537848674,1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,0.4205080765239019,'existing paid',radio/tv,0.10806646858149004,0.0,1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit','new car',,0.0,,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+California,0.5065834960220637,'critical/other existing credit',,0.12176735996478485,0.0,4<=X<7,'male mar/wid',none,'life insurance',none,,yes,no,bad,no
+California,0.5127669377891503,,radio/tv,,0.0016637843511778778,,,,'real estate',bank,own,none,yes,good,yes
+California,0.5065834960220637,,furniture/equipment,0.1572576207769341,0.0,<1,'male div/sep',none,'life insurance',none,,,no,bad,no
+California,0.5065834960220637,'existing paid','used car',0.14586772312094198,0.0,<1,'female div/dep/mar',,,none,rent,none,yes,good,yes
+California,0.5114161514221864,'critical/other existing credit',furniture/equipment,0.18526466380543632,0.009979479634505191,>=7,'male single',,,none,rent,yes,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit',,0.07730824254429404,0.0,>=7,'male single',none,'real estate',none,own,yes,no,good,no
+California,0.23388822763518916,'existing paid','used car',0.14097061736546715,0.0,>=7,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,0.4337522853893074,,education,0.4300099042588313,0.00562589265740884,1<=X<4,'female div/dep/mar',none,'no known property',none,own,yes,yes,bad,yes
+California,0.5065834960220637,'critical/other existing credit','used car',0.16644657202597116,0.0,>=7,'male single',none,car,none,own,yes,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit',radio/tv,0.10856168152305493,0.0,>=7,'male single',none,'life insurance',,own,none,no,good,no
+California,0.7590819935960839,'critical/other existing credit','new car',0.06767910201386597,0.0880676440727548,unemployed,'male single',,,,'for free',none,no,bad,no
+California,0.10626812626779096,'existing paid','new car',,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,0.5065834960220637,'critical/other existing credit','new car',0.18075272367117864,0.0,4<=X<7,,none,car,none,own,yes,yes,good,yes
+California,0.21259365714613734,'existing paid',radio/tv,0.17932210850665786,0.0006022748782544353,4<=X<7,'female div/dep/mar',guarantor,'real estate',none,own,none,no,bad,no
+Colorado,0.5065834960220637,'critical/other existing credit','used car',0.3004842082095301,0.0,>=7,,none,car,none,own,yes,yes,good,yes
+Colorado,0.5065834960220637,'existing paid',repairs,0.1992956971497744,0.0,unemployed,'female div/dep/mar',none,car,none,own,yes,no,bad,no
+Colorado,0.5138977578165521,'critical/other existing credit',radio/tv,0.25767580059425554,0.0029651282845490684,4<=X<7,'male single',guarantor,'real estate',none,own,none,no,bad,no
+Colorado,0.5065834960220637,'critical/other existing credit','new car',0.09298998569384836,0.0,>=7,'male single',none,'real estate',none,own,yes,yes,good,yes
+Connecticut,0.5128939391399366,'no credits/all paid',retraining,0.06382744580169472,0.0042890575258548,1<=X<4,'male single',none,'real estate',none,own,yes,yes,good,yes
+Connecticut,0.5075436262340086,'existing paid','new car',0.03224386486189061,0.0212699826200678,<1,'female div/dep/mar',none,'life insurance',bank,own,none,no,bad,no
+District of Columbia,0.5112876260551907,'existing paid','used car',0.3421371189611533,0.0,unemployed,'male div/sep',none,'real estate',none,own,yes,no,good,no
+District of Columbia,0.5076081429202081,'existing paid',business,0.09304500935402224,1.0,1<=X<4,'male single',none,'life insurance',none,own,yes,yes,good,yes
+Delaware,0.5065834960220637,'existing paid',radio/tv,0.1334323759216463,0.0,>=7,,none,car,none,own,none,no,bad,no
+Delaware,0.5065834960220637,,'used car',,0.0,,'male single',none,car,none,own,yes,yes,bad,yes
+Florida,0.5077219361305126,'delayed previously',education,,0.009511641113003977,>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Florida,0.5065834960220637,'critical/other existing credit',education,0.3162759986794322,0.0,1<=X<4,'male single',,'no known property',bank,own,yes,yes,bad,yes
+Florida,0.5090905026865865,'existing paid',,0.05161219324309453,0.004293359489270903,>=7,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+Florida,0.5065834960220637,'existing paid','used car',0.3336084516342027,0.0,>=7,'male single',none,car,none,own,yes,no,bad,no
+Florida,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.0534279740288324,0.0,1<=X<4,'male mar/wid',none,'life insurance',none,own,none,yes,good,yes
+Florida,0.7642077681138215,'existing paid',furniture/equipment,0.14537251017937713,0.004314869306351419,,'male div/sep',none,'no known property',none,'for free',none,no,good,no
+Florida,0.5065834960220637,'existing paid',furniture/equipment,0.15472653240893586,0.0,>=7,'male single',none,'no known property',none,rent,yes,yes,bad,yes
+Florida,0.5065834960220637,,furniture/equipment,0.11285352701661715,0.0,<1,,none,'life insurance',none,rent,none,no,bad,no
+Florida,0.3454939666738295,'existing paid','used car',,0.0,>=7,'male single',none,'life insurance',,'for free',yes,yes,bad,yes
+Florida,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.05546384945526577,0.0,<1,'female div/dep/mar',none,'life insurance',none,rent,,no,good,no
+Florida,0.5065834960220637,'delayed previously','new car',0.025696049301199515,0.0,>=7,'male mar/wid',none,car,none,own,yes,yes,good,yes
+Florida,0.5100008483690233,'existing paid','new car',,0.0,<1,'male single',none,'real estate',none,own,none,yes,good,yes
+Florida,0.5065834960220637,'critical/other existing credit',education,,0.0,>=7,,none,'no known property',none,'for free',none,yes,bad,yes
+Florida,0.5164098445351064,'critical/other existing credit',radio/tv,0.08501155496863651,0.0037491611171338603,>=7,'female div/dep/mar',guarantor,'real estate',bank,rent,yes,no,good,no
+Florida,0.0890355669822904,'critical/other existing credit',furniture/equipment,0.2213051612193243,0.010196728787018395,>=7,,none,'life insurance',,own,,no,bad,no
+Florida,0.5065834960220637,,,0.03994717728623308,0.0,>=7,'male single',,car,none,own,none,no,bad,no
+Florida,0.5088395480174327,'existing paid','new car',0.3973808737757236,0.0,unemployed,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Florida,0.10469737356126517,,'new car',0.4963684384285242,0.001173360521742123,4<=X<7,'male single',,car,none,own,,no,good,no
+Florida,0.5067684099888086,'existing paid',radio/tv,0.018708044459117418,0.007435943764734225,<1,,none,'real estate',none,own,none,yes,good,yes
+Florida,0.5065834960220637,'critical/other existing credit',radio/tv,0.037416088918234836,0.0,>=7,'male single',none,'real estate',,own,none,no,bad,no
+Florida,0.5065834960220637,'all paid','used car',0.4970287223506107,0.0,unemployed,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+Florida,0.5065834960220637,'no credits/all paid','new car',0.08407615274568064,0.0,<1,'female div/dep/mar',none,'real estate',none,rent,,yes,bad,yes
+Florida,0.5101334377792441,'existing paid',business,0.03615054473423572,0.000734560253299606,<1,'male mar/wid',none,'real estate',none,own,,no,good,no
+Florida,0.5115766811295805,'existing paid',radio/tv,0.012875536480686695,0.008882478963398895,4<=X<7,'male mar/wid',guarantor,'real estate',bank,own,none,no,bad,no
+Florida,0.28390694763429497,'critical/other existing credit','used car',0.5160669087707714,0.008603926832206218,4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Florida,0.1944299239566712,'existing paid','domestic appliance',0.15412127214702326,0.0066519109321494345,1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Florida,0.2167029128521811,'existing paid','new car',0.20254209310003304,0.01069683203414038,4<=X<7,'male single',,'no known property',none,'for free',none,no,good,no
+Florida,0.5080125152211118,'delayed previously','new car',0.39517992736876856,0.0018842599762531622,1<=X<4,'female div/dep/mar',none,'life insurance',,rent,none,yes,bad,yes
+Florida,0.5065834960220637,'existing paid','domestic appliance',0.05986574226917575,0.0,1<=X<4,'male div/sep',none,'real estate',none,own,none,no,bad,no
+Florida,0.5065834960220637,,,0.07175085286673269,0.0,,'female div/dep/mar',none,car,none,,yes,yes,bad,yes
+Florida,0.5065834960220637,'existing paid',other,0.8587542643336635,0.0,unemployed,'male div/sep','co applicant',car,none,own,none,no,good,no
+Florida,0.4770292656832698,'existing paid',radio/tv,0.06025090789039288,0.005857123191024384,1<=X<4,'male mar/wid',none,'real estate',bank,,,yes,bad,yes
+Florida,0.5065834960220637,'existing paid',,0.04682513480796743,0.0,,'male mar/wid',none,'real estate',none,own,yes,no,good,no
+Florida,0.5065834960220637,'existing paid',radio/tv,0.1521954440409376,0.0,1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Florida,0.059292358633526415,'existing paid',furniture/equipment,0.1354682513480797,0.002321984753841653,>=7,'male single',none,'life insurance',bank,own,,yes,good,yes
+Florida,0.14899188867772795,'critical/other existing credit','new car',0.026466380543633764,0.004939729492540395,>=7,'male single',none,'real estate',none,own,none,no,bad,no
+Florida,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.19423352041377792,0.0,<1,'male div/sep',none,car,none,own,yes,no,good,no
+Florida,0.1588111251151267,'critical/other existing credit','new car',0.07439198855507867,0.006926161099926007,>=7,'male mar/wid',none,car,none,own,yes,no,good,no
+Florida,0.3019543475864409,'critical/other existing credit','new car',0.20446792120611865,0.009669738268545764,,'female div/dep/mar',none,'real estate',,rent,yes,no,good,no
+Florida,0.5065834960220637,,business,0.21541762958071967,0.0,1<=X<4,'male single',none,car,stores,,none,no,good,no
+Florida,0.3883604786020504,'existing paid','used car',0.4448662925057775,0.0,>=7,'male single',none,'no known property',none,'for free',,yes,good,yes
+Georgia,0.5089152408225013,'delayed previously',business,0.3538571585781886,0.0,1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Georgia,0.5065834960220637,,business,0.11692527786948388,0.0,1<=X<4,'male single',none,car,,own,yes,yes,bad,yes
+Georgia,0.043442590055387816,'existing paid','new car',0.05315285572796302,0.0,<1,'female div/dep/mar',none,car,none,rent,,yes,good,yes
+Georgia,0.15504578906701252,'no credits/all paid',business,0.6364036535710356,0.008679211191988024,>=7,'male single',,car,,rent,none,yes,good,yes
+Georgia,0.5113719549521129,'existing paid',radio/tv,,0.0,>=7,'female div/dep/mar',none,car,none,own,,yes,good,yes
+Georgia,0.7829831398086751,'existing paid',radio/tv,0.11428414218113787,0.01021286114982878,<1,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Georgia,0.19548251115198856,'no credits/all paid','new car',0.045779685264663805,0.0,1<=X<4,'male single',none,,bank,own,none,yes,good,yes
+Georgia,0.5065834960220637,'existing paid',,0.03499504787058435,0.0,1<=X<4,'female div/dep/mar',,car,,own,none,yes,good,yes
+Georgia,0.5065834960220637,'existing paid',furniture/equipment,0.019313304721030045,0.0,<1,'female div/dep/mar',,'real estate',,rent,none,no,bad,no
+Georgia,0.06391571580755333,'critical/other existing credit','used car',,0.007654268408101458,>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+Georgia,0.5065834960220637,'critical/other existing credit',radio/tv,0.12991086167051832,0.0,>=7,'male mar/wid','co applicant','real estate',none,own,none,no,good,no
+Georgia,0.4011388465127715,'existing paid',furniture/equipment,0.2712116209970287,0.0030898852236160585,4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Georgia,0.5065834960220637,'delayed previously','used car',0.15092989985693847,0.0,1<=X<4,'male single',none,'real estate',stores,own,none,yes,good,yes
+Georgia,0.5065834960220637,'existing paid',repairs,0.09315505667436998,0.0,,'female div/dep/mar',none,'real estate',none,,none,yes,good,yes
+Georgia,0.5065834960220637,'all paid',business,0.07202597116760208,0.0,4<=X<7,'male single',none,car,bank,,yes,no,good,no
+Georgia,0.5065834960220637,'existing paid',furniture/equipment,0.17453505007153075,0.0,>=7,'male single',none,'life insurance',bank,own,,yes,good,yes
+Georgia,0.5149422169254192,,furniture/equipment,0.20501815780785734,0.0,4<=X<7,,none,,none,own,yes,no,good,no
+Georgia,0.5065834960220637,'existing paid','new car',0.3582590513920986,0.0,1<=X<4,'male single',none,car,none,rent,,yes,good,yes
+Georgia,0.5065834960220637,,'new car',0.05496863651370089,0.0,<1,'male mar/wid',none,'real estate',none,own,none,yes,bad,yes
+Georgia,0.2322275579723066,'existing paid',radio/tv,0.061296357433696484,0.0029887890833376353,4<=X<7,'male single',none,'real estate',none,own,,no,good,no
+Hawaii,0.03533177578876728,'existing paid',,0.025255860019808517,0.0017562765646240944,>=7,'male single',none,'real estate',stores,own,none,yes,good,yes
+Iowa,0.35711865431400724,'critical/other existing credit','new car',0.1092219654451414,0.00016024813724984082,1<=X<4,'male mar/wid',guarantor,'life insurance',bank,rent,none,no,good,no
+Iowa,0.5065834960220637,'critical/other existing credit','used car',0.2086497193793331,0.0,4<=X<7,'male single',none,'life insurance',none,own,yes,no,good,no
+Iowa,0.5065834960220637,'critical/other existing credit',radio/tv,0.06718388907230109,0.0,1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Iowa,0.2953766936265134,'all paid',,0.06558820292725873,0.010204257222996577,4<=X<7,'male single',none,,none,'for free',none,no,good,no
+Iowa,0.5065834960220637,'delayed previously','new car',0.5846263893474194,0.0,>=7,'male single',none,car,,own,yes,no,bad,no
+Iowa,0.5065834960220637,'existing paid','new car',0.06734896005282273,0.0,<1,'male mar/wid',none,'real estate',none,own,yes,no,good,no
+Iowa,0.5065834960220637,'existing paid',retraining,0.03543523715197535,0.0,4<=X<7,'female div/dep/mar',none,'life insurance',none,own,yes,yes,bad,yes
+Idaho,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.17018818091779464,0.0,1<=X<4,,none,'no known property',,'for free',yes,yes,good,yes
+Idaho,0.2773145615176763,'existing paid','new car',0.20408275558490152,0.002009016915320152,1<=X<4,'female div/dep/mar',none,,none,own,yes,no,bad,no
+Illinois,0.5065834960220637,'existing paid','new car',0.18306371739848132,0.0,1<=X<4,'male single',guarantor,'real estate',none,rent,none,no,bad,no
+Illinois,0.5065834960220637,'critical/other existing credit',,0.30560140860570045,0.0,1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Illinois,0.5065834960220637,'delayed previously',business,0.10559040387366568,0.0,1<=X<4,'male mar/wid',none,car,none,own,,no,good,no
+Illinois,0.3725523664669697,'existing paid',radio/tv,0.12044679212061185,0.0,<1,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Illinois,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.2352811709034885,0.0,<1,'male single',none,'real estate',stores,own,yes,no,bad,no
+Illinois,0.5065834960220637,'existing paid',furniture/equipment,0.10784637394079452,0.0,,'male single',,'real estate',,,none,no,good,no
+Illinois,0.5065834960220637,,furniture/equipment,0.10845163420270716,0.0,1<=X<4,'female div/dep/mar',none,car,none,rent,none,no,bad,no
+Illinois,0.054151343953694336,'existing paid',radio/tv,0.11769560911191812,0.009493357768485537,<1,,none,car,stores,own,,yes,bad,yes
+Illinois,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.16952789699570814,0.0,>=7,'male single',none,'life insurance',stores,own,none,yes,bad,yes
+Illinois,0.5065834960220637,'existing paid',business,0.3939143831847695,0.0,>=7,'male single',none,,none,own,none,yes,good,yes
+Illinois,0.4790272509338409,'existing paid',furniture/equipment,0.022119511389897657,0.01016016209798152,>=7,'female div/dep/mar',none,'life insurance',none,,none,yes,bad,yes
+Illinois,0.5065834960220637,'delayed previously',furniture/equipment,,0.0,4<=X<7,'female div/dep/mar',none,car,none,,yes,no,bad,no
+Illinois,0.8136453299317291,'critical/other existing credit','new car',0.06014086057004513,0.002024073787276513,>=7,'male single',none,'real estate',none,own,none,no,bad,no
+Illinois,0.5048161452245206,'critical/other existing credit',business,,0.015743035121229328,4<=X<7,'male single',none,'real estate',none,own,yes,yes,good,yes
+Illinois,0.5065834960220637,'existing paid','domestic appliance',0.03433476394849785,0.0,<1,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Illinois,0.13205905258008324,'existing paid',furniture/equipment,,0.0,1<=X<4,'male single','co applicant','life insurance',none,own,none,yes,bad,yes
+Illinois,0.5091880397239905,'critical/other existing credit','new car',0.05898536370639375,0.8015988247035947,1<=X<4,'female div/dep/mar',none,car,none,,none,no,good,no
+Illinois,0.4571037697556951,'all paid',radio/tv,0.09298998569384836,0.007012200368248069,<1,'male single','co applicant','no known property',bank,'for free',yes,no,bad,no
+Illinois,0.5065834960220637,'existing paid',radio/tv,0.1840541432816111,0.0,>=7,'male single',none,car,none,own,none,no,good,no
+Illinois,0.08436039325714273,'existing paid','new car',0.06448772972378122,0.009078218298831587,<1,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Illinois,0.5065834960220637,'critical/other existing credit',radio/tv,,0.0,4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Illinois,0.5065834960220637,'existing paid','used car',0.4161989655551887,0.0,4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Illinois,0.5065834960220637,'existing paid','used car',0.4966985803895675,0.0,1<=X<4,'male div/sep',none,'no known property',none,'for free',yes,yes,good,yes
+Illinois,0.5065834960220637,'critical/other existing credit','new car',0.10625068779575217,0.0,>=7,'male single',none,'real estate',none,own,,no,bad,no
+Illinois,0.5065834960220637,'critical/other existing credit',radio/tv,0.0466600638274458,0.0,unemployed,'female div/dep/mar',none,car,none,own,,yes,good,yes
+Illinois,0.5085804652618284,'existing paid',,0.20947507428194126,0.0018014471804931765,4<=X<7,'male div/sep',none,car,none,own,yes,no,bad,no
+Illinois,0.22261050768535973,'existing paid',,0.02998789479476175,0.0013497410218023507,<1,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Illinois,0.5137326560605298,'critical/other existing credit',,0.14168592494772753,0.0,,'male single',none,,none,own,yes,yes,bad,yes
+Indiana,0.5065834960220637,'existing paid',,0.8485748872014967,0.0,1<=X<4,'male single',,car,none,own,yes,yes,bad,yes
+Indiana,0.5065834960220637,'critical/other existing credit','new car',0.350170573346539,0.0,>=7,'male single',none,car,none,own,yes,yes,good,yes
+Indiana,0.5065834960220637,'all paid',,0.41674920215692746,0.0,<1,'male single',guarantor,'real estate',bank,rent,yes,yes,good,yes
+Indiana,0.10682337617342898,'critical/other existing credit',business,0.12061186310113348,0.00842862182300002,>=7,'male single',none,car,stores,own,yes,yes,good,yes
+Indiana,0.5065834960220637,'critical/other existing credit',radio/tv,0.08688235941454825,0.0,>=7,'male single',none,car,none,,yes,no,bad,no
+Indiana,0.014504570270609418,'critical/other existing credit','new car',0.10570045119401343,0.00861898370416258,1<=X<4,'male single',none,'life insurance',bank,own,none,yes,bad,yes
+Indiana,0.5102101465951191,'critical/other existing credit','used car',0.3053813139650049,0.0047708774284583476,1<=X<4,'male single',none,car,none,own,yes,yes,bad,yes
+Indiana,0.5065834960220637,'critical/other existing credit',radio/tv,0.05056674369979091,0.0,1<=X<4,,none,'life insurance',none,own,yes,yes,bad,yes
+Indiana,0.5065834960220637,,'used car',0.4785407725321889,0.0,,'male single',none,car,stores,own,yes,no,good,no
+Indiana,0.34332122756457634,,radio/tv,0.12963574336964895,0.002728520296663397,<1,'female div/dep/mar',,,none,rent,yes,no,bad,no
+Indiana,0.5065834960220637,'critical/other existing credit',,,0.0,,'female div/dep/mar',none,'life insurance',none,,none,yes,good,yes
+Indiana,0.5065834960220637,'existing paid',,0.10652580609662153,0.0,4<=X<7,,none,'real estate',bank,rent,none,yes,bad,yes
+Indiana,0.24353271021390585,'existing paid',furniture/equipment,0.2147573456586332,0.007092862182300002,1<=X<4,,'co applicant',car,none,,none,no,good,no
+Indiana,0.029826013229476745,'critical/other existing credit','new car',0.13068119291295258,0.0026887271350644433,>=7,'male single',guarantor,'life insurance',bank,rent,yes,no,good,no
+Indiana,0.5065834960220637,'critical/other existing credit','new car',0.17800154066248486,0.0,<1,'male div/sep',none,'real estate',none,own,yes,no,bad,no
+Kansas,0.5065834960220637,'critical/other existing credit','used car',,0.0,>=7,'male single',none,,,,none,yes,good,yes
+Kansas,0.5065834960220637,'existing paid',radio/tv,0.06250687795752173,0.0,1<=X<4,'male mar/wid',,'real estate',none,rent,yes,no,good,no
+Kansas,0.5065834960220637,'existing paid',radio/tv,,0.0,>=7,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Kansas,0.2818205694435766,,radio/tv,0.047155276769010684,0.0070401631304527375,1<=X<4,'male single',none,'real estate',none,rent,,no,good,no
+Kentucky,0.0999983235821696,'existing paid','new car',0.19329811819082204,0.0,4<=X<7,'male single','co applicant','real estate',none,own,none,no,good,no
+Kentucky,0.5129112113236436,'existing paid',education,0.19043688786178056,0.0,1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Kentucky,0.5065834960220637,'delayed previously','used car',0.1839991196214372,0.0,<1,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Kentucky,0.5143498826253515,'existing paid','new car',0.1620446792120612,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Kentucky,0.5065834960220637,'delayed previously',radio/tv,0.2313194673709695,0.0,1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Kentucky,0.5092825287289755,'critical/other existing credit',furniture/equipment,0.2468361395400022,0.007910235231359595,<1,,none,car,bank,,none,yes,good,yes
+Kentucky,0.5135264058668527,,radio/tv,0.15081985253659072,0.0,>=7,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Kentucky,0.5065834960220637,'existing paid',business,0.10410476504897104,0.0,>=7,'male div/sep',none,'real estate',none,,yes,yes,good,yes
+Kentucky,0.5065834960220637,'all paid',business,0.16017387476614944,0.0,1<=X<4,'male single',none,,none,rent,yes,yes,bad,yes
+Kentucky,0.5065834960220637,'no credits/all paid',other,1.0,0.0,1<=X<4,'female div/dep/mar',none,'life insurance',bank,own,yes,yes,good,yes
+Kentucky,0.5065834960220637,'existing paid','used car',0.14295146913172666,0.0,1<=X<4,'male single','co applicant','real estate',none,own,none,no,bad,no
+Kentucky,0.3923777853301248,'existing paid','new car',0.8058765269065699,0.00507846781270972,>=7,'male single',none,'no known property',bank,own,,no,good,no
+Kentucky,0.00459135283362879,'existing paid',furniture/equipment,0.11604489930670188,0.0500458159103815,unemployed,'male div/sep',none,'life insurance',none,own,none,yes,good,yes
+Kentucky,0.21583879566143066,'existing paid',furniture/equipment,0.1702982282381424,0.00630882934971521,>=7,,none,'life insurance',none,rent,yes,yes,good,yes
+Kentucky,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.08622207549246176,0.0,1<=X<4,'female div/dep/mar',none,'no known property',none,own,none,no,bad,no
+Kentucky,0.5065834960220637,'delayed previously',radio/tv,0.6877407285132607,0.0,4<=X<7,'male single',none,car,none,own,yes,no,bad,no
+Kentucky,0.22420208861341448,'existing paid',radio/tv,0.061406404754044235,0.000922771152754117,<1,'female div/dep/mar',none,'life insurance',none,rent,none,yes,good,yes
+Kentucky,0.5091565433889954,'existing paid','new car',0.09640145262462857,0.008449056149226508,4<=X<7,,none,'life insurance',none,rent,yes,no,bad,no
+Kentucky,0.4628929993299409,'all paid',furniture/equipment,0.3643666776713987,0.0,<1,'male div/sep',none,'life insurance',bank,own,yes,no,bad,no
+Kentucky,0.4814915851444995,'all paid',,0.02459557609772202,0.0044998537332438535,<1,'male single',,car,bank,own,yes,yes,bad,yes
+Kentucky,0.4994836125077026,'critical/other existing credit',furniture/equipment,0.04396390447892594,0.004767650955896271,<1,,none,'life insurance',none,rent,none,yes,good,yes
+Kentucky,0.1531295926863478,'existing paid','used car',0.5528227137669198,0.010392468122451086,4<=X<7,'male single',none,'no known property',stores,'for free',yes,yes,bad,yes
+Kentucky,0.5065834960220637,'existing paid',radio/tv,0.08897325850115549,0.0,>=7,'male single',none,car,none,own,yes,yes,good,yes
+Kentucky,0.20102332608409626,'delayed previously','new car',,0.008365167862612497,1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Kentucky,0.17977041203810246,'existing paid',furniture/equipment,,0.005281735584120592,<1,'male single','co applicant','life insurance',,,none,no,bad,no
+Kentucky,0.5104722773831422,'existing paid',radio/tv,0.07813359744690218,0.0012680037168963914,<1,'female div/dep/mar',none,car,none,own,,yes,bad,yes
+Kentucky,0.5065834960220637,'critical/other existing credit','new car',0.053593045009354016,0.0,1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Louisiana,0.5065834960220637,'critical/other existing credit',,,0.0,>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+Louisiana,0.11594359717609955,'existing paid',,0.06866952789699571,0.005868953590418668,1<=X<4,'female div/dep/mar',,car,bank,own,none,yes,good,yes
+Louisiana,0.5143336264524508,'delayed previously',radio/tv,0.091834488830197,0.02570960886548621,<1,'male single',none,'no known property',,,none,yes,bad,yes
+Louisiana,0.8562517430935394,'existing paid',radio/tv,0.02723671178606801,0.0058119525751553006,1<=X<4,'female div/dep/mar',none,,none,,none,yes,good,yes
+Louisiana,0.5098072983104247,'existing paid',radio/tv,0.09975789589523497,0.008879252490836818,<1,,none,car,none,rent,yes,yes,good,yes
+Louisiana,0.5142513295771414,'existing paid',,0.3322328601298558,0.008297411938808874,1<=X<4,'male single',none,,none,'for free',none,yes,bad,yes
+Louisiana,0.5065834960220637,'critical/other existing credit','used car',0.3627159678661824,0.0,1<=X<4,'male single',none,'life insurance',none,,yes,yes,bad,yes
+Louisiana,0.5065834960220637,'existing paid','new car',0.1803125343897876,0.0,<1,'male single',none,'life insurance',none,own,yes,yes,bad,yes
+Louisiana,0.5065834960220637,'existing paid','new car',0.0713106635853417,0.0,1<=X<4,,none,'real estate',none,own,none,yes,good,yes
+Louisiana,0.5065834960220637,,furniture/equipment,0.03736106525806097,0.0,4<=X<7,'male single',none,car,stores,own,,no,good,no
+Louisiana,0.5065834960220637,'critical/other existing credit','new car',0.06630351050951909,0.0,4<=X<7,'male single',none,'real estate',none,own,,no,good,no
+Louisiana,0.15452000347475695,'existing paid',furniture/equipment,,0.002438137766076437,<1,'female div/dep/mar',,'life insurance',none,rent,none,yes,good,yes
+Louisiana,0.5100785731957045,'no credits/all paid','new car',0.44613183668977663,0.0630968974239843,<1,'female div/dep/mar',none,,none,own,none,yes,good,yes
+Louisiana,0.4366037197171629,'all paid',furniture/equipment,0.1705183228788379,0.07231923149725535,<1,'male single',,'no known property',none,'for free',yes,no,good,no
+Louisiana,0.5065834960220637,'existing paid',,0.14355672939363925,0.0,unemployed,'male single',none,'no known property',none,own,yes,yes,good,yes
+Louisiana,0.5065834960220637,'existing paid',furniture/equipment,0.07059535600308132,0.0,<1,'male mar/wid','co applicant','life insurance',none,own,none,no,good,no
+Louisiana,0.5065834960220637,'existing paid',radio/tv,0.18548475844613185,0.0,,'male single',,car,none,own,none,yes,good,yes
+Louisiana,0.5122477562671356,'critical/other existing credit',business,0.18377902498074167,0.0015099891590521911,unemployed,'male mar/wid',none,car,none,own,yes,yes,bad,yes
+Louisiana,0.25433493710639105,'delayed previously',business,0.10426983602949268,0.005159129626761654,4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Louisiana,0.5065834960220637,,,0.2125563992516782,0.0,,'female div/dep/mar',none,,none,rent,none,yes,bad,yes
+Louisiana,0.5065834960220637,'existing paid',furniture/equipment,0.590073731704633,0.0,unemployed,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Massachusetts,0.08634974241586038,'existing paid','new car',0.09040387366567623,0.010225767040077093,1<=X<4,'female div/dep/mar',guarantor,'life insurance',none,own,yes,yes,good,yes
+Massachusetts,0.16617618744992976,'critical/other existing credit',radio/tv,0.053978210630571136,0.2340848863421265,>=7,'female div/dep/mar',none,'life insurance',none,rent,yes,yes,good,yes
+Massachusetts,0.6887694737521228,'critical/other existing credit',radio/tv,0.18741058655221746,0.0,>=7,,none,'life insurance',stores,,none,yes,bad,yes
+Massachusetts,0.5164276247242165,'critical/other existing credit',radio/tv,0.04974138879718279,0.00013766282931529952,>=7,'male single',none,'real estate',none,own,none,no,good,no
+Massachusetts,0.1615055857734103,'existing paid','new car',0.20666886761307365,0.0031694715468139657,,'male single',none,car,none,own,,no,bad,no
+Massachusetts,0.5152028236972328,'existing paid',,0.15511169803015296,0.030838624748335142,>=7,'male single',none,'no known property',,'for free',none,yes,bad,yes
+Massachusetts,0.5065834960220637,,radio/tv,0.0819852536590734,0.0,>=7,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+Massachusetts,0.5163829202487397,'delayed previously','new car',0.11571475734565866,0.007907008758797514,1<=X<4,'male div/sep',none,'life insurance',none,own,none,no,good,no
+Massachusetts,0.5065834960220637,'existing paid','new car',0.18190822053483,0.0,1<=X<4,'male single',none,'no known property',none,own,none,no,good,no
+Massachusetts,0.5065834960220637,'existing paid',radio/tv,0.11813579839330912,0.0,>=7,'male single',none,car,,own,yes,no,good,no
+Massachusetts,0.5065834960220637,'existing paid',repairs,,0.0,,'male mar/wid',none,'life insurance',,,none,no,bad,no
+Massachusetts,0.5094217222094374,'existing paid',radio/tv,0.08060966215472654,0.0,1<=X<4,'female div/dep/mar',none,car,none,,none,yes,good,yes
+Massachusetts,0.5132947554030185,'critical/other existing credit',radio/tv,0.12490370859469573,0.08327095486379983,1<=X<4,'male single',none,'life insurance',,own,none,yes,good,yes
+Maryland,0.5065834960220637,,,0.18256850445691647,0.0,>=7,'female div/dep/mar',,,bank,rent,yes,yes,good,yes
+Maryland,0.5065834960220637,'existing paid',radio/tv,0.3805436337625179,0.0,4<=X<7,'male mar/wid',none,'life insurance',none,rent,yes,yes,bad,yes
+Maryland,0.03915908849606525,'critical/other existing credit','new car',0.202982282381424,0.008837308347529813,1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Maryland,0.5065834960220637,'existing paid',repairs,0.06954990645977771,0.0,1<=X<4,'male single',guarantor,'real estate',,own,none,yes,good,yes
+Maryland,0.5065834960220637,'existing paid','new car',0.39303400462198745,0.0,1<=X<4,'male single',none,'life insurance',none,,,yes,good,yes
+Maryland,0.3126671655279725,'all paid','new car',0.051887311543963914,0.0007904857777089462,unemployed,'female div/dep/mar','co applicant','no known property',none,rent,none,yes,good,yes
+Maryland,0.2510542382128776,'existing paid',business,,0.0,>=7,'male single','co applicant','no known property',none,rent,none,yes,bad,yes
+Maryland,0.5065834960220637,'critical/other existing credit',,,0.0,1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Maine,0.988797464849836,'existing paid',radio/tv,,0.07873991189578924,1<=X<4,'female div/dep/mar',none,,none,own,none,no,good,no
+Michigan,0.5147994674071353,'existing paid',radio/tv,0.02767690106745901,0.0,1<=X<4,'female div/dep/mar',guarantor,'real estate',none,own,none,no,good,no
+Michigan,0.5135543461640257,'delayed previously',business,0.11978650819852535,0.0,>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,0.5065834960220637,'delayed previously','new car',0.12589413447782544,0.0,>=7,,none,car,none,own,none,yes,bad,yes
+Michigan,0.5070122525823184,'all paid','new car',0.055793991416309016,0.012846738251337909,1<=X<4,'male mar/wid',none,'life insurance',none,rent,none,yes,good,yes
+Michigan,0.5108949378785593,'critical/other existing credit',furniture/equipment,0.4476724991746451,0.00020649424397294928,4<=X<7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,0.5065834960220637,'existing paid',business,0.2527786948387807,0.0,unemployed,'male single',,car,bank,rent,yes,yes,bad,yes
+Michigan,0.8793690369690771,'existing paid','new car',0.14707824364476724,0.01878990071068436,1<=X<4,'female div/dep/mar',none,car,bank,own,yes,no,good,no
+Michigan,0.3388924364599542,'existing paid','used car',0.4390337845273468,0.003475986440211313,1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,0.5065834960220637,'critical/other existing credit',furniture/equipment,0.09783206778914934,0.0,4<=X<7,'male single',none,'life insurance',none,own,none,yes,good,yes
+New Mexico,0.1921840320693651,'critical/other existing credit',furniture/equipment,0.06509298998569385,0.0016895961316744964,1<=X<4,'female div/dep/mar',none,'life insurance',none,rent,none,yes,bad,yes
+New Mexico,0.6625929713388431,,business,0.3322878837900297,0.002156359162321684,<1,'male div/sep',none,'life insurance',none,own,none,no,good,no
+New Mexico,0.5065834960220637,'existing paid',radio/tv,0.06377242214152086,0.0,unemployed,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+New Mexico,0.2470999241547933,'existing paid','used car',0.3482447452404534,0.002328437698965808,unemployed,'male single',,'no known property',none,'for free',yes,no,good,no
+Nevada,0.5115055603731401,'critical/other existing credit',radio/tv,,0.003178075473646172,>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Nevada,0.5065834960220637,'critical/other existing credit',education,0.18240343347639484,0.0,<1,'male single',none,'life insurance',none,own,none,no,good,no
+New York,0.5065834960220637,'all paid',radio/tv,0.07257620776934083,0.0,>=7,,none,car,bank,,none,no,good,no
+New York,0.5065834960220637,'existing paid',radio/tv,0.09276989105315284,0.0,4<=X<7,'male mar/wid',none,car,none,,none,yes,good,yes
+New York,0.01890796110507435,'existing paid',furniture/equipment,0.20408275558490152,0.002695180080188598,unemployed,,none,'life insurance',none,own,yes,no,bad,no
+New York,0.5065834960220637,'existing paid','new car',0.117750632772092,0.0,>=7,'male single',none,car,none,own,yes,no,good,no
+New York,0.5065834960220637,'existing paid',furniture/equipment,0.0817651590183779,0.0,4<=X<7,,none,'real estate',none,own,none,no,bad,no
+New York,0.3391413591074955,'existing paid',,0.19847034224716628,0.009509490131295923,1<=X<4,'male div/sep',none,'life insurance',none,own,yes,yes,good,yes
+Ohio,0.5065834960220637,'existing paid',radio/tv,0.03048310773632662,0.0,>=7,'male single',,car,none,own,none,no,good,no
+Ohio,0.14843308273426795,'existing paid',radio/tv,0.08776273797733025,0.007155240651833497,1<=X<4,'male single',,'no known property',none,'for free',yes,yes,good,yes
+Ohio,0.5082380696201084,'critical/other existing credit',,0.23803235391218225,0.024496455182145133,unemployed,'male single',,car,none,,none,yes,good,yes

@@ -107,7 +107,6 @@ location,state,checking_amt,duration,credit_history,purpose,credit_amount,saving
 "Prince William, VA",Virginia,150.24,,'critical/other existing credit',other,11938,20.15,1<=X<4,2,'male single','co applicant',3,car,39,,own,2,'high qualif/self emp/mgmt',2,yes,yes,bad,08/1994,yes
 "Russell, VA",Virginia,0,18,'all paid','new car',6458,0,>=7,2,'male single',none,4,'no known property',39,bank,own,2,'high qualif/self emp/mgmt',,yes,no,good,08/1994,no
 "Tazewell, VA",Virginia,129.98,12,'existing paid','new car',6078,50.34,4<=X<7,2,'male single',none,2,car,,none,,1,skilled,1,none,no,good,08/1994,no
-,Virginia,,,,,,,,,,,,,,,,,,,,,,08/1994,
 "Danville, VA",Virginia,-757.72,,'existing paid',furniture/equipment,7721,0,<1,1,'female div/dep/mar',none,2,'life insurance',30,none,own,1,skilled,1,yes,no,good,08/1994,no
 "Lynchburg, VA",Virginia,55.89,,'existing paid',business,1410,549.75,>=7,1,'male mar/wid',,2,'real estate',35,none,own,1,skilled,1,yes,yes,good,08/1994,yes
 "Newport News, VA",Virginia,80.35,6,'delayed previously',,1449,265.76,>=7,1,,none,2,car,31,bank,own,2,skilled,,none,no,good,08/1994,no
@@ -241,7 +240,6 @@ District of Columbia,District of Columbia,-4718.69,21,'all paid',,1647,0,1<=X<4,
 "Otero, NM",New Mexico,0,12,'critical/other existing credit',,1291,0,1<=X<4,4,'female div/dep/mar',none,2,'life insurance',,none,own,2,,1,none,yes,good,01/1995,yes
 "Otero, NM",New Mexico,-4641.13,30,'existing paid',,2522,71.17,>=7,1,'male single',,3,'life insurance',39,none,own,1,skilled,2,none,no,good,01/1995,no
 "Clark, NV",Nevada,-4772.2,24,'existing paid','new car',915,0,>=7,4,,none,2,car,,bank,own,,skilled,1,none,no,good,01/1995,no
-,,,,,,,,,,,,,,,,,,,,,,,01/1995,
 "Erie, NY",New York,0,6,'existing paid',radio/tv,1595,0,4<=X<7,3,,none,2,,51,none,own,1,skilled,2,none,no,bad,01/1995,no
 "Monroe, NY",New York,-6913.58,48,'no credits/all paid','used car',4605,82.93,>=7,3,'male single',none,4,,24,none,'for free',2,skilled,,none,yes,good,01/1995,yes
 "New York, NY",New York,0,12,'critical/other existing credit',business,1185,0,1<=X<4,3,'female div/dep/mar',none,2,,27,none,own,2,skilled,1,none,yes,good,01/1995,yes
@@ -330,7 +328,6 @@ District of Columbia,District of Columbia,-3923.01,24,'existing paid','used car'
 "Fulton, GA",Georgia,0,12,'critical/other existing credit',furniture/equipment,,0,>=7,2,'male single',none,4,'life insurance',49,none,rent,1,skilled,1,yes,no,bad,03/1995,no
 "Fulton, GA",Georgia,0,24,'existing paid','new car',1525,0,4<=X<7,4,'female div/dep/mar',,3,car,34,none,own,1,skilled,2,yes,yes,good,04/1995,yes
 "Cook, IL",Illinois,6300.38,36,'existing paid',radio/tv,4473,46.6,>=7,4,'male single',none,2,car,31,none,own,1,skilled,,none,yes,good,04/1995,yes
-"Marion, IN",Indiana,,,,,,,,,,,,,,,,,,,,,,04/1995,
 "Jefferson, KY",Kentucky,94.48,6,'existing paid',radio/tv,1068,73.19,>=7,4,'male single',none,4,car,28,none,own,1,skilled,2,none,yes,good,04/1995,yes
 "Caddo, LA",Louisiana,-8908.55,24,'critical/other existing credit','used car',6615,58.88,,2,'male single',none,4,'no known property',75,none,,2,'high qualif/self emp/mgmt',1,yes,no,bad,04/1995,no
 "East Baton Rouge, LA",Louisiana,0,18,'critical/other existing credit',education,1864,0,1<=X<4,4,,none,2,'real estate',30,none,own,2,skilled,1,,yes,good,04/1995,yes
@@ -973,7 +970,6 @@ District of Columbia,District of Columbia,20.17,18,'existing paid',business,1941
 "Baltimore, MD",Maryland,0,42,'existing paid',radio/tv,7166,0,4<=X<7,2,'male mar/wid',none,4,'life insurance',29,none,rent,1,skilled,1,yes,yes,bad,01/1997,yes
 "Carroll, MD",Maryland,-9201.17,11,'critical/other existing credit','new car',3939,82.17,1<=X<4,1,'male single',none,2,'real estate',40,none,own,2,'unskilled resident',2,none,yes,bad,01/1997,yes
 "Charles, MD",Maryland,0,15,'existing paid',repairs,1514,0,1<=X<4,,'male single',guarantor,2,'real estate',22,,own,1,skilled,1,none,yes,good,01/1997,yes
-"Frederick, MD",Maryland,,,,,,,,,,,,,,,,,,,,,,01/1997,
 "Montgomery, MD",Maryland,0,24,'existing paid','new car',7393,0,1<=X<4,1,'male single',none,4,'life insurance',43,none,,1,'unskilled resident',2,,yes,good,01/1997,yes
 "Prince George's, MD",Maryland,-3817.21,24,'all paid','new car',1193,7.35,unemployed,1,'female div/dep/mar','co applicant',4,'no known property',29,none,rent,2,'unemp/unskilled non res',1,none,yes,good,01/1997,yes
 "Talbot, MD",Maryland,-5030.05,60,'existing paid',business,,0,>=7,,'male single','co applicant',4,'no known property',,none,rent,1,skilled,1,none,yes,bad,01/1997,yes

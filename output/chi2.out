@@ -1,0 +1,195 @@
+Performing Chi2 on Index(['location', 'state', 'checking_amt', 'duration', 'credit_history',
+       'purpose', 'credit_amount', 'savings', 'employment',
+       'installment_commitment', 'personal_status', 'other_parties',
+       'residence_since', 'property_magnitude', 'age', 'other_payment_plans',
+       'housing', 'existing_credits', 'job', 'num_dependents', 'own_telephone',
+       'foreign_worker', 'class', 'application_date', 'works_outside_US'],
+      dtype='object')
+
+(location, state)
+[Independent: False] (pval: 0.0)Chi: 45000.00 cv: 17813.42
+
+(location, duration)
+[Independent: False] (pval: 6.539611395870652e-23)Chi: 2445.97 cv: 1984.82
+
+(location, credit_amount)
+[Independent: False] (pval: 3.690789501098071e-05)Chi: 3199.09 cv: 3127.53
+
+(location, application_date)
+[Independent: False] (pval: 2.4995444038972602e-135)Chi: 16988.04 cv: 13135.00
+
+(state, application_date)
+[Independent: False] (pval: 0.0)Chi: 8530.61 cv: 1658.07
+
+(checking_amt, credit_history)
+[Independent: False] (pval: 0.0004469425397797447)Chi: 108.38 cv: 103.44
+
+(checking_amt, savings)
+[Independent: False] (pval: 1.5294819101389858e-109)Chi: 899.48 cv: 201.00
+
+(duration, credit_history)
+[Independent: False] (pval: 2.8251645992342624e-05)Chi: 56.08 cv: 43.82
+
+(duration, purpose)
+[Independent: False] (pval: 6.588716021070568e-06)Chi: 98.82 cv: 78.75
+
+(duration, credit_amount)
+[Independent: False] (pval: 7.152406836544918e-75)Chi: 470.44 cv: 72.05
+
+(duration, property_magnitude)
+[Independent: False] (pval: 2.3339640441068974e-19)Chi: 124.67 cv: 36.12
+
+(duration, housing)
+[Independent: False] (pval: 5.8006872128483204e-06)Chi: 42.63 cv: 27.88
+
+(duration, job)
+[Independent: False] (pval: 1.3868603893070897e-05)Chi: 49.62 cv: 36.12
+
+(duration, own_telephone)
+[Independent: False] (pval: 8.733035925314072e-05)Chi: 26.05 cv: 18.47
+
+(credit_history, purpose)
+[Independent: False] (pval: 3.2171147975049518e-06)Chi: 87.81 cv: 66.62
+
+(credit_history, other_payment_plans)
+[Independent: False] (pval: 1.4325979251208234e-11)Chi: 67.66 cv: 24.32
+
+(credit_history, existing_credits)
+[Independent: False] (pval: 5.806226817179034e-70)Chi: 361.29 cv: 31.26
+
+(purpose, credit_amount)
+[Independent: False] (pval: 2.8840818313721477e-28)Chi: 291.93 cv: 113.58
+
+(purpose, installment_commitment)
+[Independent: False] (pval: 0.0010761594753268843)Chi: 55.22 cv: 54.05
+
+(purpose, personal_status)
+[Independent: False] (pval: 0.001260990530540137)Chi: 54.66 cv: 54.05
+
+(purpose, other_parties)
+[Independent: False] (pval: 2.231629410100093e-05)Chi: 53.45 cv: 40.79
+
+(purpose, property_magnitude)
+[Independent: False] (pval: 2.046203627327095e-12)Chi: 112.56 cv: 54.05
+
+(purpose, other_payment_plans)
+[Independent: False] (pval: 8.00577132996522e-05)Chi: 49.83 cv: 40.79
+
+(purpose, housing)
+[Independent: False] (pval: 3.834613854982404e-09)Chi: 76.26 cv: 40.79
+
+(purpose, job)
+[Independent: False] (pval: 6.511977136079741e-11)Chi: 103.61 cv: 54.05
+
+(purpose, own_telephone)
+[Independent: False] (pval: 1.3999591010917226e-06)Chi: 44.02 cv: 26.12
+
+(credit_amount, installment_commitment)
+[Independent: False] (pval: 8.577832482624535e-12)Chi: 103.18 cv: 49.73
+
+(credit_amount, personal_status)
+[Independent: False] (pval: 2.3626418095207622e-05)Chi: 63.02 cv: 49.73
+
+(credit_amount, property_magnitude)
+[Independent: False] (pval: 3.226511765345366e-11)Chi: 99.82 cv: 49.73
+
+(credit_amount, housing)
+[Independent: False] (pval: 0.00013648741864583411)Chi: 45.05 cv: 37.70
+
+(credit_amount, job)
+[Independent: False] (pval: 6.891186812054664e-11)Chi: 97.88 cv: 49.73
+
+(credit_amount, own_telephone)
+[Independent: False] (pval: 5.447579573034635e-09)Chi: 54.53 cv: 24.32
+
+(savings, age)
+[Independent: False] (pval: 0.0006222937509819999)Chi: 93.92 cv: 90.57
+
+(employment, personal_status)
+[Independent: False] (pval: 1.6447776828742625e-08)Chi: 60.75 cv: 31.26
+
+(employment, residence_since)
+[Independent: False] (pval: 1.595379529208655e-29)Chi: 167.44 cv: 31.26
+
+(employment, property_magnitude)
+[Independent: False] (pval: 3.0026690888147338e-05)Chi: 42.27 cv: 31.26
+
+(employment, age)
+[Independent: False] (pval: 5.547051943573309e-22)Chi: 159.51 cv: 49.73
+
+(employment, housing)
+[Independent: False] (pval: 1.5783733218749958e-07)Chi: 46.93 cv: 24.32
+
+(employment, existing_credits)
+[Independent: False] (pval: 8.806947062014615e-05)Chi: 39.47 cv: 31.26
+
+(employment, job)
+[Independent: False] (pval: 1.053886798350211e-44)Chi: 240.95 cv: 31.26
+
+(employment, own_telephone)
+[Independent: False] (pval: 0.00010164366704396484)Chi: 23.48 cv: 16.27
+
+(installment_commitment, personal_status)
+[Independent: False] (pval: 0.0011948696835146417)Chi: 27.41 cv: 26.12
+
+(personal_status, property_magnitude)
+[Independent: False] (pval: 2.661869780528794e-06)Chi: 42.50 cv: 26.12
+
+(personal_status, age)
+[Independent: False] (pval: 1.4940896822280604e-11)Chi: 89.92 cv: 40.79
+
+(personal_status, housing)
+[Independent: False] (pval: 5.0293304428827725e-11)Chi: 59.76 cv: 20.52
+
+(personal_status, num_dependents)
+[Independent: False] (pval: 1.2977629094274141e-14)Chi: 67.74 cv: 13.82
+
+(other_parties, property_magnitude)
+[Independent: False] (pval: 1.257288591925089e-06)Chi: 37.75 cv: 20.52
+
+(residence_since, property_magnitude)
+[Independent: False] (pval: 6.969892093383464e-07)Chi: 45.66 cv: 26.12
+
+(residence_since, age)
+[Independent: False] (pval: 3.316241900493399e-13)Chi: 99.04 cv: 40.79
+
+(residence_since, housing)
+[Independent: False] (pval: 7.796430068480159e-18)Chi: 92.84 cv: 20.52
+
+(property_magnitude, age)
+[Independent: False] (pval: 2.4627320977785923e-06)Chi: 59.50 cv: 40.79
+
+(property_magnitude, housing)
+[Independent: False] (pval: 2.8586692260329946e-104)Chi: 497.53 cv: 20.52
+
+(property_magnitude, job)
+[Independent: False] (pval: 3.8735588153366287e-17)Chi: 98.06 cv: 26.12
+
+(property_magnitude, own_telephone)
+[Independent: False] (pval: 1.3172743826815364e-07)Chi: 34.84 cv: 13.82
+
+(age, housing)
+[Independent: False] (pval: 1.8675309851736865e-16)Chi: 102.42 cv: 31.26
+
+(age, num_dependents)
+[Independent: False] (pval: 4.723018370471385e-14)Chi: 74.56 cv: 20.52
+
+(age, own_telephone)
+[Independent: False] (pval: 1.821224062875531e-05)Chi: 31.75 cv: 20.52
+
+(housing, job)
+[Independent: False] (pval: 5.259815633953984e-05)Chi: 29.33 cv: 20.52
+
+(housing, num_dependents)
+[Independent: False] (pval: 0.003127071090642482)Chi: 11.54 cv: 10.83
+
+(housing, own_telephone)
+[Independent: False] (pval: 8.238773579110569e-05)Chi: 18.81 cv: 10.83
+
+(existing_credits, job)
+[Independent: False] (pval: 8.845849596916372e-07)Chi: 45.10 cv: 26.12
+
+(job, own_telephone)
+[Independent: False] (pval: 5.480189868772666e-30)Chi: 139.25 cv: 13.82
+
+Done

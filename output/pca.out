@@ -1,0 +1,11 @@
+Performing PCA on ['checking_amt', 'duration', 'credit_amount', 'savings', 'installment_commitment', 'residence_since', 'age', 'existing_credits', 'num_dependents']
+(4, 0.09232331636128488, 0.04687559898493947, 'credit_amount')
+(3, -0.009452700070193207, 0.004441451499435645, 'savings')
+(3, -0.03481206192308564, 0.0567645224975402, 'checking_amt')
+(2, -0.02591457816843762, -0.021472471015238748, 'duration')
+(2, -0.6975496558154393, -0.5468902273690719, 'installment_commitment')
+(1, 0.6692507455550459, -0.30444824256710823, 'num_dependents')
+(1, 0.2193921627455574, -0.7482565144821789, 'residence_since')
+(1, 0.0692650362796177, -0.1966159445530257, 'age')
+(1, 0.045836204262999544, -0.06145225293683865, 'existing_credits')
+Done

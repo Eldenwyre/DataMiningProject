@@ -1,0 +1,1001 @@
+state,checking_amt,credit_history,purpose,credit_amount,savings,employment,personal_status,other_parties,property_magnitude,other_payment_plans,housing,own_telephone,foreign_worker,class,works_outside_US
+Pennsylvania,"(-5000.0, -2500.0]",'critical/other existing credit',radio/tv,,"[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Pennsylvania,"(50.0, 100.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,,none,own,none,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,'real estate',none,,none,no,bad,no
+Pennsylvania,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(7500.0, 10000.0]","[50.0, 100.0)",4<=X<7,'male single',guarantor,'life insurance',none,'for free',,no,bad,no
+Pennsylvania,"(-10000.0, -7500.0]",'delayed previously',,"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,'male single',none,'no known property',none,'for free',none,no,good,no
+Pennsylvania,"(-0.01, 0.01]",'existing paid',education,"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Pennsylvania,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,,none,no,good,no
+Pennsylvania,"(20.0, 50.0]",,'used car',"(5000.0, 7500.0]","[20.0, 50.0)",1<=X<4,'male single',none,car,none,,yes,yes,bad,yes
+Pennsylvania,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",,'male div/sep',none,'real estate',none,own,none,yes,good,yes
+Rhodes Island,"(100.0, 500.0]",'critical/other existing credit','new car',"(5000.0, 7500.0]","[50.0, 100.0)",unemployed,'male mar/wid',none,car,none,own,none,no,bad,no
+South Carolina,"(100.0, 500.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,car,,rent,none,yes,bad,yes
+South Carolina,"(-2500.0, -1000.0]",'existing paid',business,"(2500.0, 5000.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,'life insurance',none,rent,none,yes,good,yes
+South Carolina,"(0.01, 20.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,none,no,good,no
+South Carolina,"(-7500.0, -5000.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,,none,car,none,rent,none,yes,good,yes
+South Carolina,"(-1000.0, -500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[100.0, 500.0)",,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',none,'life insurance',none,own,none,yes,good,yes
+South Carolina,"(-10000.0, -7500.0]",'no credits/all paid',business,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'male single',none,car,bank,own,none,yes,bad,yes
+South Carolina,"(50.0, 100.0]",'existing paid','used car',,"[0.01, 20.0)",>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,bad,yes
+South Carolina,"(-0.01, 0.01]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',,car,none,own,yes,yes,bad,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,yes,yes,good,yes
+South Carolina,"(-1000.0, -500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[500.0, 1000.0)",1<=X<4,'male single',none,'real estate',none,rent,none,yes,good,yes
+South Carolina,"(-7500.0, -5000.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[20.0, 50.0)",,'male single',,'real estate',none,rent,none,yes,bad,yes
+South Carolina,"(100.0, 500.0]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[100.0, 500.0)",<1,'male single',none,,none,own,,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,own,none,yes,bad,yes
+South Carolina,"(-0.01, 0.01]",'existing paid',furniture/equipment,,"[0.0, 0.01)",1<=X<4,'male single',none,'real estate',bank,own,yes,no,good,no
+South Carolina,"(-0.01, 0.01]",'no credits/all paid',radio/tv,"(200.0, 500.0]","[0.0, 0.01)",,'male mar/wid',none,car,none,own,none,no,good,no
+South Carolina,"(2500.0, 5000.0]",'all paid',radio/tv,"(200.0, 500.0]","[2500.0, 5000.0)",1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,no,good,no
+South Carolina,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',guarantor,'real estate',none,own,none,no,good,no
+South Carolina,"(-5000.0, -2500.0]",'delayed previously',business,"(5000.0, 7500.0]","[20.0, 50.0)",>=7,'male single',none,'no known property',,own,yes,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",,'male mar/wid',,'real estate',bank,own,yes,no,good,no
+South Carolina,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.01, 20.0)",,'male single',none,car,stores,own,none,yes,good,yes
+South Carolina,"(50.0, 100.0]",'existing paid','new car',"(5000.0, 7500.0]","[100.0, 500.0)",1<=X<4,'male single',none,car,none,own,yes,no,bad,no
+South Dakota,"(-0.01, 0.01]",'critical/other existing credit',business,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',none,,none,rent,,yes,bad,yes
+South Dakota,"(500.0, 1000.0]",'existing paid',furniture/equipment,,"[20.0, 50.0)",<1,'female div/dep/mar',none,'life insurance',bank,,,yes,good,yes
+Tennessee,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,'life insurance',none,own,none,no,good,no
+Tennessee,"(-0.01, 0.01]",'critical/other existing credit',education,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',bank,'for free',,yes,good,yes
+Tennessee,"(5000.0, 7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",,'male single','co applicant','real estate',stores,own,none,yes,bad,yes
+Tennessee,"(5000.0, 7500.0]",'existing paid','domestic appliance',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,yes,yes,good,yes
+Tennessee,"(20.0, 50.0]",'existing paid',radio/tv,"(200.0, 500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Tennessee,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',none,car,bank,own,none,no,good,no
+Tennessee,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,car,none,own,yes,no,bad,no
+Tennessee,"(100.0, 500.0]",'delayed previously',repairs,"(5000.0, 7500.0]","[20.0, 50.0)",1<=X<4,'male single',none,'real estate',none,own,,yes,good,yes
+Tennessee,"(-1000.0, -500.0]",,'used car',"(5000.0, 7500.0]","[100.0, 500.0)",4<=X<7,'male mar/wid',none,car,none,rent,none,yes,bad,yes
+Tennessee,"(-10000.0, -7500.0]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.01, 20.0)",>=7,'female div/dep/mar',none,'no known property',stores,'for free',none,yes,bad,yes
+Tennessee,"(-0.01, 0.01]",,'new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,car,none,own,none,no,good,no
+Tennessee,"(-0.01, 0.01]",,radio/tv,,"[0.0, 0.01)",>=7,'male single',none,car,none,own,none,yes,good,yes
+Tennessee,"(-2500.0, -1000.0]",'existing paid','used car',,"[0.0, 0.01)",unemployed,'female div/dep/mar',none,,none,rent,yes,yes,bad,yes
+Texas,"(-0.01, 0.01]",'critical/other existing credit','new car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,,none,no,good,no
+Texas,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar','co applicant','real estate',none,own,none,no,good,no
+Texas,"(100.0, 500.0]",'delayed previously',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male single',none,,bank,own,none,yes,good,yes
+Texas,"(100.0, 500.0]",,'used car',"(5000.0, 7500.0]","[20.0, 50.0)",>=7,'male single',none,car,none,own,yes,no,bad,no
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,,none,own,yes,no,good,no
+Texas,"(100.0, 500.0]",'delayed previously','new car',"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'male single',none,'no known property',bank,'for free',,yes,good,yes
+Texas,"(-0.01, 0.01]",'all paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",,'male single',guarantor,'real estate',,own,none,yes,good,yes
+Texas,"(100.0, 500.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",unemployed,,none,'no known property',none,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',,car,,own,none,no,bad,no
+Texas,"(2500.0, 5000.0]",,'new car',"(1000.0, 2500.0]","[50.0, 100.0)",,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Texas,"(-10000.0, -7500.0]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[20.0, 50.0)",<1,'female div/dep/mar','co applicant','no known property',none,rent,,yes,good,yes
+Texas,"(50.0, 100.0]",'existing paid',business,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male mar/wid',,'real estate',bank,own,yes,yes,good,yes
+Texas,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',guarantor,'real estate',none,own,yes,yes,bad,yes
+Texas,"(100.0, 500.0]",'no credits/all paid',business,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,"(100.0, 500.0]",'no credits/all paid',business,"(12500.0, 15000.0]","[20.0, 50.0)",1<=X<4,'male single',none,car,none,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',repairs,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,yes,yes,bad,yes
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',,car,bank,own,none,no,bad,no
+Texas,"(50.0, 100.0]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',,'real estate',none,own,none,yes,bad,yes
+Texas,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',stores,'for free',yes,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Texas,"(-0.01, 0.01]",'existing paid','used car',"(7500.0, 10000.0]","[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',,own,,no,bad,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,rent,yes,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',other,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+Texas,"(-0.01, 0.01]",,business,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'real estate',bank,own,none,yes,bad,yes
+Texas,"(-500.0, -100.0]",'existing paid',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,,yes,yes,bad,yes
+Texas,"(-7500.0, -5000.0]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',,,"[0.0, 0.01)",<1,'male single',none,car,none,,none,yes,bad,yes
+Texas,"(100.0, 500.0]",'delayed previously',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Texas,"(-0.01, 0.01]",'no credits/all paid',,"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+Texas,"(100.0, 500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.01, 20.0)",<1,'male mar/wid',,'life insurance',none,own,,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",<1,'female div/dep/mar',none,car,,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',none,'life insurance',stores,,yes,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',business,,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',none,rent,none,no,bad,no
+Texas,"(-7500.0, -5000.0]",'existing paid',other,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'female div/dep/mar',guarantor,'real estate',none,own,,yes,good,yes
+Texas,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'male single',,'real estate',none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',guarantor,'real estate',none,own,,yes,good,yes
+Texas,"(50.0, 100.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,,none,own,none,yes,good,yes
+Texas,"(100.0, 500.0]",'existing paid',education,"(12500.0, 15000.0]","[100.0, 500.0)",,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,,none,own,yes,no,good,no
+Texas,"(-10000.0, -7500.0]",'no credits/all paid',repairs,"(1000.0, 2500.0]","[0.01, 20.0)",4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,,none,own,none,no,bad,no
+Texas,"(-1000.0, -500.0]",,'used car',"(1000.0, 2500.0]","[0.01, 20.0)",>=7,'male single',none,'real estate',none,own,none,no,good,no
+Utah,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'life insurance',bank,own,none,yes,good,yes
+Utah,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',,'no known property',none,rent,none,yes,bad,yes
+Virginia,"(20.0, 50.0]",'existing paid','new car',"(1000.0, 2500.0]","[5000.0, 7500.0)",>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Virginia,"(100.0, 500.0]",'no credits/all paid',business,,"[50.0, 100.0)",<1,'male single',none,'no known property',none,,yes,yes,good,yes
+Virginia,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,none,no,good,no
+Virginia,"(0.01, 20.0]",'existing paid',business,"(2500.0, 5000.0]","[100.0, 500.0)",1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+Virginia,"(0.01, 20.0]",'critical/other existing credit',radio/tv,,"[20.0, 50.0)",>=7,'male single',none,'real estate',none,own,none,no,good,no
+Virginia,"(50.0, 100.0]",'delayed previously','used car',"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',bank,rent,yes,yes,good,yes
+Virginia,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male mar/wid',none,'real estate',none,rent,none,yes,bad,yes
+Virginia,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,rent,none,yes,bad,yes
+Virginia,"(-0.01, 0.01]",,radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,,none,,none,yes,good,yes
+Virginia,"(50.0, 100.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,car,none,,yes,yes,good,yes
+Virginia,"(-0.01, 0.01]",'existing paid','used car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid',none,car,none,rent,yes,no,good,no
+Virginia,"(100.0, 500.0]",'critical/other existing credit',other,"(10000.0, 12500.0]","[20.0, 50.0)",1<=X<4,'male single','co applicant',car,,own,yes,yes,bad,yes
+Virginia,"(-0.01, 0.01]",'all paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,own,yes,no,good,no
+Virginia,"(100.0, 500.0]",'existing paid','new car',"(5000.0, 7500.0]","[50.0, 100.0)",4<=X<7,'male single',none,car,none,,none,no,good,no
+Virginia,"(-1000.0, -500.0]",'existing paid',furniture/equipment,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+Virginia,"(50.0, 100.0]",'existing paid',business,"(1000.0, 2500.0]","[500.0, 1000.0)",>=7,'male mar/wid',,'real estate',none,own,yes,yes,good,yes
+Virginia,"(50.0, 100.0]",'delayed previously',,"(1000.0, 2500.0]","[100.0, 500.0)",>=7,,none,car,bank,own,none,no,good,no
+Virginia,"(-0.01, 0.01]",'existing paid',education,"(200.0, 500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,,yes,yes,good,yes
+Virginia,"(50.0, 100.0]",'existing paid','new car',"(5000.0, 7500.0]","[50.0, 100.0)",4<=X<7,'male single',none,,none,rent,none,no,bad,no
+Virginia,"(-0.01, 0.01]",'critical/other existing credit','new car',"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',stores,own,yes,yes,good,yes
+Virginia,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",>=7,'male mar/wid',none,'real estate',none,own,none,no,bad,no
+Virginia,"(-0.01, 0.01]",,radio/tv,,"[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,no,good,no
+Vermont,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Vermont,"(-500.0, -100.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar','co applicant','real estate',none,rent,,no,good,no
+Washington,"(-7500.0, -5000.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[500.0, 1000.0)",,'female div/dep/mar',none,car,none,own,,no,good,no
+Washington,"(100.0, 500.0]",,'new car',"(1000.0, 2500.0]","[500.0, 1000.0)",4<=X<7,'male div/sep',none,car,none,own,yes,yes,good,yes
+Washington,"(-5000.0, -2500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Washington,"(-0.01, 0.01]",'critical/other existing credit','used car',,"[0.0, 0.01)",,,none,car,none,rent,yes,no,good,no
+Washington,"(-0.01, 0.01]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+Washington,"(2500.0, 5000.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[50.0, 100.0)",,'male single',,'no known property',none,'for free',yes,yes,good,yes
+Washington,"(50.0, 100.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,'real estate',,rent,none,no,good,no
+Washington,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male single',,'life insurance',none,own,none,yes,bad,yes
+Washington,"(-7500.0, -5000.0]",,radio/tv,,"[0.01, 20.0)",1<=X<4,'male mar/wid',none,'real estate',none,own,none,yes,good,yes
+Washington,"(100.0, 500.0]",'existing paid',repairs,,"[20.0, 50.0)",1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Washington,"(100.0, 500.0]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[20.0, 50.0)",unemployed,'male single',,car,none,own,yes,yes,bad,yes
+Washington,"(-10000.0, -7500.0]",'critical/other existing credit','new car',,"[0.0, 0.01)",1<=X<4,'female div/dep/mar','co applicant','real estate',none,own,none,yes,good,yes
+Washington,"(100.0, 500.0]",'existing paid','new car',"(7500.0, 10000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,none,no,bad,no
+Washington,"(-5000.0, -2500.0]",'delayed previously',education,"(5000.0, 7500.0]","[0.01, 20.0)",1<=X<4,'male single',none,'life insurance',stores,own,yes,yes,bad,yes
+Washington,"(-0.01, 0.01]",'existing paid',furniture/equipment,,"[0.0, 0.01)",<1,'male single',none,'life insurance',bank,own,none,no,good,no
+Washington,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',bank,'for free',none,yes,bad,yes
+Washington,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,,yes,bad,yes
+Wisconsin,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,,none,own,yes,yes,bad,yes
+Wisconsin,"(-0.01, 0.01]",'delayed previously','used car',"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Wisconsin,"(-0.01, 0.01]",,radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male single',,'real estate',none,own,none,no,good,no
+Wisconsin,"(50.0, 100.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',guarantor,'real estate',bank,own,yes,yes,good,yes
+Wisconsin,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Wisconsin,"(7500.0, 10000.0]",'existing paid','new car',"(500.0, 1000.0]","[5000.0, 7500.0)",<1,'male mar/wid',none,'real estate',none,own,none,yes,good,yes
+West Virginia,"(0.01, 20.0]",'existing paid',radio/tv,,"[50.0, 100.0)",<1,'female div/dep/mar',none,'no known property',none,own,yes,no,bad,no
+West Virginia,"(-5000.0, -2500.0]",'existing paid',,"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'male single',,car,none,own,,yes,bad,yes
+West Virginia,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,,none,own,none,no,good,no
+West Virginia,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,own,yes,no,good,no
+West Virginia,"(20.0, 50.0]",'all paid',,"(2500.0, 5000.0]","[100.0, 500.0)",4<=X<7,'male single',none,car,none,,none,yes,bad,yes
+Wyoming,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[0.01, 20.0)",>=7,'female div/dep/mar',,'no known property',none,own,yes,yes,good,yes
+Alaska,"(-0.01, 0.01]",'critical/other existing credit','new car',"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Arkansas,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',,'life insurance',none,own,,no,good,no
+Arizona,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,,none,car,none,own,,yes,bad,yes
+Arizona,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',,'no known property',bank,,yes,no,good,no
+Arizona,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,yes,no,bad,no
+California,"(-0.01, 0.01]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,,no,bad,no
+California,"(100.0, 500.0]",'critical/other existing credit','used car',"(7500.0, 10000.0]","[5000.0, 7500.0)",>=7,'female div/dep/mar',,'no known property',none,rent,none,yes,bad,yes
+California,"(100.0, 500.0]",'delayed previously',business,"(5000.0, 7500.0]","[100.0, 500.0)",4<=X<7,'male single',none,car,none,rent,,yes,bad,yes
+California,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,,none,rent,none,no,good,no
+California,"(-5000.0, -2500.0]",'critical/other existing credit',repairs,,"[100.0, 500.0)",>=7,'male single',guarantor,'real estate',none,own,none,yes,bad,yes
+California,"(-10000.0, -7500.0]",'all paid',retraining,"(200.0, 500.0]","[20.0, 50.0)",,'male mar/wid',none,car,bank,own,none,no,good,no
+California,"(100.0, 500.0]",'existing paid','new car',"(2500.0, 5000.0]","[100.0, 500.0)",4<=X<7,,none,car,bank,own,yes,no,good,no
+California,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+California,"(-0.01, 0.01]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,,'real estate',none,own,,no,good,no
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,own,,no,good,no
+California,"(-0.01, 0.01]",'existing paid','domestic appliance',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,yes,no,good,no
+California,"(20.0, 50.0]",'existing paid','new car',"(5000.0, 7500.0]","[50.0, 100.0)",unemployed,'male single',none,'no known property',bank,'for free',yes,no,bad,no
+California,"(-0.01, 0.01]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",>=7,,none,'life insurance',none,own,,no,good,no
+California,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,yes,no,bad,no
+California,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",unemployed,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,"(20.0, 50.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[7500.0, 10000.0)",<1,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,,none,'life insurance',none,rent,yes,no,good,no
+California,"(50.0, 100.0]",'critical/other existing credit',business,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male div/sep',none,'real estate',none,,yes,yes,good,yes
+California,"(-7500.0, -5000.0]",'no credits/all paid','new car',"(500.0, 1000.0]","[50.0, 100.0)",>=7,'male single',none,car,none,rent,none,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',,own,yes,yes,bad,yes
+California,"(50.0, 100.0]",'delayed previously',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",unemployed,'female div/dep/mar',none,'life insurance',none,own,yes,yes,good,yes
+California,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',guarantor,'real estate',none,own,,yes,good,yes
+California,"(-5000.0, -2500.0]",'delayed previously',education,"(2500.0, 5000.0]","[50.0, 100.0)",<1,'male single',none,'life insurance',none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'all paid','used car',,"[0.0, 0.01)",,'female div/dep/mar',none,'real estate',bank,own,yes,yes,bad,yes
+California,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,,none,car,none,own,none,yes,good,yes
+California,"(-5000.0, -2500.0]",'critical/other existing credit',radio/tv,"(200.0, 500.0]","[500.0, 1000.0)",>=7,'male single',none,,none,own,,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,,none,,yes,yes,bad,yes
+Colorado,"(-0.01, 0.01]",'critical/other existing credit',,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,none,yes,good,yes
+Colorado,"(-0.01, 0.01]",'delayed previously',,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'male div/sep',none,car,none,own,none,no,good,no
+Connecticut,"(50.0, 100.0]",'delayed previously',,"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,'male div/sep',,'real estate',stores,own,yes,yes,good,yes
+District of Columbia,"(-5000.0, -2500.0]",'all paid',,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,,none,no,bad,no
+Delaware,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Georgia,"(100.0, 500.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[50.0, 100.0)",>=7,'male single',none,car,bank,own,yes,yes,good,yes
+Georgia,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,'life insurance',none,own,none,yes,bad,yes
+Georgia,"(-0.01, 0.01]",'all paid',,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,,bank,'for free',yes,no,good,no
+Georgia,"(0.01, 20.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[50.0, 100.0)",unemployed,'male single',,car,none,'for free',yes,no,bad,no
+Georgia,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[100.0, 500.0)",4<=X<7,'male mar/wid',none,,none,own,,yes,good,yes
+Georgia,"(100.0, 500.0]",'no credits/all paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,car,bank,own,yes,yes,bad,yes
+Georgia,"(-0.01, 0.01]",'existing paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,,none,own,yes,yes,bad,yes
+Georgia,"(0.01, 20.0]",'no credits/all paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'no known property',none,,none,yes,good,yes
+Georgia,"(0.01, 20.0]",'existing paid',business,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',none,,none,own,yes,yes,good,yes
+Georgia,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,'real estate',none,,none,yes,bad,yes
+Hawaii,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'life insurance',none,rent,none,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Indiana,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Indiana,"(20.0, 50.0]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[100.0, 500.0)",<1,'female div/dep/mar',none,car,bank,rent,,yes,good,yes
+Kentucky,"(50.0, 100.0]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,'for free',yes,no,bad,no
+Kentucky,"(0.01, 20.0]",'delayed previously',,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male div/sep',none,,none,own,yes,no,good,no
+Kentucky,"(-0.01, 0.01]",'critical/other existing credit',,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,yes,bad,yes
+Louisiana,"(-2500.0, -1000.0]",'existing paid',,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male mar/wid',none,,none,own,none,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'delayed previously',business,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,none,yes,bad,yes
+Louisiana,"(-5000.0, -2500.0]",'existing paid',retraining,"(500.0, 1000.0]","[50.0, 100.0)",4<=X<7,'male mar/wid',,'life insurance',none,rent,none,no,bad,no
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,,none,own,none,no,bad,no
+Massachusetts,"(-500.0, -100.0]",'critical/other existing credit',,"(10000.0, 12500.0]","[0.01, 20.0)",>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Massachusetts,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,,yes,no,bad,no
+Maryland,"(50.0, 100.0]",'critical/other existing credit','domestic appliance',"(1000.0, 2500.0]","[50.0, 100.0)",4<=X<7,'male single',none,'life insurance',none,own,none,no,bad,no
+Maryland,"(-2500.0, -1000.0]",'existing paid',business,"(5000.0, 7500.0]","[0.01, 20.0)",1<=X<4,,none,car,stores,own,none,yes,good,yes
+Maryland,"(-0.01, 0.01]",'existing paid','used car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,'life insurance',none,own,,no,good,no
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",,,none,'real estate',none,,none,no,bad,no
+Michigan,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'real estate',none,own,yes,yes,bad,yes
+Michigan,"(-2500.0, -1000.0]",'no credits/all paid',business,"(5000.0, 7500.0]","[20.0, 50.0)",unemployed,'male single',none,,stores,,yes,no,good,no
+Michigan,"(5000.0, 7500.0]",'delayed previously',business,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+Missouri,"(-0.01, 0.01]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,none,car,none,own,yes,yes,good,yes
+Missouri,"(100.0, 500.0]",'critical/other existing credit',,"(500.0, 1000.0]","[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Missouri,"(-0.01, 0.01]",'no credits/all paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',bank,own,yes,no,good,no
+Missouri,"(7500.0, 10000.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',,'real estate',none,own,yes,no,bad,no
+Missouri,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'real estate',none,rent,none,no,good,no
+Missouri,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,,,own,yes,yes,bad,yes
+Missouri,"(20.0, 50.0]",'existing paid',,"(500.0, 1000.0]","[20.0, 50.0)",<1,'male mar/wid',guarantor,'real estate',bank,own,none,yes,bad,yes
+Mississippi,"(-2500.0, -1000.0]",,education,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,,bank,rent,yes,yes,good,yes
+Mississippi,"(-0.01, 0.01]",'existing paid',,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',bank,own,none,yes,good,yes
+North Carolina,"(-0.01, 0.01]",'delayed previously',,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,yes,yes,good,yes
+North Carolina,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,,own,,yes,good,yes
+North Carolina,"(-0.01, 0.01]",'no credits/all paid',repairs,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',,car,none,own,none,no,bad,no
+North Carolina,"(100.0, 500.0]",'existing paid',radio/tv,"(10000.0, 12500.0]","[2500.0, 5000.0)",4<=X<7,'male single','co applicant','no known property',bank,own,yes,no,bad,no
+North Carolina,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(7500.0, 10000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,,yes,no,good,no
+New Hampshire,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,none,no,bad,no
+New Jersey,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,'no known property',bank,'for free',none,no,bad,no
+New Jersey,"(5000.0, 7500.0]",'existing paid',,"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'male single',none,car,,own,none,no,good,no
+New Jersey,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',,'no known property',none,'for free',,no,good,no
+New Jersey,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'no known property',none,own,none,no,bad,no
+New Jersey,"(100.0, 500.0]",,radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",1<=X<4,'male mar/wid',guarantor,'real estate',none,own,none,no,good,no
+New Jersey,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,none,yes,bad,yes
+New Jersey,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",unemployed,'male single',none,car,stores,,none,yes,good,yes
+New Jersey,"(50.0, 100.0]",'existing paid','new car',"(12500.0, 15000.0]","[0.0, 0.01)",unemployed,'male single',none,'life insurance',none,own,yes,no,bad,no
+New Mexico,"(50.0, 100.0]",'existing paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,none,car,bank,rent,none,no,bad,no
+New Mexico,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+New Mexico,"(-5000.0, -2500.0]",'existing paid',,"(2500.0, 5000.0]","[50.0, 100.0)",>=7,'male single',,'life insurance',none,own,none,no,good,no
+Nevada,"(-5000.0, -2500.0]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",>=7,,none,car,bank,own,none,no,good,no
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,,none,,none,own,none,no,bad,no
+New York,"(-7500.0, -5000.0]",'no credits/all paid','used car',"(2500.0, 5000.0]","[50.0, 100.0)",>=7,'male single',none,,none,'for free',none,yes,good,yes
+New York,"(-0.01, 0.01]",'critical/other existing credit',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,,none,own,none,yes,good,yes
+New York,"(-0.01, 0.01]",'all paid',retraining,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+New York,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,yes,no,bad,no
+Ohio,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,,none,yes,bad,yes
+Ohio,"(-0.01, 0.01]",'no credits/all paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',bank,rent,none,no,good,no
+Ohio,"(2500.0, 5000.0]",'existing paid',,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Ohio,"(-0.01, 0.01]",'existing paid',radio/tv,"(200.0, 500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar','co applicant','real estate',none,rent,none,yes,good,yes
+Ohio,"(-500.0, -100.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[1000.0, 2500.0)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Ohio,"(1000.0, 2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,car,none,own,none,no,good,no
+Ohio,"(50.0, 100.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'female div/dep/mar',guarantor,'no known property',bank,own,none,yes,bad,yes
+Ohio,"(-0.01, 0.01]",'delayed previously',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Ohio,"(20.0, 50.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,car,none,,yes,no,good,no
+Ohio,"(20.0, 50.0]",'delayed previously',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Oregon,"(-0.01, 0.01]",'critical/other existing credit',,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Pennsylvania,"(-500.0, -100.0]",'all paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,,none,'no known property',none,'for free',none,yes,bad,yes
+Pennsylvania,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',,car,none,own,yes,no,good,no
+Pennsylvania,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'real estate',,own,none,no,good,no
+Pennsylvania,"(-7500.0, -5000.0]",,furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Rhodes Island,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",,,none,car,none,own,none,yes,bad,yes
+South Carolina,"(-2500.0, -1000.0]",'critical/other existing credit','new car',"(5000.0, 7500.0]","[50.0, 100.0)",>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',education,,"[0.0, 0.01)",,'female div/dep/mar',none,'no known property',bank,'for free',none,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,none,no,bad,no
+South Carolina,"(100.0, 500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",,,none,,none,own,none,no,good,no
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',business,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,,none,'real estate',none,own,none,no,good,no
+South Carolina,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,car,stores,own,,yes,good,yes
+South Carolina,"(-1000.0, -500.0]",'existing paid','new car',"(7500.0, 10000.0]","[50.0, 100.0)",>=7,'male div/sep',none,'life insurance',none,own,yes,no,bad,no
+South Dakota,"(-0.01, 0.01]",'existing paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,none,yes,good,yes
+South Dakota,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',none,'life insurance',none,,none,yes,bad,yes
+South Dakota,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,,"[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Tennessee,"(100.0, 500.0]",'all paid','new car',"(10000.0, 12500.0]","[0.0, 0.01)",unemployed,'male single','co applicant','no known property',none,'for free',yes,no,good,no
+Tennessee,"(100.0, 500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,,none,'real estate',none,,none,yes,good,yes
+Tennessee,"(-7500.0, -5000.0]",,repairs,"(10000.0, 12500.0]","[20.0, 50.0)",<1,'male div/sep',none,,none,own,yes,no,good,no
+Tennessee,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",1<=X<4,,none,'real estate',none,own,none,yes,good,yes
+Texas,"(-0.01, 0.01]",'critical/other existing credit',,,"[0.0, 0.01)",,'female div/dep/mar',none,car,none,own,none,no,good,no
+Texas,"(-7500.0, -5000.0]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male div/sep',,'life insurance',none,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',,'life insurance',none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,,car,none,rent,yes,no,bad,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',,,"[0.0, 0.01)",>=7,,none,'no known property',none,rent,yes,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,,no,bad,no
+Texas,"(-0.01, 0.01]",'all paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,,none,car,,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Texas,"(0.01, 20.0]",,'new car',"(2500.0, 5000.0]","[100.0, 500.0)",<1,'male div/sep',none,car,,,yes,yes,good,yes
+Texas,"(-7500.0, -5000.0]",'existing paid','new car',,"[50.0, 100.0)",<1,'female div/dep/mar',,'real estate',none,own,,no,good,no
+Texas,"(-10000.0, -7500.0]",'existing paid','used car',,"[20.0, 50.0)",4<=X<7,'male single',none,'life insurance',none,own,,yes,bad,yes
+Texas,"(100.0, 500.0]",'delayed previously',other,,"[100.0, 500.0)",unemployed,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'female div/dep/mar',,'real estate',none,own,,no,good,no
+Texas,"(-10000.0, -7500.0]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid',none,'real estate',stores,own,none,yes,bad,yes
+Texas,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,'real estate',,own,yes,no,bad,no
+Texas,"(100.0, 500.0]",'existing paid','used car',"(7500.0, 10000.0]","[50.0, 100.0)",<1,'male mar/wid',none,car,none,rent,yes,yes,good,yes
+Utah,"(-10000.0, -7500.0]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.01, 20.0)",>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+Virginia,"(7500.0, 10000.0]",'critical/other existing credit','used car',,"[20.0, 50.0)",>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Virginia,"(-0.01, 0.01]",'critical/other existing credit',business,"(7500.0, 10000.0]","[0.0, 0.01)",>=7,'male div/sep',none,car,bank,own,none,no,bad,no
+Virginia,"(50.0, 100.0]",'existing paid',furniture/equipment,"(7500.0, 10000.0]","[50.0, 100.0)",<1,,none,car,none,own,,yes,good,yes
+Virginia,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,car,none,rent,none,no,bad,no
+Virginia,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single','co applicant','life insurance',none,,,yes,good,yes
+Virginia,"(-0.01, 0.01]",,furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Virginia,"(0.01, 20.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[1000.0, 2500.0)",4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Washington,"(-0.01, 0.01]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'real estate',none,own,yes,no,good,no
+Washington,"(100.0, 500.0]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Washington,"(5000.0, 7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',bank,own,none,no,good,no
+Wisconsin,"(-10000.0, -7500.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[20.0, 50.0)",4<=X<7,'male single','co applicant',,none,,yes,yes,bad,yes
+Alaska,"(-0.01, 0.01]",'critical/other existing credit','new car',,"[0.0, 0.01)",1<=X<4,'male single',none,'no known property',bank,,none,yes,bad,yes
+Arizona,"(-0.01, 0.01]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'real estate',none,own,none,yes,good,yes
+Arizona,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'life insurance',stores,rent,none,no,good,no
+Arizona,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[100.0, 500.0)",<1,'male mar/wid',none,'no known property',none,own,yes,yes,bad,yes
+California,"(-0.01, 0.01]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+California,"(-0.01, 0.01]",'existing paid','new car',"(200.0, 500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'real estate',none,rent,none,no,bad,no
+California,"(100.0, 500.0]",,other,"(5000.0, 7500.0]","[0.0, 0.01)",unemployed,,none,'no known property',bank,'for free',yes,no,good,no
+California,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,stores,,none,no,good,no
+California,"(500.0, 1000.0]",,furniture/equipment,,"[50.0, 100.0)",,,none,car,none,own,none,yes,bad,yes
+California,"(100.0, 500.0]",'existing paid',,"(500.0, 1000.0]","[20.0, 50.0)",4<=X<7,'male mar/wid',none,car,bank,own,none,yes,good,yes
+California,"(2500.0, 5000.0]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male single',none,,none,own,,yes,good,yes
+California,"(-7500.0, -5000.0]",'all paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',,car,bank,own,none,no,good,no
+California,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",,'male single',guarantor,'life insurance',,own,,no,good,no
+California,"(50.0, 100.0]",'existing paid',furniture/equipment,,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',none,own,yes,yes,good,yes
+California,"(-0.01, 0.01]",,education,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,none,yes,bad,yes
+Colorado,"(-5000.0, -2500.0]",'delayed previously',furniture/equipment,"(2500.0, 5000.0]","[0.01, 20.0)",>=7,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Colorado,"(100.0, 500.0]",'critical/other existing credit',,"(2500.0, 5000.0]","[50.0, 100.0)",unemployed,'male mar/wid',none,car,none,,none,yes,good,yes
+Connecticut,"(-5000.0, -2500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'male div/sep',none,'life insurance',none,,none,yes,bad,yes
+District of Columbia,"(-5000.0, -2500.0]",'existing paid','used car',"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,,,'no known property',none,'for free',yes,no,good,no
+Georgia,"(-7500.0, -5000.0]",,furniture/equipment,"(2500.0, 5000.0]","[5000.0, 7500.0)",1<=X<4,'male single',none,car,none,,none,yes,good,yes
+Georgia,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',,'real estate',none,own,none,no,bad,no
+Georgia,"(-5000.0, -2500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,,none,'real estate',none,own,none,no,bad,no
+Georgia,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,,"[0.0, 0.01)",>=7,'male single',none,'life insurance',none,rent,yes,no,bad,no
+Georgia,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',,car,none,own,yes,yes,good,yes
+Illinois,"(5000.0, 7500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',none,car,none,own,none,yes,good,yes
+Kentucky,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,car,none,own,none,yes,good,yes
+Louisiana,"(-10000.0, -7500.0]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[50.0, 100.0)",,'male single',none,'no known property',none,,yes,no,bad,no
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,'real estate',none,own,,yes,good,yes
+Louisiana,"(100.0, 500.0]",'existing paid','new car',"(5000.0, 7500.0]","[100.0, 500.0)",<1,,none,,none,own,none,no,good,no
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit','used car',"(10000.0, 12500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,bank,rent,none,yes,good,yes
+Massachusetts,"(-1000.0, -500.0]",'no credits/all paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",,'male single',none,'no known property',bank,,none,no,bad,no
+Maryland,"(-2500.0, -1000.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male div/sep',none,'real estate',none,rent,,yes,bad,yes
+Maryland,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'female div/dep/mar',guarantor,'life insurance',none,own,none,yes,good,yes
+Michigan,"(-7500.0, -5000.0]",'existing paid','domestic appliance',,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,,rent,none,no,bad,no
+Michigan,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',,'life insurance',,own,none,no,good,no
+Missouri,"(100.0, 500.0]",'existing paid',furniture/equipment,,"[50.0, 100.0)",1<=X<4,'male div/sep',none,car,,own,none,yes,good,yes
+Missouri,"(100.0, 500.0]",'critical/other existing credit',education,"(5000.0, 7500.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,bad,yes
+Missouri,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,,"[50.0, 100.0)",4<=X<7,'female div/dep/mar',none,car,none,rent,none,no,good,no
+Mississippi,"(100.0, 500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male mar/wid',none,'real estate',none,rent,none,no,good,no
+Mississippi,"(100.0, 500.0]",'existing paid',,"(2500.0, 5000.0]","[50.0, 100.0)",>=7,'male single','co applicant','real estate',bank,own,yes,yes,good,yes
+North Carolina,"(2500.0, 5000.0]",'existing paid','new car',"(2500.0, 5000.0]","[0.01, 20.0)",<1,'male single',,'life insurance',none,own,none,no,good,no
+North Carolina,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+North Carolina,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",<1,'male single',,'real estate',none,own,none,yes,bad,yes
+New Hampshire,"(100.0, 500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[500.0, 1000.0)",unemployed,'female div/dep/mar',none,'no known property',none,rent,none,no,bad,no
+New Jersey,"(-0.01, 0.01]",'delayed previously',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,,none,yes,good,yes
+New Jersey,"(50.0, 100.0]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,,none,'for free',,no,good,no
+New Jersey,"(-0.01, 0.01]",'existing paid','domestic appliance',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',none,rent,yes,yes,bad,yes
+New Jersey,"(0.01, 20.0]",'existing paid',furniture/equipment,,"[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,,none,own,none,yes,bad,yes
+New Jersey,"(-0.01, 0.01]",'critical/other existing credit','used car',"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'male single',none,'no known property',none,,yes,yes,good,yes
+New Mexico,"(-7500.0, -5000.0]",'no credits/all paid',radio/tv,,"[50.0, 100.0)",1<=X<4,'male single',none,,none,rent,yes,no,good,no
+Nevada,"(-0.01, 0.01]",'existing paid',education,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Nevada,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male single',none,'real estate',stores,own,none,yes,good,yes
+New York,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',,'real estate',none,own,yes,no,good,no
+New York,"(-0.01, 0.01]",'delayed previously',radio/tv,,"[0.0, 0.01)",1<=X<4,'male single',none,,none,own,yes,no,good,no
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'real estate',none,,none,no,bad,no
+New York,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",,'female div/dep/mar',none,'real estate',none,,none,no,good,no
+New York,"(50.0, 100.0]",'existing paid',education,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',,,,no,bad,no
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',none,,none,own,none,yes,good,yes
+Ohio,"(7500.0, 10000.0]",,'new car',"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,car,stores,own,,no,bad,no
+Ohio,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',,'life insurance',none,rent,none,yes,good,yes
+Ohio,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'male single',none,car,none,,none,yes,good,yes
+Ohio,"(-0.01, 0.01]",,business,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,,own,yes,no,good,no
+Ohio,"(-0.01, 0.01]",'critical/other existing credit','used car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,,none,own,none,yes,good,yes
+Ohio,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,car,none,rent,none,no,good,no
+Pennsylvania,"(-2500.0, -1000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',,car,none,own,none,yes,good,yes
+Pennsylvania,"(50.0, 100.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',,'real estate',none,rent,,no,bad,no
+South Carolina,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,no,bad,no
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',,rent,none,no,good,no
+South Carolina,"(-0.01, 0.01]",'critical/other existing credit','new car',"(12500.0, 15000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+South Carolina,"(0.01, 20.0]",'all paid',other,"(12500.0, 15000.0]","[100.0, 500.0)",>=7,'female div/dep/mar',none,'no known property',bank,'for free',yes,yes,good,yes
+Tennessee,"(-2500.0, -1000.0]",'all paid',business,"(7500.0, 10000.0]","[0.01, 20.0)",4<=X<7,'female div/dep/mar',guarantor,car,none,rent,none,no,bad,no
+Tennessee,"(-0.01, 0.01]",'delayed previously',radio/tv,,"[0.0, 0.01)",,'male mar/wid',,'real estate',none,own,,yes,bad,yes
+Texas,"(-0.01, 0.01]",'delayed previously',,,"[0.0, 0.01)",,'male single',none,'no known property',none,'for free',none,yes,bad,yes
+Texas,"(20.0, 50.0]",'existing paid','new car',"(12500.0, 15000.0]","[0.01, 20.0)",>=7,'male single',none,'no known property',,'for free',,yes,bad,yes
+Texas,"(-0.01, 0.01]",'critical/other existing credit','new car',"(200.0, 500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Texas,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Texas,"(0.01, 20.0]",'existing paid','used car',"(12500.0, 15000.0]","[0.01, 20.0)",unemployed,,,,none,'for free',yes,no,bad,no
+Texas,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'life insurance',none,rent,none,yes,bad,yes
+Texas,"(5000.0, 7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",<1,'male single',none,'real estate',none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'delayed previously',business,"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',,'life insurance',none,own,none,no,good,no
+Virginia,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,,own,none,yes,good,yes
+Virginia,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",,,none,'real estate',none,rent,yes,no,bad,no
+Virginia,"(0.01, 20.0]",'critical/other existing credit',furniture/equipment,,"[20.0, 50.0)",,'male single',none,,stores,own,yes,yes,bad,yes
+Wisconsin,"(0.01, 20.0]",'critical/other existing credit',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,bank,own,none,yes,bad,yes
+Arizona,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,,none,own,yes,no,good,no
+California,"(50.0, 100.0]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[7500.0, 10000.0)",<1,,none,'real estate',none,rent,,yes,bad,yes
+California,"(-5000.0, -2500.0]",'existing paid','new car',"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+California,"(-10000.0, -7500.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",4<=X<7,'female div/dep/mar',none,car,,own,none,yes,bad,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'male single',none,car,none,own,none,yes,good,yes
+California,"(50.0, 100.0]",'delayed previously',education,"(10000.0, 12500.0]","[100.0, 500.0)",4<=X<7,,none,'no known property',none,rent,,yes,good,yes
+California,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",unemployed,'female div/dep/mar',none,'no known property',none,'for free',,yes,good,yes
+California,"(-7500.0, -5000.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male mar/wid',,'life insurance',none,own,yes,no,good,no
+California,"(100.0, 500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'male div/sep',none,'real estate',,rent,none,yes,bad,yes
+District of Columbia,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Georgia,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid',,'real estate',none,own,,yes,good,yes
+Georgia,"(20.0, 50.0]",'critical/other existing credit',business,,"[0.0, 0.01)",1<=X<4,'male mar/wid',none,'real estate',,own,none,no,good,no
+Georgia,"(-0.01, 0.01]",'delayed previously',business,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'male single',none,car,,,yes,no,good,no
+Georgia,"(-0.01, 0.01]",'delayed previously','new car',"(500.0, 1000.0]","[0.0, 0.01)",,'male single',none,car,none,own,,yes,good,yes
+Georgia,"(100.0, 500.0]",'delayed previously','new car',"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',none,car,none,own,none,yes,good,yes
+Illinois,"(100.0, 500.0]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male mar/wid',none,'life insurance',none,own,yes,no,good,no
+Indiana,"(-0.01, 0.01]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,,none,car,,own,yes,no,bad,no
+Kentucky,"(-2500.0, -1000.0]",'existing paid',radio/tv,,"[50.0, 100.0)",<1,'male mar/wid',none,'real estate',,own,none,no,good,no
+Louisiana,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male div/sep',none,car,none,own,yes,no,bad,no
+Louisiana,"(5000.0, 7500.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[500.0, 1000.0)",4<=X<7,'male mar/wid',none,,none,own,yes,yes,bad,yes
+Massachusetts,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'female div/dep/mar',none,,,own,,yes,good,yes
+Maryland,"(-0.01, 0.01]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,,own,yes,no,bad,no
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',business,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'male single',none,car,stores,own,yes,no,bad,no
+Missouri,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,,none,yes,bad,yes
+Missouri,"(-7500.0, -5000.0]",,'new car',"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',,'life insurance',none,own,none,no,good,no
+Mississippi,"(-0.01, 0.01]",'critical/other existing credit','used car',,"[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+North Carolina,"(-2500.0, -1000.0]",'existing paid','new car',"(2500.0, 5000.0]","[20.0, 50.0)",<1,'male single',none,'real estate',,own,none,no,bad,no
+New Jersey,"(-5000.0, -2500.0]",'delayed previously',education,"(7500.0, 10000.0]","[0.0, 0.01)",,'female div/dep/mar',,car,none,rent,,yes,bad,yes
+New Jersey,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,bank,own,none,no,good,no
+New Jersey,"(50.0, 100.0]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',,own,none,no,good,no
+New Jersey,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Nevada,"(100.0, 500.0]",'existing paid','used car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,,own,none,yes,good,yes
+New York,"(20.0, 50.0]",'critical/other existing credit','new car',,"[0.01, 20.0)",4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+New York,"(-0.01, 0.01]",'delayed previously',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+Ohio,"(20.0, 50.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',bank,own,yes,yes,bad,yes
+Ohio,"(100.0, 500.0]",'existing paid','used car',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,,none,car,,rent,,yes,good,yes
+Oregon,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,,none,yes,good,yes
+Pennsylvania,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',none,'real estate',,own,none,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,none,yes,bad,yes
+South Carolina,"(-5000.0, -2500.0]",'critical/other existing credit',repairs,"(1000.0, 2500.0]","[0.01, 20.0)",unemployed,'female div/dep/mar',none,,none,'for free',none,yes,good,yes
+South Carolina,"(-0.01, 0.01]",'existing paid',,,"[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,none,no,bad,no
+Tennessee,"(100.0, 500.0]",'existing paid',other,"(10000.0, 12500.0]","[50.0, 100.0)",1<=X<4,'male single','co applicant',car,bank,own,yes,no,good,no
+Tennessee,"(-5000.0, -2500.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",unemployed,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',repairs,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male div/sep',,'real estate',none,own,yes,no,good,no
+Texas,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',,'real estate',none,own,none,no,good,no
+Texas,"(0.01, 20.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male mar/wid',,'real estate',none,own,yes,no,bad,no
+Texas,"(-0.01, 0.01]",'existing paid',repairs,"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,'real estate',none,rent,none,yes,bad,yes
+Texas,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'real estate',none,own,yes,no,good,no
+Virginia,"(-1000.0, -500.0]",'critical/other existing credit',repairs,"(2500.0, 5000.0]","[50.0, 100.0)",unemployed,'male single','co applicant',car,none,own,none,yes,bad,yes
+Virginia,"(7500.0, 10000.0]",'all paid',business,"(500.0, 1000.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Wisconsin,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,,none,car,none,own,,yes,good,yes
+Arizona,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,,"[50.0, 100.0)",,'female div/dep/mar','co applicant',,none,own,none,yes,bad,yes
+California,"(100.0, 500.0]",'delayed previously',other,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,,none,car,bank,own,yes,no,good,no
+California,"(-0.01, 0.01]",'existing paid',education,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,car,bank,own,none,no,bad,no
+California,"(100.0, 500.0]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'life insurance',none,rent,none,no,good,no
+California,"(-1000.0, -500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+California,"(20.0, 50.0]",'existing paid',,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,,guarantor,'real estate',none,own,none,no,bad,no
+District of Columbia,"(2500.0, 5000.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'real estate',none,own,,yes,good,yes
+Georgia,"(50.0, 100.0]",'delayed previously',repairs,"(1000.0, 2500.0]","[5000.0, 7500.0)",1<=X<4,,none,'life insurance',stores,,none,no,good,no
+Georgia,"(-0.01, 0.01]",'critical/other existing credit','used car',"(10000.0, 12500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,,own,yes,yes,bad,yes
+Georgia,"(-0.01, 0.01]",'existing paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+Illinois,"(-0.01, 0.01]",'no credits/all paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Indiana,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,car,,,yes,no,good,no
+Louisiana,"(-10000.0, -7500.0]",'existing paid','new car',"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'male single','co applicant','life insurance',none,own,yes,no,good,no
+Maryland,"(-0.01, 0.01]",,'used car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,,none,'no known property',none,own,yes,yes,bad,yes
+Michigan,"(-7500.0, -5000.0]",'critical/other existing credit','new car',,"[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+Missouri,"(-7500.0, -5000.0]",'existing paid','used car',"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',none,'no known property',none,'for free',yes,no,bad,no
+Missouri,"(-5000.0, -2500.0]",'existing paid',,"(200.0, 500.0]","[20.0, 50.0)",<1,,none,'real estate',none,own,,yes,good,yes
+Mississippi,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,car,none,own,yes,yes,bad,yes
+North Carolina,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'male single',guarantor,'life insurance',none,own,none,yes,bad,yes
+New Jersey,"(-10000.0, -7500.0]",'existing paid','new car',,"[0.0, 0.01)",<1,'male single',none,'real estate',none,own,none,yes,good,yes
+New Jersey,"(100.0, 500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Nevada,"(100.0, 500.0]",'existing paid',retraining,,"[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+New York,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,stores,own,yes,no,good,no
+New York,"(-5000.0, -2500.0]",'existing paid','used car',"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,'male single',,'no known property',bank,,yes,no,bad,no
+Oregon,"(-2500.0, -1000.0]",'delayed previously',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,car,none,rent,yes,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'delayed previously',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,car,,own,none,yes,good,yes
+Tennessee,"(-0.01, 0.01]",,business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,good,yes
+Tennessee,"(-0.01, 0.01]",,,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Texas,"(20.0, 50.0]",'existing paid',radio/tv,,"[100.0, 500.0)",<1,'male mar/wid',none,car,none,rent,yes,yes,good,yes
+Texas,"(-10000.0, -7500.0]",'existing paid',education,"(200.0, 500.0]","[20.0, 50.0)",<1,,none,'life insurance',,own,,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male single',,car,none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'existing paid',retraining,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,,none,'life insurance',none,own,yes,no,bad,no
+Wisconsin,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,,none,no,good,no
+Arizona,"(-5000.0, -2500.0]",'no credits/all paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",<1,'female div/dep/mar',,'life insurance',none,,none,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+California,"(1000.0, 2500.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.01, 20.0)",4<=X<7,'male single',none,car,bank,own,none,yes,bad,yes
+California,"(100.0, 500.0]",'existing paid',business,"(1000.0, 2500.0]","[100.0, 500.0)",4<=X<7,'male single',none,'real estate',none,own,none,yes,good,yes
+California,"(-2500.0, -1000.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',,car,none,own,yes,yes,bad,yes
+California,"(20.0, 50.0]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Georgia,"(20.0, 50.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single',none,'life insurance',none,,none,yes,bad,yes
+Illinois,"(-500.0, -100.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[2500.0, 5000.0)",,,,,none,rent,yes,no,good,no
+Indiana,"(-0.01, 0.01]",'delayed previously',furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',,'real estate',none,own,,yes,good,yes
+Maryland,"(0.01, 20.0]",,'new car',"(1000.0, 2500.0]","[50.0, 100.0)",unemployed,'male single',none,'life insurance',none,own,yes,no,good,no
+Michigan,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,,none,car,none,own,yes,yes,good,yes
+Missouri,"(-0.01, 0.01]",,,"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar','co applicant','no known property',none,'for free',yes,no,good,no
+New Jersey,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,rent,,yes,bad,yes
+New Jersey,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'life insurance',none,rent,none,no,bad,no
+Nevada,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,own,none,yes,good,yes
+New York,"(100.0, 500.0]",,business,"(7500.0, 10000.0]","[50.0, 100.0)",>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Tennessee,"(0.01, 20.0]",'existing paid',radio/tv,"(200.0, 500.0]","[0.0, 0.01)",,,none,'life insurance',none,own,none,yes,good,yes
+Texas,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,rent,none,no,good,no
+Texas,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',,car,none,own,none,no,bad,no
+Texas,"(100.0, 500.0]",'existing paid',furniture/equipment,"(7500.0, 10000.0]","[100.0, 500.0)",<1,'male single','co applicant','no known property',none,rent,yes,yes,bad,yes
+Texas,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Arizona,"(50.0, 100.0]",'existing paid',radio/tv,,"[0.01, 20.0)",>=7,'male mar/wid',guarantor,'real estate',,own,none,yes,bad,yes
+California,"(2500.0, 5000.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[100.0, 500.0)",>=7,'male div/sep',none,car,,own,yes,yes,good,yes
+California,"(-7500.0, -5000.0]",,'new car',"(2500.0, 5000.0]","[0.01, 20.0)",,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+California,"(-7500.0, -5000.0]",'existing paid','used car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',none,no,good,no
+Georgia,"(5000.0, 7500.0]",,radio/tv,,"[100.0, 500.0)",,'male div/sep',none,,none,own,none,no,bad,no
+Illinois,"(50.0, 100.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[100.0, 500.0)",<1,'male single',none,'no known property',bank,own,none,no,bad,no
+Indiana,"(-10000.0, -7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",,,none,'life insurance',none,rent,none,yes,good,yes
+Louisiana,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'life insurance',none,own,none,no,good,no
+Michigan,"(5000.0, 7500.0]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[500.0, 1000.0)",1<=X<4,'male single',none,car,none,own,yes,no,good,no
+Missouri,"(100.0, 500.0]",'all paid','new car',,"[100.0, 500.0)",unemployed,'male single',none,'life insurance',,own,yes,no,bad,no
+New Jersey,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",1<=X<4,,none,'life insurance',,,none,no,bad,no
+New Jersey,"(-0.01, 0.01]",'existing paid',,"(7500.0, 10000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,no,good,no
+Nevada,"(-500.0, -100.0]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,none,yes,bad,yes
+New York,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,,none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,"(7500.0, 10000.0]",'existing paid',business,"(2500.0, 5000.0]","[20.0, 50.0)",,'male single',none,'life insurance',,rent,,yes,bad,yes
+Tennessee,"(100.0, 500.0]",'delayed previously',radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",1<=X<4,'male mar/wid','co applicant','real estate',none,rent,,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid','new car',,"[0.0, 0.01)",<1,'male single',none,'life insurance',none,own,none,yes,good,yes
+Texas,"(-2500.0, -1000.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'life insurance',none,own,none,no,bad,no
+Texas,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[20.0, 50.0)",<1,'male single',none,'real estate',none,,none,yes,good,yes
+Arizona,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',,rent,yes,no,bad,no
+California,"(-2500.0, -1000.0]",'existing paid','new car',"(1000.0, 2500.0]","[100.0, 500.0)",>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+California,"(-0.01, 0.01]",'critical/other existing credit',,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',repairs,,"[0.0, 0.01)",>=7,'male single',,'no known property',none,'for free',none,yes,good,yes
+Georgia,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[20.0, 50.0)",,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Illinois,"(-10000.0, -7500.0]",'no credits/all paid',furniture/equipment,"(5000.0, 7500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Indiana,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,own,none,no,bad,no
+Louisiana,"(0.01, 20.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,,guarantor,'real estate',none,own,none,yes,bad,yes
+Maryland,"(100.0, 500.0]",'existing paid','used car',"(7500.0, 10000.0]","[0.01, 20.0)",<1,'male single',none,,none,own,none,yes,good,yes
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,,own,none,yes,bad,yes
+Missouri,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,none,no,good,no
+New Jersey,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'male div/sep',none,car,none,rent,none,no,bad,no
+Nevada,"(-2500.0, -1000.0]",'existing paid','new car',"(500.0, 1000.0]","[20.0, 50.0)",<1,'male single',none,'real estate',none,own,yes,yes,good,yes
+New York,"(0.01, 20.0]",'existing paid',education,"(1000.0, 2500.0]","[0.01, 20.0)",4<=X<7,'male single',none,,none,own,none,no,good,no
+Pennsylvania,"(50.0, 100.0]",'existing paid','new car',"(2500.0, 5000.0]","[100.0, 500.0)",,'female div/dep/mar',none,car,none,rent,yes,yes,bad,yes
+Tennessee,"(-0.01, 0.01]",'delayed previously','used car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,'life insurance',none,own,yes,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,car,none,own,none,no,bad,no
+Texas,"(5000.0, 7500.0]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'male div/sep',none,,none,rent,none,no,bad,no
+Texas,"(-500.0, -100.0]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'life insurance',,own,,no,bad,no
+California,"(100.0, 500.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'female div/dep/mar',none,'life insurance',none,,yes,yes,good,yes
+California,"(-10000.0, -7500.0]",,'new car',"(7500.0, 10000.0]","[20.0, 50.0)",>=7,'male single',none,'no known property',bank,'for free',none,yes,bad,yes
+Georgia,"(2500.0, 5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,'life insurance',stores,own,none,yes,bad,yes
+Illinois,"(100.0, 500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'male mar/wid',none,'real estate',none,rent,none,no,good,no
+Indiana,"(-0.01, 0.01]",'delayed previously','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Louisiana,"(-5000.0, -2500.0]",'existing paid',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Maryland,"(7500.0, 10000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'male single',none,,none,own,none,no,bad,no
+Michigan,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,,no,bad,no
+Missouri,"(-1000.0, -500.0]",'delayed previously','new car',"(1000.0, 2500.0]","[20.0, 50.0)",unemployed,'male single',none,'real estate',none,'for free',none,yes,good,yes
+New Jersey,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Nevada,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,car,bank,own,none,no,bad,no
+New York,"(-0.01, 0.01]",'all paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',bank,own,none,yes,bad,yes
+Pennsylvania,"(-0.01, 0.01]",'critical/other existing credit','used car',"(7500.0, 10000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',,"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'real estate',none,,none,no,good,no
+Texas,"(-0.01, 0.01]",'all paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',bank,own,none,yes,good,yes
+Texas,"(-10000.0, -7500.0]",'existing paid',radio/tv,,"[20.0, 50.0)",4<=X<7,'male mar/wid',guarantor,'real estate',none,own,yes,yes,bad,yes
+California,"(100.0, 500.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[100.0, 500.0)",<1,'male single',none,car,,own,none,yes,good,yes
+California,"(100.0, 500.0]",'existing paid',education,"(1000.0, 2500.0]","[50.0, 100.0)",4<=X<7,'female div/dep/mar',none,'life insurance',none,own,yes,yes,bad,yes
+Illinois,"(20.0, 50.0]",,radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'male single',none,car,stores,own,none,yes,bad,yes
+Indiana,"(0.01, 20.0]",'no credits/all paid','new car',"(1000.0, 2500.0]","[100.0, 500.0)",,'female div/dep/mar',none,car,none,own,none,yes,good,yes
+Louisiana,"(-0.01, 0.01]",'no credits/all paid','new car',,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',bank,own,,no,good,no
+Maryland,"(-10000.0, -7500.0]",'all paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",4<=X<7,'male single',none,,bank,own,none,yes,good,yes
+Michigan,"(100.0, 500.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single',none,'real estate',none,own,none,no,good,no
+Missouri,"(-7500.0, -5000.0]",,'used car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+New Jersey,"(-1000.0, -500.0]",,,"(1000.0, 2500.0]","[20.0, 50.0)",4<=X<7,'male single',guarantor,car,bank,rent,none,yes,good,yes
+Nevada,"(1000.0, 2500.0]",'delayed previously',radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,'life insurance',bank,own,none,no,good,no
+New York,"(0.01, 20.0]",'existing paid','new car',"(10000.0, 12500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',yes,no,bad,no
+Pennsylvania,"(20.0, 50.0]",'delayed previously',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',,'life insurance',,own,yes,no,good,no
+Texas,"(100.0, 500.0]",'delayed previously',radio/tv,"(1000.0, 2500.0]","[100.0, 500.0)",4<=X<7,'female div/dep/mar',none,'life insurance',none,rent,yes,yes,good,yes
+Texas,"(-5000.0, -2500.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",,'male div/sep',,,none,own,none,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,,"[0.0, 0.01)",>=7,'male single',none,car,none,own,none,no,good,no
+California,"(100.0, 500.0]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',,car,none,own,yes,yes,good,yes
+Illinois,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Maryland,"(-2500.0, -1000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",,,,'real estate',none,rent,yes,no,good,no
+Michigan,"(-0.01, 0.01]",,radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male single','co applicant',car,none,own,,yes,good,yes
+Missouri,"(-0.01, 0.01]",'existing paid','used car',"(5000.0, 7500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'life insurance',none,rent,yes,no,good,no
+Nevada,"(-10000.0, -7500.0]",'existing paid',,"(500.0, 1000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,'life insurance',none,,none,no,good,no
+New York,"(20.0, 50.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,,none,own,none,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar','co applicant',,bank,own,none,yes,good,yes
+Texas,"(100.0, 500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',education,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,,yes,yes,good,yes
+Texas,"(100.0, 500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.01, 20.0)",<1,'male div/sep',none,,none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'existing paid',,"(500.0, 1000.0]","[0.0, 0.01)",<1,'male mar/wid',none,car,none,own,none,no,bad,no
+Illinois,"(0.01, 20.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.01, 20.0)",>=7,'male single',guarantor,'real estate',bank,own,,yes,good,yes
+Maryland,"(0.01, 20.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[50.0, 100.0)",,'male single',none,'real estate',bank,own,none,no,bad,no
+Michigan,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Missouri,"(100.0, 500.0]",'existing paid',repairs,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single',none,'no known property',none,rent,none,no,good,no
+Nevada,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,no,bad,no
+New York,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,,bank,rent,none,yes,bad,yes
+Pennsylvania,"(-2500.0, -1000.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,rent,none,yes,good,yes
+Texas,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male single',,'life insurance',none,own,none,no,bad,no
+Texas,"(-5000.0, -2500.0]",'existing paid','domestic appliance',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'real estate',none,own,yes,no,bad,no
+California,"(-10000.0, -7500.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.01, 20.0)",>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Illinois,"(-10000.0, -7500.0]",'critical/other existing credit',radio/tv,,"[50.0, 100.0)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,yes,no,bad,no
+Michigan,"(20.0, 50.0]",'delayed previously','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,car,none,,yes,no,good,no
+Missouri,"(-0.01, 0.01]",'existing paid',business,,"[0.0, 0.01)",>=7,'female div/dep/mar',none,'real estate',bank,own,,no,good,no
+New York,"(50.0, 100.0]",'existing paid','new car',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,'life insurance',none,,yes,yes,bad,yes
+Pennsylvania,"(-7500.0, -5000.0]",'all paid',other,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,stores,own,yes,yes,good,yes
+Texas,"(100.0, 500.0]",,'new car',"(500.0, 1000.0]","[100.0, 500.0)",<1,'female div/dep/mar',none,'life insurance',stores,own,none,yes,good,yes
+California,"(-10000.0, -7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Illinois,"(100.0, 500.0]",'no credits/all paid',business,"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'male single',none,'real estate',none,own,yes,no,good,no
+Maryland,"(-0.01, 0.01]",'critical/other existing credit','new car',,"[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',bank,own,none,no,bad,no
+Michigan,"(-0.01, 0.01]",'delayed previously',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',,no,bad,no
+Missouri,"(100.0, 500.0]",'existing paid',,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'female div/dep/mar',guarantor,'real estate',none,,none,yes,good,yes
+New York,"(20.0, 50.0]",'existing paid',,"(500.0, 1000.0]","[50.0, 100.0)",,'female div/dep/mar',none,'life insurance',none,own,none,no,bad,no
+Pennsylvania,"(0.01, 20.0]",'all paid',education,"(1000.0, 2500.0]","[50.0, 100.0)",4<=X<7,'female div/dep/mar',none,'no known property',bank,'for free',none,yes,good,yes
+Texas,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,,yes,yes,good,yes
+California,"(1000.0, 2500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",<1,,none,'life insurance',none,own,none,yes,good,yes
+Illinois,"(-5000.0, -2500.0]",'all paid',furniture/equipment,,"[500.0, 1000.0)",1<=X<4,'male single',none,'real estate',stores,own,yes,yes,good,yes
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',,'real estate',none,own,yes,yes,good,yes
+Missouri,"(100.0, 500.0]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',,'no known property',,'for free',,yes,good,yes
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",<1,'male single',none,'real estate',none,own,none,no,bad,no
+Pennsylvania,"(-0.01, 0.01]",'existing paid','used car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',bank,'for free',none,no,good,no
+Texas,"(-7500.0, -5000.0]",'existing paid','domestic appliance',"(500.0, 1000.0]","[100.0, 500.0)",unemployed,'female div/dep/mar',none,'life insurance',none,,none,no,good,no
+Texas,"(2500.0, 5000.0]",'existing paid','new car',"(1000.0, 2500.0]","[100.0, 500.0)",,'female div/dep/mar',none,'no known property',,'for free',none,yes,good,yes
+California,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[7500.0, 10000.0)",<1,'female div/dep/mar',none,car,bank,,none,yes,good,yes
+Illinois,"(-5000.0, -2500.0]",'all paid','used car',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',guarantor,car,bank,rent,none,no,good,no
+Indiana,"(-0.01, 0.01]",'delayed previously',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Maryland,"(100.0, 500.0]",'no credits/all paid',business,"(10000.0, 12500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,,own,,no,good,no
+Michigan,"(100.0, 500.0]",'delayed previously',radio/tv,,"[0.0, 0.01)",1<=X<4,,none,'no known property',none,'for free',none,yes,bad,yes
+Missouri,"(-5000.0, -2500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,,none,'real estate',none,rent,none,no,good,no
+New York,"(100.0, 500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar','co applicant',car,none,rent,none,no,good,no
+Pennsylvania,"(-0.01, 0.01]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'real estate',none,own,none,yes,bad,yes
+Texas,"(0.01, 20.0]",'critical/other existing credit',business,"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'male single',none,'life insurance',,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',bank,own,none,no,good,no
+Illinois,"(-0.01, 0.01]",'existing paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'real estate',bank,own,none,yes,bad,yes
+Michigan,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,,"[50.0, 100.0)",<1,'female div/dep/mar',none,car,none,,none,no,good,no
+Missouri,"(-1000.0, -500.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[20.0, 50.0)",1<=X<4,'male single',none,'no known property',none,'for free',none,no,good,no
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',,car,none,own,none,yes,bad,yes
+Pennsylvania,"(5000.0, 7500.0]",,furniture/equipment,,"[20.0, 50.0)",1<=X<4,,none,'real estate',none,,,yes,bad,yes
+Texas,"(-0.01, 0.01]",'all paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'no known property',none,own,none,yes,bad,yes
+Alabama,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,yes,no,bad,no
+California,"(-0.01, 0.01]",'existing paid',education,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,,no,bad,no
+Illinois,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Michigan,"(-7500.0, -5000.0]",'all paid',furniture/equipment,,"[50.0, 100.0)",1<=X<4,'male single',,car,,own,none,yes,good,yes
+Missouri,"(20.0, 50.0]",'existing paid',radio/tv,,"[0.0, 0.01)",<1,'male single',none,'life insurance',none,own,none,yes,bad,yes
+New York,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar','co applicant',car,none,rent,none,no,good,no
+Texas,"(100.0, 500.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',bank,,yes,yes,bad,yes
+Florida,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,,none,own,none,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'delayed previously',radio/tv,"(15000.0, 20000.0]","[0.0, 0.01)",4<=X<7,,none,,none,own,yes,no,bad,no
+Michigan,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+New York,"(-1000.0, -500.0]",'delayed previously',radio/tv,"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'male single',none,'life insurance',bank,own,yes,yes,bad,yes
+Texas,"(-2500.0, -1000.0]",'existing paid',education,"(500.0, 1000.0]","[50.0, 100.0)",unemployed,'female div/dep/mar',none,'real estate',none,own,,yes,good,yes
+California,"(50.0, 100.0]",'existing paid',repairs,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,,none,car,none,own,none,yes,good,yes
+Illinois,"(-0.01, 0.01]",'existing paid',education,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,yes,yes,good,yes
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',guarantor,car,none,own,yes,no,good,no
+New York,"(-5000.0, -2500.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",,'male mar/wid',none,'life insurance',none,own,yes,yes,bad,yes
+Texas,"(-0.01, 0.01]",'delayed previously',,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'male single',none,car,none,rent,yes,yes,good,yes
+California,"(-10000.0, -7500.0]",,,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male div/sep',guarantor,'real estate',none,,none,yes,good,yes
+Illinois,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',none,own,,yes,good,yes
+Michigan,"(5000.0, 7500.0]",'existing paid','new car',,"[50.0, 100.0)",4<=X<7,'male single',none,'no known property',bank,'for free',none,no,good,no
+New York,"(-10000.0, -7500.0]",'existing paid',education,"(500.0, 1000.0]","[50.0, 100.0)",1<=X<4,'male single',none,,none,rent,none,no,bad,no
+New York,"(-2500.0, -1000.0]",'existing paid',education,"(5000.0, 7500.0]","[20.0, 50.0)",4<=X<7,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Ohio,"(50.0, 100.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'life insurance',none,own,none,no,bad,no
+Texas,"(-7500.0, -5000.0]",'existing paid',,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single','co applicant','real estate',none,own,none,yes,good,yes
+California,"(50.0, 100.0]",'delayed previously','new car',"(7500.0, 10000.0]","[100.0, 500.0)",>=7,'male single',none,car,none,own,yes,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit','used car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',,car,none,,yes,no,good,no
+Michigan,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Michigan,"(50.0, 100.0]",'existing paid','new car',"(500.0, 1000.0]","[0.01, 20.0)",>=7,'male single',none,car,bank,own,none,yes,good,yes
+New York,"(-0.01, 0.01]",'existing paid',,"(10000.0, 12500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,stores,own,yes,yes,good,yes
+New York,"(20.0, 50.0]",,business,"(2500.0, 5000.0]","[50.0, 100.0)",,'female div/dep/mar',,car,none,own,none,yes,bad,yes
+Ohio,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,own,yes,no,good,no
+Texas,"(5000.0, 7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+California,"(-7500.0, -5000.0]",'existing paid','new car',"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,own,,no,good,no
+Illinois,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,,none,own,none,no,bad,no
+Michigan,"(100.0, 500.0]",'delayed previously',furniture/equipment,"(1000.0, 2500.0]","[50.0, 100.0)",unemployed,'male single',none,'life insurance',stores,own,yes,no,bad,no
+Texas,"(2500.0, 5000.0]",'critical/other existing credit',education,,"[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',other,,"[0.0, 0.01)",unemployed,'male single','co applicant','no known property',bank,own,yes,yes,bad,yes
+Michigan,"(100.0, 500.0]",'all paid',furniture/equipment,"(2500.0, 5000.0]","[7500.0, 10000.0)",1<=X<4,'male single',none,,stores,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'all paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',stores,own,none,yes,good,yes
+Alabama,"(-1000.0, -500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.01, 20.0)",>=7,'male single','co applicant','life insurance',none,rent,yes,yes,bad,yes
+Illinois,"(5000.0, 7500.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.01, 20.0)",>=7,'male single',,'life insurance',none,own,none,no,bad,no
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,yes,no,bad,no
+Texas,"(-0.01, 0.01]",'existing paid',business,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male single',,car,none,own,,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'existing paid','new car',"(10000.0, 12500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,,own,none,no,bad,no
+Illinois,"(-0.01, 0.01]",'delayed previously',business,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,,bank,own,,no,bad,no
+Texas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,car,none,,yes,yes,bad,yes
+Alabama,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,,none,car,none,own,yes,yes,good,yes
+Alabama,"(20.0, 50.0]",'existing paid',radio/tv,"(5000.0, 7500.0]","[100.0, 500.0)",1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Alabama,"(-7500.0, -5000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",,'male single',none,'real estate',bank,rent,none,yes,good,yes
+Alabama,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,,none,own,,yes,good,yes
+Alabama,"(-0.01, 0.01]",'existing paid',education,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'no known property',none,own,none,yes,good,yes
+Alabama,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',,'no known property',none,'for free',,yes,good,yes
+Alabama,"(-0.01, 0.01]",'delayed previously',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",,'male mar/wid',none,'real estate',bank,own,none,no,bad,no
+Alabama,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",<1,'male mar/wid',,,none,'for free',yes,no,bad,no
+Alabama,"(100.0, 500.0]",,business,"(7500.0, 10000.0]","[100.0, 500.0)",4<=X<7,'male single',none,'life insurance',,own,yes,no,good,no
+Alabama,"(-0.01, 0.01]",'existing paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',,'no known property',none,'for free',yes,yes,bad,yes
+Alabama,"(2500.0, 5000.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,,yes,yes,bad,yes
+Alabama,"(100.0, 500.0]",'delayed previously','new car',"(2500.0, 5000.0]","[100.0, 500.0)",>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Alabama,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,'co applicant',,none,own,,no,good,no
+Arkansas,"(-1000.0, -500.0]",'existing paid','new car',"(2500.0, 5000.0]","[2500.0, 5000.0)",1<=X<4,'male single',none,'life insurance',none,own,none,no,good,no
+Arkansas,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'life insurance',none,,none,yes,good,yes
+Arkansas,"(50.0, 100.0]",'existing paid',repairs,"(2500.0, 5000.0]","[100.0, 500.0)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+Arkansas,"(50.0, 100.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[100.0, 500.0)",<1,'male single',none,car,none,own,none,no,good,no
+Arkansas,"(-2500.0, -1000.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',,'real estate',none,own,none,no,good,no
+Arkansas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Arkansas,"(-0.01, 0.01]",'existing paid','used car',,"[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,rent,none,yes,good,yes
+Arkansas,"(20.0, 50.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',guarantor,'real estate',none,own,,no,bad,no
+Arkansas,"(-0.01, 0.01]",'critical/other existing credit','new car',"(500.0, 1000.0]","[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',,,,no,good,no
+Arkansas,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,,"[0.0, 0.01)",,,none,car,none,own,none,yes,good,yes
+Arkansas,"(2500.0, 5000.0]",,education,"(1000.0, 2500.0]","[50.0, 100.0)",,'male single',none,car,none,rent,,yes,good,yes
+Arkansas,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,rent,none,yes,good,yes
+Arizona,"(-0.01, 0.01]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',yes,no,good,no
+Arizona,"(1000.0, 2500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[100.0, 500.0)",>=7,'female div/dep/mar',none,'no known property',none,'for free',yes,yes,good,yes
+Arizona,"(100.0, 500.0]",'delayed previously',business,"(2500.0, 5000.0]","[100.0, 500.0)",>=7,'male single',none,'life insurance',stores,own,none,no,bad,no
+Arizona,"(100.0, 500.0]",'existing paid',business,"(2500.0, 5000.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,'life insurance',,own,yes,yes,bad,yes
+Arizona,"(-0.01, 0.01]",'existing paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,,none,'for free',none,yes,good,yes
+Arizona,"(20.0, 50.0]",'existing paid','new car',,"[100.0, 500.0)",4<=X<7,'male single',none,'life insurance',none,own,none,yes,bad,yes
+Arizona,"(100.0, 500.0]",'no credits/all paid',,"(2500.0, 5000.0]","[0.01, 20.0)",<1,'female div/dep/mar',none,'life insurance',none,rent,none,no,good,no
+Arizona,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+Arizona,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',,,none,no,good,no
+Arizona,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',bank,own,yes,no,good,no
+California,"(-0.01, 0.01]",'all paid',education,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'no known property',none,'for free',none,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid','used car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,no,bad,no
+California,"(-10000.0, -7500.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[50.0, 100.0)",,'male single',none,'real estate',none,own,,no,good,no
+California,"(100.0, 500.0]",'existing paid','new car',"(12500.0, 15000.0]","[0.01, 20.0)",4<=X<7,'male single',none,'no known property',none,own,,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','used car',"(7500.0, 10000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,none,no,bad,no
+California,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',,car,none,,yes,no,good,no
+California,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,,,none,'for free',yes,no,good,no
+California,"(7500.0, 10000.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,,none,own,yes,no,bad,no
+California,"(100.0, 500.0]",'no credits/all paid','used car',"(5000.0, 7500.0]","[100.0, 500.0)",>=7,'male mar/wid',none,car,bank,own,,yes,bad,yes
+California,"(7500.0, 10000.0]",'no credits/all paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",,'male single',none,car,none,,yes,no,bad,no
+California,"(-0.01, 0.01]",'all paid',,"(200.0, 500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',bank,rent,none,no,bad,no
+California,"(-7500.0, -5000.0]",,'new car',"(1000.0, 2500.0]","[0.01, 20.0)",,'female div/dep/mar',none,,none,own,none,yes,good,yes
+California,"(100.0, 500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[500.0, 1000.0)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+California,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,'real estate',none,,,no,bad,no
+California,"(-0.01, 0.01]",,'new car',"(200.0, 500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',bank,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'life insurance',none,own,none,yes,good,yes
+California,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'female div/dep/mar',none,car,bank,rent,none,yes,bad,yes
+California,"(50.0, 100.0]",'all paid',business,"(5000.0, 7500.0]","[50.0, 100.0)",>=7,'female div/dep/mar',none,'no known property',none,rent,none,yes,good,yes
+California,"(2500.0, 5000.0]",'critical/other existing credit',,"(1000.0, 2500.0]","[2500.0, 5000.0)",,'male div/sep',none,'real estate',none,own,yes,no,good,no
+California,"(20.0, 50.0]",'delayed previously',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",<1,'male single',none,car,none,own,none,yes,good,yes
+California,"(-2500.0, -1000.0]",,radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male single',none,'real estate',none,rent,none,yes,bad,yes
+California,"(20.0, 50.0]",'existing paid',radio/tv,,"[20.0, 50.0)",4<=X<7,'female div/dep/mar',guarantor,'real estate',none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'existing paid','used car',,"[0.0, 0.01)",1<=X<4,,none,car,none,,yes,no,bad,no
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+California,"(50.0, 100.0]",'all paid','domestic appliance',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',,'no known property',,own,none,yes,bad,yes
+California,"(20.0, 50.0]",'existing paid','used car',"(10000.0, 12500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,car,none,,none,yes,good,yes
+California,"(-5000.0, -2500.0]",'existing paid','new car',"(2500.0, 5000.0]","[100.0, 500.0)",,'male single',none,car,none,,yes,yes,bad,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',,"[0.0, 0.01)",4<=X<7,'male single',,'no known property',none,own,yes,no,good,no
+California,"(100.0, 500.0]",'no credits/all paid',business,"(2500.0, 5000.0]","[100.0, 500.0)",1<=X<4,'female div/dep/mar',none,car,none,rent,,no,good,no
+California,"(-500.0, -100.0]",'all paid','new car',"(1000.0, 2500.0]","[100.0, 500.0)",4<=X<7,'male single',none,,bank,own,,no,good,no
+California,"(100.0, 500.0]",'all paid',radio/tv,,"[50.0, 100.0)",1<=X<4,'male single',none,,stores,,,yes,good,yes
+California,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+California,"(-7500.0, -5000.0]",'all paid',furniture/equipment,"(1000.0, 2500.0]","[500.0, 1000.0)",1<=X<4,'male single',none,'real estate',stores,own,yes,no,bad,no
+California,"(-10000.0, -7500.0]",'critical/other existing credit',furniture/equipment,"(12500.0, 15000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',,own,yes,yes,bad,yes
+California,"(-2500.0, -1000.0]",'critical/other existing credit',business,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single',none,'life insurance',bank,own,none,no,good,no
+California,"(-500.0, -100.0]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,car,none,,none,yes,good,yes
+California,"(-2500.0, -1000.0]",'existing paid','new car',"(1000.0, 2500.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,'real estate',none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'existing paid','used car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',none,car,none,own,none,yes,good,yes
+California,"(-2500.0, -1000.0]",'existing paid',furniture/equipment,,"[0.0, 0.01)",>=7,'female div/dep/mar',none,'life insurance',,,yes,yes,bad,yes
+California,"(-5000.0, -2500.0]",'existing paid','new car',"(500.0, 1000.0]","[20.0, 50.0)",<1,'female div/dep/mar',none,car,none,own,none,no,good,no
+California,"(100.0, 500.0]",'existing paid',business,"(500.0, 1000.0]","[100.0, 500.0)",4<=X<7,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,,none,yes,bad,yes
+California,"(-0.01, 0.01]",'delayed previously',repairs,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+California,"(-10000.0, -7500.0]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,,none,rent,none,yes,good,yes
+California,"(7500.0, 10000.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,,none,yes,good,yes
+California,"(7500.0, 10000.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+California,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'real estate',none,,yes,no,good,no
+California,"(-500.0, -100.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[0.01, 20.0)",>=7,'male single',none,'life insurance',none,,none,no,bad,no
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',,"[0.0, 0.01)",>=7,,,car,none,own,yes,yes,bad,yes
+California,"(-5000.0, -2500.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,"(-2500.0, -1000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',,"[0.0, 0.01)",,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,'life insurance',none,,yes,no,bad,no
+California,"(100.0, 500.0]",,radio/tv,,"[0.01, 20.0)",,,,'real estate',bank,own,none,yes,good,yes
+California,"(-0.01, 0.01]",,furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male div/sep',none,'life insurance',none,,,no,bad,no
+California,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',,,none,rent,none,yes,good,yes
+California,"(50.0, 100.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",>=7,'male single',,,none,rent,yes,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,no,good,no
+California,"(-7500.0, -5000.0]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,"(-2500.0, -1000.0]",,education,"(7500.0, 10000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,'no known property',none,own,yes,yes,bad,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','used car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',,own,none,no,good,no
+California,"(2500.0, 5000.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[500.0, 1000.0)",unemployed,'male single',,,,'for free',none,no,bad,no
+California,"(-10000.0, -7500.0]",'existing paid','new car',,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+California,"(-0.01, 0.01]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,,none,car,none,own,yes,yes,good,yes
+California,"(-7500.0, -5000.0]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.01, 20.0)",4<=X<7,'female div/dep/mar',guarantor,'real estate',none,own,none,no,bad,no
+Colorado,"(-0.01, 0.01]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,,none,car,none,own,yes,yes,good,yes
+Colorado,"(-0.01, 0.01]",'existing paid',repairs,"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,car,none,own,yes,no,bad,no
+Colorado,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[20.0, 50.0)",4<=X<7,'male single',guarantor,'real estate',none,own,none,no,bad,no
+Colorado,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,yes,good,yes
+Connecticut,"(100.0, 500.0]",'no credits/all paid',retraining,"(1000.0, 2500.0]","[20.0, 50.0)",1<=X<4,'male single',none,'real estate',none,own,yes,yes,good,yes
+Connecticut,"(0.01, 20.0]",'existing paid','new car',"(500.0, 1000.0]","[100.0, 500.0)",<1,'female div/dep/mar',none,'life insurance',bank,own,none,no,bad,no
+District of Columbia,"(50.0, 100.0]",'existing paid','used car',"(5000.0, 7500.0]","[0.0, 0.01)",unemployed,'male div/sep',none,'real estate',none,own,yes,no,good,no
+District of Columbia,"(20.0, 50.0]",'existing paid',business,"(1000.0, 2500.0]","[7500.0, 10000.0)",1<=X<4,'male single',none,'life insurance',none,own,yes,yes,good,yes
+Delaware,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,none,car,none,own,none,no,bad,no
+Delaware,"(-0.01, 0.01]",,'used car',,"[0.0, 0.01)",,'male single',none,car,none,own,yes,yes,bad,yes
+Florida,"(20.0, 50.0]",'delayed previously',education,,"[50.0, 100.0)",>=7,'male single',none,'no known property',none,'for free',none,yes,good,yes
+Florida,"(-0.01, 0.01]",'critical/other existing credit',education,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',,'no known property',bank,own,yes,yes,bad,yes
+Florida,"(20.0, 50.0]",'existing paid',,"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'female div/dep/mar',none,'life insurance',none,own,none,yes,good,yes
+Florida,"(-0.01, 0.01]",'existing paid','used car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,no,bad,no
+Florida,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,'life insurance',none,own,none,yes,good,yes
+Florida,"(5000.0, 7500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",,'male div/sep',none,'no known property',none,'for free',none,no,good,no
+Florida,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,rent,yes,yes,bad,yes
+Florida,"(-0.01, 0.01]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,,none,'life insurance',none,rent,none,no,bad,no
+Florida,"(-5000.0, -2500.0]",'existing paid','used car',,"[0.0, 0.01)",>=7,'male single',none,'life insurance',,'for free',yes,yes,bad,yes
+Florida,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,rent,,no,good,no
+Florida,"(-0.01, 0.01]",'delayed previously','new car',"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male mar/wid',none,car,none,own,yes,yes,good,yes
+Florida,"(50.0, 100.0]",'existing paid','new car',,"[0.0, 0.01)",<1,'male single',none,'real estate',none,own,none,yes,good,yes
+Florida,"(-0.01, 0.01]",'critical/other existing credit',education,,"[0.0, 0.01)",>=7,,none,'no known property',none,'for free',none,yes,bad,yes
+Florida,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",>=7,'female div/dep/mar',guarantor,'real estate',bank,rent,yes,no,good,no
+Florida,"(-10000.0, -7500.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",>=7,,none,'life insurance',,own,,no,bad,no
+Florida,"(-0.01, 0.01]",,,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',,car,none,own,none,no,bad,no
+Florida,"(20.0, 50.0]",'existing paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'real estate',none,rent,none,yes,good,yes
+Florida,"(-10000.0, -7500.0]",,'new car',"(7500.0, 10000.0]","[0.01, 20.0)",4<=X<7,'male single',,car,none,own,,no,good,no
+Florida,"(0.01, 20.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",<1,,none,'real estate',none,own,none,yes,good,yes
+Florida,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',,own,none,no,bad,no
+Florida,"(-0.01, 0.01]",'all paid','used car',"(7500.0, 10000.0]","[0.0, 0.01)",unemployed,'male single',none,'no known property',bank,'for free',yes,yes,good,yes
+Florida,"(-0.01, 0.01]",'no credits/all paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',none,rent,,yes,bad,yes
+Florida,"(50.0, 100.0]",'existing paid',business,"(500.0, 1000.0]","[0.01, 20.0)",<1,'male mar/wid',none,'real estate',none,own,,no,good,no
+Florida,"(50.0, 100.0]",'existing paid',radio/tv,"(200.0, 500.0]","[50.0, 100.0)",4<=X<7,'male mar/wid',guarantor,'real estate',bank,own,none,no,bad,no
+Florida,"(-5000.0, -2500.0]",'critical/other existing credit','used car',"(7500.0, 10000.0]","[50.0, 100.0)",4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Florida,"(-7500.0, -5000.0]",'existing paid','domestic appliance',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',none,car,none,own,none,no,bad,no
+Florida,"(-7500.0, -5000.0]",'existing paid','new car',"(2500.0, 5000.0]","[50.0, 100.0)",4<=X<7,'male single',,'no known property',none,'for free',none,no,good,no
+Florida,"(20.0, 50.0]",'delayed previously','new car',"(5000.0, 7500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,'life insurance',,rent,none,yes,bad,yes
+Florida,"(-0.01, 0.01]",'existing paid','domestic appliance',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'real estate',none,own,none,no,bad,no
+Florida,"(-0.01, 0.01]",,,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,car,none,,yes,yes,bad,yes
+Florida,"(-0.01, 0.01]",'existing paid',other,"(15000.0, 20000.0]","[0.0, 0.01)",unemployed,'male div/sep','co applicant',car,none,own,none,no,good,no
+Florida,"(-1000.0, -500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male mar/wid',none,'real estate',bank,,,yes,bad,yes
+Florida,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",,'male mar/wid',none,'real estate',none,own,yes,no,good,no
+Florida,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Florida,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',none,'life insurance',bank,own,,yes,good,yes
+Florida,"(-7500.0, -5000.0]",'critical/other existing credit','new car',"(500.0, 1000.0]","[20.0, 50.0)",>=7,'male single',none,'real estate',none,own,none,no,bad,no
+Florida,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male div/sep',none,car,none,own,yes,no,good,no
+Florida,"(-7500.0, -5000.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male mar/wid',none,car,none,own,yes,no,good,no
+Florida,"(-5000.0, -2500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[50.0, 100.0)",,'female div/dep/mar',none,'real estate',,rent,yes,no,good,no
+Florida,"(-0.01, 0.01]",,business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,stores,,none,no,good,no
+Florida,"(-2500.0, -1000.0]",'existing paid','used car',"(7500.0, 10000.0]","[0.0, 0.01)",>=7,'male single',none,'no known property',none,'for free',,yes,good,yes
+Georgia,"(20.0, 50.0]",'delayed previously',business,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Georgia,"(-0.01, 0.01]",,business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,,own,yes,yes,bad,yes
+Georgia,"(-10000.0, -7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,car,none,rent,,yes,good,yes
+Georgia,"(-7500.0, -5000.0]",'no credits/all paid',business,"(10000.0, 12500.0]","[50.0, 100.0)",>=7,'male single',,car,,rent,none,yes,good,yes
+Georgia,"(50.0, 100.0]",'existing paid',radio/tv,,"[0.0, 0.01)",>=7,'female div/dep/mar',none,car,none,own,,yes,good,yes
+Georgia,"(5000.0, 7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Georgia,"(-7500.0, -5000.0]",'no credits/all paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,,bank,own,none,yes,good,yes
+Georgia,"(-0.01, 0.01]",'existing paid',,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',,car,,own,none,yes,good,yes
+Georgia,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",<1,'female div/dep/mar',,'real estate',,rent,none,no,bad,no
+Georgia,"(-10000.0, -7500.0]",'critical/other existing credit','used car',,"[50.0, 100.0)",>=7,'male single',none,'life insurance',none,own,yes,no,bad,no
+Georgia,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male mar/wid','co applicant','real estate',none,own,none,no,good,no
+Georgia,"(-2500.0, -1000.0]",'existing paid',furniture/equipment,"(5000.0, 7500.0]","[20.0, 50.0)",4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Georgia,"(-0.01, 0.01]",'delayed previously','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',stores,own,none,yes,good,yes
+Georgia,"(-0.01, 0.01]",'existing paid',repairs,"(1000.0, 2500.0]","[0.0, 0.01)",,'female div/dep/mar',none,'real estate',none,,none,yes,good,yes
+Georgia,"(-0.01, 0.01]",'all paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,bank,,yes,no,good,no
+Georgia,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',bank,own,,yes,good,yes
+Georgia,"(100.0, 500.0]",,furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,,none,,none,own,yes,no,good,no
+Georgia,"(-0.01, 0.01]",'existing paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,car,none,rent,,yes,good,yes
+Georgia,"(-0.01, 0.01]",,'new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid',none,'real estate',none,own,none,yes,bad,yes
+Georgia,"(-7500.0, -5000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[20.0, 50.0)",4<=X<7,'male single',none,'real estate',none,own,,no,good,no
+Hawaii,"(-10000.0, -7500.0]",'existing paid',,"(500.0, 1000.0]","[0.01, 20.0)",>=7,'male single',none,'real estate',stores,own,none,yes,good,yes
+Iowa,"(-5000.0, -2500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'male mar/wid',guarantor,'life insurance',bank,rent,none,no,good,no
+Iowa,"(-0.01, 0.01]",'critical/other existing credit','used car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,yes,no,good,no
+Iowa,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,'for free',yes,yes,bad,yes
+Iowa,"(-5000.0, -2500.0]",'all paid',,"(1000.0, 2500.0]","[50.0, 100.0)",4<=X<7,'male single',none,,none,'for free',none,no,good,no
+Iowa,"(-0.01, 0.01]",'delayed previously','new car',"(10000.0, 12500.0]","[0.0, 0.01)",>=7,'male single',none,car,,own,yes,no,bad,no
+Iowa,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid',none,'real estate',none,own,yes,no,good,no
+Iowa,"(-0.01, 0.01]",'existing paid',retraining,"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,'life insurance',none,own,yes,yes,bad,yes
+Idaho,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,,none,'no known property',,'for free',yes,yes,good,yes
+Idaho,"(-5000.0, -2500.0]",'existing paid','new car',"(2500.0, 5000.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,,none,own,yes,no,bad,no
+Illinois,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'real estate',none,rent,none,no,bad,no
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',,"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'delayed previously',business,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,own,,no,good,no
+Illinois,"(-5000.0, -2500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',none,own,yes,yes,good,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,'real estate',stores,own,yes,no,bad,no
+Illinois,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",,'male single',,'real estate',,,none,no,good,no
+Illinois,"(-0.01, 0.01]",,furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,rent,none,no,bad,no
+Illinois,"(-10000.0, -7500.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,,none,car,stores,own,,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',stores,own,none,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'existing paid',business,"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,,none,own,none,yes,good,yes
+Illinois,"(-1000.0, -500.0]",'existing paid',furniture/equipment,"(500.0, 1000.0]","[50.0, 100.0)",>=7,'female div/dep/mar',none,'life insurance',none,,none,yes,bad,yes
+Illinois,"(-0.01, 0.01]",'delayed previously',furniture/equipment,,"[0.0, 0.01)",4<=X<7,'female div/dep/mar',none,car,none,,yes,no,bad,no
+Illinois,"(5000.0, 7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.01, 20.0)",>=7,'male single',none,'real estate',none,own,none,no,bad,no
+Illinois,"(-50.0, -20.0]",'critical/other existing credit',business,,"[100.0, 500.0)",4<=X<7,'male single',none,'real estate',none,own,yes,yes,good,yes
+Illinois,"(-0.01, 0.01]",'existing paid','domestic appliance',"(500.0, 1000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'real estate',none,own,none,no,good,no
+Illinois,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,,"[0.0, 0.01)",1<=X<4,'male single','co applicant','life insurance',none,own,none,yes,bad,yes
+Illinois,"(50.0, 100.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[5000.0, 7500.0)",1<=X<4,'female div/dep/mar',none,car,none,,none,no,good,no
+Illinois,"(-1000.0, -500.0]",'all paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single','co applicant','no known property',bank,'for free',yes,no,bad,no
+Illinois,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,none,no,good,no
+Illinois,"(-10000.0, -7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",<1,'male single',none,'no known property',none,'for free',yes,yes,good,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,,"[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,none,no,good,no
+Illinois,"(-0.01, 0.01]",'existing paid','used car',"(7500.0, 10000.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,yes,yes,good,yes
+Illinois,"(-0.01, 0.01]",'existing paid','used car',"(7500.0, 10000.0]","[0.0, 0.01)",1<=X<4,'male div/sep',none,'no known property',none,'for free',yes,yes,good,yes
+Illinois,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,,no,bad,no
+Illinois,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,car,none,own,,yes,good,yes
+Illinois,"(20.0, 50.0]",'existing paid',,"(2500.0, 5000.0]","[0.01, 20.0)",4<=X<7,'male div/sep',none,car,none,own,yes,no,bad,no
+Illinois,"(-7500.0, -5000.0]",'existing paid',,"(500.0, 1000.0]","[0.01, 20.0)",<1,'female div/dep/mar',none,'life insurance',none,own,none,yes,bad,yes
+Illinois,"(100.0, 500.0]",'critical/other existing credit',,"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',none,,none,own,yes,yes,bad,yes
+Indiana,"(-0.01, 0.01]",'existing paid',,"(15000.0, 20000.0]","[0.0, 0.01)",1<=X<4,'male single',,car,none,own,yes,yes,bad,yes
+Indiana,"(-0.01, 0.01]",'critical/other existing credit','new car',"(5000.0, 7500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,yes,good,yes
+Indiana,"(-0.01, 0.01]",'all paid',,"(7500.0, 10000.0]","[0.0, 0.01)",<1,'male single',guarantor,'real estate',bank,rent,yes,yes,good,yes
+Indiana,"(-10000.0, -7500.0]",'critical/other existing credit',business,"(1000.0, 2500.0]","[50.0, 100.0)",>=7,'male single',none,car,stores,own,yes,yes,good,yes
+Indiana,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,,yes,no,bad,no
+Indiana,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'life insurance',bank,own,none,yes,bad,yes
+Indiana,"(50.0, 100.0]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[20.0, 50.0)",1<=X<4,'male single',none,car,none,own,yes,yes,bad,yes
+Indiana,"(-0.01, 0.01]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,'life insurance',none,own,yes,yes,bad,yes
+Indiana,"(-0.01, 0.01]",,'used car',"(7500.0, 10000.0]","[0.0, 0.01)",,'male single',none,car,stores,own,yes,no,good,no
+Indiana,"(-5000.0, -2500.0]",,radio/tv,"(2500.0, 5000.0]","[20.0, 50.0)",<1,'female div/dep/mar',,,none,rent,yes,no,bad,no
+Indiana,"(-0.01, 0.01]",'critical/other existing credit',,,"[0.0, 0.01)",,'female div/dep/mar',none,'life insurance',none,,none,yes,good,yes
+Indiana,"(-0.01, 0.01]",'existing paid',,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,,none,'real estate',bank,rent,none,yes,bad,yes
+Indiana,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,,'co applicant',car,none,,none,no,good,no
+Indiana,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[20.0, 50.0)",>=7,'male single',guarantor,'life insurance',bank,rent,yes,no,good,no
+Indiana,"(-0.01, 0.01]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male div/sep',none,'real estate',none,own,yes,no,bad,no
+Kansas,"(-0.01, 0.01]",'critical/other existing credit','used car',,"[0.0, 0.01)",>=7,'male single',none,,,,none,yes,good,yes
+Kansas,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',,'real estate',none,rent,yes,no,good,no
+Kansas,"(-0.01, 0.01]",'existing paid',radio/tv,,"[0.0, 0.01)",>=7,'male single',none,'real estate',none,own,yes,yes,bad,yes
+Kansas,"(-5000.0, -2500.0]",,radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,rent,,no,good,no
+Kentucky,"(-10000.0, -7500.0]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",4<=X<7,'male single','co applicant','real estate',none,own,none,no,good,no
+Kentucky,"(100.0, 500.0]",'existing paid',education,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male mar/wid',none,car,none,own,none,yes,good,yes
+Kentucky,"(-0.01, 0.01]",'delayed previously','used car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'female div/dep/mar',none,'life insurance',none,own,none,no,good,no
+Kentucky,"(100.0, 500.0]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Kentucky,"(-0.01, 0.01]",'delayed previously',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'real estate',none,own,none,no,bad,no
+Kentucky,"(50.0, 100.0]",'critical/other existing credit',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",<1,,none,car,bank,,none,yes,good,yes
+Kentucky,"(100.0, 500.0]",,radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'female div/dep/mar',none,car,none,own,none,yes,bad,yes
+Kentucky,"(-0.01, 0.01]",'existing paid',business,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male div/sep',none,'real estate',none,,yes,yes,good,yes
+Kentucky,"(-0.01, 0.01]",'all paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,,none,rent,yes,yes,bad,yes
+Kentucky,"(-0.01, 0.01]",'no credits/all paid',other,"(15000.0, 20000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'life insurance',bank,own,yes,yes,good,yes
+Kentucky,"(-0.01, 0.01]",'existing paid','used car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single','co applicant','real estate',none,own,none,no,bad,no
+Kentucky,"(-2500.0, -1000.0]",'existing paid','new car',"(12500.0, 15000.0]","[20.0, 50.0)",>=7,'male single',none,'no known property',bank,own,,no,good,no
+Kentucky,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[100.0, 500.0)",unemployed,'male div/sep',none,'life insurance',none,own,none,yes,good,yes
+Kentucky,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[50.0, 100.0)",>=7,,none,'life insurance',none,rent,yes,yes,good,yes
+Kentucky,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,'no known property',none,own,none,no,bad,no
+Kentucky,"(-0.01, 0.01]",'delayed previously',radio/tv,"(12500.0, 15000.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,none,own,yes,no,bad,no
+Kentucky,"(-7500.0, -5000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'female div/dep/mar',none,'life insurance',none,rent,none,yes,good,yes
+Kentucky,"(50.0, 100.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",4<=X<7,,none,'life insurance',none,rent,yes,no,bad,no
+Kentucky,"(-1000.0, -500.0]",'all paid',furniture/equipment,"(5000.0, 7500.0]","[0.0, 0.01)",<1,'male div/sep',none,'life insurance',bank,own,yes,no,bad,no
+Kentucky,"(-500.0, -100.0]",'all paid',,"(500.0, 1000.0]","[20.0, 50.0)",<1,'male single',,car,bank,own,yes,yes,bad,yes
+Kentucky,"(-500.0, -100.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[20.0, 50.0)",<1,,none,'life insurance',none,rent,none,yes,good,yes
+Kentucky,"(-7500.0, -5000.0]",'existing paid','used car',"(10000.0, 12500.0]","[50.0, 100.0)",4<=X<7,'male single',none,'no known property',stores,'for free',yes,yes,bad,yes
+Kentucky,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,yes,good,yes
+Kentucky,"(-7500.0, -5000.0]",'delayed previously','new car',,"[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,own,none,no,good,no
+Kentucky,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,,"[20.0, 50.0)",<1,'male single','co applicant','life insurance',,,none,no,bad,no
+Kentucky,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",<1,'female div/dep/mar',none,car,none,own,,yes,bad,yes
+Kentucky,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'real estate',none,own,none,yes,good,yes
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit',,,"[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,yes,no,good,no
+Louisiana,"(-10000.0, -7500.0]",'existing paid',,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',,car,bank,own,none,yes,good,yes
+Louisiana,"(100.0, 500.0]",'delayed previously',radio/tv,"(1000.0, 2500.0]","[100.0, 500.0)",<1,'male single',none,'no known property',,,none,yes,bad,yes
+Louisiana,"(5000.0, 7500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',none,,none,,none,yes,good,yes
+Louisiana,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",<1,,none,car,none,rent,yes,yes,good,yes
+Louisiana,"(100.0, 500.0]",'existing paid',,"(5000.0, 7500.0]","[50.0, 100.0)",1<=X<4,'male single',none,,none,'for free',none,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit','used car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,,yes,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,'life insurance',none,own,yes,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,,none,'real estate',none,own,none,yes,good,yes
+Louisiana,"(-0.01, 0.01]",,furniture/equipment,"(500.0, 1000.0]","[0.0, 0.01)",4<=X<7,'male single',none,car,stores,own,,no,good,no
+Louisiana,"(-0.01, 0.01]",'critical/other existing credit','new car',"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'real estate',none,own,,no,good,no
+Louisiana,"(-7500.0, -5000.0]",'existing paid',furniture/equipment,,"[20.0, 50.0)",<1,'female div/dep/mar',,'life insurance',none,rent,none,yes,good,yes
+Louisiana,"(50.0, 100.0]",'no credits/all paid','new car',"(7500.0, 10000.0]","[500.0, 1000.0)",<1,'female div/dep/mar',none,,none,own,none,yes,good,yes
+Louisiana,"(-2500.0, -1000.0]",'all paid',furniture/equipment,"(2500.0, 5000.0]","[500.0, 1000.0)",<1,'male single',,'no known property',none,'for free',yes,no,good,no
+Louisiana,"(-0.01, 0.01]",'existing paid',,"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'male single',none,'no known property',none,own,yes,yes,good,yes
+Louisiana,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",<1,'male mar/wid','co applicant','life insurance',none,own,none,no,good,no
+Louisiana,"(-0.01, 0.01]",'existing paid',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",,'male single',,car,none,own,none,yes,good,yes
+Louisiana,"(100.0, 500.0]",'critical/other existing credit',business,"(2500.0, 5000.0]","[0.01, 20.0)",unemployed,'male mar/wid',none,car,none,own,yes,yes,bad,yes
+Louisiana,"(-5000.0, -2500.0]",'delayed previously',business,"(1000.0, 2500.0]","[20.0, 50.0)",4<=X<7,'male single',none,car,none,own,yes,no,good,no
+Louisiana,"(-0.01, 0.01]",,,"(2500.0, 5000.0]","[0.0, 0.01)",,'female div/dep/mar',none,,none,rent,none,yes,bad,yes
+Louisiana,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(10000.0, 12500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,car,none,own,yes,no,good,no
+Massachusetts,"(-10000.0, -7500.0]",'existing paid','new car',"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'female div/dep/mar',guarantor,'life insurance',none,own,yes,yes,good,yes
+Massachusetts,"(-7500.0, -5000.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[1000.0, 2500.0)",>=7,'female div/dep/mar',none,'life insurance',none,rent,yes,yes,good,yes
+Massachusetts,"(2500.0, 5000.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,none,'life insurance',stores,,none,yes,bad,yes
+Massachusetts,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(1000.0, 2500.0]","[0.01, 20.0)",>=7,'male single',none,'real estate',none,own,none,no,good,no
+Massachusetts,"(-7500.0, -5000.0]",'existing paid','new car',"(2500.0, 5000.0]","[20.0, 50.0)",,'male single',none,car,none,own,,no,bad,no
+Massachusetts,"(100.0, 500.0]",'existing paid',,"(2500.0, 5000.0]","[100.0, 500.0)",>=7,'male single',none,'no known property',,'for free',none,yes,bad,yes
+Massachusetts,"(-0.01, 0.01]",,radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male mar/wid',none,'real estate',none,rent,none,yes,good,yes
+Massachusetts,"(100.0, 500.0]",'delayed previously','new car',"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male div/sep',none,'life insurance',none,own,none,no,good,no
+Massachusetts,"(-0.01, 0.01]",'existing paid','new car',"(2500.0, 5000.0]","[0.0, 0.01)",1<=X<4,'male single',none,'no known property',none,own,none,no,good,no
+Massachusetts,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,,own,yes,no,good,no
+Massachusetts,"(-0.01, 0.01]",'existing paid',repairs,,"[0.0, 0.01)",,'male mar/wid',none,'life insurance',,,none,no,bad,no
+Massachusetts,"(50.0, 100.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,,none,yes,good,yes
+Massachusetts,"(100.0, 500.0]",'critical/other existing credit',radio/tv,"(2500.0, 5000.0]","[500.0, 1000.0)",1<=X<4,'male single',none,'life insurance',,own,none,yes,good,yes
+Maryland,"(-0.01, 0.01]",,,"(2500.0, 5000.0]","[0.0, 0.01)",>=7,'female div/dep/mar',,,bank,rent,yes,yes,good,yes
+Maryland,"(-0.01, 0.01]",'existing paid',radio/tv,"(5000.0, 7500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,'life insurance',none,rent,yes,yes,bad,yes
+Maryland,"(-10000.0, -7500.0]",'critical/other existing credit','new car',"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male single',none,'real estate',none,own,none,yes,bad,yes
+Maryland,"(-0.01, 0.01]",'existing paid',repairs,"(1000.0, 2500.0]","[0.0, 0.01)",1<=X<4,'male single',guarantor,'real estate',,own,none,yes,good,yes
+Maryland,"(-0.01, 0.01]",'existing paid','new car',"(5000.0, 7500.0]","[0.0, 0.01)",1<=X<4,'male single',none,'life insurance',none,,,yes,good,yes
+Maryland,"(-5000.0, -2500.0]",'all paid','new car',"(1000.0, 2500.0]","[0.01, 20.0)",unemployed,'female div/dep/mar','co applicant','no known property',none,rent,none,yes,good,yes
+Maryland,"(-7500.0, -5000.0]",'existing paid',business,,"[0.0, 0.01)",>=7,'male single','co applicant','no known property',none,rent,none,yes,bad,yes
+Maryland,"(-0.01, 0.01]",'critical/other existing credit',,,"[0.0, 0.01)",1<=X<4,'female div/dep/mar',none,car,none,own,yes,yes,bad,yes
+Maine,"(7500.0, 10000.0]",'existing paid',radio/tv,,"[500.0, 1000.0)",1<=X<4,'female div/dep/mar',none,,none,own,none,no,good,no
+Michigan,"(100.0, 500.0]",'existing paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",1<=X<4,'female div/dep/mar',guarantor,'real estate',none,own,none,no,good,no
+Michigan,"(100.0, 500.0]",'delayed previously',business,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,"(-0.01, 0.01]",'delayed previously','new car',"(2500.0, 5000.0]","[0.0, 0.01)",>=7,,none,car,none,own,none,yes,bad,yes
+Michigan,"(0.01, 20.0]",'all paid','new car',"(1000.0, 2500.0]","[100.0, 500.0)",1<=X<4,'male mar/wid',none,'life insurance',none,rent,none,yes,good,yes
+Michigan,"(50.0, 100.0]",'critical/other existing credit',furniture/equipment,"(7500.0, 10000.0]","[0.01, 20.0)",4<=X<7,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,"(-0.01, 0.01]",'existing paid',business,"(2500.0, 5000.0]","[0.0, 0.01)",unemployed,'male single',,car,bank,rent,yes,yes,bad,yes
+Michigan,"(5000.0, 7500.0]",'existing paid','new car',"(2500.0, 5000.0]","[100.0, 500.0)",1<=X<4,'female div/dep/mar',none,car,bank,own,yes,no,good,no
+Michigan,"(-5000.0, -2500.0]",'existing paid','used car',"(7500.0, 10000.0]","[20.0, 50.0)",1<=X<4,'male single',none,'life insurance',none,own,none,yes,good,yes
+Michigan,"(-0.01, 0.01]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male single',none,'life insurance',none,own,none,yes,good,yes
+New Mexico,"(-7500.0, -5000.0]",'critical/other existing credit',furniture/equipment,"(1000.0, 2500.0]","[0.01, 20.0)",1<=X<4,'female div/dep/mar',none,'life insurance',none,rent,none,yes,bad,yes
+New Mexico,"(2500.0, 5000.0]",,business,"(5000.0, 7500.0]","[20.0, 50.0)",<1,'male div/sep',none,'life insurance',none,own,none,no,good,no
+New Mexico,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",unemployed,'female div/dep/mar',none,'real estate',none,own,none,yes,bad,yes
+New Mexico,"(-7500.0, -5000.0]",'existing paid','used car',"(5000.0, 7500.0]","[20.0, 50.0)",unemployed,'male single',,'no known property',none,'for free',yes,no,good,no
+Nevada,"(50.0, 100.0]",'critical/other existing credit',radio/tv,,"[20.0, 50.0)",>=7,'male single',none,'life insurance',none,own,none,no,good,no
+Nevada,"(-0.01, 0.01]",'critical/other existing credit',education,"(2500.0, 5000.0]","[0.0, 0.01)",<1,'male single',none,'life insurance',none,own,none,no,good,no
+New York,"(-0.01, 0.01]",'all paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",>=7,,none,car,bank,,none,no,good,no
+New York,"(-0.01, 0.01]",'existing paid',radio/tv,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,'male mar/wid',none,car,none,,none,yes,good,yes
+New York,"(-10000.0, -7500.0]",'existing paid',furniture/equipment,"(2500.0, 5000.0]","[20.0, 50.0)",unemployed,,none,'life insurance',none,own,yes,no,bad,no
+New York,"(-0.01, 0.01]",'existing paid','new car',"(1000.0, 2500.0]","[0.0, 0.01)",>=7,'male single',none,car,none,own,yes,no,good,no
+New York,"(-0.01, 0.01]",'existing paid',furniture/equipment,"(1000.0, 2500.0]","[0.0, 0.01)",4<=X<7,,none,'real estate',none,own,none,no,bad,no
+New York,"(-5000.0, -2500.0]",'existing paid',,"(2500.0, 5000.0]","[50.0, 100.0)",1<=X<4,'male div/sep',none,'life insurance',none,own,yes,yes,good,yes
+Ohio,"(-0.01, 0.01]",'existing paid',radio/tv,"(500.0, 1000.0]","[0.0, 0.01)",>=7,'male single',,car,none,own,none,no,good,no
+Ohio,"(-7500.0, -5000.0]",'existing paid',radio/tv,"(1000.0, 2500.0]","[50.0, 100.0)",1<=X<4,'male single',,'no known property',none,'for free',yes,yes,good,yes
+Ohio,"(20.0, 50.0]",'critical/other existing credit',,"(2500.0, 5000.0]","[100.0, 500.0)",unemployed,'male single',,car,none,,none,yes,good,yes
