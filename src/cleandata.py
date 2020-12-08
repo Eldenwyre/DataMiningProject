@@ -3,12 +3,12 @@
 import numpy as np
 import pandas as pd
 from datamining import cleandata
-
-
-def first_clean() -> None:
+from scipy.stats import spearmanr
+from typing import List
+def first_clean(infile: str, outfile: str) -> None:
     """Initial cleaning, very basic"""
-    INFILE = "credit.csv"
-    OUTFILE = "output/clean.csv"
+    INFILE = infile
+    OUTFILE = outfile
 
     # Build Dataframe
     df: pd.DataFrame = pd.read_csv(INFILE)
@@ -31,6 +31,7 @@ def first_clean() -> None:
         missing_values="?",
         ignore_missing=True,
     )
+    df["foreign_worker"].replace(to_replace='1',value='yes',inplace=True,)
     df["class"] = cleandata.typos(
         df["class"], ["bad", "good"], missing_values="?", ignore_missing=True
     )
@@ -40,6 +41,7 @@ def first_clean() -> None:
         missing_values="?",
         ignore_missing=True,
     )
+    df["works_outside_US"].replace(to_replace='1',value='yes',inplace=True,)
 
     # Change absurd (likely erroneous) values in num_dependents to something within realm of possibility
     # [0, 130] (Can’t be younger than 0, ~10% higher than oldest recorded person)
@@ -56,10 +58,10 @@ def first_clean() -> None:
     return
 
 
-def binned_clean() -> None:
+def binned_clean(infile: str, outfile: str) -> None:
     '''clean.csv but with binned values'''
-    INFILE = "output/clean.csv"
-    OUTFILE = "output/clean_binned.csv"
+    INFILE = infile
+    OUTFILE = outfile
 
     # Build Dataframe
     df: pd.DataFrame = pd.read_csv(INFILE)
@@ -77,10 +79,10 @@ def binned_clean() -> None:
     return
 
 
-def normalized_clean() -> None:
+def normalized_clean(infile: str, outfile: str) -> None:
     '''clean.csv but with normalized values'''
-    INFILE = "output/clean.csv"
-    OUTFILE = "output/clean_normalized.csv"
+    INFILE = infile
+    OUTFILE = outfile
 
     # Build Dataframe
     df: pd.DataFrame = pd.read_csv(INFILE)
@@ -95,7 +97,23 @@ def normalized_clean() -> None:
     return 
 
 
+def perform_and_display_spearman(df: pd.DataFrame, headers: List[str], outfile: str) -> None:
+    print(f"Performing spearman tests on {headers}")
+    for c1 in range(len(headers)):
+        X = df[headers[c1]].values.reshape(-1,1)
+        for c2 in range(c1,len(headers)):
+            if c1 != c2:
+                Y = df[headers[c2]].values.reshape(-1,1)
+                corr, p_value = spearmanr(X, Y)
+                print(f"({headers[c1]}, {headers[c2]}) : {abs(corr)}")
+    print("Done")
+    return
+
+
+
 if __name__ == "__main__":
-    first_clean()
-    binned_clean()
-    normalized_clean()
+    IN_OUT_PAIRS = [("credit.csv","output/clean.csv"), ("output/clean.csv","output/clean_binned.csv"), ("output/clean.csv","output/clean_normalized.csv")]
+    first_clean(infile=IN_OUT_PAIRS[0][0], outfile=IN_OUT_PAIRS[0][1])
+    binned_clean(infile=IN_OUT_PAIRS[1][0], outfile=IN_OUT_PAIRS[1][1])
+    normalized_clean(infile=IN_OUT_PAIRS[2][0], outfile=IN_OUT_PAIRS[2][1])
+    #perform_and_display_spearman()
