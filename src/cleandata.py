@@ -174,6 +174,7 @@ def binned_clean(infile: str, outfile: str) -> None:
                 (60, 70),
                 (70, 80),
                 (80, 90),
+                (90,100),
                 (100, 140),
             ]
         ),
