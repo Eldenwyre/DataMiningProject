@@ -26,8 +26,12 @@ def print_unique_col_info(df: pd.DataFrame) -> None:
                     strings.append(val)
             nums = sorted(nums)
             if len(nums) > len(strings):
-                print(f"Suspected numerical data. Lowest 5 numbers {nums[0:5]}. Highest 5 numbers {nums[-5:]}")
-                print(f"It also contains the following strings (possibly erroneous?): {strings}")
+                print(
+                    f"Suspected numerical data. Lowest 5 numbers {nums[0:5]}. Highest 5 numbers {nums[-5:]}"
+                )
+                print(
+                    f"It also contains the following strings (possibly erroneous?): {strings}"
+                )
             else:
                 print(f"Nominal Data suspected, but with high counts.")
 
