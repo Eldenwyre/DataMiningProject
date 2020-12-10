@@ -1,0 +1,131 @@
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: no, yes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0001 * state=Pennsylvania
+ +       0.0003 * state=Rhodes Island
+ +       0.0004 * state=South Carolina
+ +       0.0004 * state=South Dakota
+ +       0.0005 * state=Tennessee
+ +       0.0002 * state=Texas
+ +      -0.0008 * state=Utah
+ +      -0.0001 * state=Virginia
+ +      -0.0005 * state=Vermont
+ +      -0      * state=Washington
+ +      -0.0004 * state=Wisconsin
+ +       0      * state=West Virginia
+ +      -0.0003 * state=Alaska
+ +      -0      * state=Arkansas
+ +      -0.0001 * state=Arizona
+ +       0      * state=California
+ +       0.0005 * state=Colorado
+ +       0.0004 * state=Connecticut
+ +      -0.0002 * state=District of Columbia
+ +      -0.0005 * state=Delaware
+ +       0.0001 * state=Georgia
+ +       0      * state=Hawaii
+ +      -0.0002 * state=Illinois
+ +       0      * state=Indiana
+ +      -0.0001 * state=Kentucky
+ +       0.0001 * state=Louisiana
+ +      -0.0004 * state=Massachusetts
+ +       0.0003 * state=Maryland
+ +       0.0003 * state=Michigan
+ +       0.0002 * state=Missouri
+ +      -0.0001 * state=Mississippi
+ +      -0.0002 * state=North Carolina
+ +      -0.0018 * state=New Hampshire
+ +       0.0001 * state=New Jersey
+ +       0.0001 * state=New Mexico
+ +       0.0001 * state=Nevada
+ +       0.0001 * state=New York
+ +       0.0002 * state=Ohio
+ +       0.0008 * state=Oregon
+ +       0.0005 * state=Alabama
+ +       0.0004 * state=Florida
+ +      -0.0002 * state=Iowa
+ +      -0.0004 * state=Idaho
+ +       0.0004 * state=Kansas
+ +      -0.0004 * state=Maine
+ +      -0.0004 * checking_amt
+ +       0      * credit_history=critical/other existing credit
+ +       0      * credit_history=existing paid
+ +      -0.0001 * credit_history=delayed previously
+ +      -0      * credit_history=no credits/all paid
+ +       0.0001 * credit_history=all paid
+ +       0.0002 * purpose=radio/tv
+ +       0.0002 * purpose=education
+ +      -0.0001 * purpose=furniture/equipment
+ +       0      * purpose=used car
+ +       0      * purpose=new car
+ +       0.0002 * purpose=business
+ +      -0.0004 * purpose=domestic appliance
+ +      -0.0001 * purpose=repairs
+ +       0      * purpose=other
+ +      -0      * purpose=retraining
+ +      -0.0003 * credit_amount
+ +       0.0013 * savings
+ +       0      * employment=>=7
+ +      -0.0001 * employment=1<=X<4
+ +      -0.0001 * employment=4<=X<7
+ +       0.0004 * employment=unemployed
+ +      -0.0002 * employment=<1
+ +       0      * personal_status=male single
+ +       0.0002 * personal_status=female div/dep/mar
+ +      -0      * personal_status=male div/sep
+ +      -0.0001 * personal_status=male mar/wid
+ +      -0      * other_parties=none
+ +      -0.0001 * other_parties=guarantor
+ +       0.0001 * other_parties=co applicant
+ +      -0.0002 * property_magnitude=real estate
+ +      -0.0001 * property_magnitude=life insurance
+ +       0.0004 * property_magnitude=no known property
+ +      -0.0001 * property_magnitude=car
+ +       0      * other_payment_plans=none
+ +       0.0001 * other_payment_plans=bank
+ +      -0.0001 * other_payment_plans=stores
+ +       0.0001 * housing=own
+ +      -0.0002 * housing=for free
+ +       0.0001 * housing=rent
+ +      -0.0001 * own_telephone=none
+ +       2      * foreign_worker=yes
+ +      -0.0001 * class=good
+ -       1     
+
+Number of kernel evaluations: 304505 (66.402% cached)
+
+
+
+Time taken to build model: 0.17 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1000              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     no
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     yes
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 463   0 |   a = no
+   0 537 |   b = yes
