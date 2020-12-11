@@ -1,9 +1,9 @@
 === Run information ===
 
 Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 2 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
-Relation:     clean_dropped_normalized
+Relation:     clean_dropped_normalized-weka.filters.unsupervised.attribute.Remove-R14
 Instances:    1000
-Attributes:   16
+Attributes:   15
               state
               checking_amt
               credit_history
@@ -17,7 +17,6 @@ Attributes:   16
               other_payment_plans
               housing
               own_telephone
-              foreign_worker
               class
               works_outside_US
 Test mode:    10-fold cross-validation
@@ -35,124 +34,124 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.0001 * state=Pennsylvania
- +       0.0003 * state=Rhodes Island
- +       0.0004 * state=South Carolina
- +       0.0004 * state=South Dakota
- +       0.0005 * state=Tennessee
- +       0.0002 * state=Texas
- +      -0.0008 * state=Utah
- +      -0.0001 * state=Virginia
- +      -0.0005 * state=Vermont
- +      -0      * state=Washington
- +      -0.0004 * state=Wisconsin
- +       0      * state=West Virginia
- +      -0.0003 * state=Alaska
- +      -0      * state=Arkansas
- +      -0.0001 * state=Arizona
- +       0      * state=California
- +       0.0005 * state=Colorado
- +       0.0004 * state=Connecticut
- +      -0.0002 * state=District of Columbia
- +      -0.0005 * state=Delaware
- +       0.0001 * state=Georgia
- +       0      * state=Hawaii
- +      -0.0002 * state=Illinois
- +       0      * state=Indiana
- +      -0.0001 * state=Kentucky
- +       0.0001 * state=Louisiana
- +      -0.0004 * state=Massachusetts
- +       0.0003 * state=Maryland
- +       0.0003 * state=Michigan
- +       0.0002 * state=Missouri
- +      -0.0001 * state=Mississippi
- +      -0.0002 * state=North Carolina
- +      -0.0018 * state=New Hampshire
- +       0.0001 * state=New Jersey
- +       0.0001 * state=New Mexico
- +       0.0001 * state=Nevada
- +       0.0001 * state=New York
- +       0.0002 * state=Ohio
- +       0.0008 * state=Oregon
- +       0.0005 * state=Alabama
- +       0.0004 * state=Florida
- +      -0.0002 * state=Iowa
- +      -0.0004 * state=Idaho
- +       0.0004 * state=Kansas
- +      -0.0004 * state=Maine
- +      -0.0004 * checking_amt
- +       0      * credit_history=critical/other existing credit
- +       0      * credit_history=existing paid
- +      -0.0001 * credit_history=delayed previously
- +      -0      * credit_history=no credits/all paid
- +       0.0001 * credit_history=all paid
- +       0.0002 * purpose=radio/tv
- +       0.0002 * purpose=education
- +      -0.0001 * purpose=furniture/equipment
- +       0      * purpose=used car
- +       0      * purpose=new car
- +       0.0002 * purpose=business
- +      -0.0004 * purpose=domestic appliance
- +      -0.0001 * purpose=repairs
- +       0      * purpose=other
- +      -0      * purpose=retraining
- +      -0.0003 * credit_amount
- +       0.0013 * savings
- +       0      * employment=>=7
- +      -0.0001 * employment=1<=X<4
- +      -0.0001 * employment=4<=X<7
- +       0.0004 * employment=unemployed
- +      -0.0002 * employment=<1
- +       0      * personal_status=male single
- +       0.0002 * personal_status=female div/dep/mar
- +      -0      * personal_status=male div/sep
- +      -0.0001 * personal_status=male mar/wid
- +      -0      * other_parties=none
- +      -0.0001 * other_parties=guarantor
- +       0.0001 * other_parties=co applicant
- +      -0.0002 * property_magnitude=real estate
- +      -0.0001 * property_magnitude=life insurance
- +       0.0004 * property_magnitude=no known property
- +      -0.0001 * property_magnitude=car
- +       0      * other_payment_plans=none
- +       0.0001 * other_payment_plans=bank
- +      -0.0001 * other_payment_plans=stores
- +       0.0001 * housing=own
- +      -0.0002 * housing=for free
- +       0.0001 * housing=rent
- +      -0.0001 * own_telephone=none
- +       2      * foreign_worker=yes
- +      -0.0001 * class=good
- -       1     
+        -0.055  * state=Pennsylvania
+ +       0.0712 * state=Rhodes Island
+ +       0.2952 * state=South Carolina
+ +       0.8269 * state=South Dakota
+ +       0.2502 * state=Tennessee
+ +      -0.1671 * state=Texas
+ +       0.142  * state=Utah
+ +       0.1041 * state=Virginia
+ +      -0.6352 * state=Vermont
+ +       0.1921 * state=Washington
+ +       0.1373 * state=Wisconsin
+ +      -0.2757 * state=West Virginia
+ +       0.917  * state=Wyoming
+ +      -0.0095 * state=Alaska
+ +       0.2576 * state=Arkansas
+ +      -0.2473 * state=Arizona
+ +       0.3666 * state=California
+ +       0.3645 * state=Colorado
+ +       0.5532 * state=Connecticut
+ +      -0.2255 * state=District of Columbia
+ +       0.5968 * state=Delaware
+ +       0.5608 * state=Georgia
+ +       0.7449 * state=Hawaii
+ +      -0.439  * state=Illinois
+ +       0.1338 * state=Indiana
+ +       0.0926 * state=Kentucky
+ +       0.2462 * state=Louisiana
+ +      -0.212  * state=Massachusetts
+ +       0.1357 * state=Maryland
+ +      -0.0595 * state=Michigan
+ +      -0.2365 * state=Missouri
+ +       0.0139 * state=Mississippi
+ +      -0.0089 * state=North Carolina
+ +      -1      * state=New Hampshire
+ +       0.0092 * state=New Jersey
+ +      -0.4359 * state=New Mexico
+ +      -0.3763 * state=Nevada
+ +      -0.6534 * state=New York
+ +      -0.0771 * state=Ohio
+ +      -0.2403 * state=Oregon
+ +       0.1276 * state=Alabama
+ +      -0.2123 * state=Florida
+ +      -0.6531 * state=Iowa
+ +      -0.0389 * state=Idaho
+ +       0.0244 * state=Kansas
+ +      -0.9056 * state=Maine
+ +      -0.3439 * checking_amt
+ +       0.3742 * credit_history=critical/other existing credit
+ +       0.1447 * credit_history=existing paid
+ +      -0.1078 * credit_history=delayed previously
+ +      -0.178  * credit_history=no credits/all paid
+ +      -0.2331 * credit_history=all paid
+ +       0.0206 * purpose=radio/tv
+ +       0.3475 * purpose=education
+ +       0.0196 * purpose=furniture/equipment
+ +      -0.1589 * purpose=used car
+ +       0.0139 * purpose=new car
+ +       0.0356 * purpose=business
+ +      -0.7796 * purpose=domestic appliance
+ +       0.4371 * purpose=repairs
+ +       0.1404 * purpose=other
+ +      -0.0761 * purpose=retraining
+ +      -0.1275 * credit_amount
+ +       0.1161 * savings
+ +      -0.1098 * employment=>=7
+ +       0.1843 * employment=1<=X<4
+ +      -0.1382 * employment=4<=X<7
+ +       0.1531 * employment=unemployed
+ +      -0.0894 * employment=<1
+ +      -0.0248 * personal_status=male single
+ +       0.3528 * personal_status=female div/dep/mar
+ +      -0.2193 * personal_status=male div/sep
+ +      -0.1087 * personal_status=male mar/wid
+ +      -0.0329 * other_parties=none
+ +      -0.088  * other_parties=guarantor
+ +       0.1209 * other_parties=co applicant
+ +      -0.137  * property_magnitude=real estate
+ +      -0.2295 * property_magnitude=life insurance
+ +       0.1792 * property_magnitude=no known property
+ +       0.1873 * property_magnitude=car
+ +      -0.3488 * other_payment_plans=none
+ +       0.1062 * other_payment_plans=bank
+ +       0.2426 * other_payment_plans=stores
+ +       0.1012 * housing=own
+ +      -0.1864 * housing=for free
+ +       0.0852 * housing=rent
+ +       0.2579 * own_telephone=none
+ +      -0.0796 * class=good
+ +       0.097 
 
-Number of kernel evaluations: 304505 (66.402% cached)
+Number of kernel evaluations: 470618 (70.402% cached)
 
 
 
-Time taken to build model: 0.07 seconds
+Time taken to build model: 0.12 seconds
 
 === Stratified cross-validation ===
 === Summary ===
 
-Correctly Classified Instances        1000              100      %
-Incorrectly Classified Instances         0                0      %
-Kappa statistic                          1     
-Mean absolute error                      0     
-Root mean squared error                  0     
-Relative absolute error                  0      %
-Root relative squared error              0      %
+Correctly Classified Instances         494               49.4    %
+Incorrectly Classified Instances       506               50.6    %
+Kappa statistic                         -0.0301
+Mean absolute error                      0.506 
+Root mean squared error                  0.7113
+Relative absolute error                101.755  %
+Root relative squared error            142.6571 %
 Total Number of Instances             1000     
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     no
-                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     yes
-Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+                 0.365    0.395    0.444      0.365    0.400      -0.031   0.485     0.456     no
+                 0.605    0.635    0.525      0.605    0.562      -0.031   0.485     0.530     yes
+Weighted Avg.    0.494    0.524    0.487      0.494    0.487      -0.031   0.485     0.496     
 
 === Confusion Matrix ===
 
    a   b   <-- classified as
- 463   0 |   a = no
-   0 537 |   b = yes
+ 169 294 |   a = no
+ 212 325 |   b = yes
 
