@@ -1,9 +1,9 @@
 === Run information ===
 
 Scheme:       weka.classifiers.meta.Stacking -X 10 -M "weka.classifiers.rules.ZeroR " -S 1 -num-slots 1 -B "weka.classifiers.rules.ZeroR " -B "weka.classifiers.bayes.NaiveBayes " -B "weka.classifiers.trees.J48 -C 0.25 -M 2"
-Relation:     clean_dropped_normalized-weka.filters.unsupervised.attribute.Remove-R14
+Relation:     clean_dropped_normalized
 Instances:    1000
-Attributes:   15
+Attributes:   16
               state
               checking_amt
               credit_history
@@ -17,6 +17,7 @@ Attributes:   15
               other_payment_plans
               housing
               own_telephone
+              foreign_worker
               class
               works_outside_US
 Test mode:    10-fold cross-validation
@@ -27,417 +28,184 @@ Stacking
 
 Base classifiers
 
-ZeroR predicts class value: yes
+ZeroR predicts class value: good
 
 Naive Bayes Classifier
 
                                      Class
-Attribute                               no     yes
-                                    (0.46)  (0.54)
+Attribute                              bad    good
+                                     (0.4)   (0.6)
 ===================================================
 state
   Pennsylvania                         15.0    17.0
-  Rhodes Island                         2.0     2.0
-  South Carolina                       16.0    23.0
-  South Dakota                          2.0     5.0
-  Tennessee                            11.0    17.0
-  Texas                                60.0    57.0
-  Utah                                  2.0     3.0
-  Virginia                             16.0    20.0
-  Vermont                               3.0     1.0
+  Rhodes Island                         3.0     1.0
+  South Carolina                       13.0    26.0
+  South Dakota                          4.0     3.0
+  Tennessee                             8.0    20.0
+  Texas                                42.0    75.0
+  Utah                                  3.0     2.0
+  Virginia                             14.0    22.0
+  Vermont                               1.0     3.0
   Washington                            9.0    13.0
-  Wisconsin                             5.0     7.0
+  Wisconsin                             6.0     6.0
   West Virginia                         4.0     3.0
   Wyoming                               1.0     2.0
   Alaska                                2.0     2.0
-  Arkansas                              8.0     7.0
-  Arizona                              11.0    12.0
+  Arkansas                              2.0    13.0
+  Arizona                              12.0    11.0
   California                           59.0    91.0
   Colorado                              4.0     6.0
-  Connecticut                           2.0     4.0
-  District of Columbia                  5.0     3.0
-  Delaware                              2.0     3.0
-  Georgia                              18.0    31.0
-  Hawaii                                1.0     3.0
-  Illinois                             29.0    27.0
-  Indiana                              11.0    16.0
+  Connecticut                           3.0     3.0
+  District of Columbia                  2.0     6.0
+  Delaware                              4.0     1.0
+  Georgia                              19.0    30.0
+  Hawaii                                2.0     2.0
+  Illinois                             26.0    30.0
+  Indiana                              14.0    13.0
   Kentucky                             16.0    18.0
-  Louisiana                            17.0    22.0
-  Massachusetts                        10.0     9.0
-  Maryland                             10.0    15.0
-  Michigan                             20.0    20.0
-  Missouri                             16.0    13.0
+  Louisiana                            15.0    24.0
+  Massachusetts                         7.0    12.0
+  Maryland                             12.0    13.0
+  Michigan                             16.0    24.0
+  Missouri                              9.0    20.0
   Mississippi                           3.0     5.0
   North Carolina                        6.0     6.0
   New Hampshire                         3.0     1.0
-  New Jersey                           14.0    14.0
-  New Mexico                            6.0     4.0
-  Nevada                                8.0     8.0
-  New York                             27.0    15.0
-  Ohio                                 10.0    15.0
-  Oregon                                3.0     2.0
-  Alabama                               6.0    11.0
-  Florida                              23.0    21.0
-  Iowa                                  6.0     3.0
+  New Jersey                           13.0    15.0
+  New Mexico                            4.0     6.0
+  Nevada                                4.0    12.0
+  New York                             23.0    19.0
+  Ohio                                  8.0    17.0
+  Oregon                                2.0     3.0
+  Alabama                               7.0    10.0
+  Florida                              19.0    25.0
+  Iowa                                  4.0     5.0
   Idaho                                 2.0     2.0
-  Kansas                                3.0     3.0
-  Maine                                 2.0     1.0
-  [total]                             509.0   583.0
+  Kansas                                2.0     4.0
+  Maine                                 1.0     2.0
+  [total]                             448.0   644.0
 
 checking_amt
-  mean                               0.4647  0.4564
-  std. dev.                          0.1551  0.1545
-  weight sum                            463     537
+  mean                               0.4691  0.4543
+  std. dev.                          0.1558  0.1539
+  weight sum                            402     598
   precision                          0.0018  0.0018
 
 credit_history
-  critical/other existing credit      132.0   142.0
-  existing paid                       226.0   258.0
-  delayed previously                   34.0    46.0
-  no credits/all paid                  17.0    19.0
-  all paid                             23.0    26.0
-  [total]                             432.0   491.0
+  critical/other existing credit      112.0   162.0
+  existing paid                       195.0   289.0
+  delayed previously                   33.0    47.0
+  no credits/all paid                  10.0    26.0
+  all paid                             19.0    30.0
+  [total]                             369.0   554.0
 
 purpose
-  radio/tv                            118.0   133.0
-  education                            14.0    33.0
-  furniture/equipment                  84.0    85.0
-  used car                             46.0    47.0
-  new car                             105.0   109.0
-  business                             39.0    47.0
-  domestic appliance                    9.0     4.0
-  repairs                              10.0    13.0
-  other                                 6.0     8.0
+  radio/tv                            116.0   135.0
+  education                            20.0    27.0
+  furniture/equipment                  66.0   103.0
+  used car                             38.0    55.0
+  new car                              78.0   136.0
+  business                             33.0    53.0
+  domestic appliance                    8.0     5.0
+  repairs                               9.0    14.0
+  other                                 3.0    11.0
   retraining                            5.0     4.0
-  [total]                             436.0   483.0
+  [total]                             376.0   543.0
 
 credit_amount
-  mean                               0.1688  0.1602
-  std. dev.                          0.1568  0.1507
-  weight sum                            415     474
+  mean                               0.1712  0.1598
+  std. dev.                          0.1542  0.1532
+  weight sum                            349     540
   precision                          0.0012  0.0012
 
 savings
-  mean                               0.0142  0.0173
-  std. dev.                          0.0765  0.0965
-  weight sum                            463     537
+  mean                               0.0127   0.018
+  std. dev.                          0.0793   0.093
+  weight sum                            402     598
   precision                          0.0024  0.0024
 
 employment
-  >=7                                 104.0   119.0
-  1<=X<4                              127.0   178.0
-  4<=X<7                               87.0    74.0
-  unemployed                           31.0    28.0
-  <1                                   69.0    86.0
-  [total]                             418.0   485.0
+  >=7                                  88.0   135.0
+  1<=X<4                              125.0   180.0
+  4<=X<7                               71.0    90.0
+  unemployed                           22.0    37.0
+  <1                                   57.0    98.0
+  [total]                             363.0   540.0
 
 personal_status
-  male single                         242.0   256.0
+  male single                         203.0   295.0
   female div/dep/mar                  111.0   171.0
-  male div/sep                         27.0    21.0
-  male mar/wid                         40.0    46.0
-  [total]                             420.0   494.0
+  male div/sep                         18.0    30.0
+  male mar/wid                         36.0    50.0
+  [total]                             368.0   546.0
 
 other_parties
-  none                                362.0   442.0
-  guarantor                            21.0    24.0
-  co applicant                         19.0    21.0
-  [total]                             402.0   487.0
+  none                                325.0   479.0
+  guarantor                            19.0    26.0
+  co applicant                         15.0    25.0
+  [total]                             359.0   530.0
 
 property_magnitude
-  real estate                         127.0   137.0
-  life insurance                      108.0   105.0
-  no known property                    57.0    82.0
-  car                                 132.0   167.0
-  [total]                             424.0   491.0
+  real estate                         107.0   157.0
+  life insurance                       86.0   127.0
+  no known property                    58.0    81.0
+  car                                 117.0   182.0
+  [total]                             368.0   547.0
 
 other_payment_plans
-  none                                347.0   400.0
-  bank                                 58.0    68.0
-  stores                               16.0    30.0
-  [total]                             421.0   498.0
+  none                                298.0   449.0
+  bank                                 48.0    78.0
+  stores                               18.0    28.0
+  [total]                             364.0   555.0
 
 housing
-  own                                 306.0   321.0
-  for free                             46.0    57.0
-  rent                                 65.0    94.0
-  [total]                             417.0   472.0
+  own                                 251.0   376.0
+  for free                             38.0    65.0
+  rent                                 68.0    91.0
+  [total]                             357.0   532.0
 
 own_telephone
-  yes                                 182.0   177.0
-  none                                234.0   294.0
-  [total]                             416.0   471.0
+  yes                                 158.0   201.0
+  none                                207.0   321.0
+  [total]                             365.0   522.0
 
-class
-  bad                                 187.0   217.0
-  good                                278.0   322.0
-  [total]                             465.0   539.0
+foreign_worker
+  no                                  187.0   278.0
+  yes                                 217.0   322.0
+  [total]                             404.0   600.0
+
+works_outside_US
+  no                                  187.0   278.0
+  yes                                 217.0   322.0
+  [total]                             404.0   600.0
 
 
 
 J48 pruned tree
 ------------------
+: good (1000.0/402.0)
 
-state = Pennsylvania
-|   credit_history = critical/other existing credit: no (8.08/2.81)
-|   credit_history = existing paid: yes (15.0/6.5)
-|   credit_history = delayed previously: no (3.46/1.35)
-|   credit_history = no credits/all paid: yes (0.0)
-|   credit_history = all paid: yes (3.46/0.12)
-state = Rhodes Island: no (2.0/1.0)
-state = South Carolina
-|   property_magnitude = real estate
-|   |   checking_amt <= 0.481492: yes (2.32)
-|   |   checking_amt > 0.481492: no (9.65/1.32)
-|   property_magnitude = life insurance: yes (3.26/1.09)
-|   property_magnitude = no known property: yes (6.53/1.18)
-|   property_magnitude = car
-|   |   credit_amount <= 0.240618: yes (12.24/2.41)
-|   |   credit_amount > 0.240618: no (3.0/1.0)
-state = South Dakota: yes (5.0/1.0)
-state = Tennessee
-|   savings <= 0.000206
-|   |   checking_amt <= 0.508274: yes (11.0/2.0)
-|   |   checking_amt > 0.508274: no (5.0/1.0)
-|   savings > 0.000206: yes (10.0/4.0)
-state = Texas
-|   other_payment_plans = none
-|   |   other_parties = none
-|   |   |   housing = own: no (67.49/23.69)
-|   |   |   housing = for free: no (8.6/3.42)
-|   |   |   housing = rent: yes (14.47/5.37)
-|   |   other_parties = guarantor: yes (6.0/0.94)
-|   |   other_parties = co applicant: yes (4.91/1.77)
-|   other_payment_plans = bank: yes (7.89/1.55)
-|   other_payment_plans = stores: yes (5.64/0.39)
-state = Utah: yes (3.0/1.0)
-state = Virginia
-|   employment = >=7: no (11.33/2.67)
-|   employment = 1<=X<4: yes (6.8/0.4)
-|   employment = 4<=X<7
-|   |   purpose = radio/tv: yes (1.06/0.03)
-|   |   purpose = education: no (1.06/0.03)
-|   |   purpose = furniture/equipment: yes (2.37/0.07)
-|   |   purpose = used car: yes (1.31/0.27)
-|   |   purpose = new car: no (2.13/0.06)
-|   |   purpose = business: yes (0.0)
-|   |   purpose = domestic appliance: yes (0.0)
-|   |   purpose = repairs: yes (0.0)
-|   |   purpose = other: yes (0.0)
-|   |   purpose = retraining: yes (0.0)
-|   employment = unemployed: yes (1.13/0.07)
-|   employment = <1: yes (6.8/2.4)
-state = Vermont: no (2.0)
-state = Washington
-|   purpose = radio/tv: yes (4.0)
-|   purpose = education: yes (1.0)
-|   purpose = furniture/equipment
-|   |   class = bad: yes (2.0)
-|   |   class = good: no (3.0)
-|   purpose = used car: no (2.0/1.0)
-|   purpose = new car
-|   |   savings <= 0.00151: no (4.0/1.0)
-|   |   savings > 0.00151: yes (3.0)
-|   purpose = business: yes (0.0)
-|   purpose = domestic appliance: yes (0.0)
-|   purpose = repairs: no (1.0)
-|   purpose = other: yes (0.0)
-|   purpose = retraining: yes (0.0)
-state = Wisconsin: yes (10.0/4.0)
-state = West Virginia
-|   credit_amount <= 0.147463: no (2.5)
-|   credit_amount > 0.147463: yes (2.5/0.5)
-state = Wyoming: yes (1.0)
-state = Alaska: no (2.0/1.0)
-state = Arkansas
-|   housing = own: no (9.45/2.73)
-|   housing = for free: no (0.0)
-|   housing = rent: yes (3.55/0.27)
-state = Arizona
-|   savings <= 0.001268: no (12.0/3.0)
-|   savings > 0.001268: yes (9.0/1.0)
-state = California
-|   personal_status = male single
-|   |   credit_history = critical/other existing credit: yes (28.95/12.39)
-|   |   credit_history = existing paid
-|   |   |   employment = >=7: no (9.69/2.66)
-|   |   |   employment = 1<=X<4
-|   |   |   |   own_telephone = yes: no (4.19/0.7)
-|   |   |   |   own_telephone = none: yes (8.0/2.4)
-|   |   |   employment = 4<=X<7: yes (8.93/2.29)
-|   |   |   employment = unemployed: no (1.37/0.1)
-|   |   |   employment = <1: yes (2.26/0.07)
-|   |   credit_history = delayed previously: yes (6.46/0.6)
-|   |   credit_history = no credits/all paid: yes (2.14/1.03)
-|   |   credit_history = all paid: no (4.28/1.23)
-|   personal_status = female div/dep/mar: yes (53.51/14.25)
-|   personal_status = male div/sep: yes (6.83/2.42)
-|   personal_status = male mar/wid
-|   |   savings <= 0.0036: no (8.77/1.31)
-|   |   savings > 0.0036: yes (2.62/0.23)
-state = Colorado: yes (8.0/3.0)
-state = Connecticut: yes (4.0/1.0)
-state = District of Columbia
-|   checking_amt <= 0.507061: no (3.0)
-|   checking_amt > 0.507061: yes (3.0/1.0)
-state = Delaware: yes (3.0/1.0)
-state = Georgia
-|   credit_history = critical/other existing credit: no (10.32/2.88)
-|   credit_history = existing paid: yes (22.93/4.98)
-|   credit_history = delayed previously: yes (6.88/2.29)
-|   credit_history = no credits/all paid: yes (4.59/0.2)
-|   credit_history = all paid: no (2.29/0.2)
-state = Hawaii: yes (2.0)
-state = Illinois
-|   housing = own
-|   |   other_parties = none
-|   |   |   credit_history = critical/other existing credit: no (15.25/6.37)
-|   |   |   credit_history = existing paid: yes (18.48/7.21)
-|   |   |   credit_history = delayed previously: no (4.01/0.1)
-|   |   |   credit_history = no credits/all paid: no (2.1/1.05)
-|   |   |   credit_history = all paid: yes (1.05/0.03)
-|   |   other_parties = guarantor: yes (1.06/0.06)
-|   |   other_parties = co applicant: yes (2.13/0.13)
-|   housing = for free: yes (4.41/1.33)
-|   housing = rent: no (5.51/0.1)
-state = Indiana: yes (25.0/10.0)
-state = Kentucky
-|   other_parties = none
-|   |   credit_history = critical/other existing credit: yes (5.18/1.0)
-|   |   credit_history = existing paid
-|   |   |   other_payment_plans = none: yes (11.28/2.78)
-|   |   |   other_payment_plans = bank: no (2.15)
-|   |   |   other_payment_plans = stores: yes (1.07/0.07)
-|   |   credit_history = delayed previously: no (5.18/0.18)
-|   |   credit_history = no credits/all paid: yes (1.04)
-|   |   credit_history = all paid: yes (3.01/1.0)
-|   other_parties = guarantor: yes (0.0)
-|   other_parties = co applicant: no (3.1/0.1)
-state = Louisiana
-|   employment = >=7: no (4.35/0.24)
-|   employment = 1<=X<4: yes (13.06/2.35)
-|   employment = 4<=X<7
-|   |   class = bad: yes (3.41/1.21)
-|   |   class = good: no (4.21/0.21)
-|   employment = unemployed: yes (3.26/1.09)
-|   employment = <1: yes (8.71/3.24)
-state = Massachusetts
-|   personal_status = male single
-|   |   savings <= 0.020414: no (7.56/0.56)
-|   |   savings > 0.020414: yes (2.0)
-|   personal_status = female div/dep/mar: yes (4.25)
-|   personal_status = male div/sep: no (1.06/0.06)
-|   personal_status = male mar/wid: yes (2.13/1.0)
-state = Maryland
-|   checking_amt <= 0.50686: yes (16.0/4.0)
-|   checking_amt > 0.50686: no (7.0/2.0)
-state = Michigan
-|   own_telephone = yes: no (15.2/4.4)
-|   own_telephone = none: yes (22.8/8.2)
-state = Missouri
-|   housing = own
-|   |   credit_history = critical/other existing credit: no (2.33/0.17)
-|   |   credit_history = existing paid: yes (9.38/2.67)
-|   |   credit_history = delayed previously: yes (0.0)
-|   |   credit_history = no credits/all paid: no (1.17/0.08)
-|   |   credit_history = all paid: no (1.17/0.08)
-|   housing = for free
-|   |   checking_amt <= 0.472898: no (3.0/1.0)
-|   |   checking_amt > 0.472898: yes (4.56/1.0)
-|   housing = rent: no (5.4/0.4)
-state = Mississippi
-|   other_payment_plans = none: no (3.0/1.0)
-|   other_payment_plans = bank: yes (3.0)
-|   other_payment_plans = stores: yes (0.0)
-state = North Carolina
-|   credit_history = critical/other existing credit: yes (2.0)
-|   credit_history = existing paid: no (6.0/2.0)
-|   credit_history = delayed previously: yes (1.0)
-|   credit_history = no credits/all paid: no (1.0)
-|   credit_history = all paid: no (0.0)
-state = New Hampshire: no (2.0)
-state = New Jersey
-|   property_magnitude = real estate: yes (7.58/1.29)
-|   property_magnitude = life insurance: no (4.33/0.17)
-|   property_magnitude = no known property: no (4.33/1.17)
-|   property_magnitude = car
-|   |   personal_status = male single
-|   |   |   checking_amt <= 0.490931: yes (2.0)
-|   |   |   checking_amt > 0.490931: no (2.38)
-|   |   personal_status = female div/dep/mar: yes (4.38/1.0)
-|   |   personal_status = male div/sep: no (1.0)
-|   |   personal_status = male mar/wid: yes (0.0)
-state = New Mexico
-|   personal_status = male single: no (3.43)
-|   personal_status = female div/dep/mar: yes (3.43/0.43)
-|   personal_status = male div/sep: no (1.14)
-|   personal_status = male mar/wid: no (0.0)
-state = Nevada
-|   personal_status = male single: yes (10.77/3.77)
-|   personal_status = female div/dep/mar: no (3.23)
-|   personal_status = male div/sep: no (0.0)
-|   personal_status = male mar/wid: no (0.0)
-state = New York: no (40.0/14.0)
-state = Ohio
-|   property_magnitude = real estate: yes (5.23)
-|   property_magnitude = life insurance: yes (4.18/1.0)
-|   property_magnitude = no known property
-|   |   savings <= 0.002465: no (2.18/0.18)
-|   |   savings > 0.002465: yes (2.0)
-|   property_magnitude = car
-|   |   credit_amount <= 0.1161: no (5.0)
-|   |   credit_amount > 0.1161: yes (4.41/1.0)
-state = Oregon: no (3.0/1.0)
-state = Alabama: yes (15.0/5.0)
-state = Florida
-|   credit_history = critical/other existing credit: no (13.62/3.32)
-|   credit_history = existing paid
-|   |   personal_status = male single
-|   |   |   property_magnitude = real estate: yes (1.45)
-|   |   |   property_magnitude = life insurance: yes (2.25/0.25)
-|   |   |   property_magnitude = no known property: yes (3.0/1.0)
-|   |   |   property_magnitude = car: no (3.62)
-|   |   personal_status = female div/dep/mar: yes (3.8/0.09)
-|   |   personal_status = male div/sep: no (3.22/0.14)
-|   |   personal_status = male mar/wid
-|   |   |   credit_amount <= 0.053538: no (3.24/0.24)
-|   |   |   credit_amount > 0.053538: yes (2.13/0.13)
-|   credit_history = delayed previously: yes (3.41/0.32)
-|   credit_history = no credits/all paid: yes (1.14/0.11)
-|   credit_history = all paid: yes (1.14/0.11)
-state = Iowa
-|   class = bad: yes (3.0/1.0)
-|   class = good: no (4.0)
-state = Idaho: no (2.0/1.0)
-state = Kansas
-|   employment = >=7: yes (2.0)
-|   employment = 1<=X<4: no (2.0)
-|   employment = 4<=X<7: no (0.0)
-|   employment = unemployed: no (0.0)
-|   employment = <1: no (0.0)
-state = Maine: no (1.0)
+Number of Leaves  : 	1
 
-Number of Leaves  : 	183
-
-Size of the tree : 	239
+Size of the tree : 	1
 
 
 
 
 Meta classifier
 
-ZeroR predicts class value: yes
+ZeroR predicts class value: good
 
-Time taken to build model: 0.13 seconds
+Time taken to build model: 0.05 seconds
 
 === Stratified cross-validation ===
 === Summary ===
 
-Correctly Classified Instances         537               53.7    %
-Incorrectly Classified Instances       463               46.3    %
+Correctly Classified Instances         598               59.8    %
+Incorrectly Classified Instances       402               40.2    %
 Kappa statistic                          0     
-Mean absolute error                      0.4973
-Root mean squared error                  0.4986
+Mean absolute error                      0.4808
+Root mean squared error                  0.4903
 Relative absolute error                100      %
 Root relative squared error            100      %
 Total Number of Instances             1000     
@@ -445,13 +213,13 @@ Total Number of Instances             1000
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.000    0.000    ?          0.000    ?          ?        0.496     0.461     no
-                 1.000    1.000    0.537      1.000    0.699      ?        0.496     0.535     yes
-Weighted Avg.    0.537    0.537    ?          0.537    ?          ?        0.496     0.501     
+                 0.000    0.000    ?          0.000    ?          ?        0.497     0.400     bad
+                 1.000    1.000    0.598      1.000    0.748      ?        0.497     0.596     good
+Weighted Avg.    0.598    0.598    ?          0.598    ?          ?        0.497     0.518     
 
 === Confusion Matrix ===
 
    a   b   <-- classified as
-   0 463 |   a = no
-   0 537 |   b = yes
+   0 402 |   a = bad
+   0 598 |   b = good
 
