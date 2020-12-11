@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 2 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     clean_dropped_normalized-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R1,4,6-weka.filters.unsupervised.attribute.Remove-R2,5
+Instances:    1000
+Attributes:   10
+              checking_amt
+              credit_amount
+              employment
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              class
+              works_outside_US
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: no, yes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0011 * checking_amt
+ +      -0.0017 * credit_amount
+ +       0.7988 * employment=>=7
+ +       0.7996 * employment=1<=X<4
+ +      -1.199  * employment=4<=X<7
+ +      -1.1985 * employment=unemployed
+ +       0.7991 * employment=<1
+ +      -0.0003 * other_parties=none
+ +       0.0004 * other_parties=guarantor
+ +      -0.0001 * other_parties=co applicant
+ +      -0.0007 * property_magnitude=real estate
+ +      -0.0006 * property_magnitude=life insurance
+ +       0.0012 * property_magnitude=no known property
+ +       0.0001 * property_magnitude=car
+ +      -0.0002 * other_payment_plans=none
+ +      -0.0003 * other_payment_plans=bank
+ +       0.0004 * other_payment_plans=stores
+ +       0.0001 * housing=own
+ +      -0.0007 * housing=for free
+ +       0.0006 * housing=rent
+ +       0.0007 * own_telephone=none
+ +       0.0001 * class=good
+ +       0.2008
+
+Number of kernel evaluations: 293432 (79.656% cached)
+
+
+
+Time taken to build model: 0.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         522               52.2    %
+Incorrectly Classified Instances       478               47.8    %
+Kappa statistic                          0.0174
+Mean absolute error                      0.478 
+Root mean squared error                  0.6914
+Relative absolute error                 96.1243 %
+Root relative squared error            138.6539 %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.326    0.309    0.476      0.326    0.387      0.018    0.509     0.467     no
+                 0.691    0.674    0.543      0.691    0.608      0.018    0.509     0.541     yes
+Weighted Avg.    0.522    0.505    0.512      0.522    0.506      0.018    0.509     0.507     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 151 312 |   a = no
+ 166 371 |   b = yes
+
