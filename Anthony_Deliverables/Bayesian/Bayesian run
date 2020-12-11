@@ -1,0 +1,201 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     clean_dropped
+Instances:    1000
+Attributes:   15
+              state
+              checking_amt
+              credit_history
+              purpose
+              credit_amount
+              savings
+              employment
+              personal_status
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              foreign_worker
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                       Class
+Attribute                                bad      good
+                                       (0.4)     (0.6)
+=======================================================
+state
+  Pennsylvania                           15.0      17.0
+  Rhodes Island                           3.0       1.0
+  South Carolina                         13.0      26.0
+  South Dakota                            4.0       3.0
+  Tennessee                               8.0      20.0
+  Texas                                  42.0      75.0
+  Utah                                    3.0       2.0
+  Virginia                               14.0      22.0
+  Vermont                                 1.0       3.0
+  Washington                              9.0      13.0
+  Wisconsin                               6.0       6.0
+  West Virginia                           4.0       3.0
+  Wyoming                                 1.0       2.0
+  Alaska                                  2.0       2.0
+  Arkansas                                2.0      13.0
+  Arizona                                12.0      11.0
+  California                             59.0      91.0
+  Colorado                                4.0       6.0
+  Connecticut                             3.0       3.0
+  District of Columbia                    2.0       6.0
+  Delaware                                4.0       1.0
+  Georgia                                19.0      30.0
+  Hawaii                                  2.0       2.0
+  Illinois                               26.0      30.0
+  Indiana                                14.0      13.0
+  Kentucky                               16.0      18.0
+  Louisiana                              15.0      24.0
+  Massachusetts                           7.0      12.0
+  Maryland                               12.0      13.0
+  Michigan                               16.0      24.0
+  Missouri                                9.0      20.0
+  Mississippi                             3.0       5.0
+  North Carolina                          6.0       6.0
+  New Hampshire                           3.0       1.0
+  New Jersey                             13.0      15.0
+  New Mexico                              4.0       6.0
+  Nevada                                  4.0      12.0
+  New York                               23.0      19.0
+  Ohio                                    8.0      17.0
+  Oregon                                  2.0       3.0
+  Alabama                                 7.0      10.0
+  Florida                                19.0      25.0
+  Iowa                                    4.0       5.0
+  Idaho                                   2.0       2.0
+  Kansas                                  2.0       4.0
+  Maine                                   1.0       2.0
+  [total]                               448.0     644.0
+
+checking_amt
+  mean                              -735.5712-1026.9989
+  std. dev.                         3069.0727 3028.9476
+  weight sum                              402       598
+  precision                           35.5964   35.5964
+
+credit_history
+  critical/other existing credit        112.0     162.0
+  existing paid                         195.0     289.0
+  delayed previously                     33.0      47.0
+  no credits/all paid                    10.0      26.0
+  all paid                               19.0      30.0
+  [total]                               369.0     554.0
+
+purpose
+  radio/tv                              116.0     135.0
+  education                              20.0      27.0
+  furniture/equipment                    66.0     103.0
+  used car                               38.0      55.0
+  new car                                78.0     136.0
+  business                               33.0      53.0
+  domestic appliance                      8.0       5.0
+  repairs                                 9.0      14.0
+  other                                   3.0      11.0
+  retraining                              5.0       4.0
+  [total]                               376.0     543.0
+
+credit_amount
+  mean                              3360.4108 3152.8785
+  std. dev.                         2800.7998 2783.0685
+  weight sum                              349       540
+  precision                           21.9758   21.9758
+
+savings
+  mean                               117.8949  167.0925
+  std. dev.                          736.9118  865.1216
+  weight sum                              402       598
+  precision                           22.0334   22.0334
+
+employment
+  >=7                                    88.0     135.0
+  1<=X<4                                125.0     180.0
+  4<=X<7                                 71.0      90.0
+  unemployed                             22.0      37.0
+  <1                                     57.0      98.0
+  [total]                               363.0     540.0
+
+personal_status
+  male single                           203.0     295.0
+  female div/dep/mar                    111.0     171.0
+  male div/sep                           18.0      30.0
+  male mar/wid                           36.0      50.0
+  [total]                               368.0     546.0
+
+other_parties
+  none                                  325.0     479.0
+  guarantor                              19.0      26.0
+  co applicant                           15.0      25.0
+  [total]                               359.0     530.0
+
+property_magnitude
+  real estate                           107.0     157.0
+  life insurance                         86.0     127.0
+  no known property                      58.0      81.0
+  car                                   117.0     182.0
+  [total]                               368.0     547.0
+
+other_payment_plans
+  none                                  298.0     449.0
+  bank                                   48.0      78.0
+  stores                                 18.0      28.0
+  [total]                               364.0     555.0
+
+housing
+  own                                   251.0     376.0
+  for free                               38.0      65.0
+  rent                                   68.0      91.0
+  [total]                               357.0     532.0
+
+own_telephone
+  yes                                   158.0     201.0
+  none                                  207.0     321.0
+  [total]                               365.0     522.0
+
+foreign_worker
+  no                                    187.0     278.0
+  yes                                   217.0     322.0
+  [total]                               404.0     600.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         629               62.9    %
+Incorrectly Classified Instances       371               37.1    %
+Kappa statistic                          0.1799
+Mean absolute error                      0.459 
+Root mean squared error                  0.4758
+Relative absolute error                 95.4602 %
+Root relative squared error             97.0491 %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.358    0.189    0.560      0.358    0.437      0.190    0.638     0.554     bad
+                 0.811    0.642    0.653      0.811    0.723      0.190    0.638     0.715     good
+Weighted Avg.    0.629    0.460    0.616      0.629    0.608      0.190    0.638     0.650     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 144 258 |   a = bad
+ 113 485 |   b = good
+
