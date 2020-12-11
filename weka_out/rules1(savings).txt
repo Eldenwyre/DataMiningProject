@@ -1,0 +1,468 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -I -R -N 25 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -V -c -1
+Relation:     clean_dropped_binned
+Instances:    1000
+Attributes:   15
+              state
+              checking_amt
+              credit_history
+              purpose
+              credit_amount
+              savings
+              employment
+              personal_status
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              foreign_worker
+              class
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.15 (150 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 17
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 29
+
+Large Itemsets L(1):
+checking_amt=(-0.01, 0.01] 446
+credit_history=critical/other existing credit 272
+credit_history=existing paid 482
+purpose=radio/tv 249
+purpose=furniture/equipment 167
+purpose=new car 212
+credit_amount=(1000.0, 2500.0] 377
+credit_amount=(2500.0, 5000.0] 249
+savings=[0.0, 0.01) 574
+savings=[50.0, 100.0) 162
+employment=>=7 221
+employment=1<=X<4 303
+employment=4<=X<7 159
+employment=<1 153
+personal_status=male single 496
+personal_status=female div/dep/mar 280
+other_parties=none 802
+property_magnitude=real estate 262
+property_magnitude=life insurance 211
+property_magnitude=car 297
+other_payment_plans=none 745
+housing=own 625
+housing=rent 157
+own_telephone=yes 357
+own_telephone=none 526
+foreign_worker=no 463
+foreign_worker=yes 537
+class=bad 402
+class=good 598
+
+Size of set of large itemsets L(2): 136
+
+Large Itemsets L(2):
+checking_amt=(-0.01, 0.01] credit_history=critical/other existing credit 151
+checking_amt=(-0.01, 0.01] credit_history=existing paid 195
+checking_amt=(-0.01, 0.01] credit_amount=(1000.0, 2500.0] 179
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) 446
+checking_amt=(-0.01, 0.01] personal_status=male single 229
+checking_amt=(-0.01, 0.01] other_parties=none 371
+checking_amt=(-0.01, 0.01] property_magnitude=car 150
+checking_amt=(-0.01, 0.01] other_payment_plans=none 339
+checking_amt=(-0.01, 0.01] housing=own 294
+checking_amt=(-0.01, 0.01] own_telephone=yes 175
+checking_amt=(-0.01, 0.01] own_telephone=none 222
+checking_amt=(-0.01, 0.01] foreign_worker=no 225
+checking_amt=(-0.01, 0.01] foreign_worker=yes 221
+checking_amt=(-0.01, 0.01] class=bad 188
+checking_amt=(-0.01, 0.01] class=good 258
+credit_history=critical/other existing credit savings=[0.0, 0.01) 175
+credit_history=critical/other existing credit personal_status=male single 156
+credit_history=critical/other existing credit other_parties=none 220
+credit_history=critical/other existing credit other_payment_plans=none 211
+credit_history=critical/other existing credit housing=own 177
+credit_history=critical/other existing credit class=good 161
+credit_history=existing paid credit_amount=(1000.0, 2500.0] 179
+credit_history=existing paid savings=[0.0, 0.01) 267
+credit_history=existing paid employment=1<=X<4 151
+credit_history=existing paid personal_status=male single 211
+credit_history=existing paid personal_status=female div/dep/mar 150
+credit_history=existing paid other_parties=none 375
+credit_history=existing paid other_payment_plans=none 374
+credit_history=existing paid housing=own 298
+credit_history=existing paid own_telephone=yes 153
+credit_history=existing paid own_telephone=none 263
+credit_history=existing paid foreign_worker=no 225
+credit_history=existing paid foreign_worker=yes 257
+credit_history=existing paid class=bad 194
+credit_history=existing paid class=good 288
+purpose=radio/tv savings=[0.0, 0.01) 154
+purpose=radio/tv other_parties=none 194
+purpose=radio/tv other_payment_plans=none 199
+purpose=radio/tv housing=own 179
+purpose=radio/tv own_telephone=none 150
+purpose=new car other_parties=none 175
+purpose=new car other_payment_plans=none 161
+credit_amount=(1000.0, 2500.0] savings=[0.0, 0.01) 224
+credit_amount=(1000.0, 2500.0] personal_status=male single 176
+credit_amount=(1000.0, 2500.0] other_parties=none 305
+credit_amount=(1000.0, 2500.0] other_payment_plans=none 289
+credit_amount=(1000.0, 2500.0] housing=own 237
+credit_amount=(1000.0, 2500.0] own_telephone=none 208
+credit_amount=(1000.0, 2500.0] foreign_worker=no 174
+credit_amount=(1000.0, 2500.0] foreign_worker=yes 203
+credit_amount=(1000.0, 2500.0] class=good 239
+credit_amount=(2500.0, 5000.0] other_parties=none 184
+credit_amount=(2500.0, 5000.0] other_payment_plans=none 188
+credit_amount=(2500.0, 5000.0] housing=own 154
+savings=[0.0, 0.01) employment=1<=X<4 183
+savings=[0.0, 0.01) personal_status=male single 294
+savings=[0.0, 0.01) personal_status=female div/dep/mar 159
+savings=[0.0, 0.01) other_parties=none 470
+savings=[0.0, 0.01) property_magnitude=real estate 157
+savings=[0.0, 0.01) property_magnitude=car 183
+savings=[0.0, 0.01) other_payment_plans=none 434
+savings=[0.0, 0.01) housing=own 374
+savings=[0.0, 0.01) own_telephone=yes 221
+savings=[0.0, 0.01) own_telephone=none 288
+savings=[0.0, 0.01) foreign_worker=no 282
+savings=[0.0, 0.01) foreign_worker=yes 292
+savings=[0.0, 0.01) class=bad 239
+savings=[0.0, 0.01) class=good 335
+employment=>=7 other_parties=none 184
+employment=>=7 other_payment_plans=none 162
+employment=1<=X<4 other_parties=none 241
+employment=1<=X<4 other_payment_plans=none 227
+employment=1<=X<4 housing=own 194
+employment=1<=X<4 own_telephone=none 179
+employment=1<=X<4 foreign_worker=yes 177
+employment=1<=X<4 class=good 179
+personal_status=male single other_parties=none 388
+personal_status=male single other_payment_plans=none 355
+personal_status=male single housing=own 322
+personal_status=male single own_telephone=yes 195
+personal_status=male single own_telephone=none 246
+personal_status=male single foreign_worker=no 241
+personal_status=male single foreign_worker=yes 255
+personal_status=male single class=bad 202
+personal_status=male single class=good 294
+personal_status=female div/dep/mar other_parties=none 233
+personal_status=female div/dep/mar other_payment_plans=none 212
+personal_status=female div/dep/mar housing=own 161
+personal_status=female div/dep/mar own_telephone=none 165
+personal_status=female div/dep/mar foreign_worker=yes 170
+personal_status=female div/dep/mar class=good 170
+other_parties=none property_magnitude=real estate 193
+other_parties=none property_magnitude=life insurance 176
+other_parties=none property_magnitude=car 247
+other_parties=none other_payment_plans=none 596
+other_parties=none housing=own 504
+other_parties=none own_telephone=yes 287
+other_parties=none own_telephone=none 428
+other_parties=none foreign_worker=no 361
+other_parties=none foreign_worker=yes 441
+other_parties=none class=bad 324
+other_parties=none class=good 478
+property_magnitude=real estate other_payment_plans=none 209
+property_magnitude=real estate housing=own 190
+property_magnitude=real estate own_telephone=none 163
+property_magnitude=real estate class=good 156
+property_magnitude=life insurance other_payment_plans=none 153
+property_magnitude=car other_payment_plans=none 214
+property_magnitude=car housing=own 211
+property_magnitude=car foreign_worker=yes 166
+property_magnitude=car class=good 181
+other_payment_plans=none housing=own 464
+other_payment_plans=none own_telephone=yes 266
+other_payment_plans=none own_telephone=none 395
+other_payment_plans=none foreign_worker=no 346
+other_payment_plans=none foreign_worker=yes 399
+other_payment_plans=none class=bad 297
+other_payment_plans=none class=good 448
+housing=own own_telephone=yes 218
+housing=own own_telephone=none 332
+housing=own foreign_worker=no 305
+housing=own foreign_worker=yes 320
+housing=own class=bad 250
+housing=own class=good 375
+own_telephone=yes foreign_worker=no 181
+own_telephone=yes foreign_worker=yes 176
+own_telephone=yes class=bad 157
+own_telephone=yes class=good 200
+own_telephone=none foreign_worker=no 233
+own_telephone=none foreign_worker=yes 293
+own_telephone=none class=bad 206
+own_telephone=none class=good 320
+foreign_worker=no class=bad 186
+foreign_worker=no class=good 277
+foreign_worker=yes class=bad 216
+foreign_worker=yes class=good 321
+
+Size of set of large itemsets L(3): 165
+
+Large Itemsets L(3):
+checking_amt=(-0.01, 0.01] credit_history=critical/other existing credit savings=[0.0, 0.01) 151
+checking_amt=(-0.01, 0.01] credit_history=existing paid savings=[0.0, 0.01) 195
+checking_amt=(-0.01, 0.01] credit_history=existing paid other_parties=none 155
+checking_amt=(-0.01, 0.01] credit_history=existing paid other_payment_plans=none 153
+checking_amt=(-0.01, 0.01] credit_amount=(1000.0, 2500.0] savings=[0.0, 0.01) 179
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) personal_status=male single 229
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none 371
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) property_magnitude=car 150
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none 339
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) housing=own 294
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) own_telephone=yes 175
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) own_telephone=none 222
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) foreign_worker=no 225
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) foreign_worker=yes 221
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) class=bad 188
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) class=good 258
+checking_amt=(-0.01, 0.01] personal_status=male single other_parties=none 186
+checking_amt=(-0.01, 0.01] personal_status=male single other_payment_plans=none 168
+checking_amt=(-0.01, 0.01] personal_status=male single housing=own 157
+checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none 280
+checking_amt=(-0.01, 0.01] other_parties=none housing=own 248
+checking_amt=(-0.01, 0.01] other_parties=none own_telephone=none 187
+checking_amt=(-0.01, 0.01] other_parties=none foreign_worker=no 182
+checking_amt=(-0.01, 0.01] other_parties=none foreign_worker=yes 189
+checking_amt=(-0.01, 0.01] other_parties=none class=bad 162
+checking_amt=(-0.01, 0.01] other_parties=none class=good 209
+checking_amt=(-0.01, 0.01] other_payment_plans=none housing=own 225
+checking_amt=(-0.01, 0.01] other_payment_plans=none own_telephone=none 167
+checking_amt=(-0.01, 0.01] other_payment_plans=none foreign_worker=no 166
+checking_amt=(-0.01, 0.01] other_payment_plans=none foreign_worker=yes 173
+checking_amt=(-0.01, 0.01] other_payment_plans=none class=good 192
+checking_amt=(-0.01, 0.01] housing=own foreign_worker=no 155
+checking_amt=(-0.01, 0.01] housing=own class=good 174
+credit_history=critical/other existing credit other_parties=none other_payment_plans=none 170
+credit_history=existing paid savings=[0.0, 0.01) other_parties=none 212
+credit_history=existing paid savings=[0.0, 0.01) other_payment_plans=none 211
+credit_history=existing paid savings=[0.0, 0.01) housing=own 163
+credit_history=existing paid savings=[0.0, 0.01) class=good 156
+credit_history=existing paid personal_status=male single other_parties=none 156
+credit_history=existing paid personal_status=male single other_payment_plans=none 157
+credit_history=existing paid other_parties=none other_payment_plans=none 291
+credit_history=existing paid other_parties=none housing=own 230
+credit_history=existing paid other_parties=none own_telephone=none 205
+credit_history=existing paid other_parties=none foreign_worker=no 165
+credit_history=existing paid other_parties=none foreign_worker=yes 210
+credit_history=existing paid other_parties=none class=bad 153
+credit_history=existing paid other_parties=none class=good 222
+credit_history=existing paid other_payment_plans=none housing=own 236
+credit_history=existing paid other_payment_plans=none own_telephone=none 205
+credit_history=existing paid other_payment_plans=none foreign_worker=no 175
+credit_history=existing paid other_payment_plans=none foreign_worker=yes 199
+credit_history=existing paid other_payment_plans=none class=good 228
+credit_history=existing paid housing=own own_telephone=none 161
+credit_history=existing paid housing=own foreign_worker=yes 150
+credit_history=existing paid housing=own class=good 182
+credit_history=existing paid own_telephone=none class=good 161
+credit_history=existing paid foreign_worker=yes class=good 160
+purpose=radio/tv other_parties=none other_payment_plans=none 155
+credit_amount=(1000.0, 2500.0] savings=[0.0, 0.01) other_parties=none 183
+credit_amount=(1000.0, 2500.0] savings=[0.0, 0.01) other_payment_plans=none 173
+credit_amount=(1000.0, 2500.0] other_parties=none other_payment_plans=none 233
+credit_amount=(1000.0, 2500.0] other_parties=none housing=own 192
+credit_amount=(1000.0, 2500.0] other_parties=none own_telephone=none 176
+credit_amount=(1000.0, 2500.0] other_parties=none foreign_worker=yes 169
+credit_amount=(1000.0, 2500.0] other_parties=none class=good 190
+credit_amount=(1000.0, 2500.0] other_payment_plans=none housing=own 183
+credit_amount=(1000.0, 2500.0] other_payment_plans=none own_telephone=none 154
+credit_amount=(1000.0, 2500.0] other_payment_plans=none foreign_worker=yes 157
+credit_amount=(1000.0, 2500.0] other_payment_plans=none class=good 187
+credit_amount=(1000.0, 2500.0] housing=own class=good 152
+savings=[0.0, 0.01) personal_status=male single other_parties=none 235
+savings=[0.0, 0.01) personal_status=male single other_payment_plans=none 216
+savings=[0.0, 0.01) personal_status=male single housing=own 199
+savings=[0.0, 0.01) personal_status=male single foreign_worker=yes 153
+savings=[0.0, 0.01) personal_status=male single class=good 171
+savings=[0.0, 0.01) other_parties=none property_magnitude=car 152
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none 351
+savings=[0.0, 0.01) other_parties=none housing=own 308
+savings=[0.0, 0.01) other_parties=none own_telephone=yes 184
+savings=[0.0, 0.01) other_parties=none own_telephone=none 240
+savings=[0.0, 0.01) other_parties=none foreign_worker=no 223
+savings=[0.0, 0.01) other_parties=none foreign_worker=yes 247
+savings=[0.0, 0.01) other_parties=none class=bad 201
+savings=[0.0, 0.01) other_parties=none class=good 269
+savings=[0.0, 0.01) other_payment_plans=none housing=own 285
+savings=[0.0, 0.01) other_payment_plans=none own_telephone=yes 166
+savings=[0.0, 0.01) other_payment_plans=none own_telephone=none 218
+savings=[0.0, 0.01) other_payment_plans=none foreign_worker=no 208
+savings=[0.0, 0.01) other_payment_plans=none foreign_worker=yes 226
+savings=[0.0, 0.01) other_payment_plans=none class=bad 183
+savings=[0.0, 0.01) other_payment_plans=none class=good 251
+savings=[0.0, 0.01) housing=own own_telephone=none 192
+savings=[0.0, 0.01) housing=own foreign_worker=no 193
+savings=[0.0, 0.01) housing=own foreign_worker=yes 181
+savings=[0.0, 0.01) housing=own class=bad 151
+savings=[0.0, 0.01) housing=own class=good 223
+savings=[0.0, 0.01) own_telephone=none foreign_worker=yes 155
+savings=[0.0, 0.01) own_telephone=none class=good 169
+savings=[0.0, 0.01) foreign_worker=no class=good 165
+savings=[0.0, 0.01) foreign_worker=yes class=good 170
+employment=1<=X<4 other_parties=none other_payment_plans=none 181
+employment=1<=X<4 other_parties=none housing=own 150
+personal_status=male single other_parties=none other_payment_plans=none 276
+personal_status=male single other_parties=none housing=own 256
+personal_status=male single other_parties=none own_telephone=yes 152
+personal_status=male single other_parties=none own_telephone=none 196
+personal_status=male single other_parties=none foreign_worker=no 187
+personal_status=male single other_parties=none foreign_worker=yes 201
+personal_status=male single other_parties=none class=bad 154
+personal_status=male single other_parties=none class=good 234
+personal_status=male single other_payment_plans=none housing=own 231
+personal_status=male single other_payment_plans=none own_telephone=none 182
+personal_status=male single other_payment_plans=none foreign_worker=no 175
+personal_status=male single other_payment_plans=none foreign_worker=yes 180
+personal_status=male single other_payment_plans=none class=good 208
+personal_status=male single housing=own own_telephone=none 169
+personal_status=male single housing=own foreign_worker=no 168
+personal_status=male single housing=own foreign_worker=yes 154
+personal_status=male single housing=own class=good 194
+personal_status=male single own_telephone=none class=good 152
+personal_status=female div/dep/mar other_parties=none other_payment_plans=none 177
+other_parties=none property_magnitude=real estate other_payment_plans=none 157
+other_parties=none property_magnitude=car other_payment_plans=none 178
+other_parties=none property_magnitude=car housing=own 177
+other_parties=none property_magnitude=car class=good 154
+other_parties=none other_payment_plans=none housing=own 375
+other_parties=none other_payment_plans=none own_telephone=yes 216
+other_parties=none other_payment_plans=none own_telephone=none 323
+other_parties=none other_payment_plans=none foreign_worker=no 266
+other_parties=none other_payment_plans=none foreign_worker=yes 330
+other_parties=none other_payment_plans=none class=bad 239
+other_parties=none other_payment_plans=none class=good 357
+other_parties=none housing=own own_telephone=yes 183
+other_parties=none housing=own own_telephone=none 266
+other_parties=none housing=own foreign_worker=no 245
+other_parties=none housing=own foreign_worker=yes 259
+other_parties=none housing=own class=bad 202
+other_parties=none housing=own class=good 302
+other_parties=none own_telephone=yes class=good 157
+other_parties=none own_telephone=none foreign_worker=no 181
+other_parties=none own_telephone=none foreign_worker=yes 247
+other_parties=none own_telephone=none class=bad 162
+other_parties=none own_telephone=none class=good 266
+other_parties=none foreign_worker=no class=bad 151
+other_parties=none foreign_worker=no class=good 210
+other_parties=none foreign_worker=yes class=bad 173
+other_parties=none foreign_worker=yes class=good 268
+other_payment_plans=none housing=own own_telephone=yes 161
+other_payment_plans=none housing=own own_telephone=none 249
+other_payment_plans=none housing=own foreign_worker=no 229
+other_payment_plans=none housing=own foreign_worker=yes 235
+other_payment_plans=none housing=own class=bad 182
+other_payment_plans=none housing=own class=good 282
+other_payment_plans=none own_telephone=none foreign_worker=no 174
+other_payment_plans=none own_telephone=none foreign_worker=yes 221
+other_payment_plans=none own_telephone=none class=good 246
+other_payment_plans=none foreign_worker=no class=good 208
+other_payment_plans=none foreign_worker=yes class=bad 159
+other_payment_plans=none foreign_worker=yes class=good 240
+housing=own own_telephone=none foreign_worker=no 157
+housing=own own_telephone=none foreign_worker=yes 175
+housing=own own_telephone=none class=good 201
+housing=own foreign_worker=no class=good 183
+housing=own foreign_worker=yes class=good 192
+own_telephone=none foreign_worker=yes class=good 181
+
+Size of set of large itemsets L(4): 55
+
+Large Itemsets L(4):
+checking_amt=(-0.01, 0.01] credit_history=existing paid savings=[0.0, 0.01) other_parties=none 155
+checking_amt=(-0.01, 0.01] credit_history=existing paid savings=[0.0, 0.01) other_payment_plans=none 153
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) personal_status=male single other_parties=none 186
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) personal_status=male single other_payment_plans=none 168
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) personal_status=male single housing=own 157
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none other_payment_plans=none 280
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none housing=own 248
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none own_telephone=none 187
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none foreign_worker=no 182
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none foreign_worker=yes 189
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none class=bad 162
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none class=good 209
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none housing=own 225
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none own_telephone=none 167
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none foreign_worker=no 166
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none foreign_worker=yes 173
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_payment_plans=none class=good 192
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) housing=own foreign_worker=no 155
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) housing=own class=good 174
+checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none housing=own 189
+checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none foreign_worker=yes 150
+checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none class=good 152
+credit_history=existing paid savings=[0.0, 0.01) other_parties=none other_payment_plans=none 167
+credit_history=existing paid other_parties=none other_payment_plans=none housing=own 185
+credit_history=existing paid other_parties=none other_payment_plans=none own_telephone=none 161
+credit_history=existing paid other_parties=none other_payment_plans=none foreign_worker=yes 163
+credit_history=existing paid other_parties=none other_payment_plans=none class=good 174
+savings=[0.0, 0.01) personal_status=male single other_parties=none other_payment_plans=none 169
+savings=[0.0, 0.01) personal_status=male single other_parties=none housing=own 162
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none housing=own 233
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none own_telephone=none 180
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none foreign_worker=no 158
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none foreign_worker=yes 193
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none class=bad 153
+savings=[0.0, 0.01) other_parties=none other_payment_plans=none class=good 198
+savings=[0.0, 0.01) other_parties=none housing=own own_telephone=none 158
+savings=[0.0, 0.01) other_parties=none housing=own foreign_worker=no 155
+savings=[0.0, 0.01) other_parties=none housing=own foreign_worker=yes 153
+savings=[0.0, 0.01) other_parties=none housing=own class=good 181
+savings=[0.0, 0.01) other_payment_plans=none housing=own class=good 172
+personal_status=male single other_parties=none other_payment_plans=none housing=own 183
+personal_status=male single other_parties=none other_payment_plans=none class=good 165
+personal_status=male single other_parties=none housing=own class=good 157
+other_parties=none other_payment_plans=none housing=own own_telephone=none 201
+other_parties=none other_payment_plans=none housing=own foreign_worker=no 180
+other_parties=none other_payment_plans=none housing=own foreign_worker=yes 195
+other_parties=none other_payment_plans=none housing=own class=good 227
+other_parties=none other_payment_plans=none own_telephone=none foreign_worker=yes 189
+other_parties=none other_payment_plans=none own_telephone=none class=good 206
+other_parties=none other_payment_plans=none foreign_worker=no class=good 153
+other_parties=none other_payment_plans=none foreign_worker=yes class=good 204
+other_parties=none housing=own own_telephone=none class=good 165
+other_parties=none housing=own foreign_worker=yes class=good 161
+other_parties=none own_telephone=none foreign_worker=yes class=good 157
+other_payment_plans=none housing=own own_telephone=none class=good 152
+
+Size of set of large itemsets L(5): 3
+
+Large Itemsets L(5):
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none other_payment_plans=none housing=own 189
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none other_payment_plans=none foreign_worker=yes 150
+checking_amt=(-0.01, 0.01] savings=[0.0, 0.01) other_parties=none other_payment_plans=none class=good 152
+
+Best rules found:
+
+ 1. checking_amt=(-0.01, 0.01] 446 ==> savings=[0.0, 0.01) 446    <conf:(1)> lift:(1.74) lev:(0.19) [189] conv:(190)
+ 2. checking_amt=(-0.01, 0.01] other_parties=none 371 ==> savings=[0.0, 0.01) 371    <conf:(1)> lift:(1.74) lev:(0.16) [158] conv:(158.05)
+ 3. checking_amt=(-0.01, 0.01] other_payment_plans=none 339 ==> savings=[0.0, 0.01) 339    <conf:(1)> lift:(1.74) lev:(0.14) [144] conv:(144.41)
+ 4. checking_amt=(-0.01, 0.01] housing=own 294 ==> savings=[0.0, 0.01) 294    <conf:(1)> lift:(1.74) lev:(0.13) [125] conv:(125.24)
+ 5. checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none 280 ==> savings=[0.0, 0.01) 280    <conf:(1)> lift:(1.74) lev:(0.12) [119] conv:(119.28)
+ 6. checking_amt=(-0.01, 0.01] class=good 258 ==> savings=[0.0, 0.01) 258    <conf:(1)> lift:(1.74) lev:(0.11) [109] conv:(109.91)
+ 7. checking_amt=(-0.01, 0.01] other_parties=none housing=own 248 ==> savings=[0.0, 0.01) 248    <conf:(1)> lift:(1.74) lev:(0.11) [105] conv:(105.65)
+ 8. checking_amt=(-0.01, 0.01] personal_status=male single 229 ==> savings=[0.0, 0.01) 229    <conf:(1)> lift:(1.74) lev:(0.1) [97] conv:(97.55)
+ 9. checking_amt=(-0.01, 0.01] foreign_worker=no 225 ==> savings=[0.0, 0.01) 225    <conf:(1)> lift:(1.74) lev:(0.1) [95] conv:(95.85)
+10. checking_amt=(-0.01, 0.01] other_payment_plans=none housing=own 225 ==> savings=[0.0, 0.01) 225    <conf:(1)> lift:(1.74) lev:(0.1) [95] conv:(95.85)
+11. checking_amt=(-0.01, 0.01] own_telephone=none 222 ==> savings=[0.0, 0.01) 222    <conf:(1)> lift:(1.74) lev:(0.09) [94] conv:(94.57)
+12. checking_amt=(-0.01, 0.01] foreign_worker=yes 221 ==> savings=[0.0, 0.01) 221    <conf:(1)> lift:(1.74) lev:(0.09) [94] conv:(94.15)
+13. checking_amt=(-0.01, 0.01] other_parties=none class=good 209 ==> savings=[0.0, 0.01) 209    <conf:(1)> lift:(1.74) lev:(0.09) [89] conv:(89.03)
+14. checking_amt=(-0.01, 0.01] credit_history=existing paid 195 ==> savings=[0.0, 0.01) 195    <conf:(1)> lift:(1.74) lev:(0.08) [83] conv:(83.07)
+15. checking_amt=(-0.01, 0.01] other_payment_plans=none class=good 192 ==> savings=[0.0, 0.01) 192    <conf:(1)> lift:(1.74) lev:(0.08) [81] conv:(81.79)
+16. checking_amt=(-0.01, 0.01] other_parties=none foreign_worker=yes 189 ==> savings=[0.0, 0.01) 189    <conf:(1)> lift:(1.74) lev:(0.08) [80] conv:(80.51)
+17. checking_amt=(-0.01, 0.01] other_parties=none other_payment_plans=none housing=own 189 ==> savings=[0.0, 0.01) 189    <conf:(1)> lift:(1.74) lev:(0.08) [80] conv:(80.51)
+18. checking_amt=(-0.01, 0.01] class=bad 188 ==> savings=[0.0, 0.01) 188    <conf:(1)> lift:(1.74) lev:(0.08) [80] conv:(80.09)
+19. checking_amt=(-0.01, 0.01] other_parties=none own_telephone=none 187 ==> savings=[0.0, 0.01) 187    <conf:(1)> lift:(1.74) lev:(0.08) [79] conv:(79.66)
+20. checking_amt=(-0.01, 0.01] personal_status=male single other_parties=none 186 ==> savings=[0.0, 0.01) 186    <conf:(1)> lift:(1.74) lev:(0.08) [79] conv:(79.24)
+21. checking_amt=(-0.01, 0.01] other_parties=none foreign_worker=no 182 ==> savings=[0.0, 0.01) 182    <conf:(1)> lift:(1.74) lev:(0.08) [77] conv:(77.53)
+22. checking_amt=(-0.01, 0.01] credit_amount=(1000.0, 2500.0] 179 ==> savings=[0.0, 0.01) 179    <conf:(1)> lift:(1.74) lev:(0.08) [76] conv:(76.25)
+23. checking_amt=(-0.01, 0.01] own_telephone=yes 175 ==> savings=[0.0, 0.01) 175    <conf:(1)> lift:(1.74) lev:(0.07) [74] conv:(74.55)
+24. checking_amt=(-0.01, 0.01] housing=own class=good 174 ==> savings=[0.0, 0.01) 174    <conf:(1)> lift:(1.74) lev:(0.07) [74] conv:(74.12)
+25. checking_amt=(-0.01, 0.01] other_payment_plans=none foreign_worker=yes 173 ==> savings=[0.0, 0.01) 173    <conf:(1)> lift:(1.74) lev:(0.07) [73] conv:(73.7)

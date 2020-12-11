@@ -1,0 +1,661 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.85 -M 2
+Relation:     clean_dropped_normalized
+Instances:    1000
+Attributes:   15
+              state
+              checking_amt
+              credit_history
+              purpose
+              credit_amount
+              savings
+              employment
+              personal_status
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              foreign_worker
+              class
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+state = Pennsylvania
+|   checking_amt <= 0.509091
+|   |   personal_status = male single
+|   |   |   purpose = radio/tv: bad (4.46/1.5)
+|   |   |   purpose = education: bad (2.41/0.27)
+|   |   |   purpose = furniture/equipment: good (3.61/1.2)
+|   |   |   purpose = used car: good (3.61/1.2)
+|   |   |   purpose = new car: good (1.2/0.07)
+|   |   |   purpose = business: good (1.2/0.07)
+|   |   |   purpose = domestic appliance: good (0.0)
+|   |   |   purpose = repairs: good (0.0)
+|   |   |   purpose = other: good (1.2/0.07)
+|   |   |   purpose = retraining: good (0.0)
+|   |   personal_status = female div/dep/mar: good (5.21/0.21)
+|   |   personal_status = male div/sep: bad (2.08/1.0)
+|   |   personal_status = male mar/wid: good (0.0)
+|   checking_amt > 0.509091: bad (5.0)
+state = Rhodes Island: bad (2.0)
+state = South Carolina
+|   purpose = radio/tv
+|   |   own_telephone = yes: bad (3.28/0.28)
+|   |   own_telephone = none: good (8.35/0.63)
+|   purpose = education: good (1.06/0.06)
+|   purpose = furniture/equipment: good (3.17/0.17)
+|   purpose = used car: bad (2.11/1.0)
+|   purpose = new car
+|   |   savings <= 0.009078
+|   |   |   own_telephone = yes: good (3.0)
+|   |   |   own_telephone = none
+|   |   |   |   credit_history = critical/other existing credit: bad (3.31/1.0)
+|   |   |   |   credit_history = existing paid: good (2.31/0.31)
+|   |   |   |   credit_history = delayed previously: good (0.0)
+|   |   |   |   credit_history = no credits/all paid: good (0.0)
+|   |   |   |   credit_history = all paid: good (0.0)
+|   |   savings > 0.009078: bad (3.0)
+|   purpose = business: good (5.29/1.29)
+|   purpose = domestic appliance: good (0.0)
+|   purpose = repairs: good (1.06/0.06)
+|   purpose = other: good (1.06/0.06)
+|   purpose = retraining: good (0.0)
+state = South Dakota
+|   credit_history = critical/other existing credit: bad (2.0)
+|   credit_history = existing paid: good (3.0/1.0)
+|   credit_history = delayed previously: bad (0.0)
+|   credit_history = no credits/all paid: bad (0.0)
+|   credit_history = all paid: bad (0.0)
+state = Tennessee
+|   other_payment_plans = none
+|   |   other_parties = none
+|   |   |   personal_status = male single: good (8.41)
+|   |   |   personal_status = female div/dep/mar: good (3.61/1.0)
+|   |   |   personal_status = male div/sep: good (2.4/1.0)
+|   |   |   personal_status = male mar/wid: bad (3.43/1.58)
+|   |   other_parties = guarantor: bad (1.05)
+|   |   other_parties = co applicant: good (2.1/0.1)
+|   other_payment_plans = bank: good (3.0)
+|   other_payment_plans = stores: bad (2.0)
+state = Texas
+|   credit_history = critical/other existing credit
+|   |   purpose = radio/tv
+|   |   |   foreign_worker = no: good (5.32/2.28)
+|   |   |   foreign_worker = yes: bad (2.79/0.51)
+|   |   purpose = education: good (3.56/1.0)
+|   |   purpose = furniture/equipment: good (2.7)
+|   |   purpose = used car: good (1.84/0.28)
+|   |   purpose = new car
+|   |   |   personal_status = male single: good (3.44)
+|   |   |   personal_status = female div/dep/mar: good (4.69/1.0)
+|   |   |   personal_status = male div/sep: good (1.32)
+|   |   |   personal_status = male mar/wid: bad (1.03/0.03)
+|   |   purpose = business: good (2.7/0.28)
+|   |   purpose = domestic appliance: good (0.0)
+|   |   purpose = repairs: good (1.19)
+|   |   purpose = other: good (1.19)
+|   |   purpose = retraining: good (0.0)
+|   credit_history = existing paid
+|   |   savings <= 0.003952
+|   |   |   purpose = radio/tv
+|   |   |   |   property_magnitude = real estate
+|   |   |   |   |   own_telephone = yes: bad (2.39/0.39)
+|   |   |   |   |   own_telephone = none: good (3.73/0.56)
+|   |   |   |   property_magnitude = life insurance: good (3.35/0.35)
+|   |   |   |   property_magnitude = no known property: good (1.35)
+|   |   |   |   property_magnitude = car: bad (5.92/2.0)
+|   |   |   purpose = education: bad (1.07/0.02)
+|   |   |   purpose = furniture/equipment
+|   |   |   |   own_telephone = yes: good (3.53/0.39)
+|   |   |   |   own_telephone = none
+|   |   |   |   |   credit_amount <= 0.125894: bad (2.91/1.0)
+|   |   |   |   |   credit_amount > 0.125894: good (2.71/1.09)
+|   |   |   purpose = used car
+|   |   |   |   savings <= 0.000935: good (2.87/1.21)
+|   |   |   |   savings > 0.000935: bad (2.0)
+|   |   |   purpose = new car
+|   |   |   |   personal_status = male single: good (4.32/1.16)
+|   |   |   |   personal_status = female div/dep/mar: bad (2.16)
+|   |   |   |   personal_status = male div/sep: bad (0.0)
+|   |   |   |   personal_status = male mar/wid: bad (1.0)
+|   |   |   purpose = business: bad (3.8/0.08)
+|   |   |   purpose = domestic appliance: bad (1.07/0.02)
+|   |   |   purpose = repairs: bad (2.14/0.05)
+|   |   |   purpose = other: bad (0.0)
+|   |   |   purpose = retraining: bad (1.07/0.02)
+|   |   savings > 0.003952
+|   |   |   purpose = radio/tv: good (2.12/1.0)
+|   |   |   purpose = education: good (3.18)
+|   |   |   purpose = furniture/equipment: bad (1.06/0.06)
+|   |   |   purpose = used car: good (1.66/0.56)
+|   |   |   purpose = new car: good (6.04)
+|   |   |   purpose = business: good (1.06)
+|   |   |   purpose = domestic appliance: good (1.06)
+|   |   |   purpose = repairs: good (0.0)
+|   |   |   purpose = other: good (1.06)
+|   |   |   purpose = retraining: good (0.0)
+|   credit_history = delayed previously: good (8.76/2.3)
+|   credit_history = no credits/all paid: good (4.38/0.15)
+|   credit_history = all paid: good (5.48/1.19)
+state = Utah: bad (3.0/1.0)
+state = Virginia
+|   property_magnitude = real estate
+|   |   credit_history = critical/other existing credit: good (2.95/0.59)
+|   |   credit_history = existing paid: bad (6.75/1.81)
+|   |   credit_history = delayed previously: bad (0.0)
+|   |   credit_history = no credits/all paid: bad (0.0)
+|   |   credit_history = all paid: bad (1.27/0.15)
+|   property_magnitude = life insurance: good (4.39/0.26)
+|   property_magnitude = no known property: good (3.29/0.19)
+|   property_magnitude = car
+|   |   other_parties = none
+|   |   |   housing = own
+|   |   |   |   other_payment_plans = none: good (6.28)
+|   |   |   |   other_payment_plans = bank: good (2.25/1.0)
+|   |   |   |   other_payment_plans = stores: bad (0.51/0.06)
+|   |   |   housing = for free: good (0.0)
+|   |   |   housing = rent
+|   |   |   |   checking_amt <= 0.508378: good (2.14/1.0)
+|   |   |   |   checking_amt > 0.508378: bad (2.04/0.59)
+|   |   other_parties = guarantor: good (0.0)
+|   |   other_parties = co applicant: bad (2.14/0.14)
+state = Vermont: good (2.0)
+state = Washington
+|   personal_status = male single
+|   |   credit_amount <= 0.071806: good (2.71/0.29)
+|   |   credit_amount > 0.071806: bad (6.77/1.05)
+|   personal_status = female div/dep/mar
+|   |   employment = >=7: good (0.0)
+|   |   employment = 1<=X<4: good (4.21)
+|   |   employment = 4<=X<7: bad (2.81/0.81)
+|   |   employment = unemployed: good (1.4)
+|   |   employment = <1: good (0.0)
+|   personal_status = male div/sep: good (1.05)
+|   personal_status = male mar/wid: good (1.05)
+state = Wisconsin
+|   personal_status = male single
+|   |   property_magnitude = real estate: good (2.44/0.44)
+|   |   property_magnitude = life insurance: bad (0.0)
+|   |   property_magnitude = no known property: bad (0.0)
+|   |   property_magnitude = car: bad (3.12/0.56)
+|   personal_status = female div/dep/mar: bad (2.22/0.22)
+|   personal_status = male div/sep: bad (0.0)
+|   personal_status = male mar/wid: good (2.22)
+state = West Virginia
+|   credit_amount <= 0.147463: good (2.5/0.5)
+|   credit_amount > 0.147463: bad (2.5)
+state = Wyoming: good (1.0)
+state = Alaska: bad (2.0/1.0)
+state = Arkansas: good (13.0/1.0)
+state = Arizona
+|   savings <= 0.001268
+|   |   own_telephone = yes
+|   |   |   property_magnitude = real estate: good (0.0)
+|   |   |   property_magnitude = life insurance: bad (3.0/1.0)
+|   |   |   property_magnitude = no known property: good (2.0)
+|   |   |   property_magnitude = car: bad (0.45)
+|   |   own_telephone = none: good (6.55/0.55)
+|   savings > 0.001268: bad (9.0/1.0)
+state = California
+|   purpose = radio/tv
+|   |   employment = >=7: good (6.1/2.2)
+|   |   employment = 1<=X<4
+|   |   |   property_magnitude = real estate
+|   |   |   |   credit_amount <= 0.093045: good (4.28)
+|   |   |   |   credit_amount > 0.093045: bad (3.38/0.65)
+|   |   |   property_magnitude = life insurance: good (2.52/0.17)
+|   |   |   property_magnitude = no known property: bad (1.26/0.17)
+|   |   |   property_magnitude = car: bad (3.11/0.43)
+|   |   employment = 4<=X<7
+|   |   |   checking_amt <= 0.507409: bad (4.47/0.26)
+|   |   |   checking_amt > 0.507409: good (2.95/1.24)
+|   |   employment = unemployed: good (0.0)
+|   |   employment = <1: good (2.85/0.51)
+|   purpose = education
+|   |   credit_history = critical/other existing credit: good (1.87/0.41)
+|   |   credit_history = existing paid: bad (5.38/0.26)
+|   |   credit_history = delayed previously: good (2.46/0.45)
+|   |   credit_history = no credits/all paid: bad (0.0)
+|   |   credit_history = all paid: bad (1.32/0.01)
+|   purpose = furniture/equipment
+|   |   employment = >=7
+|   |   |   savings <= 0.000138: bad (2.66/0.66)
+|   |   |   savings > 0.000138: good (4.54/0.22)
+|   |   employment = 1<=X<4
+|   |   |   housing = own
+|   |   |   |   property_magnitude = real estate: bad (3.56/0.34)
+|   |   |   |   property_magnitude = life insurance: good (2.39)
+|   |   |   |   property_magnitude = no known property: bad (0.0)
+|   |   |   |   property_magnitude = car
+|   |   |   |   |   own_telephone = yes: bad (2.0)
+|   |   |   |   |   own_telephone = none: good (2.21/0.39)
+|   |   |   housing = for free: good (0.0)
+|   |   |   housing = rent: good (2.22)
+|   |   employment = 4<=X<7: good (3.1/1.31)
+|   |   employment = unemployed: good (4.33/0.14)
+|   |   employment = <1: bad (5.03/1.44)
+|   purpose = used car
+|   |   other_payment_plans = none
+|   |   |   foreign_worker = no: bad (4.63/1.31)
+|   |   |   foreign_worker = yes: good (8.6/1.0)
+|   |   other_payment_plans = bank: bad (2.24/0.13)
+|   |   other_payment_plans = stores: good (0.0)
+|   purpose = new car
+|   |   housing = own
+|   |   |   employment = >=7
+|   |   |   |   credit_history = critical/other existing credit: bad (2.54/0.85)
+|   |   |   |   credit_history = existing paid: good (2.48/0.3)
+|   |   |   |   credit_history = delayed previously: bad (1.08/0.08)
+|   |   |   |   credit_history = no credits/all paid: good (0.0)
+|   |   |   |   credit_history = all paid: good (0.0)
+|   |   |   employment = 1<=X<4: good (6.79/0.61)
+|   |   |   employment = 4<=X<7: good (7.84/0.57)
+|   |   |   employment = unemployed: good (0.8/0.04)
+|   |   |   employment = <1: good (6.46/0.59)
+|   |   housing = for free: bad (6.28/1.78)
+|   |   housing = rent
+|   |   |   credit_amount <= 0.054969: bad (4.05/0.61)
+|   |   |   credit_amount > 0.054969: good (2.56/0.37)
+|   purpose = business
+|   |   credit_history = critical/other existing credit: good (2.38/0.05)
+|   |   credit_history = existing paid: good (2.28/0.1)
+|   |   credit_history = delayed previously: bad (1.01/0.01)
+|   |   credit_history = no credits/all paid: good (1.01)
+|   |   credit_history = all paid: good (1.06/0.05)
+|   purpose = domestic appliance: good (2.21/1.06)
+|   purpose = repairs: good (4.42/1.12)
+|   purpose = other: good (2.21/0.06)
+|   purpose = retraining: good (1.1/0.03)
+state = Colorado
+|   personal_status = male single: good (3.43/1.0)
+|   personal_status = female div/dep/mar: bad (2.29/0.29)
+|   personal_status = male div/sep: good (1.14)
+|   personal_status = male mar/wid: good (1.14)
+state = Connecticut
+|   checking_amt <= 0.508378: bad (2.0)
+|   checking_amt > 0.508378: good (2.0)
+state = District of Columbia: good (6.0/1.0)
+state = Delaware: bad (3.0)
+state = Georgia
+|   credit_history = critical/other existing credit
+|   |   checking_amt <= 0.507608
+|   |   |   purpose = radio/tv: good (1.22/0.22)
+|   |   |   purpose = education: bad (0.0)
+|   |   |   purpose = furniture/equipment: bad (1.22/0.22)
+|   |   |   purpose = used car: bad (2.0)
+|   |   |   purpose = new car: bad (3.22)
+|   |   |   purpose = business: bad (0.22)
+|   |   |   purpose = domestic appliance: bad (0.0)
+|   |   |   purpose = repairs: bad (0.0)
+|   |   |   purpose = other: bad (0.0)
+|   |   |   purpose = retraining: bad (0.0)
+|   |   checking_amt > 0.507608: good (2.44/0.22)
+|   credit_history = existing paid
+|   |   property_magnitude = real estate
+|   |   |   personal_status = male single: good (1.94/0.45)
+|   |   |   personal_status = female div/dep/mar: good (5.11/2.0)
+|   |   |   personal_status = male div/sep: bad (0.22/0.0)
+|   |   |   personal_status = male mar/wid: good (3.0/1.49)
+|   |   property_magnitude = life insurance
+|   |   |   credit_amount <= 0.164246: bad (2.78/0.24)
+|   |   |   credit_amount > 0.164246: good (2.65/0.29)
+|   |   property_magnitude = no known property: good (0.0)
+|   |   property_magnitude = car
+|   |   |   personal_status = male single: good (2.66/0.8)
+|   |   |   personal_status = female div/dep/mar: good (4.09)
+|   |   |   personal_status = male div/sep: bad (0.16/0.0)
+|   |   |   personal_status = male mar/wid: good (0.32)
+|   credit_history = delayed previously
+|   |   purpose = radio/tv: bad (0.29)
+|   |   purpose = education: good (0.0)
+|   |   purpose = furniture/equipment: good (0.29)
+|   |   purpose = used car: good (1.0)
+|   |   purpose = new car: good (2.15/0.15)
+|   |   purpose = business: bad (2.15/1.0)
+|   |   purpose = domestic appliance: good (0.0)
+|   |   purpose = repairs: good (1.0)
+|   |   purpose = other: good (0.0)
+|   |   purpose = retraining: good (0.0)
+|   credit_history = no credits/all paid
+|   |   credit_amount <= 0.180753: bad (2.44/1.1)
+|   |   credit_amount > 0.180753: good (2.14/0.05)
+|   credit_history = all paid: good (2.29/0.2)
+state = Hawaii: bad (2.0/1.0)
+state = Illinois
+|   other_parties = none
+|   |   other_payment_plans = none
+|   |   |   purpose = radio/tv
+|   |   |   |   credit_history = critical/other existing credit
+|   |   |   |   |   personal_status = male single: bad (2.55/1.0)
+|   |   |   |   |   personal_status = female div/dep/mar: bad (2.0/1.0)
+|   |   |   |   |   personal_status = male div/sep: bad (0.0)
+|   |   |   |   |   personal_status = male mar/wid: good (0.37)
+|   |   |   |   credit_history = existing paid
+|   |   |   |   |   personal_status = male single: good (2.0)
+|   |   |   |   |   personal_status = female div/dep/mar: good (3.34/1.34)
+|   |   |   |   |   personal_status = male div/sep: bad (0.34)
+|   |   |   |   |   personal_status = male mar/wid: good (1.55)
+|   |   |   |   credit_history = delayed previously: bad (1.08/0.08)
+|   |   |   |   credit_history = no credits/all paid: good (0.0)
+|   |   |   |   credit_history = all paid: good (0.0)
+|   |   |   purpose = education: good (2.23/0.23)
+|   |   |   purpose = furniture/equipment
+|   |   |   |   personal_status = male single
+|   |   |   |   |   credit_history = critical/other existing credit: bad (0.43)
+|   |   |   |   |   credit_history = existing paid: good (2.21/1.0)
+|   |   |   |   |   credit_history = delayed previously: good (0.0)
+|   |   |   |   |   credit_history = no credits/all paid: good (2.0)
+|   |   |   |   |   credit_history = all paid: good (0.0)
+|   |   |   |   personal_status = female div/dep/mar: bad (3.59/0.37)
+|   |   |   |   personal_status = male div/sep: bad (0.24/0.02)
+|   |   |   |   personal_status = male mar/wid: bad (0.0)
+|   |   |   purpose = used car: good (3.21/0.33)
+|   |   |   purpose = new car
+|   |   |   |   property_magnitude = real estate: bad (2.23)
+|   |   |   |   property_magnitude = life insurance: good (2.23/0.23)
+|   |   |   |   property_magnitude = no known property: good (1.03/0.03)
+|   |   |   |   property_magnitude = car: good (1.2/0.2)
+|   |   |   purpose = business: good (4.45/0.45)
+|   |   |   purpose = domestic appliance: good (1.11/0.11)
+|   |   |   purpose = repairs: good (0.0)
+|   |   |   purpose = other: good (0.0)
+|   |   |   purpose = retraining: good (0.0)
+|   |   other_payment_plans = bank: bad (3.06/0.06)
+|   |   other_payment_plans = stores: bad (5.09/1.09)
+|   other_parties = guarantor: good (3.24/1.06)
+|   other_parties = co applicant: bad (3.24/0.18)
+state = Indiana
+|   employment = >=7: good (7.14/1.0)
+|   employment = 1<=X<4
+|   |   own_telephone = yes: bad (4.29/0.29)
+|   |   own_telephone = none: good (2.86/1.0)
+|   employment = 4<=X<7
+|   |   credit_history = critical/other existing credit: bad (1.29/0.29)
+|   |   credit_history = existing paid: bad (2.33/0.33)
+|   |   credit_history = delayed previously: bad (2.08/0.08)
+|   |   credit_history = no credits/all paid: good (0.25)
+|   |   credit_history = all paid: bad (0.0)
+|   employment = unemployed: bad (0.0)
+|   employment = <1
+|   |   foreign_worker = no: bad (2.19/0.19)
+|   |   foreign_worker = yes: good (2.57)
+state = Kentucky
+|   credit_history = critical/other existing credit
+|   |   employment = >=7: bad (1.16)
+|   |   employment = 1<=X<4: bad (2.0/1.0)
+|   |   employment = 4<=X<7: good (0.0)
+|   |   employment = unemployed: good (0.0)
+|   |   employment = <1: good (2.0)
+|   credit_history = existing paid
+|   |   purpose = radio/tv
+|   |   |   personal_status = male single: good (2.0)
+|   |   |   personal_status = female div/dep/mar: bad (2.55/1.0)
+|   |   |   personal_status = male div/sep: good (0.0)
+|   |   |   personal_status = male mar/wid: good (1.0)
+|   |   purpose = education: good (1.0)
+|   |   purpose = furniture/equipment: good (3.0/1.0)
+|   |   purpose = used car: bad (3.0)
+|   |   purpose = new car
+|   |   |   checking_amt <= 0.449239: good (2.0)
+|   |   |   checking_amt > 0.449239: bad (2.0)
+|   |   purpose = business: good (1.0)
+|   |   purpose = domestic appliance: good (0.0)
+|   |   purpose = repairs: good (0.0)
+|   |   purpose = other: good (0.0)
+|   |   purpose = retraining: good (0.0)
+|   credit_history = delayed previously
+|   |   savings <= 0.002066: bad (3.16/1.0)
+|   |   savings > 0.002066: good (2.0)
+|   credit_history = no credits/all paid: good (1.03/0.03)
+|   credit_history = all paid: bad (3.1)
+state = Louisiana
+|   other_payment_plans = none
+|   |   purpose = radio/tv
+|   |   |   own_telephone = yes: good (2.42/1.0)
+|   |   |   own_telephone = none: bad (4.52/2.0)
+|   |   purpose = education: good (1.18/0.11)
+|   |   purpose = furniture/equipment: good (5.9/0.54)
+|   |   purpose = used car: bad (2.36/0.14)
+|   |   purpose = new car
+|   |   |   property_magnitude = real estate: good (5.27/1.37)
+|   |   |   property_magnitude = life insurance
+|   |   |   |   foreign_worker = no: good (3.36/0.5)
+|   |   |   |   foreign_worker = yes: bad (2.54/0.5)
+|   |   |   property_magnitude = no known property: good (0.63/0.16)
+|   |   |   property_magnitude = car: good (0.0)
+|   |   purpose = business: bad (3.54/1.22)
+|   |   purpose = domestic appliance: good (0.0)
+|   |   purpose = repairs: good (0.0)
+|   |   purpose = other: good (0.0)
+|   |   purpose = retraining: bad (1.18/0.07)
+|   other_payment_plans = bank: good (3.08/0.08)
+|   other_payment_plans = stores: good (1.03/0.03)
+state = Massachusetts
+|   purpose = radio/tv
+|   |   credit_amount <= 0.13965: good (7.0)
+|   |   credit_amount > 0.13965: bad (2.07/0.53)
+|   purpose = education: good (0.0)
+|   purpose = furniture/equipment: bad (2.27/0.13)
+|   purpose = used car: good (0.0)
+|   purpose = new car: good (4.53/1.27)
+|   purpose = business: good (0.0)
+|   purpose = domestic appliance: good (0.0)
+|   purpose = repairs: bad (1.13/0.07)
+|   purpose = other: good (0.0)
+|   purpose = retraining: good (0.0)
+state = Maryland
+|   credit_history = critical/other existing credit
+|   |   employment = >=7: good (0.4/0.05)
+|   |   employment = 1<=X<4: bad (3.43)
+|   |   employment = 4<=X<7: bad (3.43)
+|   |   employment = unemployed: good (0.4/0.05)
+|   |   employment = <1: bad (0.4)
+|   credit_history = existing paid
+|   |   property_magnitude = real estate: good (2.56/0.22)
+|   |   property_magnitude = life insurance: good (5.75/1.5)
+|   |   property_magnitude = no known property: bad (1.92/0.25)
+|   |   property_magnitude = car: good (1.28/0.11)
+|   credit_history = delayed previously: good (0.0)
+|   credit_history = no credits/all paid: good (1.15/0.05)
+|   credit_history = all paid: good (2.3/0.1)
+state = Michigan
+|   purpose = radio/tv
+|   |   other_parties = none: bad (4.39/0.39)
+|   |   other_parties = guarantor: good (2.0)
+|   |   other_parties = co applicant: good (1.0)
+|   purpose = education: bad (1.06/0.06)
+|   purpose = furniture/equipment: good (9.5/1.0)
+|   purpose = used car: good (2.11)
+|   purpose = new car
+|   |   checking_amt <= 0.506768: bad (3.44/0.44)
+|   |   checking_amt > 0.506768: good (5.0)
+|   purpose = business
+|   |   foreign_worker = no
+|   |   |   credit_history = critical/other existing credit: bad (2.0)
+|   |   |   credit_history = existing paid: bad (0.0)
+|   |   |   credit_history = delayed previously: bad (2.0)
+|   |   |   credit_history = no credits/all paid: good (1.0)
+|   |   |   credit_history = all paid: bad (0.0)
+|   |   foreign_worker = yes: good (3.44/1.0)
+|   purpose = domestic appliance: bad (1.06/0.06)
+|   purpose = repairs: good (0.0)
+|   purpose = other: good (0.0)
+|   purpose = retraining: good (0.0)
+state = Missouri
+|   personal_status = male single
+|   |   other_payment_plans = none
+|   |   |   own_telephone = yes: bad (3.44/0.61)
+|   |   |   own_telephone = none
+|   |   |   |   foreign_worker = no: good (3.46)
+|   |   |   |   foreign_worker = yes: bad (3.3/1.3)
+|   |   other_payment_plans = bank: good (2.18/0.18)
+|   |   other_payment_plans = stores: good (0.0)
+|   personal_status = female div/dep/mar: good (11.25/2.0)
+|   personal_status = male div/sep: good (2.25)
+|   personal_status = male mar/wid: bad (1.13/0.13)
+state = Mississippi
+|   other_payment_plans = none: bad (3.0/1.0)
+|   other_payment_plans = bank: good (3.0)
+|   other_payment_plans = stores: good (0.0)
+state = North Carolina
+|   savings <= 0.00054
+|   |   credit_history = critical/other existing credit: bad (2.0/1.0)
+|   |   credit_history = existing paid: good (3.0)
+|   |   credit_history = delayed previously: good (1.0)
+|   |   credit_history = no credits/all paid: bad (1.0)
+|   |   credit_history = all paid: good (0.0)
+|   savings > 0.00054: bad (3.0)
+state = New Hampshire: bad (2.0)
+state = New Jersey
+|   purpose = radio/tv
+|   |   savings <= 0.002351
+|   |   |   employment = >=7: good (0.29)
+|   |   |   employment = 1<=X<4: bad (2.86/0.29)
+|   |   |   employment = 4<=X<7: bad (2.0)
+|   |   |   employment = unemployed: bad (0.0)
+|   |   |   employment = <1: bad (0.0)
+|   |   savings > 0.002351: good (2.29)
+|   purpose = education: good (2.48/1.19)
+|   purpose = furniture/equipment: bad (3.71/1.43)
+|   purpose = used car: good (1.24/0.1)
+|   purpose = new car
+|   |   own_telephone = yes: bad (2.76/0.65)
+|   |   own_telephone = none: good (5.91/0.56)
+|   purpose = business: good (1.24/0.1)
+|   purpose = domestic appliance: bad (1.24/0.14)
+|   purpose = repairs: good (0.0)
+|   purpose = other: good (0.0)
+|   purpose = retraining: good (0.0)
+state = New Mexico
+|   savings <= 0.001884: bad (4.0/1.0)
+|   savings > 0.001884: good (4.0)
+state = Nevada
+|   employment = >=7: good (6.0/1.0)
+|   employment = 1<=X<4: good (2.0)
+|   employment = 4<=X<7: bad (2.0)
+|   employment = unemployed: good (0.0)
+|   employment = <1: good (4.0)
+state = New York
+|   other_payment_plans = none
+|   |   credit_history = critical/other existing credit
+|   |   |   savings <= 0.000288: good (2.0)
+|   |   |   savings > 0.000288: bad (2.26/1.0)
+|   |   credit_history = existing paid
+|   |   |   foreign_worker = no
+|   |   |   |   property_magnitude = real estate
+|   |   |   |   |   savings <= 0.000288: bad (4.37)
+|   |   |   |   |   savings > 0.000288: good (2.11/0.74)
+|   |   |   |   property_magnitude = life insurance: bad (2.59/0.15)
+|   |   |   |   property_magnitude = no known property: bad (4.61/0.26)
+|   |   |   |   property_magnitude = car: good (3.88/0.66)
+|   |   |   foreign_worker = yes
+|   |   |   |   checking_amt <= 0.451901: good (2.0)
+|   |   |   |   checking_amt > 0.451901: bad (4.74/2.0)
+|   |   credit_history = delayed previously: good (2.13/0.13)
+|   |   credit_history = no credits/all paid: good (1.06/0.06)
+|   |   credit_history = all paid: bad (1.06)
+|   other_payment_plans = bank: bad (5.13/1.0)
+|   other_payment_plans = stores: good (2.05/0.05)
+state = Ohio
+|   housing = own
+|   |   other_payment_plans = none
+|   |   |   property_magnitude = real estate
+|   |   |   |   savings <= 0.004514: bad (2.0/0.32)
+|   |   |   |   savings > 0.004514: good (2.0)
+|   |   |   property_magnitude = life insurance: bad (2.17/0.17)
+|   |   |   property_magnitude = no known property: good (1.09)
+|   |   |   property_magnitude = car: good (5.27)
+|   |   other_payment_plans = bank: bad (2.14/0.14)
+|   |   other_payment_plans = stores: bad (1.07/0.07)
+|   housing = for free: good (1.21/0.05)
+|   housing = rent: good (6.05/0.26)
+state = Oregon: good (3.0/1.0)
+state = Alabama
+|   credit_history = critical/other existing credit
+|   |   purpose = radio/tv: bad (2.0)
+|   |   purpose = education: bad (0.0)
+|   |   purpose = furniture/equipment: bad (2.0/1.0)
+|   |   purpose = used car: bad (0.0)
+|   |   purpose = new car: bad (1.0)
+|   |   purpose = business: good (0.36)
+|   |   purpose = domestic appliance: bad (0.0)
+|   |   purpose = repairs: bad (0.0)
+|   |   purpose = other: bad (0.0)
+|   |   purpose = retraining: bad (0.0)
+|   credit_history = existing paid: good (7.5/1.0)
+|   credit_history = delayed previously: good (2.14/1.0)
+|   credit_history = no credits/all paid: good (0.0)
+|   credit_history = all paid: good (0.0)
+state = Florida
+|   purpose = radio/tv
+|   |   employment = >=7: bad (2.49/1.24)
+|   |   employment = 1<=X<4: bad (2.1/1.05)
+|   |   employment = 4<=X<7: bad (2.1/0.05)
+|   |   employment = unemployed: bad (0.0)
+|   |   employment = <1: good (1.05/0.02)
+|   purpose = education: bad (3.32/1.16)
+|   purpose = furniture/equipment
+|   |   housing = own: good (4.74/1.32)
+|   |   housing = for free: good (1.02/0.02)
+|   |   housing = rent: bad (3.07/1.0)
+|   purpose = used car
+|   |   property_magnitude = real estate: good (0.13)
+|   |   property_magnitude = life insurance: bad (1.13/0.13)
+|   |   property_magnitude = no known property: good (2.0)
+|   |   property_magnitude = car: bad (2.26/1.0)
+|   purpose = new car
+|   |   credit_history = critical/other existing credit: good (3.48/1.17)
+|   |   credit_history = existing paid: good (4.09/0.19)
+|   |   credit_history = delayed previously: good (2.32/1.11)
+|   |   credit_history = no credits/all paid: bad (1.16/0.1)
+|   |   credit_history = all paid: good (0.0)
+|   purpose = business: good (2.21/0.11)
+|   purpose = domestic appliance: bad (2.21/0.11)
+|   purpose = repairs: good (0.0)
+|   purpose = other: good (1.11/0.05)
+|   purpose = retraining: good (0.0)
+state = Iowa
+|   foreign_worker = no: good (5.0/1.0)
+|   foreign_worker = yes: bad (2.0)
+state = Idaho: bad (2.0/1.0)
+state = Kansas: good (4.0/1.0)
+state = Maine: good (1.0)
+
+Number of Leaves  : 	465
+
+Size of the tree : 	601
+
+
+Time taken to build model: 0.43 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         497               49.7    %
+Incorrectly Classified Instances       503               50.3    %
+Kappa statistic                         -0.05  
+Mean absolute error                      0.5142
+Root mean squared error                  0.6254
+Relative absolute error                106.9448 %
+Root relative squared error            127.554  %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.363    0.413    0.372      0.363    0.367      -0.050   0.445     0.378     bad
+                 0.587    0.637    0.578      0.587    0.583      -0.050   0.445     0.553     good
+Weighted Avg.    0.497    0.547    0.495      0.497    0.496      -0.050   0.445     0.483     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 146 256 |   a = bad
+ 247 351 |   b = good
+

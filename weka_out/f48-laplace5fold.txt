@@ -1,0 +1,263 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -L -R -A -doNotMakeSplitPointActualValue -N 5 -Q 1 -M 2
+Relation:     clean_dropped_normalized
+Instances:    1000
+Attributes:   15
+              state
+              checking_amt
+              credit_history
+              purpose
+              credit_amount
+              savings
+              employment
+              personal_status
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              foreign_worker
+              class
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+state = Pennsylvania
+|   other_payment_plans = none
+|   |   employment = >=7: bad (4.57/2.13)
+|   |   employment = 1<=X<4: bad (9.38/3.48)
+|   |   employment = 4<=X<7: bad (3.52/0.18)
+|   |   employment = unemployed: good (1.05/0.1)
+|   |   employment = <1: good (1.17/0.11)
+|   other_payment_plans = bank: good (2.32/0.11)
+|   other_payment_plans = stores: bad (0.0)
+state = Rhodes Island: bad (1.0)
+state = South Carolina
+|   other_payment_plans = none: good (20.58/9.79)
+|   other_payment_plans = bank
+|   |   property_magnitude = real estate: good (2.0)
+|   |   property_magnitude = life insurance: good (0.0)
+|   |   property_magnitude = no known property: good (2.17)
+|   |   property_magnitude = car: bad (0.17)
+|   other_payment_plans = stores: good (1.08/0.04)
+state = South Dakota: bad (5.0/2.0)
+state = Tennessee
+|   other_payment_plans = none: good (16.0/4.0)
+|   other_payment_plans = bank: good (3.0)
+|   other_payment_plans = stores: bad (1.0)
+state = Texas
+|   credit_history = critical/other existing credit
+|   |   personal_status = male single: good (10.97/1.27)
+|   |   personal_status = female div/dep/mar: good (11.25/3.0)
+|   |   personal_status = male div/sep: good (2.36)
+|   |   personal_status = male mar/wid: bad (1.32/0.05)
+|   credit_history = existing paid
+|   |   purpose = radio/tv
+|   |   |   property_magnitude = real estate
+|   |   |   |   employment = >=7: good (1.44)
+|   |   |   |   employment = 1<=X<4: good (2.19)
+|   |   |   |   employment = 4<=X<7: bad (2.19/0.19)
+|   |   |   |   employment = unemployed: good (0.0)
+|   |   |   |   employment = <1: bad (0.61/0.05)
+|   |   |   property_magnitude = life insurance: good (3.0)
+|   |   |   property_magnitude = no known property: good (1.0)
+|   |   |   property_magnitude = car: bad (6.32/3.0)
+|   |   purpose = education: good (4.16/1.08)
+|   |   purpose = furniture/equipment
+|   |   |   personal_status = male single
+|   |   |   |   checking_amt <= 0.380824: good (2.15/1.0)
+|   |   |   |   checking_amt > 0.380824: bad (2.15)
+|   |   |   personal_status = female div/dep/mar: good (2.0)
+|   |   |   personal_status = male div/sep: good (0.56)
+|   |   |   personal_status = male mar/wid: bad (1.0)
+|   |   purpose = used car: bad (5.31/1.66)
+|   |   purpose = new car: good (11.55/4.22)
+|   |   purpose = business: bad (3.12/1.06)
+|   |   purpose = domestic appliance: good (1.04/0.02)
+|   |   purpose = repairs: bad (1.04/0.02)
+|   |   purpose = other: good (1.04/0.02)
+|   |   purpose = retraining: bad (1.04/0.02)
+|   credit_history = delayed previously: good (7.56/2.16)
+|   credit_history = no credits/all paid: good (3.24/0.07)
+|   credit_history = all paid: good (5.4/1.11)
+state = Utah: bad (2.0/1.0)
+state = Virginia: good (26.0/12.0)
+state = Vermont: good (2.0)
+state = Washington: good (16.0/6.0)
+state = Wisconsin: bad (9.0/4.0)
+state = West Virginia: bad (3.0/1.0)
+state = Wyoming: good (1.0)
+state = Alaska: good (0.0)
+state = Arkansas: good (10.0/1.0)
+state = Arizona
+|   housing = own
+|   |   savings <= 0.000799: good (5.69/2.0)
+|   |   savings > 0.000799: bad (6.69)
+|   housing = for free: good (3.38/0.19)
+|   housing = rent: bad (2.25/1.13)
+state = California
+|   credit_history = critical/other existing credit: good (34.87/12.79)
+|   credit_history = existing paid
+|   |   purpose = radio/tv
+|   |   |   employment = >=7: bad (1.58/0.58)
+|   |   |   employment = 1<=X<4: good (7.13/2.74)
+|   |   |   employment = 4<=X<7: bad (3.82/1.82)
+|   |   |   employment = unemployed: good (0.0)
+|   |   |   employment = <1: good (1.04)
+|   |   purpose = education: bad (1.64/0.1)
+|   |   purpose = furniture/equipment
+|   |   |   employment = >=7: bad (1.12/0.08)
+|   |   |   employment = 1<=X<4: good (7.68/3.03)
+|   |   |   employment = 4<=X<7: good (1.92/0.07)
+|   |   |   employment = unemployed: good (2.23/0.08)
+|   |   |   employment = <1: bad (1.7/0.12)
+|   |   purpose = used car: good (8.64/2.14)
+|   |   purpose = new car: good (17.37/3.81)
+|   |   purpose = business: good (2.16/0.04)
+|   |   purpose = domestic appliance: good (1.08/0.02)
+|   |   purpose = repairs: good (1.08/0.02)
+|   |   purpose = other: good (0.56/0.01)
+|   |   purpose = retraining: good (0.0)
+|   credit_history = delayed previously: good (6.75/2.35)
+|   credit_history = no credits/all paid: bad (3.37/0.2)
+|   credit_history = all paid
+|   |   personal_status = male single
+|   |   |   other_payment_plans = none: bad (0.17/0.04)
+|   |   |   other_payment_plans = bank: good (2.17/0.1)
+|   |   |   other_payment_plans = stores: bad (2.0/1.0)
+|   |   personal_status = female div/dep/mar: bad (5.67/1.43)
+|   |   personal_status = male div/sep: good (0.2/0.1)
+|   |   personal_status = male mar/wid: good (1.04/0.01)
+state = Colorado: good (6.0/2.0)
+state = Connecticut: bad (4.0/2.0)
+state = District of Columbia: good (5.0/1.0)
+state = Delaware: bad (3.0)
+state = Georgia: good (38.0/15.0)
+state = Hawaii: bad (1.0)
+state = Illinois: good (44.0/20.0)
+state = Indiana
+|   employment = >=7: good (7.0/1.0)
+|   employment = 1<=X<4: bad (4.67/0.67)
+|   employment = 4<=X<7: bad (5.83/0.83)
+|   employment = unemployed: bad (0.0)
+|   employment = <1: bad (3.5/1.5)
+state = Kentucky
+|   credit_history = critical/other existing credit
+|   |   savings <= 0.002384: bad (2.16/1.0)
+|   |   savings > 0.002384: good (2.0)
+|   credit_history = existing paid
+|   |   personal_status = male single
+|   |   |   purpose = radio/tv: good (2.0)
+|   |   |   purpose = education: good (0.0)
+|   |   |   purpose = furniture/equipment: bad (1.0)
+|   |   |   purpose = used car: bad (1.0)
+|   |   |   purpose = new car: good (2.48/0.48)
+|   |   |   purpose = business: good (0.0)
+|   |   |   purpose = domestic appliance: good (0.0)
+|   |   |   purpose = repairs: good (0.0)
+|   |   |   purpose = other: good (0.0)
+|   |   |   purpose = retraining: good (0.0)
+|   |   personal_status = female div/dep/mar: bad (2.72/1.0)
+|   |   personal_status = male div/sep: good (2.16/0.16)
+|   |   personal_status = male mar/wid: good (2.16/0.16)
+|   credit_history = delayed previously
+|   |   credit_amount <= 0.227: good (2.16/0.16)
+|   |   credit_amount > 0.227: bad (2.0)
+|   credit_history = no credits/all paid: good (1.04/0.04)
+|   credit_history = all paid: bad (3.12)
+state = Louisiana
+|   purpose = radio/tv: bad (4.83/2.33)
+|   purpose = education: good (1.21/0.13)
+|   purpose = furniture/equipment: good (6.04/0.62)
+|   purpose = used car: bad (2.42/1.17)
+|   purpose = new car: good (9.67/3.0)
+|   purpose = business: bad (3.63/1.25)
+|   purpose = domestic appliance: good (0.0)
+|   purpose = repairs: good (0.0)
+|   purpose = other: good (0.0)
+|   purpose = retraining: bad (1.21/0.08)
+state = Massachusetts: good (15.0/5.0)
+state = Maryland
+|   credit_history = critical/other existing credit: bad (7.06/0.71)
+|   credit_history = existing paid: good (9.41/2.47)
+|   credit_history = delayed previously: good (0.0)
+|   credit_history = no credits/all paid: good (1.18/0.06)
+|   credit_history = all paid: good (2.35/0.12)
+state = Michigan
+|   savings <= 0.000103: bad (20.0/9.0)
+|   savings > 0.000103: good (11.0)
+state = Missouri: good (22.0/7.0)
+state = Mississippi
+|   other_payment_plans = none: bad (2.0)
+|   other_payment_plans = bank: good (2.0)
+|   other_payment_plans = stores: bad (0.0)
+state = North Carolina: bad (7.0/3.0)
+state = New Hampshire: bad (2.0)
+state = New Jersey: good (22.0/10.0)
+state = New Mexico: good (7.0/2.0)
+state = Nevada: good (11.0/3.0)
+state = New York
+|   other_parties = none
+|   |   employment = >=7: good (5.6/2.29)
+|   |   employment = 1<=X<4: bad (10.29/1.69)
+|   |   employment = 4<=X<7: good (11.52/4.75)
+|   |   employment = unemployed: bad (1.15/0.08)
+|   |   employment = <1: bad (1.15/0.08)
+|   other_parties = guarantor: bad (0.0)
+|   other_parties = co applicant: good (2.29/0.21)
+state = Ohio: good (17.0/6.0)
+state = Oregon: good (2.0)
+state = Alabama: good (12.0/5.0)
+state = Florida
+|   personal_status = male single
+|   |   employment = >=7: bad (9.47/3.0)
+|   |   employment = 1<=X<4: bad (2.0/1.0)
+|   |   employment = 4<=X<7: good (2.0)
+|   |   employment = unemployed: good (1.0)
+|   |   employment = <1: bad (0.93/0.47)
+|   personal_status = female div/dep/mar
+|   |   foreign_worker = no: good (3.47/0.47)
+|   |   foreign_worker = yes: bad (4.23/1.23)
+|   personal_status = male div/sep: good (3.3/1.2)
+|   personal_status = male mar/wid: good (6.6/0.4)
+state = Iowa: good (7.0/3.0)
+state = Idaho: good (1.0)
+state = Kansas: good (4.0/1.0)
+state = Maine: good (1.0)
+
+Number of Leaves  : 	167
+
+Size of the tree : 	203
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         545               54.5    %
+Incorrectly Classified Instances       455               45.5    %
+Kappa statistic                         -0.0102
+Mean absolute error                      0.4853
+Root mean squared error                  0.5103
+Relative absolute error                100.9212 %
+Root relative squared error            104.0713 %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.241    0.251    0.393      0.241    0.299      -0.011   0.483     0.414     bad
+                 0.749    0.759    0.595      0.749    0.663      -0.011   0.484     0.584     good
+Weighted Avg.    0.545    0.555    0.514      0.545    0.517      -0.011   0.484     0.516     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  97 305 |   a = bad
+ 150 448 |   b = good
+
