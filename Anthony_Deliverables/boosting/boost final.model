@@ -1,0 +1,236 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 0.6 -Z 3.0 -O 1 -E 1 -S 1 -I 15 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L 6 -I 0.0
+Relation:     clean_dropped_binned-weka.filters.unsupervised.attribute.ReplaceMissingValues
+Instances:    1000
+Attributes:   15
+              state
+              checking_amt
+              credit_history
+              purpose
+              credit_amount
+              savings
+              employment
+              personal_status
+              other_parties
+              property_magnitude
+              other_payment_plans
+              housing
+              own_telephone
+              foreign_worker
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0.39 (666/3.84) [334/3.86]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 2
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0.16 (666/3.95) [334/3.97]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 3
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0.07 (666/4.05) [334/4.08]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 4
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0.03 (666/4.11) [334/4.14]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 5
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0.01 (666/4.13) [334/4.16]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 6
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.14) [334/4.17]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 7
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 8
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 9
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 10
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 11
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 12
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 13
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 14
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 15
+	Class 1 (class=bad)
+
+
+REPTree
+============
+ : -0 (666/4.15) [334/4.18]
+
+Size of the tree : 1
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+Number of performed iterations: 15
+
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         590               59      %
+Incorrectly Classified Instances       410               41      %
+Kappa statistic                         -0.0071
+Mean absolute error                      0.481 
+Root mean squared error                  0.4922
+Relative absolute error                100.0262 %
+Root relative squared error            100.395  %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.022    0.028    0.346      0.022    0.042      -0.019   0.480     0.398     bad
+                 0.972    0.978    0.597      0.972    0.739      -0.019   0.480     0.586     good
+Weighted Avg.    0.590    0.596    0.496      0.590    0.459      -0.019   0.480     0.510     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   9 393 |   a = bad
+  17 581 |   b = good
+
